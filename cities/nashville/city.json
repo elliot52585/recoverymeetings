@@ -1,0 +1,40 @@
+{
+  "key": "nashville",
+  "name": "Nashville",
+  "state": "TN",
+  "timezone": "America/Chicago",
+  "center": { "lat": 36.1627, "lng": -86.7816 },
+  "radiusMiles": 35,
+
+  "helplines": [
+    { "fellowship": "AA", "name": "Middle TN Central Office (AA)", "phone": "(615) 831-1050", "url": "https://aanashville.org/" },
+    { "fellowship": "NA", "name": "NA Helpline (Middle TN)", "phone": "1-888-476-2482", "url": "https://nanashville.org/" },
+    { "fellowship": "CA", "name": "CA Nashville", "phone": null, "url": "https://canashville.com/" },
+    { "fellowship": "CR", "name": "Celebrate Recovery locator", "phone": null, "url": "https://locator.crgroups.info/" },
+    { "fellowship": null, "name": "SAMHSA National Helpline (24/7, free, confidential)", "phone": "1-800-662-4357", "url": "https://www.samhsa.gov/find-help/national-helpline" }
+  ],
+
+  "sources": {
+    "aa": {
+      "type": "tsml",
+      "urls": [
+        "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings",
+        "https://www.area64assembly.org/wp-admin/admin-ajax.php?action=meetings"
+      ],
+      "finder": "https://aanashville.org/meetings/"
+    },
+    "na": {
+      "type": "bmlt",
+      "aggregator": "https://aggregator.bmltenabled.org/main_server",
+      "finder": "https://nanashville.org/meetings/"
+    },
+    "ca": {
+      "type": "curated",
+      "finder": "https://canashville.com/"
+    },
+    "cr": {
+      "type": "curated",
+      "finder": "https://locator.crgroups.info/"
+    }
+  }
+}

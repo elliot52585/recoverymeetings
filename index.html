@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recovery Meetings in Nashville — every AA, NA, CA &amp; Celebrate Recovery meeting</title>
+  <meta name="description" content="One place for every AA, NA, CA, and Celebrate Recovery meeting in the Nashville area. Filter by day, time, and format, plan your week, and add meetings straight to your calendar." />
+  <meta name="theme-color" content="#0f766e" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Recovery Meetings" />
+  <meta property="og:title" content="Recovery Meetings in Nashville" id="og-title" />
+  <meta property="og:description" content="Every AA, NA, CA, and Celebrate Recovery meeting in the Nashville area — filter, plan your week, add to your calendar." id="og-desc" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230f766e'/%3E%3Ctext x='50' y='68' font-size='48' font-family='Helvetica,Arial,sans-serif' font-weight='800' fill='%23f0fdfa' text-anchor='middle'%3E24%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">24</span>
+        <div>
+          <h1 class="masthead">
+            <span>Recovery Meetings in</span>
+            <span class="city-select-wrap">
+              <select id="city-select" aria-label="Choose a city"></select>
+              <span class="city-caret" aria-hidden="true">▾</span>
+            </span>
+          </h1>
+          <p class="tagline" id="tagline">Every AA, NA, CA, and Celebrate Recovery meeting — one place. Plan your week, add it to your calendar.</p>
+        </div>
+      </div>
+
+      <div class="helplines" id="helplines"></div>
+
+      <nav class="tabs" role="tablist">
+        <button class="tab active" role="tab" data-tab="meetings" aria-selected="true">Find a meeting <span class="tab-count" id="count-meetings">—</span></button>
+        <button class="tab" role="tab" data-tab="week" aria-selected="false">My week <span class="tab-count" id="count-week">0</span></button>
+        <button class="tab" role="tab" data-tab="about" aria-selected="false">About</button>
+      </nav>
+
+      <div class="search" id="search-row">
+        <input id="q" type="search" placeholder="Search — group name, street, neighborhood, 'women', 'big book'..." aria-label="Search meetings" />
+        <button id="clear" type="button" aria-label="Clear search">×</button>
+      </div>
+
+      <div class="filters" id="filters">
+        <div class="filter-group">
+          <span class="filter-label">Fellowship</span>
+          <div class="chips" id="chips-fellowship"></div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Day</span>
+          <div class="chips" id="chips-day"></div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Time</span>
+          <div class="chips" id="chips-time">
+            <button class="chip" data-time="morning">Morning</button>
+            <button class="chip" data-time="afternoon">Afternoon</button>
+            <button class="chip" data-time="evening">Evening</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Format</span>
+          <div class="chips" id="chips-format">
+            <button class="chip" data-format="inperson">In person</button>
+            <button class="chip" data-format="online">Online</button>
+            <button class="chip" data-format="open">Open to all</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="view-meetings" class="view">
+      <p class="data-note" id="data-note" hidden></p>
+      <div id="meetings-list"></div>
+    </section>
+
+    <section id="view-week" class="view" hidden>
+      <div class="week-toolbar">
+        <div>
+          <h2>My week</h2>
+          <p class="muted">Your plan is saved on this device only — nothing is uploaded, no account needed.</p>
+        </div>
+        <div class="week-actions">
+          <label class="repeat-label" for="week-repeat">Calendar events:</label>
+          <select id="week-repeat">
+            <option value="once">This week only</option>
+            <option value="weekly" selected>Repeat every week</option>
+          </select>
+          <button id="export-week" class="btn primary" type="button">📅 Download week (.ics)</button>
+          <button id="clear-week" class="btn" type="button">Clear plan</button>
+        </div>
+      </div>
+      <div id="week-grid" class="week-grid"></div>
+    </section>
+
+    <section id="view-about" class="view" hidden>
+      <div class="about">
+        <h2>About this site</h2>
+        <p>This is a one-stop directory of <strong>AA</strong> (Alcoholics Anonymous), <strong>NA</strong> (Narcotics Anonymous), <strong>CA</strong> (Cocaine Anonymous), and <strong>Celebrate Recovery</strong> meetings in the Nashville area. Meeting data comes from each fellowship's official schedule and is refreshed nightly.</p>
+        <p><strong>Schedules change.</strong> Every meeting card links to its source — if a meeting matters to you, confirm it there or call the helpline above before you go.</p>
+        <h3>Your privacy</h3>
+        <p>Anonymity is the foundation of these programs, and this site respects it: there are no accounts, no tracking, and no analytics. Your weekly plan lives only in your browser's local storage. Calendar files are generated on your device.</p>
+        <h3>Add or fix a meeting</h3>
+        <ul id="about-sources"></ul>
+        <h3>Need to talk to someone right now?</h3>
+        <p>Call the <strong>SAMHSA National Helpline: 1-800-662-4357</strong> — free, confidential, 24/7. In an emergency, call 911.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Meeting times belong to the fellowships — always verify with the source. This site is not affiliated with or endorsed by AA, NA, CA, or Celebrate Recovery.</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
