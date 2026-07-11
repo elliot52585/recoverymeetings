@@ -1,0 +1,251 @@
+/* Recovery Meetings — calm teal theme, light/dark aware */
+
+:root {
+  --bg: #f6faf9;
+  --panel: #ffffff;
+  --ink: #16302b;
+  --muted: #5b7470;
+  --line: #dcE8e5;
+  --accent: #0f766e;
+  --accent-ink: #f0fdfa;
+  --chip-bg: #e8f2f0;
+  --chip-on: #0f766e;
+  --shadow: 0 1px 3px rgba(22, 48, 43, 0.08), 0 4px 16px rgba(22, 48, 43, 0.06);
+
+  --aa: #2563eb;
+  --na: #7c3aed;
+  --ca: #b45309;
+  --cr: #15803d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1a18;
+    --panel: #16241f;
+    --ink: #e4efec;
+    --muted: #93aca7;
+    --line: #24363a;
+    --accent: #2dd4bf;
+    --accent-ink: #04211d;
+    --chip-bg: #1d302c;
+    --chip-on: #2dd4bf;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+
+    --aa: #60a5fa;
+    --na: #a78bfa;
+    --ca: #fbbf24;
+    --cr: #4ade80;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.45;
+}
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); font-size: 0.9rem; margin: 2px 0 0; }
+
+/* ---------- header ---------- */
+.hero { background: var(--panel); border-bottom: 1px solid var(--line); padding: 20px 0 0; }
+.brand { display: flex; gap: 14px; align-items: flex-start; }
+.brand-mark {
+  flex: 0 0 auto;
+  width: 46px; height: 46px; border-radius: 12px;
+  background: var(--accent); color: var(--accent-ink);
+  display: grid; place-items: center;
+  font-weight: 800; font-size: 1.25rem;
+}
+.masthead { margin: 0; font-size: 1.45rem; line-height: 1.2; display: flex; flex-wrap: wrap; gap: 0 8px; align-items: baseline; }
+.tagline { margin: 4px 0 0; color: var(--muted); font-size: 0.95rem; }
+
+.city-select-wrap { position: relative; display: inline-flex; align-items: baseline; }
+#city-select {
+  appearance: none; -webkit-appearance: none;
+  font: inherit; font-weight: 800; color: var(--accent);
+  background: transparent; border: none; border-bottom: 3px solid var(--accent);
+  padding: 0 20px 0 2px; cursor: pointer;
+}
+.city-caret { margin-left: -18px; color: var(--accent); pointer-events: none; font-size: 0.8em; }
+
+.helplines { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 4px; }
+.helpline {
+  font-size: 0.78rem; color: var(--muted);
+  background: var(--chip-bg); border-radius: 999px; padding: 4px 10px;
+  text-decoration: none;
+}
+.helpline strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- tabs ---------- */
+.tabs { display: flex; gap: 4px; margin-top: 14px; overflow-x: auto; }
+.tab {
+  font: inherit; font-weight: 600; font-size: 0.95rem;
+  background: transparent; color: var(--muted);
+  border: none; border-bottom: 3px solid transparent;
+  padding: 10px 14px; cursor: pointer; white-space: nowrap;
+}
+.tab.active { color: var(--ink); border-bottom-color: var(--accent); }
+.tab-count {
+  font-size: 0.75rem; font-weight: 700;
+  background: var(--chip-bg); color: var(--accent);
+  border-radius: 999px; padding: 1px 7px; margin-left: 4px;
+}
+
+/* ---------- search + filters ---------- */
+.search { position: relative; margin: 14px 0 10px; }
+#q {
+  width: 100%; font: inherit; color: var(--ink);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
+  padding: 10px 38px 10px 12px;
+}
+#q:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+#clear {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  border: none; background: transparent; color: var(--muted);
+  font-size: 1.3rem; cursor: pointer; padding: 4px 8px;
+}
+
+.filters { display: flex; flex-direction: column; gap: 8px; padding-bottom: 16px; }
+.filter-group { display: flex; align-items: baseline; gap: 10px; }
+.filter-label { flex: 0 0 78px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font: inherit; font-size: 0.85rem; font-weight: 500;
+  background: var(--chip-bg); color: var(--ink);
+  border: 1px solid transparent; border-radius: 999px;
+  padding: 4px 12px; cursor: pointer;
+}
+.chip.on { background: var(--chip-on); color: var(--accent-ink); font-weight: 700; }
+.chip.today-chip { border-color: var(--accent); }
+
+/* ---------- meeting list ---------- */
+.view { padding: 18px 0 40px; }
+.data-note {
+  background: var(--chip-bg); border-left: 4px solid var(--accent);
+  border-radius: 8px; padding: 10px 14px; font-size: 0.88rem; color: var(--muted);
+}
+.day-header {
+  margin: 22px 0 10px; font-size: 0.85rem; font-weight: 800;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted);
+  display: flex; align-items: center; gap: 10px;
+}
+.day-header::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.day-header .today-tag { color: var(--accent); }
+
+.mtg {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: 14px 16px; margin-bottom: 10px;
+  display: grid; grid-template-columns: 74px 1fr auto; gap: 4px 14px;
+}
+.mtg-time { font-weight: 800; font-size: 1rem; }
+.mtg-time .ampm { display: block; font-size: 0.72rem; font-weight: 600; color: var(--muted); }
+.mtg-main { min-width: 0; }
+.mtg-name { margin: 0; font-size: 1.02rem; font-weight: 700; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.badge {
+  font-size: 0.68rem; font-weight: 800; letter-spacing: 0.03em;
+  color: #fff; border-radius: 6px; padding: 2px 7px;
+}
+.badge.AA { background: var(--aa); }
+.badge.NA { background: var(--na); }
+.badge.CA { background: var(--ca); }
+.badge.CR { background: var(--cr); }
+@media (prefers-color-scheme: dark) { .badge { color: #08130f; } }
+.mtg-where { margin: 3px 0 0; font-size: 0.88rem; color: var(--muted); }
+.mtg-where a { color: inherit; }
+.mtg-tags { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 5px; }
+.tag {
+  font-size: 0.72rem; color: var(--muted);
+  background: var(--chip-bg); border-radius: 5px; padding: 2px 7px;
+}
+.mtg-notes { margin: 6px 0 0; font-size: 0.82rem; color: var(--muted); font-style: italic; }
+.mtg-actions { display: flex; flex-direction: column; gap: 6px; align-items: stretch; justify-content: center; }
+
+.btn {
+  font: inherit; font-size: 0.83rem; font-weight: 600;
+  background: var(--chip-bg); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 9px;
+  padding: 7px 12px; cursor: pointer; white-space: nowrap; text-align: center;
+}
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
+.btn.small { font-size: 0.78rem; padding: 5px 10px; }
+.btn.in-plan { background: var(--cr); color: #fff; border-color: transparent; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.empty {
+  text-align: center; padding: 40px 16px; color: var(--muted);
+  background: var(--panel); border: 1px dashed var(--line); border-radius: 14px;
+}
+.empty a { font-weight: 600; }
+
+/* calendar menu */
+.cal-menu-wrap { position: relative; }
+.cal-menu {
+  position: absolute; right: 0; top: calc(100% + 4px); z-index: 30;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: var(--shadow); padding: 6px; min-width: 210px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.cal-menu button, .cal-menu a {
+  font: inherit; font-size: 0.85rem; text-align: left; text-decoration: none;
+  background: transparent; color: var(--ink); border: none; border-radius: 7px;
+  padding: 8px 10px; cursor: pointer; display: block;
+}
+.cal-menu button:hover, .cal-menu a:hover { background: var(--chip-bg); }
+.cal-menu .menu-note { font-size: 0.7rem; color: var(--muted); padding: 2px 10px 6px; }
+
+/* ---------- week view ---------- */
+.week-toolbar { display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: flex-end; margin-bottom: 16px; }
+.week-toolbar h2 { margin: 0; }
+.week-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.repeat-label { font-size: 0.82rem; color: var(--muted); }
+#week-repeat {
+  font: inherit; font-size: 0.85rem; color: var(--ink);
+  background: var(--panel); border: 1px solid var(--line); border-radius: 9px; padding: 6px 8px;
+}
+
+.week-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
+.week-day { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px; }
+.week-day.today { outline: 2px solid var(--accent); }
+.week-day h3 { margin: 0 0 8px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.week-day h3 .today-tag { color: var(--accent); }
+.week-item { border-left: 3px solid var(--line); padding: 4px 0 4px 10px; margin-bottom: 8px; }
+.week-item.AA { border-left-color: var(--aa); }
+.week-item.NA { border-left-color: var(--na); }
+.week-item.CA { border-left-color: var(--ca); }
+.week-item.CR { border-left-color: var(--cr); }
+.week-item strong { font-size: 0.9rem; display: block; }
+.week-item .wi-meta { font-size: 0.78rem; color: var(--muted); }
+.week-item .wi-actions { margin-top: 4px; display: flex; gap: 6px; }
+.week-item .wi-actions button {
+  font: inherit; font-size: 0.72rem; background: transparent; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; cursor: pointer;
+}
+.week-empty { font-size: 0.82rem; color: var(--muted); }
+
+/* ---------- about / footer ---------- */
+.about { max-width: 680px; }
+.about h2 { margin-top: 0; }
+.site-footer { border-top: 1px solid var(--line); padding: 18px 0 30px; }
+.site-footer p { font-size: 0.78rem; color: var(--muted); }
+
+.toast {
+  position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%);
+  background: var(--ink); color: var(--bg);
+  border-radius: 999px; padding: 10px 18px; font-size: 0.88rem; font-weight: 600;
+  box-shadow: var(--shadow); z-index: 100;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 640px) {
+  .mtg { grid-template-columns: 60px 1fr; }
+  .mtg-actions { grid-column: 1 / -1; flex-direction: row; margin-top: 8px; }
+  .mtg-actions .btn { flex: 1; }
+  .filter-group { flex-direction: column; gap: 4px; }
+  .filter-label { flex: none; }
+}

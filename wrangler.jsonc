@@ -1,0 +1,9 @@
+// Cloudflare Workers config — makes `npx wrangler deploy` serve this repo
+// as a static site (Workers Static Assets, free tier).
+{
+  "name": "recoverymeetings",
+  "compatibility_date": "2026-07-11",
+  "assets": {
+    "directory": "./"
+  }
+}

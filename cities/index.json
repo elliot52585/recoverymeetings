@@ -1,0 +1,11 @@
+{
+  "default": "nashville",
+  "cities": [
+    {
+      "key": "nashville",
+      "name": "Nashville",
+      "state": "TN",
+      "tagline": "Every AA, NA, CA, and Celebrate Recovery meeting in Middle Tennessee — one place."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "recoverymeetings",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One place for every AA, NA, CA, and Celebrate Recovery meeting in your city — plan your week, add it to your calendar.",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-all.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
