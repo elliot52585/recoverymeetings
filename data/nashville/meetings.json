@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-13T16:44:03.730Z",
+    "generated": "2026-07-14T12:02:47.408Z",
     "seed": false,
     "counts": {
       "AA": 787,
@@ -11,8 +11,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings: expected a JSON array"
+        "ok": true,
+        "count": 788,
+        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -370,6 +371,32 @@
       "region": "Franklin",
       "notes": "Willough Room",
       "source": "https://aanashville.org/meetings/kick-off-isnt-until-noon/"
+    },
+    {
+      "id": "aa-womens-11th-step-meeting-d0-0800",
+      "fellowship": "AA",
+      "name": "Women’s 11th Step Meeting",
+      "day": 0,
+      "time": "08:00",
+      "endTime": "09:00",
+      "types": [
+        "11",
+        "Closed",
+        "Women"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://us06web.zoom.us/j/9761543788",
+      "venue": null,
+      "address": "Nashville",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.1626638,
+      "lng": -86.7816016,
+      "region": "Nashville",
+      "notes": "Meeting ID: 976 154 3788\nPasscode: serenity",
+      "source": "https://aanashville.org/meetings/womens-11th-step-meeting/"
     },
     {
       "id": "aa-055dic0830-d0-0830",
@@ -4709,31 +4736,6 @@
       "source": "https://aanashville.org/meetings/203lif11830/"
     },
     {
-      "id": "aa-love-and-laughter-d1-1830",
-      "fellowship": "AA",
-      "name": "Love and Laughter",
-      "day": 1,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/88511801708",
-      "venue": null,
-      "address": "Nashville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.0964827,
-      "lng": -86.6308759,
-      "region": "Nashville",
-      "notes": "ID: 885 1180 1708\n\nPW: 939456",
-      "source": "https://aanashville.org/meetings/love-and-laughter/"
-    },
-    {
       "id": "aa-211nip11830-d1-1830",
       "fellowship": "AA",
       "name": "Nipper's Corner Meeting",
@@ -8293,7 +8295,7 @@
       "lat": 36.1227075,
       "lng": -86.7001641,
       "region": "Nashville",
-      "notes": "Outdoor",
+      "notes": null,
       "source": "https://aanashville.org/meetings/217lov21830/"
     },
     {
