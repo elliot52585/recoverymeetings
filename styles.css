@@ -123,6 +123,21 @@ a { color: var(--accent); }
 .chip.on { background: var(--chip-on); color: var(--accent-ink); font-weight: 700; }
 .chip.today-chip { border-color: var(--accent); }
 
+.near-controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+#near-zip {
+  font: inherit; font-size: 0.85rem; color: var(--ink);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 999px;
+  padding: 4px 12px; width: 7.5em;
+}
+#near-zip:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+#near-radius {
+  font: inherit; font-size: 0.85rem; color: var(--ink);
+  background: var(--chip-bg); border: 1px solid transparent; border-radius: 999px;
+  padding: 4px 10px; cursor: pointer;
+}
+.near-hint { font-size: 0.78rem; color: var(--muted); }
+.mtg-dist { font-weight: 600; color: var(--accent); white-space: nowrap; }
+
 /* ---------- meeting list ---------- */
 .view { padding: 18px 0 40px; }
 .data-note {

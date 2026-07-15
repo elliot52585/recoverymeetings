@@ -7,6 +7,7 @@
   const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const DAYS_SHORT = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const PLAN_KEY = "rm-plan-v1";
+  const NEAR_KEY = "rm-near-v1";
   const REPORT_URL = "https://github.com/elliot52585/recoverymeetings/issues/new";
   const FALLBACK_COLOR = "#64748b";
 
@@ -18,6 +19,8 @@
     meetings: [],      // normalized: one entry per (meeting, day)
     meta: null,
     filters: { fellowship: new Set(), day: null, time: null, format: new Set(), q: "" },
+    near: loadNear(),  // { zip: "37203", radius: 10 } — stored on-device only
+    zips: {},          // ZIP -> [lat, lng] centroids (census file + meeting-derived fallback)
     plan: loadPlan(),  // [{id}] — id already encodes the day
     tab: "meetings",
   };
@@ -55,6 +58,7 @@
     const data = await getJSON(`data/${state.cityKey}/meetings.json`);
     state.meta = data.meta || null;
     state.meetings = normalize(data.meetings || []);
+    await loadZips();
 
     buildFilterChips();
     wireEvents();
@@ -65,6 +69,48 @@
     const res = await fetch(path, { cache: "no-cache" });
     if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
     return res.json();
+  }
+
+  // ZIP centroids: the census-derived file, with centroids computed from the
+  // meetings themselves filling any gaps (a ZIP with meetings in it always
+  // resolves, even before the census file exists).
+  async function loadZips() {
+    const derived = {};
+    const byZip = {};
+    for (const m of state.meetings) {
+      if (m.zip && /^\d{5}$/.test(m.zip) && m.lat != null && m.lng != null) {
+        (byZip[m.zip] = byZip[m.zip] || []).push(m);
+      }
+    }
+    for (const [z, list] of Object.entries(byZip)) {
+      derived[z] = [
+        list.reduce((s, m) => s + m.lat, 0) / list.length,
+        list.reduce((s, m) => s + m.lng, 0) / list.length,
+      ];
+    }
+    let census = {};
+    try {
+      census = (await getJSON(`data/${state.cityKey}/zips.json`)).zips || {};
+    } catch { /* file not generated yet — derived centroids still work */ }
+    state.zips = { ...derived, ...census };
+  }
+
+  function loadNear() {
+    try {
+      const n = JSON.parse(localStorage.getItem(NEAR_KEY) || "{}");
+      return { zip: n.zip || "", radius: n.radius || null };
+    } catch {
+      return { zip: "", radius: null };
+    }
+  }
+  function saveNear() {
+    try { localStorage.setItem(NEAR_KEY, JSON.stringify(state.near)); } catch {}
+  }
+
+  function nearCenter() {
+    const { zip, radius } = state.near;
+    if (!radius || !/^\d{5}$/.test(zip)) return null;
+    return state.zips[zip] || null;
   }
 
   // Expand day arrays into one entry per day; keep day:null entries once.
@@ -89,6 +135,17 @@
   }
 
   const cmp = (a, b) => (a || "").localeCompare(b || "");
+
+  function haversineMiles(lat1, lng1, lat2, lng2) {
+    const R = 3958.8;
+    const toRad = (d) => (d * Math.PI) / 180;
+    const dLat = toRad(lat2 - lat1);
+    const dLng = toRad(lng2 - lng1);
+    const a =
+      Math.sin(dLat / 2) ** 2 +
+      Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
 
   // ---------- header ----------
 
@@ -178,6 +235,21 @@
       renderMeetings();
     });
 
+    const zipInput = $("#near-zip");
+    const radiusSel = $("#near-radius");
+    zipInput.value = state.near.zip;
+    radiusSel.value = state.near.radius ? String(state.near.radius) : "";
+    const onNearChange = () => {
+      state.near.zip = zipInput.value.trim();
+      state.near.radius = radiusSel.value ? Number(radiusSel.value) : null;
+      saveNear();
+      updateNearHint();
+      renderMeetings();
+    };
+    zipInput.addEventListener("input", onNearChange);
+    radiusSel.addEventListener("change", onNearChange);
+    updateNearHint();
+
     $("#q").addEventListener("input", () => {
       state.filters.q = $("#q").value.trim().toLowerCase();
       renderMeetings();
@@ -203,6 +275,16 @@
     });
   }
 
+  function updateNearHint() {
+    const hint = $("#near-hint");
+    const { zip, radius } = state.near;
+    if (!radius && !zip) hint.textContent = "";
+    else if (!radius) hint.textContent = "pick a distance";
+    else if (!/^\d{5}$/.test(zip)) hint.textContent = "enter a 5-digit ZIP";
+    else if (!state.zips[zip]) hint.textContent = "ZIP not found — is it in this area?";
+    else hint.textContent = "in-person meetings only (online hidden)";
+  }
+
   function setSoloChip(container, chip) {
     container.querySelectorAll(".chip").forEach((c) => c.classList.remove("on"));
     chip.classList.add("on");
@@ -225,7 +307,20 @@
 
   function applyFilters() {
     const f = state.filters;
+    const center = nearCenter();
+    const radius = center ? state.near.radius : null;
     return state.meetings.filter((m) => {
+      if (center) {
+        // Distance filter: in-person/hybrid only — online meetings have no
+        // "distance" and are hidden while it's active (a hint says so).
+        if (m.online && !m.hybrid) return false;
+        const pt = m.lat != null && m.lng != null ? [m.lat, m.lng] : state.zips[m.zip] || null;
+        if (!pt) return false;
+        m._dist = haversineMiles(center[0], center[1], pt[0], pt[1]);
+        if (m._dist > radius) return false;
+      } else {
+        m._dist = null;
+      }
       if (f.fellowship.size && !f.fellowship.has(m.fellowship)) return false;
       if (f.day !== null && m.day !== f.day) return false;
       if (f.time) {
@@ -278,12 +373,14 @@
     }
 
     const today = todayInTz();
+    const nearActive = !!nearCenter();
     // Order days starting today, then the rest of the week; unknown-day last.
     const dayOrder = [...Array(7).keys()].map((i) => (today + i) % 7);
     let html = "";
     for (const d of dayOrder) {
-      const dayList = list.filter((m) => m.day === d);
+      let dayList = list.filter((m) => m.day === d);
       if (!dayList.length) continue;
+      if (nearActive) dayList = [...dayList].sort((a, b) => (a._dist ?? 9e9) - (b._dist ?? 9e9));
       html += `<h2 class="day-header">${DAYS[d]}${d === today ? ' <span class="today-tag">· today</span>' : ""}</h2>`;
       html += dayList.map(cardHtml).join("");
     }
@@ -325,7 +422,7 @@
       <div class="mtg-time">${fmtTime(m.time)}</div>
       <div class="mtg-main">
         <h3 class="mtg-name"><span class="badge" style="background:${esc(info.color || FALLBACK_COLOR)}" title="${esc(info.name)}">${esc(info.short)}</span> ${esc(m.name)}</h3>
-        <p class="mtg-where">${m.venue ? esc(m.venue) + " · " : ""}${mapLink}</p>
+        <p class="mtg-where">${m.venue ? esc(m.venue) + " · " : ""}${mapLink}${m._dist != null ? ` · <span class="mtg-dist">${m._dist.toFixed(1)} mi</span>` : ""}</p>
         ${tags.length ? `<div class="mtg-tags">${tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}
         ${m.notes ? `<p class="mtg-notes">${esc(m.notes)}</p>` : ""}
         <p class="mtg-notes">${m.source ? `<a href="${esc(m.source)}" target="_blank" rel="noopener">source</a> · ` : ""}<a href="${reportLink}" target="_blank" rel="noopener">report a change</a></p>

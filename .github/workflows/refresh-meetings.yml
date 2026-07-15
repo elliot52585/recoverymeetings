@@ -22,6 +22,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Generate ZIP centroids (skips when already census-sourced)
+        run: node scripts/zips.mjs
+
       - name: Fetch meeting schedules
         run: npm run fetch
 
