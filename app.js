@@ -17,7 +17,7 @@
     registry: [],      // registry/fellowships.json records, in registry order
     meetings: [],      // normalized: one entry per (meeting, day)
     meta: null,
-    filters: { fellowship: null, day: null, time: null, format: new Set(), q: "" },
+    filters: { fellowship: new Set(), day: null, time: null, format: new Set(), q: "" },
     plan: loadPlan(),  // [{id}] — id already encodes the day
     tab: "meetings",
   };
@@ -139,11 +139,17 @@
       t.addEventListener("click", () => switchTab(t.dataset.tab))
     );
 
+    // Fellowships are multi-select: tap AA and NA to see both. "All" clears.
     $("#chips-fellowship").addEventListener("click", (e) => {
       const b = e.target.closest("[data-fellowship]");
       if (!b) return;
-      state.filters.fellowship = b.dataset.fellowship || null;
-      setSoloChip($("#chips-fellowship"), b);
+      const key = b.dataset.fellowship;
+      const sel = state.filters.fellowship;
+      if (!key) sel.clear();
+      else sel.has(key) ? sel.delete(key) : sel.add(key);
+      $("#chips-fellowship").querySelectorAll(".chip").forEach((c) =>
+        c.classList.toggle("on", c.dataset.fellowship === "" ? sel.size === 0 : sel.has(c.dataset.fellowship))
+      );
       renderMeetings();
     });
 
@@ -220,7 +226,7 @@
   function applyFilters() {
     const f = state.filters;
     return state.meetings.filter((m) => {
-      if (f.fellowship && m.fellowship !== f.fellowship) return false;
+      if (f.fellowship.size && !f.fellowship.has(m.fellowship)) return false;
       if (f.day !== null && m.day !== f.day) return false;
       if (f.time) {
         const h = parseInt(m.time, 10);
@@ -291,7 +297,7 @@
   }
 
   function emptyStateHtml() {
-    const f = state.filters.fellowship;
+    const f = state.filters.fellowship.size === 1 ? [...state.filters.fellowship][0] : null;
     const src = f && (state.city.sources || []).find((s) => s.fellowship === f);
     const finder = src?.finder || fellowshipInfo(f || "")?.onlineDirectory;
     const officialLink = f && finder

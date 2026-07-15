@@ -4,7 +4,7 @@
 // Strategy:
 //   - app shell (html/css/js/registry): cache-first, refreshed in background
 //   - meeting data (data/, cities/): network-first, cache fallback
-const VERSION = "rm-v1";
+const VERSION = "rm-v2";
 const SHELL = [
   "./",
   "index.html",
