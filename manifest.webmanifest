@@ -1,0 +1,13 @@
+{
+  "name": "Recovery Meetings",
+  "short_name": "Recovery",
+  "description": "Every AA, NA, CA, Al-Anon, and Celebrate Recovery meeting in your city — plan your week, add it to your calendar. Works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6faf9",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" }
+  ]
+}

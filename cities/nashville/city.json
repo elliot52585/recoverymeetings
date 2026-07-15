@@ -9,13 +9,13 @@
   "helplines": [
     { "fellowship": "AA", "name": "Middle TN Central Office (AA)", "phone": "(615) 831-1050", "url": "https://aanashville.org/" },
     { "fellowship": "NA", "name": "NA Helpline (Middle TN)", "phone": "1-888-476-2482", "url": "https://nanashville.org/" },
-    { "fellowship": "CA", "name": "CA Nashville", "phone": null, "url": "https://canashville.com/" },
-    { "fellowship": "CR", "name": "Celebrate Recovery locator", "phone": null, "url": "https://locator.crgroups.info/" },
-    { "fellowship": null, "name": "SAMHSA National Helpline (24/7, free, confidential)", "phone": "1-800-662-4357", "url": "https://www.samhsa.gov/find-help/national-helpline" }
+    { "fellowship": null, "name": "SAMHSA National Helpline (24/7, free, confidential)", "phone": "1-800-662-4357", "url": "https://www.samhsa.gov/find-help/national-helpline" },
+    { "fellowship": null, "name": "988 Suicide & Crisis Lifeline", "phone": "988", "url": "https://988lifeline.org/" }
   ],
 
-  "sources": {
-    "aa": {
+  "sources": [
+    {
+      "fellowship": "AA",
       "type": "tsml",
       "urls": [
         "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings",
@@ -23,18 +23,70 @@
       ],
       "finder": "https://aanashville.org/meetings/"
     },
-    "na": {
+    {
+      "fellowship": "NA",
       "type": "bmlt",
       "aggregator": "https://aggregator.bmltenabled.org/main_server",
       "finder": "https://nanashville.org/meetings/"
     },
-    "ca": {
+    {
+      "fellowship": "CA",
       "type": "curated",
       "finder": "https://canashville.com/"
     },
-    "cr": {
+    {
+      "fellowship": "CR",
       "type": "curated",
-      "finder": "https://locator.crgroups.info/"
+      "finder": "https://crlocator.com/"
+    },
+    {
+      "fellowship": "MA",
+      "type": "curated",
+      "finder": "https://marijuana-anonymous.org/find-a-meeting/",
+      "_note": "National TSML feed returned HTTP 401 (gated) as of 2026-07 — worth an outreach email to MA World Services."
+    },
+    {
+      "fellowship": "HA",
+      "type": "curated",
+      "finder": "https://heroinanonymous.org/meetings/",
+      "_note": "National TSML feed returned HTTP 400 as of 2026-07 — Nashville meetings hand-curated from heroinanonymous.org/locations/nashville-area/."
+    },
+    {
+      "fellowship": "RD",
+      "type": "tsml",
+      "urls": ["https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"],
+      "finder": "https://recoverydharma.org/meetings/",
+      "skipOnline": true
+    },
+    {
+      "fellowship": "SLAA",
+      "type": "curated",
+      "finder": "https://slaanashville.org/meetings/"
+    },
+    {
+      "fellowship": "GA",
+      "type": "curated",
+      "finder": "https://gamblersanonymous.org/find-a-meeting/"
+    },
+    {
+      "fellowship": "SMART",
+      "type": "curated",
+      "finder": "https://meetings.smartrecovery.org/meetings/"
+    },
+    {
+      "fellowship": "ACA",
+      "type": "curated",
+      "finder": "https://adultchildren.org/meeting-search/"
+    },
+    {
+      "fellowship": "OA",
+      "type": "curated",
+      "finder": "https://www.oanashville.org/meetings"
+    },
+    {
+      "fellowship": "ALANON",
+      "type": "curated",
+      "finder": "https://afsofmiddletn.org/"
     }
-  }
+  ]
 }

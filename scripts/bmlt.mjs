@@ -14,8 +14,8 @@ const FORMAT_LABELS = {
   ES: "Spanish",
 };
 
-export async function fetchBmlt(cityCfg) {
-  const src = cityCfg.sources.na;
+// src: { fellowship, aggregator, finder } from the city's sources array.
+export async function fetchBmlt(cityCfg, src) {
   const { lat, lng } = cityCfg.center;
   const fields = [
     "id_bigint", "meeting_name", "weekday_tinyint", "start_time", "duration_time",
@@ -25,7 +25,7 @@ export async function fetchBmlt(cityCfg) {
   ].join(",");
   const url =
     `${src.aggregator}/client_interface/json/?switcher=GetSearchResults` +
-    `&lat_val=${lat}&long_val=${lng}&geo_width=${cityCfg.radiusMiles}` +
+    `&lat_val=${lat}&long_val=${lng}&geo_width=${src.radiusMiles || cityCfg.radiusMiles}` +
     `&data_field_key=${fields}`;
 
   const raw = await fetchJson(url);
@@ -47,8 +47,8 @@ export async function fetchBmlt(cityCfg) {
     const hybrid = vt === 3 || codes.includes("HY");
 
     meetings.push({
-      id: `na-${slugify(m.meeting_name)}-${m.id_bigint || `d${day}-${time.replace(":", "")}`}`,
-      fellowship: "NA",
+      id: `${src.fellowship.toLowerCase()}-${slugify(m.meeting_name)}-${m.id_bigint || `d${day}-${time.replace(":", "")}`}`,
+      fellowship: src.fellowship,
       name: m.meeting_name,
       day,
       time,
