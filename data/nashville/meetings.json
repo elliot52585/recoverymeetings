@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-15T15:12:56.479Z",
+    "generated": "2026-07-15T15:30:08.474Z",
     "seed": false,
     "counts": {
-      "AA": 788,
-      "NA": 119,
+      "AA": 882,
+      "NA": 161,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -20,13 +20,13 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 789,
+        "count": 883,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 120,
-        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
+        "count": 162,
+        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
         "ok": true,
@@ -160,6 +160,31 @@
       "region": "Lebanon",
       "notes": "2nd Street Off Square- Handicapped accessible",
       "source": "https://aanashville.org/meetings/first-things-first-7/"
+    },
+    {
+      "id": "aa-porters-chapel-group-d0-0700",
+      "fellowship": "AA",
+      "name": "Porters Chapel Group",
+      "day": 0,
+      "time": "07:00",
+      "endTime": "08:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Porters Chapel United Methodist Church",
+      "address": "7257 Polk Ln",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.5240407,
+      "lng": -87.1555741,
+      "region": "Columbia",
+      "notes": "Located in the Old Schoolhouse",
+      "source": "https://aanashville.org/meetings/porters-chapel-group/"
     },
     {
       "id": "aa-shade-tree-15-d0-0700",
@@ -844,6 +869,31 @@
       "source": "https://aanashville.org/meetings/uncommon-women/"
     },
     {
+      "id": "aa-040aam01030-d0-1030",
+      "fellowship": "AA",
+      "name": "AA Meeting - Clarksville",
+      "day": 0,
+      "time": "10:30",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Spiritual Meeting",
+      "source": "https://aanashville.org/meetings/040aam01030/"
+    },
+    {
       "id": "aa-209bac01030-d0-1030",
       "fellowship": "AA",
       "name": "Back Room Group",
@@ -989,6 +1039,56 @@
       "region": "Nashville",
       "notes": "Tel. 615-327-3909",
       "source": "https://aanashville.org/meetings/202-friendship-house-7/"
+    },
+    {
+      "id": "aa-columbia-group-3-d0-1200",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 0,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/columbia-group-3/"
+    },
+    {
+      "id": "na-new-horizons-group-13749",
+      "fellowship": "NA",
+      "name": "New Horizons Group",
+      "day": 0,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/78980171559",
+      "venue": "Virtual",
+      "address": null,
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.5174913,
+      "lng": -86.5804473,
+      "region": null,
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-211pea01200-d0-1200",
@@ -1260,6 +1360,31 @@
       "source": "https://aanashville.org/meetings/grupo-regreso-a-lo-fundamental-7/"
     },
     {
+      "id": "na-keep-it-real-13756",
+      "fellowship": "NA",
+      "name": "Keep it Real",
+      "day": 0,
+      "time": "14:00",
+      "endTime": "15:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Fairlane Church of Christ",
+      "address": "101 Dow Drive",
+      "city": "Shelbyville",
+      "state": "TN",
+      "zip": "37160",
+      "lat": 35.5060549,
+      "lng": -86.4804244,
+      "region": "Shelbyville",
+      "notes": "Annex building",
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "aa-shade-tree-group-4-d0-1400",
       "fellowship": "AA",
       "name": "Shade Tree Group",
@@ -1450,6 +1575,31 @@
       "source": "https://aanashville.org/meetings/dickson-group-2/"
     },
     {
+      "id": "aa-083laf01600-d0-1600",
+      "fellowship": "AA",
+      "name": "Lafayette New Hope Group",
+      "day": 0,
+      "time": "16:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "907 Sycamore St",
+      "address": "907 Sycamore St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5308912,
+      "lng": -86.0317261,
+      "region": "Lafayette",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/083laf01600/"
+    },
+    {
       "id": "aa-nuevo-sendero-7-d0-1600",
       "fellowship": "AA",
       "name": "Nuevo Sendero",
@@ -1598,6 +1748,32 @@
       "region": "Nashville",
       "notes": "Special interest meeting for addicts with children. Child-friendly meeting. All addicts welcome! — Enter at Michaud Hall on left side of building",
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-columbia-group-d0-1700",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 0,
+      "time": "17:00",
+      "endTime": "18:00",
+      "types": [
+        "Closed",
+        "Literature",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/columbia-group/"
     },
     {
       "id": "aa-130mur01730-d0-1730",
@@ -1817,6 +1993,58 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "na-by-the-book-woodbury-166061",
+      "fellowship": "NA",
+      "name": "By The Book (Woodbury)",
+      "day": 0,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Closed",
+        "LT",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Lions Club",
+      "address": "634 Lehman St.",
+      "city": "Woodbury",
+      "state": "TN",
+      "zip": "37190",
+      "lat": 35.8237035,
+      "lng": -86.079371,
+      "region": "Woodbury",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-040cla01800-d0-1800",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 0,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla01800/"
+    },
+    {
       "id": "aa-franklin-fellowship-d0-1800",
       "fellowship": "AA",
       "name": "Franklin Fellowship",
@@ -1840,6 +2068,55 @@
       "region": "Franklin",
       "notes": "Parking left side, enter through rear",
       "source": "https://aanashville.org/meetings/franklin-fellowship/"
+    },
+    {
+      "id": "aa-043saf01800-d0-1800",
+      "fellowship": "AA",
+      "name": "Safe Harbor Group",
+      "day": 0,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Bethlehem Christian Church",
+      "address": "280 Dunbar Cave Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5506876,
+      "lng": -87.3173374,
+      "region": "Clarksville",
+      "notes": "Corner of Old Russellville Pike & Dunbar Cave Road",
+      "source": "https://aanashville.org/meetings/043saf01800/"
+    },
+    {
+      "id": "na-surrender-to-win-159804",
+      "fellowship": "NA",
+      "name": "Surrender To Win",
+      "day": 0,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Lafayette United Methodist Church",
+      "address": "600 West End Dr.",
+      "city": "Lafayette",
+      "state": "TN",
+      "zip": "37083",
+      "lat": 36.5268947,
+      "lng": -86.0357904,
+      "region": "Lafayette",
+      "notes": "Speaker meeting last Sunday of the month",
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-transmitelo-7-d0-1800",
@@ -2087,6 +2364,31 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-401col01900-d0-1900",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 0,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col01900/"
+    },
+    {
       "id": "aa-205cum02000-d0-1900",
       "fellowship": "AA",
       "name": "Communications Group",
@@ -2187,6 +2489,31 @@
       "source": "https://aanashville.org/meetings/hermitage-group/"
     },
     {
+      "id": "aa-091lew01900-d0-1900",
+      "fellowship": "AA",
+      "name": "Lewisburg Unity Group",
+      "day": 0,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Parkview Baptist Church",
+      "address": "1380 W Ellington Pkwy",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4732813,
+      "lng": -86.802173,
+      "region": "Lewisburg",
+      "notes": "Contact is Don C. 931-637-0681\n\nOS Last Sunday",
+      "source": "https://aanashville.org/meetings/091lew01900/"
+    },
+    {
       "id": "aa-new-faith-group-d0-1900",
       "fellowship": "AA",
       "name": "New Faith Group",
@@ -2213,6 +2540,28 @@
       "source": "https://aanashville.org/meetings/new-faith-group/"
     },
     {
+      "id": "na-new-hope-group-165558",
+      "fellowship": "NA",
+      "name": "New Hope Group",
+      "day": 0,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St Peter's Episcopal Church - Use Walker Street Entrance",
+      "address": "311 W 7th St.",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.6152465,
+      "lng": -87.038279,
+      "region": "Columbia",
+      "notes": "Closed meeting 1st Sunday of each month 6pm",
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "aa-peace-in-the-park-d0-1900",
       "fellowship": "AA",
       "name": "Peace In The Park",
@@ -2236,6 +2585,30 @@
       "region": "Franklin",
       "notes": "Enter around back",
       "source": "https://aanashville.org/meetings/peace-in-the-park/"
+    },
+    {
+      "id": "aa-083pue01900-d0-1900",
+      "fellowship": "AA",
+      "name": "Puerto Seguro Reuniones",
+      "day": 0,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "184 Akersville Rd",
+      "address": "184 Akersville Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5338333,
+      "lng": -86.0263863,
+      "region": "Lafayette",
+      "notes": "two-hour meetings",
+      "source": "https://aanashville.org/meetings/083pue01900/"
     },
     {
       "id": "aa-pulaski-group-7-d0-1900",
@@ -2476,6 +2849,30 @@
       "source": "https://meetings.smartrecovery.org/meetings/5678/"
     },
     {
+      "id": "aa-040cla02000-d0-2000",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 0,
+      "time": "20:00",
+      "endTime": null,
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla02000/"
+    },
+    {
       "id": "aa-grupo-mi-ultima-copa-7-d0-2000",
       "fellowship": "AA",
       "name": "Grupo Mi Ultima Copa",
@@ -2654,6 +3051,31 @@
       "region": "Nashville",
       "notes": "Entrance and parking in rear.",
       "source": "https://aanashville.org/meetings/206one02000/"
+    },
+    {
+      "id": "na-serenity-25196",
+      "fellowship": "NA",
+      "name": "Serenity",
+      "day": 0,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Fountain of Life",
+      "address": "2510 U.S. 41 Alt Bypass",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37043",
+      "lat": 36.5037374,
+      "lng": -87.2785079,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-129ser02000-d0-2000",
@@ -3382,6 +3804,56 @@
       "source": "https://aanashville.org/meetings/rule-62/"
     },
     {
+      "id": "aa-040cla11200-d1-1200",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 1,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla11200/"
+    },
+    {
+      "id": "aa-401col11200-d1-1200",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 1,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col11200/"
+    },
+    {
       "id": "aa-087col11200-d1-1200",
       "fellowship": "AA",
       "name": "Daily Reprieve",
@@ -3458,6 +3930,33 @@
       "source": "https://aanashville.org/meetings/066gaa11200/"
     },
     {
+      "id": "aa-091hap11200-d1-1200",
+      "fellowship": "AA",
+      "name": "Happy Hour Group",
+      "day": 1,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Closed",
+        "Step study",
+        "Wheelchair accessible",
+        "XB"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Serenity House",
+      "address": "440 College St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4542959,
+      "lng": -86.7928232,
+      "region": "Lewisburg",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/091hap11200/"
+    },
+    {
       "id": "aa-076hwm11200-d1-1200",
       "fellowship": "AA",
       "name": "Hermitage Women's Group",
@@ -3508,6 +4007,33 @@
       "region": "Hendersonville",
       "notes": null,
       "source": "https://aanashville.org/meetings/075hig11200/"
+    },
+    {
+      "id": "na-high-steppers-52534",
+      "fellowship": "NA",
+      "name": "High Steppers",
+      "day": 1,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Closed",
+        "Discussion",
+        "BK",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Greater First Baptist Church",
+      "address": "512 North 6th Ave.",
+      "city": "Lewisburg",
+      "state": "TN",
+      "zip": "37091",
+      "lat": 35.4554046,
+      "lng": -86.7954983,
+      "region": "Lewisburg",
+      "notes": "Enter at the door on the right side of church — Book Study",
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-search-for-serenity-d1-1200",
@@ -3957,6 +4483,31 @@
       "source": "https://aanashville.org/meetings/house-meeting/"
     },
     {
+      "id": "aa-columbia-group-4-d1-1700",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 1,
+      "time": "17:00",
+      "endTime": "18:00",
+      "types": [
+        "Big Book",
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/columbia-group-4/"
+    },
+    {
       "id": "aa-back-to-the-big-book-group-d1-1730",
       "fellowship": "AA",
       "name": "Back To The Big Book Group",
@@ -4253,6 +4804,31 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-040cla11800-d1-1800",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 1,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla11800/"
+    },
+    {
       "id": "na-i-can-t-we-can-167230",
       "fellowship": "NA",
       "name": "I Can't; We Can",
@@ -4375,6 +4951,31 @@
       "region": "Lebanon",
       "notes": null,
       "source": "https://aanashville.org/meetings/087nbs21830/"
+    },
+    {
+      "id": "aa-details-d1-1800",
+      "fellowship": "AA",
+      "name": "No Format Format",
+      "day": 1,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Closed",
+        "Men"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Presbyterian Outreach Center",
+      "address": "215 Foster St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5299869,
+      "lng": -87.3583049,
+      "region": "Clarksville",
+      "notes": "Meets in front room",
+      "source": "https://aanashville.org/meetings/details/"
     },
     {
       "id": "aa-page-112-group-d1-1800",
@@ -4788,6 +5389,32 @@
       "source": "https://aanashville.org/meetings/district-30-monthly-meeting/"
     },
     {
+      "id": "aa-098lyl21830-d1-1830",
+      "fellowship": "AA",
+      "name": "East Hickman AA",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Wrigley Church of God of Prophecy",
+      "address": "7703 Grover Vaughn Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.9006941,
+      "lng": -87.3455386,
+      "region": "Lyles",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/098lyl21830/"
+    },
+    {
       "id": "aa-027fra11830-d1-1830",
       "fellowship": "AA",
       "name": "Franklin Road Womens Group",
@@ -4887,6 +5514,31 @@
       "region": "Nashville",
       "notes": "Tel. 615-327-3909",
       "source": "https://aanashville.org/meetings/203lif11830/"
+    },
+    {
+      "id": "aa-muletown-aa-d1-1830",
+      "fellowship": "AA",
+      "name": "Muletown AA",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Maury Hills Church",
+      "address": "101 Unity Dr",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.5808865,
+      "lng": -87.0445477,
+      "region": "Columbia",
+      "notes": "Room 110",
+      "source": "https://aanashville.org/meetings/muletown-aa/"
     },
     {
       "id": "aa-211nip11830-d1-1830",
@@ -5215,6 +5867,30 @@
       "source": "https://alcohol.org/meeting-finder/adult-children-of-alcoholics/aca-attracted-by-strength-tn0110-nashville-tn-1-19-00/"
     },
     {
+      "id": "na-breaking-free-167097",
+      "fellowship": "NA",
+      "name": "Breaking Free",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Maury Hills Church",
+      "address": "101 Unity Lane",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.5814397,
+      "lng": -87.0431555,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "cr-woodmont-baptist",
       "fellowship": "CR",
       "name": "Celebrate Recovery — Woodmont Baptist",
@@ -5230,6 +5906,107 @@
       "zip": "37215",
       "region": "Green Hills",
       "source": "https://alcohol.org/meeting-finder/celebrate-recovery/nashville-tn/"
+    },
+    {
+      "id": "aa-033cen11800-d1-1900",
+      "fellowship": "AA",
+      "name": "Centerville Group",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Twomey Church of Christ",
+      "address": "65 TN-100",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.7618742,
+      "lng": -87.463183,
+      "region": "Centerville",
+      "notes": "One mile south of square on Hwy 100\nJust south of junction TN-50 East\nNext to T&W Motors",
+      "source": "https://aanashville.org/meetings/033cen11800/"
+    },
+    {
+      "id": "aa-034cha11900-d1-1900",
+      "fellowship": "AA",
+      "name": "Chapel Hill New Life Group Of AA",
+      "day": 1,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "12x12",
+        "Big Book",
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Chapel Hill United Methodist Church",
+      "address": "316 Nashville Hwy",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6312715,
+      "lng": -86.6909234,
+      "region": "Chapel Hill",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/034cha11900/"
+    },
+    {
+      "id": "aa-401col11900-d1-1900",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 1,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col11900/"
+    },
+    {
+      "id": "aa-401cou11900-d1-1900",
+      "fellowship": "AA",
+      "name": "Courage To Change Group",
+      "day": 1,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Trinity Lutheran Church",
+      "address": "5001 Trotwood Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.59027,
+      "lng": -87.0952378,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401cou11900/"
     },
     {
       "id": "aa-dulce-rendicion-d1-1900",
@@ -5512,6 +6289,31 @@
       "source": "https://aanashville.org/meetings/meeting-on-a-hill/"
     },
     {
+      "id": "na-new-ambitions-group-13821",
+      "fellowship": "NA",
+      "name": "New Ambitions Group",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Christian Church",
+      "address": "516 Madison",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37040",
+      "lat": 36.525815,
+      "lng": -87.3533517,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "aa-new-meeting-d1-1900",
       "fellowship": "AA",
       "name": "New Hope Group",
@@ -5537,6 +6339,28 @@
       "source": "https://aanashville.org/meetings/new-meeting/"
     },
     {
+      "id": "na-new-hope-group-155099",
+      "fellowship": "NA",
+      "name": "New Hope Group",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St Peter's Episcopal Church - Use Walker Street Entrance",
+      "address": "311 W 7th St.",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.6152465,
+      "lng": -87.038279,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "na-ppp-portland-primary-purpose-literature-study-229334",
       "fellowship": "NA",
       "name": "PPP: Portland Primary Purpose Literature Study",
@@ -5560,6 +6384,30 @@
       "region": "Portland",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-083pue11900-d1-1900",
+      "fellowship": "AA",
+      "name": "Puerto Seguro Reuniones",
+      "day": 1,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "184 Akersville Rd",
+      "address": "184 Akersville Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5338333,
+      "lng": -86.0263863,
+      "region": "Lafayette",
+      "notes": "two-hour meetings",
+      "source": "https://aanashville.org/meetings/083pue11900/"
     },
     {
       "id": "aa-pulaski-group-d1-1900",
@@ -6084,6 +6932,30 @@
       "region": "Nashville",
       "notes": "Meetings last 90 minutes.",
       "source": "https://aanashville.org/meetings/217cam12000/"
+    },
+    {
+      "id": "aa-040cla12000-d1-2000",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 1,
+      "time": "20:00",
+      "endTime": null,
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla12000/"
     },
     {
       "id": "aa-drunks-talking-principals-d1-2000",
@@ -7242,6 +8114,56 @@
       "source": "https://aanashville.org/meetings/brown-bag-group-2/"
     },
     {
+      "id": "aa-040cla21200-d2-1200",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 2,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla21200/"
+    },
+    {
+      "id": "aa-401col21200-d2-1200",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 2,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col21200/"
+    },
+    {
       "id": "aa-064fra21200-d2-1200",
       "fellowship": "AA",
       "name": "Franklin Group",
@@ -7390,6 +8312,31 @@
       "region": "Nashville",
       "notes": "ID: 976 1025 1082\nPW: 896821",
       "source": "https://aanashville.org/meetings/music-city-happy-hour-group/"
+    },
+    {
+      "id": "aa-purposed-process-d2-1200",
+      "fellowship": "AA",
+      "name": "Purposed Process",
+      "day": 2,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Bellafant Tabernacle Baptist Church",
+      "address": "1607 Whatley St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6021724,
+      "lng": -87.0324233,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/purposed-process/"
     },
     {
       "id": "na-recovery-at-noon-162635",
@@ -8118,6 +9065,57 @@
       "source": "https://aanashville.org/meetings/came-to-believe/"
     },
     {
+      "id": "aa-040cla21800-d2-1800",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 2,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla21800/"
+    },
+    {
+      "id": "aa-cumberland-unity-group-d2-1800",
+      "fellowship": "AA",
+      "name": "Cumberland Unity Group",
+      "day": 2,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open",
+        "Speaker",
+        "Step study"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Baptist Church",
+      "address": "773 E McMurry Blvd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.3884326,
+      "lng": -86.139622,
+      "region": "Hartsville",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/cumberland-unity-group/"
+    },
+    {
       "id": "aa-grateful-grove-d2-1800",
       "fellowship": "AA",
       "name": "Grateful Grove",
@@ -8167,6 +9165,81 @@
       "region": "Goodlettsville",
       "notes": null,
       "source": "https://aanashville.org/meetings/happy-destiny/"
+    },
+    {
+      "id": "aa-no-more-tears-d2-1800",
+      "fellowship": "AA",
+      "name": "No More Tears",
+      "day": 2,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "No More Tears Recovery",
+      "address": "1308 E Main St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.0855187,
+      "lng": -87.7566321,
+      "region": "Waverly",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/no-more-tears/"
+    },
+    {
+      "id": "aa-040nor21900-d2-1800",
+      "fellowship": "AA",
+      "name": "Northside Group",
+      "day": 2,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cumberland Presbyterian Church",
+      "address": "1307 Fort Campbell Blvd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.561859,
+      "lng": -87.3994936,
+      "region": "Clarksville",
+      "notes": "Drive to back, in basement",
+      "source": "https://aanashville.org/meetings/040nor21900/"
+    },
+    {
+      "id": "aa-043saf21800-d2-1800",
+      "fellowship": "AA",
+      "name": "Safe Harbor Group",
+      "day": 2,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Bethlehem Christian Church",
+      "address": "280 Dunbar Cave Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5506876,
+      "lng": -87.3173374,
+      "region": "Clarksville",
+      "notes": "Corner of Old Russellville Pike & Dunbar Cave Road",
+      "source": "https://aanashville.org/meetings/043saf21800/"
     },
     {
       "id": "aa-043san21800-d2-1800",
@@ -8656,6 +9729,31 @@
       "source": "https://aanashville.org/meetings/217lov21830/"
     },
     {
+      "id": "aa-pot-o-gold-group-d2-1830",
+      "fellowship": "AA",
+      "name": "Pot o’ Gold Group",
+      "day": 2,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Erin United Methodist Church",
+      "address": "40 E Walnut St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.3193913,
+      "lng": -87.6949873,
+      "region": "Erin",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/pot-o-gold-group/"
+    },
+    {
       "id": "na-primary-purpose-171882",
       "fellowship": "NA",
       "name": "Primary Purpose",
@@ -8798,6 +9896,32 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "na-1-is-2-many-group-88206",
+      "fellowship": "NA",
+      "name": "1 Is 2 Many Group",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cumberland Heights Addiction Treatment Center",
+      "address": "219 B Dunbar Cave Road Suite B",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37043",
+      "lat": 36.5529306,
+      "lng": -87.3212775,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "aa-209new21900-d2-1900",
       "fellowship": "AA",
       "name": "A New Freedom",
@@ -8821,6 +9945,30 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/209new21900/"
+    },
+    {
+      "id": "aa-401col21900-d2-1900",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 2,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Step study"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col21900/"
     },
     {
       "id": "aa-082com21900-d2-1900",
@@ -8899,6 +10047,32 @@
       "source": "https://aanashville.org/meetings/franklin-way-of-life/"
     },
     {
+      "id": "aa-160ffb21900-d2-1900",
+      "fellowship": "AA",
+      "name": "Freedom From Bondage",
+      "day": 2,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion",
+        "Literature"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Presbyterian Church",
+      "address": "600 N Brittain St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4864188,
+      "lng": -86.4583002,
+      "region": "Shelbyville",
+      "notes": "Entrance on N Jefferson St Side",
+      "source": "https://aanashville.org/meetings/160ffb21900/"
+    },
+    {
       "id": "aa-174god21900-d2-1900",
       "fellowship": "AA",
       "name": "G.o.d. (Group Of Drunks)",
@@ -8946,6 +10120,85 @@
       "region": "Gallatin",
       "notes": null,
       "source": "https://aanashville.org/meetings/066gaa41900/"
+    },
+    {
+      "id": "na-get-honest-hour-89253",
+      "fellowship": "NA",
+      "name": "Get Honest Hour",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Closed",
+        "Discussion",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Grove Hill Church",
+      "address": "5216 Nashville Hwy",
+      "city": "Chapel Hill",
+      "state": "TN",
+      "zip": "37034",
+      "lat": 35.6378995,
+      "lng": -86.6907519,
+      "region": "Chapel Hill",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-091hap21900-d2-1900",
+      "fellowship": "AA",
+      "name": "Happy Hour Group",
+      "day": 2,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Closed",
+        "Discussion",
+        "Wheelchair accessible",
+        "XB"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Serenity House",
+      "address": "440 College St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4542959,
+      "lng": -86.7928232,
+      "region": "Lewisburg",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/091hap21900/"
+    },
+    {
+      "id": "na-high-steppers-52537",
+      "fellowship": "NA",
+      "name": "High Steppers",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "BK",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Greater First Baptist Church",
+      "address": "512 North 6th Ave.",
+      "city": "Lewisburg",
+      "state": "TN",
+      "zip": "37091",
+      "lat": 35.4554046,
+      "lng": -86.7954983,
+      "region": "Lewisburg",
+      "notes": "Enter at the door on the right side of church — Book Study",
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-143hig21900-d2-1900",
@@ -8996,6 +10249,31 @@
       "region": "Murfreesboro",
       "notes": "GPS says BSA Troop 197 Christmas Tree lot, but it is the church",
       "source": "https://aanashville.org/meetings/hole-in-the-donought/"
+    },
+    {
+      "id": "na-hope-not-dope-159809",
+      "fellowship": "NA",
+      "name": "Hope Not Dope",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "E"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Westmoreland Church of Christ",
+      "address": "1600 New Hwy. 52",
+      "city": "Westmoreland",
+      "state": "TN",
+      "zip": "37186",
+      "lat": 36.5560105,
+      "lng": -86.2466302,
+      "region": "Westmoreland",
+      "notes": "Speak and Eat Meeting",
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "na-it-just-gets-better-159808",
@@ -9097,6 +10375,28 @@
       "source": "https://aanashville.org/meetings/122mtj21900/"
     },
     {
+      "id": "na-new-hope-group-162769",
+      "fellowship": "NA",
+      "name": "New Hope Group",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/223673534",
+      "venue": "St Peter's Episcopal Church - Use Walker Street Entrance",
+      "address": "311 W 7th St.",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.6152465,
+      "lng": -87.038279,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "na-open-arms-228230",
       "fellowship": "NA",
       "name": "Open Arms",
@@ -9117,6 +10417,30 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-083pue21900-d2-1900",
+      "fellowship": "AA",
+      "name": "Puerto Seguro Reuniones",
+      "day": 2,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "184 Akersville Rd",
+      "address": "184 Akersville Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5338333,
+      "lng": -86.0263863,
+      "region": "Lafayette",
+      "notes": "two-hour meetings",
+      "source": "https://aanashville.org/meetings/083pue21900/"
     },
     {
       "id": "aa-pulaski-group-2-d2-1900",
@@ -9731,6 +11055,52 @@
       "source": "https://aanashville.org/meetings/202-friendship-house-29/"
     },
     {
+      "id": "aa-040cla22000-d2-2000",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 2,
+      "time": "20:00",
+      "endTime": null,
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla22000/"
+    },
+    {
+      "id": "na-clean-and-crazy-group-155629",
+      "fellowship": "NA",
+      "name": "Clean and Crazy Group",
+      "day": 2,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Trinity Episcopal Church",
+      "address": "217 Franklin Street",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37040",
+      "lat": 36.5280506,
+      "lng": -87.3581187,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "aa-grupo-fuerza-para-vivir-nashville-2-d2-2000",
       "fellowship": "AA",
       "name": "Grupo Fuerza Para Vivir Nashville",
@@ -9883,6 +11253,31 @@
       "region": "Nashville",
       "notes": "Located in annex",
       "source": "https://aanashville.org/meetings/215hil22000/"
+    },
+    {
+      "id": "aa-083laf22000-d2-2000",
+      "fellowship": "AA",
+      "name": "Lafayette New Hope Group",
+      "day": 2,
+      "time": "20:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "907 Sycamore St",
+      "address": "907 Sycamore St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5308912,
+      "lng": -86.0317261,
+      "region": "Lafayette",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/083laf22000/"
     },
     {
       "id": "aa-love-and-tolerance-2-d2-2000",
@@ -10609,6 +12004,31 @@
       "source": "https://aanashville.org/meetings/pulaski-group-10/"
     },
     {
+      "id": "aa-040cla31100-d3-1030",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 3,
+      "time": "10:30",
+      "endTime": "11:30",
+      "types": [
+        "Closed",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/040cla31100/"
+    },
+    {
       "id": "aa-087any31100-d3-1100",
       "fellowship": "AA",
       "name": "Any Lengths Group",
@@ -10832,6 +12252,82 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/86ers-2/"
+    },
+    {
+      "id": "aa-091hap31200-d3-1200",
+      "fellowship": "AA",
+      "name": "As Bill Sees It",
+      "day": 3,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Serenity House",
+      "address": "440 College St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4542959,
+      "lng": -86.7928232,
+      "region": "Lewisburg",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/091hap31200/"
+    },
+    {
+      "id": "aa-040cla31200-d3-1200",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 3,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Closed",
+        "Discussion",
+        "Literature"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla31200/"
+    },
+    {
+      "id": "aa-401col31200-d3-1200",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 3,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col31200/"
     },
     {
       "id": "aa-082com31200-d3-1200",
@@ -11860,6 +13356,31 @@
       "source": "https://aanashville.org/meetings/by-the-book-2/"
     },
     {
+      "id": "aa-040cla31800-d3-1800",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 3,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla31800/"
+    },
+    {
       "id": "aa-209mus31800-d3-1800",
       "fellowship": "AA",
       "name": "Music City Happy Hour Group",
@@ -11884,6 +13405,30 @@
       "region": "Nashville",
       "notes": "Handicapped Available",
       "source": "https://aanashville.org/meetings/209mus31800/"
+    },
+    {
+      "id": "na-no-more-tears-173480",
+      "fellowship": "NA",
+      "name": "No More Tears",
+      "day": 3,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Beginner"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "No More Tears Recovery, Inc. Office",
+      "address": "1308 E Main St",
+      "city": "Waverly",
+      "state": "TN",
+      "zip": "37185",
+      "lat": 36.0855187,
+      "lng": -87.7566321,
+      "region": "Waverly",
+      "notes": "Near Damo's",
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-page-112-d3-1800",
@@ -12033,6 +13578,30 @@
       "lng": -86.3912391,
       "region": "Murfreesboro",
       "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-surrender-to-win-166108",
+      "fellowship": "NA",
+      "name": "Surrender To Win",
+      "day": 3,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Lafayette United Methodist Church",
+      "address": "600 West End Dr.",
+      "city": "Lafayette",
+      "state": "TN",
+      "zip": "37083",
+      "lat": 36.5268947,
+      "lng": -86.0357904,
+      "region": "Lafayette",
+      "notes": "Speaker meeting last Sunday of the month",
       "source": "https://nanashville.org/meetings/"
     },
     {
@@ -12328,6 +13897,30 @@
       "source": "https://aanashville.org/meetings/liars-table/"
     },
     {
+      "id": "aa-oak-grove-aa-d3-1830",
+      "fellowship": "AA",
+      "name": "Oak Grove AA",
+      "day": 3,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Oak Grove Presbyterian Church",
+      "address": "2715 Oak Grove Church Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5692384,
+      "lng": -86.3787936,
+      "region": "Bethpage",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/oak-grove-aa/"
+    },
+    {
       "id": "aa-ppg-franklin-d3-1830",
       "fellowship": "AA",
       "name": "PPG Franklin",
@@ -12377,6 +13970,57 @@
       "region": "Spring Hill",
       "notes": "2nd Floor - Elevator and stairs are located at the Body Shop Athletic Club entrance.",
       "source": "https://aanashville.org/meetings/174rec31830/"
+    },
+    {
+      "id": "aa-the-mcewen-no-matter-what-group-d3-1830",
+      "fellowship": "AA",
+      "name": "The McEwen No Matter What Group",
+      "day": 3,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Christ Community Church",
+      "address": "635 St Patrick St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.1078261,
+      "lng": -87.6480547,
+      "region": "McEwen",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/the-mcewen-no-matter-what-group/"
+    },
+    {
+      "id": "aa-040sou31830-d3-1830",
+      "fellowship": "AA",
+      "name": "The Southside Group",
+      "day": 3,
+      "time": "18:30",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion",
+        "Literature"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Antioch United Methodist Church",
+      "address": "2575 Antioch Church Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.447857,
+      "lng": -87.40074,
+      "region": "Clarksville",
+      "notes": "The glass door on the left side of the building down by the portico.",
+      "source": "https://aanashville.org/meetings/040sou31830/"
     },
     {
       "id": "na-unloaded-13960",
@@ -12445,6 +14089,56 @@
       "region": "Murfreesboro",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-382-juggerknots-d3-1900",
+      "fellowship": "AA",
+      "name": "382 Juggernauts Group",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "12x12",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Carthage UMC Church",
+      "address": "608 Main St N",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.2554758,
+      "lng": -85.9512515,
+      "region": "Carthage",
+      "notes": "Meets downstairs",
+      "source": "https://aanashville.org/meetings/382-juggerknots/"
+    },
+    {
+      "id": "aa-401col31900-d3-1900",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 3,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col31900/"
     },
     {
       "id": "aa-comfort-zone-group-d3-1900",
@@ -12597,6 +14291,28 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/new-faith-group-2/"
+    },
+    {
+      "id": "na-new-hope-group-183667",
+      "fellowship": "NA",
+      "name": "New Hope Group",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St Peter's Episcopal Church - Use Walker Street Entrance",
+      "address": "311 W 7th St.",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.6152582,
+      "lng": -87.0383892,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-pulaski-group-3-d3-1900",
@@ -12885,6 +14601,56 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "na-keep-it-real-group-161199",
+      "fellowship": "NA",
+      "name": "Keep It Real Group",
+      "day": 3,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Open"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://us06web.zoom.us/j/8511124561?pwd=TE9FdkoycDlyVTJDUUwyWTRreE42UT09",
+      "venue": null,
+      "address": null,
+      "city": "Shelbyville",
+      "state": "TN",
+      "zip": "37160",
+      "lat": 35.483406,
+      "lng": -86.4602717,
+      "region": "Shelbyville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-solutions-group-13983",
+      "fellowship": "NA",
+      "name": "Solutions Group",
+      "day": 3,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. B United Methodist Church",
+      "address": "2201 Old Russellville Pike",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37043",
+      "lat": 36.5660206,
+      "lng": -87.3014967,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "na-step-by-step-226539",
       "fellowship": "NA",
       "name": "Step by Step",
@@ -12956,6 +14722,28 @@
       "region": "Nashville",
       "notes": "Tel. 615-327-3909",
       "source": "https://aanashville.org/meetings/last-house-on-the-block/"
+    },
+    {
+      "id": "aa-040cla32000-d3-2000",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 3,
+      "time": "20:00",
+      "endTime": null,
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla32000/"
     },
     {
       "id": "aa-214doy32000-d3-2000",
@@ -14217,6 +16005,56 @@
       "source": "https://aanashville.org/meetings/brown-bag-group-4/"
     },
     {
+      "id": "aa-040cla41200-d4-1200",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 4,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla41200/"
+    },
+    {
+      "id": "aa-401col41200-d4-1200",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 4,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col41200/"
+    },
+    {
       "id": "aa-064fra41200-d4-1200",
       "fellowship": "AA",
       "name": "Franklin Group",
@@ -14367,6 +16205,30 @@
       "region": "Madison",
       "notes": "Social distance and mask required",
       "source": "https://aanashville.org/meetings/search-for-serenity-4/"
+    },
+    {
+      "id": "na-life-on-life-s-terms-168980",
+      "fellowship": "NA",
+      "name": "Life on Life's Terms",
+      "day": 4,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Christ Lutheran Church",
+      "address": "2425 Kirkwood Rd",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37043",
+      "lat": 36.5699628,
+      "lng": -87.202957,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-211mid41200-d4-1200",
@@ -14937,6 +16799,32 @@
       "source": "https://aanashville.org/meetings/music-row-group/"
     },
     {
+      "id": "aa-mount-pleasant-meeting-d4-1730",
+      "fellowship": "AA",
+      "name": "Porters Chapel Group",
+      "day": 4,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "Speaker"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Porters Chapel United Methodist Church",
+      "address": "7257 Polk Ln",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.5240407,
+      "lng": -87.1555741,
+      "region": "Columbia",
+      "notes": "Located in the Old Schoolhouse",
+      "source": "https://aanashville.org/meetings/mount-pleasant-meeting/"
+    },
+    {
       "id": "aa-214sha41730-d4-1730",
       "fellowship": "AA",
       "name": "Shade Tree Group",
@@ -15091,6 +16979,31 @@
       "source": "https://aanashville.org/meetings/cares/"
     },
     {
+      "id": "aa-040cla41800-d4-1800",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 4,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Plus Separate Newcomer Meeting\n\nPhilip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla41800/"
+    },
+    {
       "id": "aa-higher-ground-group-d4-1800",
       "fellowship": "AA",
       "name": "Higher Ground Group",
@@ -15165,6 +17078,31 @@
       "region": "Mt. Juliet",
       "notes": null,
       "source": "https://aanashville.org/meetings/progress-not-perfection-womens-meeting/"
+    },
+    {
+      "id": "aa-043saf41800-d4-1800",
+      "fellowship": "AA",
+      "name": "Safe Harbor Group",
+      "day": 4,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Bethlehem Christian Church",
+      "address": "280 Dunbar Cave Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5506876,
+      "lng": -87.3173374,
+      "region": "Clarksville",
+      "notes": "Corner of Old Russellville Pike & Dunbar Cave Road",
+      "source": "https://aanashville.org/meetings/043saf41800/"
     },
     {
       "id": "aa-129ser41800-d4-1800",
@@ -15473,6 +17411,32 @@
       "region": "Murfreesboro",
       "notes": "Enter gate on left side next to playground and go down steps into basement.",
       "source": "https://aanashville.org/meetings/jaywalkers/"
+    },
+    {
+      "id": "aa-lafayette-new-hope-group-womens-group-d4-1830",
+      "fellowship": "AA",
+      "name": "Lafayette New Hope Women's Group",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "907 Sycamore St",
+      "address": "907 Sycamore St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5308912,
+      "lng": -86.0317261,
+      "region": "Lafayette",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/lafayette-new-hope-group-womens-group/"
     },
     {
       "id": "aa-205liv41830-d4-1830",
@@ -15790,6 +17754,79 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-033cen41800-d4-1900",
+      "fellowship": "AA",
+      "name": "Centerville Group",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Twomey Church of Christ",
+      "address": "65 TN-100",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.7618742,
+      "lng": -87.463183,
+      "region": "Centerville",
+      "notes": "One mile south of square on Hwy 100\nJust south of junction TN-50 East\nNext to T&W Motors",
+      "source": "https://aanashville.org/meetings/033cen41800/"
+    },
+    {
+      "id": "aa-034cha41900-d4-1900",
+      "fellowship": "AA",
+      "name": "Chapel Hill New Life Group Of AA",
+      "day": 4,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Chapel Hill United Methodist Church",
+      "address": "316 Nashville Hwy",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6312715,
+      "lng": -86.6909234,
+      "region": "Chapel Hill",
+      "notes": "Last Thursday of Month is Open Speaker Meeting",
+      "source": "https://aanashville.org/meetings/034cha41900/"
+    },
+    {
+      "id": "aa-401col41900-d4-1900",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 4,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col41900/"
+    },
+    {
       "id": "aa-082com41900-d4-1900",
       "fellowship": "AA",
       "name": "Comfort Zone Group",
@@ -15942,6 +17979,107 @@
       "source": "https://aanashville.org/meetings/franklin-way-of-life-3/"
     },
     {
+      "id": "aa-freedom-from-bondage-d4-1900",
+      "fellowship": "AA",
+      "name": "Freedom From Bondage",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Presbyterian Church",
+      "address": "600 N Brittain St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4864188,
+      "lng": -86.4583002,
+      "region": "Shelbyville",
+      "notes": "Entrance on N Jefferson St Side",
+      "source": "https://aanashville.org/meetings/freedom-from-bondage/"
+    },
+    {
+      "id": "na-hope-not-dope-159815",
+      "fellowship": "NA",
+      "name": "Hope Not Dope",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "E"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Westmoreland Church of Christ",
+      "address": "1600 New Hwy. 52",
+      "city": "Westmoreland",
+      "state": "TN",
+      "zip": "37186",
+      "lat": 36.5560105,
+      "lng": -86.2466302,
+      "region": "Westmoreland",
+      "notes": "Speak and Eat Meeting",
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-imagine-freedom-163921",
+      "fellowship": "NA",
+      "name": "Imagine Freedom",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "103 College Ave.",
+      "city": "Centerville",
+      "state": "TN",
+      "zip": "37033",
+      "lat": 35.7790966,
+      "lng": -87.465002,
+      "region": "Centerville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-imagine-the-freedom-group-14039",
+      "fellowship": "NA",
+      "name": "Imagine the Freedom Group",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "LT",
+        "Spe"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Centerville United Methodist Church",
+      "address": "103 College Avenue",
+      "city": "Centerville",
+      "state": "TN",
+      "zip": "37033",
+      "lat": 35.7790966,
+      "lng": -87.465002,
+      "region": "Centerville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "na-it-just-gets-better-159812",
       "fellowship": "NA",
       "name": "It Just Gets Better",
@@ -15964,6 +18102,54 @@
       "region": "Hendersonville",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-knights-to-recovery-161534",
+      "fellowship": "NA",
+      "name": "Knights to Recovery",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hartsville United Methodist Church",
+      "address": "224 River Street",
+      "city": "Layfatte",
+      "state": "TN",
+      "zip": "37074",
+      "lat": 36.3880458,
+      "lng": -86.1674267,
+      "region": "Layfatte",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-091lsb41900-d4-1900",
+      "fellowship": "AA",
+      "name": "Lewisburg Unity Group",
+      "day": 4,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Parkview Baptist Church",
+      "address": "1380 W Ellington Pkwy",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4732813,
+      "lng": -86.802173,
+      "region": "Lewisburg",
+      "notes": "Contact is Don C. 931-637-0681",
+      "source": "https://aanashville.org/meetings/091lsb41900/"
     },
     {
       "id": "aa-122mtj41900-d4-1900",
@@ -16041,6 +18227,28 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "na-new-hope-group-14035",
+      "fellowship": "NA",
+      "name": "New Hope Group",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/223673534",
+      "venue": "St Peter's Episcopal Church - Use Walker Street Entrance",
+      "address": "311 W 7th St.",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.6152582,
+      "lng": -87.0383892,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "na-portland-primary-purpose-148708",
       "fellowship": "NA",
       "name": "Portland Primary Purpose",
@@ -16085,6 +18293,32 @@
       "region": "Portland",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-083pue41900-d4-1900",
+      "fellowship": "AA",
+      "name": "Puerto Seguro Reuniones",
+      "day": 4,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "184 Akersville Rd",
+      "address": "184 Akersville Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5338333,
+      "lng": -86.0263863,
+      "region": "Lafayette",
+      "notes": "two-hour meetings",
+      "source": "https://aanashville.org/meetings/083pue41900/"
     },
     {
       "id": "aa-pulaski-group-4-d4-1900",
@@ -16210,6 +18444,55 @@
       "region": "Nashville",
       "notes": "Park in back and enter through blue double doors. Takes place in basement of the church.",
       "source": "https://aanashville.org/meetings/she-recovers/"
+    },
+    {
+      "id": "na-the-acheivers-of-na-168796",
+      "fellowship": "NA",
+      "name": "The Acheivers Of NA",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "City Hal",
+      "address": "141 Church St.",
+      "city": "Dowelltown",
+      "state": "TN",
+      "zip": "37059",
+      "lat": 36.0137786,
+      "lng": -85.9432932,
+      "region": "Dowelltown",
+      "notes": "Meets the 1st and 3rd Thursday of each month",
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-the-achievers-of-na-168649",
+      "fellowship": "NA",
+      "name": "The Achievers of NA",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "City Hall",
+      "address": "141 Church Street",
+      "city": "Dowelltown",
+      "state": "TN",
+      "zip": "37059",
+      "lat": 36.0137786,
+      "lng": -85.9432932,
+      "region": "Dowelltown",
+      "notes": "This meeting is only on the 1st and 3rd Thursday of every month",
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-turning-point-2-d4-1900",
@@ -16463,6 +18746,33 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "na-solutions-group-14062",
+      "fellowship": "NA",
+      "name": "Solutions Group",
+      "day": 4,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "LT",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. B United Methodist Church",
+      "address": "2201 Old Russellville Pike",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37043",
+      "lat": 36.5660206,
+      "lng": -87.3014967,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "na-we-ve-had-enough-14071",
       "fellowship": "NA",
       "name": "We've Had Enough",
@@ -16538,6 +18848,56 @@
       "region": "Nashville",
       "notes": "Meetings last 90 minutes.",
       "source": "https://aanashville.org/meetings/217cam42000/"
+    },
+    {
+      "id": "aa-040cla42000-d4-2000",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 4,
+      "time": "20:00",
+      "endTime": null,
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla42000/"
+    },
+    {
+      "id": "aa-clark-street-lgbtq-group-d4-2000",
+      "fellowship": "AA",
+      "name": "Clark Street LGBTQ Group",
+      "day": 4,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Closed",
+        "Discussion",
+        "LGBTQ"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Meets in the front room",
+      "source": "https://aanashville.org/meetings/clark-street-lgbtq-group/"
     },
     {
       "id": "aa-206eas42000-d4-2000",
@@ -17678,6 +20038,56 @@
       "source": "https://aanashville.org/meetings/rule-62-3/"
     },
     {
+      "id": "aa-040cla51200-d5-1200",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 5,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla51200/"
+    },
+    {
+      "id": "aa-401col51200-d5-1200",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 5,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col51200/"
+    },
+    {
       "id": "aa-087col51200-d5-1200",
       "fellowship": "AA",
       "name": "Daily Reprieve",
@@ -17821,6 +20231,30 @@
       "region": "Madison",
       "notes": "Social distance and mask required",
       "source": "https://aanashville.org/meetings/search-for-serenity-5/"
+    },
+    {
+      "id": "aa-happy-hour-group-d5-1200",
+      "fellowship": "AA",
+      "name": "Joe & Charlie Big Book Study",
+      "day": 5,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Serenity House",
+      "address": "440 College St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4542959,
+      "lng": -86.7928232,
+      "region": "Lewisburg",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/happy-hour-group/"
     },
     {
       "id": "aa-211mid51200-d5-1200",
@@ -18217,6 +20651,32 @@
       "source": "https://aanashville.org/meetings/027lat51300/"
     },
     {
+      "id": "aa-the-shelbyville-group-d5-1300",
+      "fellowship": "AA",
+      "name": "The Shelbyville Group",
+      "day": 5,
+      "time": "13:00",
+      "endTime": "14:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Speaker"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Presbyterian Church",
+      "address": "600 N Brittain St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4864188,
+      "lng": -86.4583002,
+      "region": "Shelbyville",
+      "notes": "Entrance on N Jefferson St Side",
+      "source": "https://aanashville.org/meetings/the-shelbyville-group/"
+    },
+    {
       "id": "aa-202-friendship-house-19-d5-1500",
       "fellowship": "AA",
       "name": "5 x 5 Group",
@@ -18412,6 +20872,32 @@
       "source": "https://aanashville.org/meetings/015val51730/"
     },
     {
+      "id": "aa-040cla51800-d5-1800",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 5,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla51800/"
+    },
+    {
       "id": "aa-happy-destiny-2-d5-1800",
       "fellowship": "AA",
       "name": "Happy Destiny",
@@ -18484,6 +20970,106 @@
       "region": "Nashville",
       "notes": "Handicapped Available",
       "source": "https://aanashville.org/meetings/music-city-happy-hour-group-3/"
+    },
+    {
+      "id": "aa-no-format-format-d5-1800",
+      "fellowship": "AA",
+      "name": "No Format Format",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Closed",
+        "Men"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/no-format-format/"
+    },
+    {
+      "id": "na-no-more-tears-173481",
+      "fellowship": "NA",
+      "name": "No More Tears",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Beginner"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "No More Tears Recovery, Inc. Office",
+      "address": "1308 E Main St",
+      "city": "Waverly",
+      "state": "TN",
+      "zip": "37185",
+      "lat": 36.0855187,
+      "lng": -87.7566321,
+      "region": "Waverly",
+      "notes": "Near Damo's",
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-040nor51900-d5-1800",
+      "fellowship": "AA",
+      "name": "Northside Group",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cumberland Presbyterian Church",
+      "address": "1307 Fort Campbell Blvd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.561859,
+      "lng": -87.3994936,
+      "region": "Clarksville",
+      "notes": "Drive to back, in basement",
+      "source": "https://aanashville.org/meetings/040nor51900/"
+    },
+    {
+      "id": "aa-043saf51800-d5-1800",
+      "fellowship": "AA",
+      "name": "Safe Harbor Group",
+      "day": 5,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion",
+        "Literature"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Bethlehem Christian Church",
+      "address": "280 Dunbar Cave Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5506876,
+      "lng": -87.3173374,
+      "region": "Clarksville",
+      "notes": "Corner of Old Russellville Pike & Dunbar Cave Road",
+      "source": "https://aanashville.org/meetings/043saf51800/"
     },
     {
       "id": "aa-043san51800-d5-1800",
@@ -18723,6 +21309,31 @@
       "source": "https://aanashville.org/meetings/055dic51830/"
     },
     {
+      "id": "aa-098lyl51830-d5-1830",
+      "fellowship": "AA",
+      "name": "East Hickman AA",
+      "day": 5,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Wrigley Church of God of Prophecy",
+      "address": "7703 Grover Vaughn Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.9006941,
+      "lng": -87.3455386,
+      "region": "Lyles",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/098lyl51830/"
+    },
+    {
       "id": "na-finding-a-new-way-to-live-99257",
       "fellowship": "NA",
       "name": "Finding a New Way to Live",
@@ -18899,6 +21510,31 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-we-came-to-believe-2-d5-1830",
+      "fellowship": "AA",
+      "name": "We Came To Believe",
+      "day": 5,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Spot",
+      "address": "108 Ward Ave E",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.252924,
+      "lng": -85.952315,
+      "region": "Carthage",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/we-came-to-believe-2/"
+    },
+    {
       "id": "aa-wow-women-of-worth-d5-1830",
       "fellowship": "AA",
       "name": "WOW Women of Worth",
@@ -18946,6 +21582,30 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "na-breaking-free-166283",
+      "fellowship": "NA",
+      "name": "Breaking Free",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Maury Hills Church",
+      "address": "101 Unity Lane",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.5814397,
+      "lng": -87.0431555,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "na-btc-breaking-the-chains-159816",
       "fellowship": "NA",
       "name": "BTC: Breaking the Chains",
@@ -18969,6 +21629,31 @@
       "region": "Gallatin",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-401col51900-d5-1900",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 5,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Big Book",
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col51900/"
     },
     {
       "id": "aa-dulce-rendicion-3-d5-1900",
@@ -19096,6 +21781,32 @@
       "source": "https://aanashville.org/meetings/071gla52000/"
     },
     {
+      "id": "aa-091hap51900-d5-1900",
+      "fellowship": "AA",
+      "name": "Happy Hour Group",
+      "day": 5,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Closed",
+        "Wheelchair accessible",
+        "XB"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Serenity House",
+      "address": "440 College St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4542959,
+      "lng": -86.7928232,
+      "region": "Lewisburg",
+      "notes": "Last Friday is Open Birthday",
+      "source": "https://aanashville.org/meetings/091hap51900/"
+    },
+    {
       "id": "na-home-sweet-home-163514",
       "fellowship": "NA",
       "name": "Home Sweet Home",
@@ -19117,6 +21828,78 @@
       "lng": -86.6176827,
       "region": "Hendersonville",
       "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-keep-it-real-14126",
+      "fellowship": "NA",
+      "name": "Keep it Real",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Fairlane Church of Christ",
+      "address": "101 Dow Drive",
+      "city": "Shelbyville",
+      "state": "TN",
+      "zip": "37160",
+      "lat": 35.5060549,
+      "lng": -86.4804244,
+      "region": "Shelbyville",
+      "notes": "(3rd Friday is a bonfire meeting) — Annex building",
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-new-ambitions-group-14100",
+      "fellowship": "NA",
+      "name": "New Ambitions Group",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Christian Church",
+      "address": "516 Madison",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37040",
+      "lat": 36.525815,
+      "lng": -87.3533517,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "na-new-hope-group-183668",
+      "fellowship": "NA",
+      "name": "New Hope Group",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:30",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/223673534",
+      "venue": "St Peter's Episcopal Church - Use Walker Street Entrance",
+      "address": "311 W 7th St.",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.6152582,
+      "lng": -87.0383892,
+      "region": "Columbia",
+      "notes": "FACILITY IS TEMPORARILY CLOSED",
       "source": "https://nanashville.org/meetings/"
     },
     {
@@ -19193,6 +21976,30 @@
       "region": "Pegram",
       "notes": null,
       "source": "https://aanashville.org/meetings/143pay51900/"
+    },
+    {
+      "id": "aa-083pue51900-d5-1900",
+      "fellowship": "AA",
+      "name": "Puerto Seguro Reuniones",
+      "day": 5,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "184 Akersville Rd",
+      "address": "184 Akersville Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5338333,
+      "lng": -86.0263863,
+      "region": "Lafayette",
+      "notes": "two-hour meetings",
+      "source": "https://aanashville.org/meetings/083pue51900/"
     },
     {
       "id": "aa-pulaski-group-5-d5-1900",
@@ -19494,6 +22301,28 @@
       "source": "https://aanashville.org/meetings/friday-night-prime-time/"
     },
     {
+      "id": "na-houston-county-group-14135",
+      "fellowship": "NA",
+      "name": "Houston County Group",
+      "day": 5,
+      "time": "19:30",
+      "endTime": "21:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Assembly of God",
+      "address": "700 Arlington St",
+      "city": "Erin",
+      "state": "TN",
+      "zip": "37061",
+      "lat": 36.3105151,
+      "lng": -87.7192667,
+      "region": "Erin",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "na-moon-dogs-14137",
       "fellowship": "NA",
       "name": "Moon Dogs",
@@ -19540,6 +22369,31 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-the-4th-dimension-group-d5-1930",
+      "fellowship": "AA",
+      "name": "The 4th Dimension Group",
+      "day": 5,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cumberland Heights",
+      "address": "219b Dunbar Cave Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5529067,
+      "lng": -87.3213161,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/the-4th-dimension-group/"
+    },
+    {
       "id": "aa-217cam52000-d5-2000",
       "fellowship": "AA",
       "name": "Camino A La Sobriedad",
@@ -19564,6 +22418,31 @@
       "region": "Nashville",
       "notes": "Meetings last 90 minutes.",
       "source": "https://aanashville.org/meetings/217cam52000/"
+    },
+    {
+      "id": "aa-040cla52000-d5-2000",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 5,
+      "time": "20:00",
+      "endTime": null,
+      "types": [
+        "Candlelight",
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla52000/"
     },
     {
       "id": "aa-214doy52000-d5-2000",
@@ -19744,6 +22623,31 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/grupo-volver-a-nacer-4/"
+    },
+    {
+      "id": "aa-083laf52000-d5-2000",
+      "fellowship": "AA",
+      "name": "Lafayette New Hope Group",
+      "day": 5,
+      "time": "20:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "907 Sycamore St",
+      "address": "907 Sycamore St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5308912,
+      "lng": -86.0317261,
+      "region": "Lafayette",
+      "notes": "Last Friday OS",
+      "source": "https://aanashville.org/meetings/083laf52000/"
     },
     {
       "id": "aa-202-friendship-house-31-d5-2000",
@@ -20850,6 +23754,28 @@
       "source": "https://aanashville.org/meetings/plain-and-simple/"
     },
     {
+      "id": "na-saturday-morning-live-155630",
+      "fellowship": "NA",
+      "name": "Saturday Morning Live",
+      "day": 6,
+      "time": "09:00",
+      "endTime": "10:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cumberland Heights Addiction Treatment Center",
+      "address": "219 B Dunbar Cave Road Suite B",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37043",
+      "lat": 36.5529306,
+      "lng": -87.3212775,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "aa-076sob6900-d6-0900",
       "fellowship": "AA",
       "name": "Sobriety-serenity-service (s.s.s.) Group",
@@ -21075,6 +24001,31 @@
       "region": "Springfield",
       "notes": null,
       "source": "https://aanashville.org/meetings/172rob61000/"
+    },
+    {
+      "id": "aa-043saf61000-d6-1000",
+      "fellowship": "AA",
+      "name": "Safe Harbor Group",
+      "day": 6,
+      "time": "10:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Bethlehem Christian Church",
+      "address": "280 Dunbar Cave Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5506876,
+      "lng": -87.3173374,
+      "region": "Clarksville",
+      "notes": "Corner of Old Russellville Pike & Dunbar Cave Road",
+      "source": "https://aanashville.org/meetings/043saf61000/"
     },
     {
       "id": "alanon-self-worth-sat",
@@ -21493,6 +24444,56 @@
       "source": "https://aanashville.org/meetings/westminster-group-2-2/"
     },
     {
+      "id": "aa-040cla61200-d6-1200",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 6,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "Philip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla61200/"
+    },
+    {
+      "id": "aa-401col61200-d6-1200",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 6,
+      "time": "12:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col61200/"
+    },
+    {
       "id": "na-discover-recovery-group-14167",
       "fellowship": "NA",
       "name": "Discover Recovery Group",
@@ -21563,6 +24564,32 @@
       "region": "Madison",
       "notes": null,
       "source": "https://aanashville.org/meetings/house-meeting-3/"
+    },
+    {
+      "id": "aa-lafayette-new-hope-group-d6-1200",
+      "fellowship": "AA",
+      "name": "Lafayette New Hope Group",
+      "day": 6,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "12x12",
+        "Big Book",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "907 Sycamore St",
+      "address": "907 Sycamore St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5308912,
+      "lng": -86.0317261,
+      "region": "Lafayette",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/lafayette-new-hope-group/"
     },
     {
       "id": "aa-211mid61200-d6-1200",
@@ -21662,6 +24689,30 @@
       "region": "Smyrna",
       "notes": "All meetings are non-smoking. 7 a.m. meetings outdoors, weather permitting",
       "source": "https://aanashville.org/meetings/smyrna-gratitude-group-5/"
+    },
+    {
+      "id": "na-surrender-to-win-166110",
+      "fellowship": "NA",
+      "name": "Surrender To Win",
+      "day": 6,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Lafayette United Methodist Church",
+      "address": "600 West End Dr.",
+      "city": "Lafayette",
+      "state": "TN",
+      "zip": "37083",
+      "lat": 36.5268947,
+      "lng": -86.0357904,
+      "region": "Lafayette",
+      "notes": "Speaker meeting last Sunday of the month",
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "na-sweet-surrender-227520",
@@ -21930,6 +24981,31 @@
       "source": "https://aanashville.org/meetings/202-friendship-house-33/"
     },
     {
+      "id": "aa-040cla61700-d6-1700",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 6,
+      "time": "17:00",
+      "endTime": null,
+      "types": [
+        "Closed",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/040cla61700/"
+    },
+    {
       "id": "aa-055dic61700-d6-1700",
       "fellowship": "AA",
       "name": "Dickson Group",
@@ -22005,6 +25081,31 @@
       "region": "Lawrenceburg",
       "notes": "aajumpmeeting@gmail.com\n321-390-1135 Text/Call Chris",
       "source": "https://aanashville.org/meetings/a-vision-for-you-4/"
+    },
+    {
+      "id": "aa-we-came-to-believe-d6-1700",
+      "fellowship": "AA",
+      "name": "We Came To Believe",
+      "day": 6,
+      "time": "17:00",
+      "endTime": "18:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Spot",
+      "address": "108 Ward Ave E",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.252924,
+      "lng": -85.952315,
+      "region": "Carthage",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/we-came-to-believe/"
     },
     {
       "id": "aa-130mur61730-d6-1730",
@@ -22132,6 +25233,31 @@
       "source": "https://aanashville.org/meetings/came-to-believe-3/"
     },
     {
+      "id": "aa-040cla61800-d6-1800",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 6,
+      "time": "18:00",
+      "endTime": null,
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "3rd Sat Eating Meeting & Open Speaker at 7:00PM\n\nPhilip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla61800/"
+    },
+    {
       "id": "aa-gaa-gallatin-aa-2-d6-1800",
       "fellowship": "AA",
       "name": "GAA (Gallatin AA)",
@@ -22230,6 +25356,31 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-no-more-tears-2-d6-1800",
+      "fellowship": "AA",
+      "name": "No More Tears",
+      "day": 6,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "No More Tears Recovery",
+      "address": "1308 E Main St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.0855187,
+      "lng": -87.7566321,
+      "region": "Waverly",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/no-more-tears-2/"
+    },
+    {
       "id": "aa-saturday-night-speaker-meeting-d6-1800",
       "fellowship": "AA",
       "name": "Recovery On The Row",
@@ -22302,6 +25453,32 @@
       "region": "Lebanon",
       "notes": "2nd Street Off Square- Handicapped accessible",
       "source": "https://aanashville.org/meetings/sobriety-first-group/"
+    },
+    {
+      "id": "na-solutions-group-14175",
+      "fellowship": "NA",
+      "name": "Solutions Group",
+      "day": 6,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. B United Methodist Church",
+      "address": "2201 Old Russellville Pike",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": "37043",
+      "lat": 36.5660206,
+      "lng": -87.3014967,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "na-spiritual-solutions-90178",
@@ -22484,6 +25661,31 @@
       "source": "https://aanashville.org/meetings/055dic61830/"
     },
     {
+      "id": "aa-040sou61830-d6-1830",
+      "fellowship": "AA",
+      "name": "The Southside Group",
+      "day": 6,
+      "time": "18:30",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Antioch United Methodist Church",
+      "address": "2575 Antioch Church Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.447857,
+      "lng": -87.40074,
+      "region": "Clarksville",
+      "notes": "The glass door on the left side of the building down by the portico.",
+      "source": "https://aanashville.org/meetings/040sou61830/"
+    },
+    {
       "id": "na-unloaded-169470",
       "fellowship": "NA",
       "name": "Unloaded",
@@ -22532,6 +25734,84 @@
       "source": "https://aanashville.org/meetings/you-are-not-alone-3/"
     },
     {
+      "id": "aa-091hap61900-d6-1900",
+      "fellowship": "AA",
+      "name": "AA Mtg with Al-Anon participation",
+      "day": 6,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Concurrent with Al-Anon",
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Serenity House",
+      "address": "440 College St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4542959,
+      "lng": -86.7928232,
+      "region": "Lewisburg",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/091hap61900/"
+    },
+    {
+      "id": "aa-401col61900-d6-1900",
+      "fellowship": "AA",
+      "name": "Columbia Group",
+      "day": 6,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "1113 S High St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.6104114,
+      "lng": -87.0376561,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/401col61900/"
+    },
+    {
+      "id": "na-high-steppers-52542",
+      "fellowship": "NA",
+      "name": "High Steppers",
+      "day": 6,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Closed",
+        "Candlelight",
+        "Discussion",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Greater First Baptist Church",
+      "address": "512 North 6th Ave.",
+      "city": "Lewisburg",
+      "state": "TN",
+      "zip": "37091",
+      "lat": 35.4554046,
+      "lng": -86.7954983,
+      "region": "Lewisburg",
+      "notes": "Enter at the door on the right side of church — Book Study",
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "aa-hillwood-family-meeting-d6-1900",
       "fellowship": "AA",
       "name": "Hillwood Family Meeting",
@@ -22555,6 +25835,52 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/hillwood-family-meeting/"
+    },
+    {
+      "id": "na-new-hope-group-14185",
+      "fellowship": "NA",
+      "name": "New Hope Group",
+      "day": 6,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/223673534",
+      "venue": "St Peter's Episcopal Church - Use Walker Street Entrance",
+      "address": "311 W 7th St.",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "lat": 35.6152582,
+      "lng": -87.0383892,
+      "region": "Columbia",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-083pue61900-d6-1900",
+      "fellowship": "AA",
+      "name": "Puerto Seguro Reuniones",
+      "day": 6,
+      "time": "19:00",
+      "endTime": null,
+      "types": [
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "184 Akersville Rd",
+      "address": "184 Akersville Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5338333,
+      "lng": -86.0263863,
+      "region": "Lafayette",
+      "notes": "two-hour meetings",
+      "source": "https://aanashville.org/meetings/083pue61900/"
     },
     {
       "id": "aa-pulaski-group-6-d6-1900",
@@ -22949,6 +26275,30 @@
       "region": "Nashville",
       "notes": "Tel. 615-327-3909",
       "source": "https://aanashville.org/meetings/202-friendship-house-32/"
+    },
+    {
+      "id": "aa-040cla62000-d6-2000",
+      "fellowship": "AA",
+      "name": "Clark Street Group",
+      "day": 6,
+      "time": "20:00",
+      "endTime": null,
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Melvin Maynard Center",
+      "address": "951 Clark St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.523797,
+      "lng": -87.344864,
+      "region": "Clarksville",
+      "notes": "First Sat is Candlelight\n\nPhilip G. 931-305-4800",
+      "source": "https://aanashville.org/meetings/040cla62000/"
     },
     {
       "id": "aa-grupo-fuerza-para-vivir-nashville-6-d6-2000",
@@ -23434,6 +26784,30 @@
       "region": "Lebanon",
       "notes": "Building and parking in back",
       "source": "https://aanashville.org/meetings/087any52200-2/"
+    },
+    {
+      "id": "na-solutions-group-162737",
+      "fellowship": "NA",
+      "name": "Solutions Group",
+      "day": 6,
+      "time": "22:00",
+      "endTime": "23:00",
+      "types": [
+        "RF"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. B United Methodist Church",
+      "address": "2201 Old Russellville Pike",
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5660206,
+      "lng": -87.3014967,
+      "region": "Clarksville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-211mnt62359-d6-2359",
