@@ -1,23 +1,23 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-14T12:02:47.408Z",
+    "generated": "2026-07-15T12:07:16.689Z",
     "seed": false,
     "counts": {
-      "AA": 787,
-      "NA": 118,
+      "AA": 788,
+      "NA": 119,
       "CR": 5,
       "CA": 1
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 788,
+        "count": 789,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 119,
+        "count": 120,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       }
     }
@@ -4473,7 +4473,7 @@
       "lat": 36.1290608,
       "lng": -86.8388582,
       "region": "Nashville",
-      "notes": "Side entrance at Fellowship Hall",
+      "notes": "Meet in the back of the church in what is called the chapel. The door to the chapel is on the south end of the church. Plenty of parking behind the church.",
       "source": "https://aanashville.org/meetings/womens-freedom-group/"
     },
     {
@@ -5302,6 +5302,31 @@
       "region": "Brentwood",
       "notes": "Enter the glass double doors of the Crosswalk Kid's Building",
       "source": "https://aanashville.org/meetings/new-meeting/"
+    },
+    {
+      "id": "na-ppp-portland-primary-purpose-literature-study-229334",
+      "fellowship": "NA",
+      "name": "PPP: Portland Primary Purpose Literature Study",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "LT"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Oasis Seventh Day Adventist",
+      "address": "703 S. Broadway",
+      "city": "Portland",
+      "state": "TN",
+      "zip": "37148",
+      "lat": 36.569318,
+      "lng": -86.5126424,
+      "region": "Portland",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-pulaski-group-d1-1900",
@@ -6762,7 +6787,7 @@
       "lat": 36.1290608,
       "lng": -86.8388582,
       "region": "Nashville",
-      "notes": "Side entrance at Fellowship Hall",
+      "notes": "Meet in the back of the church in what is called the chapel. The door to the chapel is on the south end of the church. Plenty of parking behind the church.",
       "source": "https://aanashville.org/meetings/sisters-of-sobriety/"
     },
     {
@@ -17527,7 +17552,7 @@
       "lat": 36.1290608,
       "lng": -86.8388582,
       "region": "Nashville",
-      "notes": "Side entrance at Fellowship Hall",
+      "notes": "Meet in the back of the church in what is called the chapel. The door to the chapel is on the south end of the church. Plenty of parking behind the church.",
       "source": "https://aanashville.org/meetings/womens-literature-meeting/"
     },
     {
@@ -19552,6 +19577,31 @@
       "region": "Lebanon",
       "notes": "2nd Street Off Square- Handicapped accessible",
       "source": "https://aanashville.org/meetings/first-things-first-6/"
+    },
+    {
+      "id": "aa-serenity-group-3-d6-0700",
+      "fellowship": "AA",
+      "name": "Serenity Group",
+      "day": 6,
+      "time": "07:00",
+      "endTime": "08:00",
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "435 S. Molloy Lane",
+      "address": "435 Molloy Ln",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.8413193,
+      "lng": -86.4136291,
+      "region": "Murfreesboro",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/serenity-group-3/"
     },
     {
       "id": "aa-shade-tree-group-3-d6-0700",
