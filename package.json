@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "fetch": "node scripts/fetch-all.mjs",
+    "zips": "node scripts/zips.mjs",
     "serve": "python3 -m http.server 8080"
   },
   "engines": {

@@ -56,6 +56,20 @@
           <div class="chips" id="chips-day"></div>
         </div>
         <div class="filter-group">
+          <span class="filter-label">Near</span>
+          <div class="near-controls">
+            <input id="near-zip" inputmode="numeric" pattern="[0-9]*" maxlength="5" placeholder="ZIP code" aria-label="ZIP code" />
+            <select id="near-radius" aria-label="Distance">
+              <option value="">Any distance</option>
+              <option value="5">within 5 mi</option>
+              <option value="10">within 10 mi</option>
+              <option value="15">within 15 mi</option>
+              <option value="25">within 25 mi</option>
+            </select>
+            <span id="near-hint" class="near-hint"></span>
+          </div>
+        </div>
+        <div class="filter-group">
           <span class="filter-label">Time</span>
           <div class="chips" id="chips-time">
             <button class="chip" data-time="morning">Morning</button>
