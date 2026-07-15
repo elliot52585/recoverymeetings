@@ -41,16 +41,15 @@
     },
     {
       "fellowship": "MA",
-      "type": "tsml",
-      "urls": ["https://marijuana-anonymous.org/wp-admin/admin-ajax.php?action=meetings"],
-      "finder": "https://marijuana-anonymous.org/find-a-meeting/"
+      "type": "curated",
+      "finder": "https://marijuana-anonymous.org/find-a-meeting/",
+      "_note": "National TSML feed returned HTTP 401 (gated) as of 2026-07 — worth an outreach email to MA World Services."
     },
     {
       "fellowship": "HA",
-      "type": "tsml",
-      "urls": ["https://heroinanonymous.org/wp-admin/admin-ajax.php?action=meetings"],
+      "type": "curated",
       "finder": "https://heroinanonymous.org/meetings/",
-      "skipOnline": true
+      "_note": "National TSML feed returned HTTP 400 as of 2026-07 — Nashville meetings hand-curated from heroinanonymous.org/locations/nashville-area/."
     },
     {
       "fellowship": "RD",
