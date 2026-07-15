@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-15T13:50:50.467Z",
+    "generated": "2026-07-15T15:12:56.479Z",
     "seed": false,
     "counts": {
       "AA": 788,
@@ -19,12 +19,14 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: https://aanashville.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403 | https://www.area64assembly.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+        "ok": true,
+        "count": 789,
+        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": false,
-        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 403"
+        "ok": true,
+        "count": 120,
+        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
         "ok": true,
@@ -47,8 +49,9 @@
         "source": "curated"
       },
       "RD": {
-        "ok": false,
-        "error": "all TSML feeds failed: https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+        "ok": true,
+        "count": 4,
+        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "SLAA": {
         "ok": true,
