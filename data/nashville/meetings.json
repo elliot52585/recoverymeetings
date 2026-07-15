@@ -1,29 +1,31 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-15T04:08:15.266Z",
+    "generated": "2026-07-15T04:10:01.000Z",
     "seed": false,
     "counts": {
-      "AA": 787,
-      "NA": 118,
+      "AA": 788,
+      "NA": 119,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
       "SMART": 3,
       "CR": 9,
+      "RD": 4,
       "ACA": 4,
-      "RD": 1,
       "OA": 1,
       "CA": 1
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: https://aanashville.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403 | https://www.area64assembly.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+        "ok": true,
+        "count": 789,
+        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": false,
-        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 403"
+        "ok": true,
+        "count": 120,
+        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
         "ok": true,
@@ -37,15 +39,16 @@
       },
       "MA": {
         "ok": false,
-        "error": "all TSML feeds failed: https://marijuana-anonymous.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+        "error": "all TSML feeds failed: https://marijuana-anonymous.org/wp-admin/admin-ajax.php?action=meetings — HTTP 401"
       },
       "HA": {
         "ok": false,
-        "error": "all TSML feeds failed: https://heroinanonymous.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+        "error": "all TSML feeds failed: https://heroinanonymous.org/wp-admin/admin-ajax.php?action=meetings — HTTP 400"
       },
       "RD": {
-        "ok": false,
-        "error": "all TSML feeds failed: https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+        "ok": true,
+        "count": 4,
+        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "SLAA": {
         "ok": true,
@@ -4620,7 +4623,7 @@
       "lat": 36.1290608,
       "lng": -86.8388582,
       "region": "Nashville",
-      "notes": "Side entrance at Fellowship Hall",
+      "notes": "Meet in the back of the church in what is called the chapel. The door to the chapel is on the south end of the church. Plenty of parking behind the church.",
       "source": "https://aanashville.org/meetings/womens-freedom-group/"
     },
     {
@@ -5092,6 +5095,31 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "rd-white-lotus-d1-1830",
+      "fellowship": "RD",
+      "name": "White Lotus",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "NL"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Mind the Gap - Therapy office",
+      "address": "602 N Walnut St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.8519219,
+      "lng": -86.3927849,
+      "region": "Tennessee",
+      "notes": "Parking lot is located directly behind building. After parking, follow sidewalk on side of building to enter through the office’s front door. White Lotus meeting is held in the first room on the left",
+      "source": "https://recoverydharma.org/meetings/white-lotus/"
+    },
+    {
       "id": "aa-055wss11830-d1-1830",
       "fellowship": "AA",
       "name": "Women's 12 Step Study",
@@ -5506,6 +5534,31 @@
       "source": "https://aanashville.org/meetings/new-meeting/"
     },
     {
+      "id": "na-ppp-portland-primary-purpose-literature-study-229334",
+      "fellowship": "NA",
+      "name": "PPP: Portland Primary Purpose Literature Study",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "LT"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Oasis Seventh Day Adventist",
+      "address": "703 S. Broadway",
+      "city": "Portland",
+      "state": "TN",
+      "zip": "37148",
+      "lat": 36.569318,
+      "lng": -86.5126424,
+      "region": "Portland",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
+    },
+    {
       "id": "aa-pulaski-group-d1-1900",
       "fellowship": "AA",
       "name": "Pulaski Group",
@@ -5531,23 +5584,29 @@
       "source": "https://aanashville.org/meetings/pulaski-group/"
     },
     {
-      "id": "rd-wild-heart-book-study",
+      "id": "rd-rd-wild-heart-book-study-d1-1900",
       "fellowship": "RD",
       "name": "RD @ Wild Heart Book Study",
       "day": 1,
       "time": "19:00",
       "endTime": "20:00",
       "types": [
-        "Book study",
-        "Meditation"
+        "NL",
+        "Open",
+        "FBS"
       ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
       "venue": "Wild Heart Meditation Center",
       "address": "3123 Gallatin Pike",
-      "city": "Nashville",
+      "city": null,
       "state": "TN",
-      "zip": "37216",
-      "region": "East Nashville",
-      "notes": "Peer-led; no registration needed. recoverydharmanashville@gmail.com",
+      "zip": null,
+      "lat": 36.2059915,
+      "lng": -86.7370994,
+      "region": "Tennessee",
+      "notes": "Face masks are not required for this meeting",
       "source": "https://recoverydharma.org/meetings/rd-wild-heart-book-study/"
     },
     {
@@ -7002,7 +7061,7 @@
       "lat": 36.1290608,
       "lng": -86.8388582,
       "region": "Nashville",
-      "notes": "Side entrance at Fellowship Hall",
+      "notes": "Meet in the back of the church in what is called the chapel. The door to the chapel is on the south end of the church. Plenty of parking behind the church.",
       "source": "https://aanashville.org/meetings/sisters-of-sobriety/"
     },
     {
@@ -15477,6 +15536,31 @@
       "source": "https://aanashville.org/meetings/203lif41830/"
     },
     {
+      "id": "rd-recovery-dharma-murfreesboro-d4-1830",
+      "fellowship": "RD",
+      "name": "Recovery Dharma Murfreesboro",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "NL"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "745 S Church St #505, Murfreesboro, TN 37130, USA",
+      "address": "745 S Church St #505",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.8383822,
+      "lng": -86.3911602,
+      "region": "Tennessee",
+      "notes": null,
+      "source": "https://recoverydharma.org/meetings/recovery-dharma-murfreesboro/"
+    },
+    {
       "id": "smart-thu-nashville",
       "fellowship": "SMART",
       "name": "SMART Recovery Nashville — Thursday",
@@ -17965,7 +18049,7 @@
       "lat": 36.1290608,
       "lng": -86.8388582,
       "region": "Nashville",
-      "notes": "Side entrance at Fellowship Hall",
+      "notes": "Meet in the back of the church in what is called the chapel. The door to the chapel is on the south end of the church. Plenty of parking behind the church.",
       "source": "https://aanashville.org/meetings/womens-literature-meeting/"
     },
     {
@@ -19097,6 +19181,31 @@
       "source": "https://aanashville.org/meetings/pulaski-group-5/"
     },
     {
+      "id": "rd-rd-nashville-d5-1900",
+      "fellowship": "RD",
+      "name": "RD Nashville",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "NL"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Last Stop Club",
+      "address": "2122 Utopia Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.1273759,
+      "lng": -86.7560444,
+      "region": "Tennessee",
+      "notes": "We are in room on the right as you enter the front door.",
+      "source": "https://recoverydharma.org/meetings/rd-nashville/"
+    },
+    {
       "id": "aa-172rob51900-d5-1900",
       "fellowship": "AA",
       "name": "Robertson County Group",
@@ -20027,6 +20136,31 @@
       "region": "Lebanon",
       "notes": "2nd Street Off Square- Handicapped accessible",
       "source": "https://aanashville.org/meetings/first-things-first-6/"
+    },
+    {
+      "id": "aa-serenity-group-3-d6-0700",
+      "fellowship": "AA",
+      "name": "Serenity Group",
+      "day": 6,
+      "time": "07:00",
+      "endTime": "08:00",
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "435 S. Molloy Lane",
+      "address": "435 Molloy Ln",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.8413193,
+      "lng": -86.4136291,
+      "region": "Murfreesboro",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/serenity-group-3/"
     },
     {
       "id": "aa-shade-tree-group-3-d6-0700",
