@@ -1,6 +1,8 @@
 // Refresh data/<city>/meetings.json for every city in cities/index.json.
-// Sources: TSML (AA), BMLT aggregator (NA), cities/<city>/curated.json (CA, CR).
-// A failing source keeps that fellowship's previous data rather than wiping it.
+// Each city declares a `sources` array in cities/<city>/city.json — one entry
+// per fellowship with type tsml | bmlt | curated. Curated meetings live in
+// cities/<city>/curated.json. A failing source keeps that fellowship's
+// previous data rather than wiping it.
 // Run one city with: CITY=nashville npm run fetch
 import { fetchTsml } from "./tsml.mjs";
 import { fetchBmlt } from "./bmlt.mjs";
@@ -15,6 +17,7 @@ if (!cities.length) {
   process.exit(1);
 }
 
+const FETCHERS = { tsml: fetchTsml, bmlt: fetchBmlt };
 let failures = 0;
 
 for (const { key } of cities) {
@@ -22,48 +25,47 @@ for (const { key } of cities) {
   const cityCfg = JSON.parse(await readFile(`cities/${key}/city.json`, "utf8"));
   const dataPath = `data/${key}/meetings.json`;
   const previous = (await readJsonIfExists(dataPath))?.meetings || [];
-
-  const results = { AA: null, NA: null };
-  const status = {};
-
-  try {
-    const { meetings, used } = await fetchTsml(cityCfg);
-    results.AA = meetings;
-    status.AA = { ok: true, count: meetings.length, source: used };
-    console.log(`AA: ${meetings.length} meetings (${used})`);
-  } catch (err) {
-    status.AA = { ok: false, error: err.message };
-    console.warn(`AA: FAILED — ${err.message}`);
-    failures++;
-  }
-
-  try {
-    const { meetings, used } = await fetchBmlt(cityCfg);
-    results.NA = meetings;
-    status.NA = { ok: true, count: meetings.length, source: used };
-    console.log(`NA: ${meetings.length} meetings`);
-  } catch (err) {
-    status.NA = { ok: false, error: err.message };
-    console.warn(`NA: FAILED — ${err.message}`);
-    failures++;
-  }
-
   const curated = (await readJsonIfExists(`cities/${key}/curated.json`))?.meetings || [];
-  console.log(`Curated (CA/CR/extras): ${curated.length} meetings`);
 
-  // Assemble: fetched AA/NA (or previous data if the fetch failed) + curated.
+  const status = {};
+  const fetched = {}; // fellowship -> meetings[] (null = feed failed)
+
+  for (const src of cityCfg.sources || []) {
+    const f = src.fellowship;
+    if (src.type === "curated") {
+      status[f] = { ok: true, count: curated.filter((m) => m.fellowship === f).length, source: "curated" };
+      continue;
+    }
+    const fetcher = FETCHERS[src.type];
+    if (!fetcher) {
+      status[f] = { ok: false, error: `unknown source type: ${src.type}` };
+      continue;
+    }
+    try {
+      const { meetings, used } = await fetcher(cityCfg, src);
+      fetched[f] = [...(fetched[f] || []), ...meetings];
+      status[f] = { ok: true, count: fetched[f].length, source: used };
+      console.log(`${f}: ${meetings.length} meetings (${src.type})`);
+    } catch (err) {
+      if (!(f in fetched)) fetched[f] = null;
+      status[f] = { ok: false, error: err.message };
+      console.warn(`${f}: FAILED — ${err.message}`);
+      failures++;
+    }
+  }
+
+  console.log(`Curated: ${curated.length} meetings`);
+
+  // Assemble: fetched feeds (or previous data where a feed failed) + curated
+  // + previous meetings for fellowships with no source this run.
+  const feedFellowships = new Set(Object.keys(fetched));
   const curatedFellowships = new Set(curated.map((m) => m.fellowship));
-  const keepPrevious = (f) =>
-    results[f] === null ? previous.filter((m) => m.fellowship === f && !m.seed) : [];
-
   const meetings = dedupe([
-    ...(results.AA ?? keepPrevious("AA")),
-    ...(results.NA ?? keepPrevious("NA")),
-    ...curated,
-    // previous meetings for fellowships not covered by feeds or curation
-    ...previous.filter(
-      (m) => !["AA", "NA"].includes(m.fellowship) && !curatedFellowships.has(m.fellowship)
+    ...Object.entries(fetched).flatMap(([f, list]) =>
+      list !== null ? list : previous.filter((m) => m.fellowship === f)
     ),
+    ...curated,
+    ...previous.filter((m) => !feedFellowships.has(m.fellowship) && !curatedFellowships.has(m.fellowship)),
   ]);
 
   meetings.sort(
@@ -86,8 +88,8 @@ for (const { key } of cities) {
   console.log(`Wrote ${dataPath}: ${meetings.length} meetings — ${JSON.stringify(counts)}`);
 }
 
-// Exit 0 even with partial failures (previous data was preserved); only fail
-// hard if nothing could be written.
+// Exit 0 even with partial failures (previous data was preserved); the
+// failure detail is recorded in meta.sources for review.
 if (failures) console.warn(`\nDone with ${failures} source failure(s) — previous data kept for those.`);
 
 function dedupe(meetings) {

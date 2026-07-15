@@ -150,12 +150,9 @@ a { color: var(--accent); }
 .badge {
   font-size: 0.68rem; font-weight: 800; letter-spacing: 0.03em;
   color: #fff; border-radius: 6px; padding: 2px 7px;
+  background: #64748b; /* fallback — real color set inline from registry/fellowships.json */
+  white-space: nowrap;
 }
-.badge.AA { background: var(--aa); }
-.badge.NA { background: var(--na); }
-.badge.CA { background: var(--ca); }
-.badge.CR { background: var(--cr); }
-@media (prefers-color-scheme: dark) { .badge { color: #08130f; } }
 .mtg-where { margin: 3px 0 0; font-size: 0.88rem; color: var(--muted); }
 .mtg-where a { color: inherit; }
 .mtg-tags { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 5px; }
@@ -215,10 +212,6 @@ a { color: var(--accent); }
 .week-day h3 { margin: 0 0 8px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
 .week-day h3 .today-tag { color: var(--accent); }
 .week-item { border-left: 3px solid var(--line); padding: 4px 0 4px 10px; margin-bottom: 8px; }
-.week-item.AA { border-left-color: var(--aa); }
-.week-item.NA { border-left-color: var(--na); }
-.week-item.CA { border-left-color: var(--ca); }
-.week-item.CR { border-left-color: var(--cr); }
 .week-item strong { font-size: 0.9rem; display: block; }
 .week-item .wi-meta { font-size: 0.78rem; color: var(--muted); }
 .week-item .wi-actions { margin-top: 4px; display: flex; gap: 6px; }

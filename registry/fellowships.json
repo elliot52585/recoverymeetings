@@ -1,0 +1,142 @@
+{
+  "_comment": "Machine-readable fellowship registry (Phase 1 of docs/PLATFORM-ROADMAP.md). Powers badge labels/colors in the app and documents each org's data posture. Keys are the `fellowship` values used in meeting records. Meeting facts are open data; literature, daily readings, and logos are copyrighted by each fellowship — link, never republish.",
+  "fellowships": [
+    {
+      "key": "AA",
+      "name": "Alcoholics Anonymous",
+      "short": "AA",
+      "family": "substance",
+      "website": "https://www.aa.org",
+      "directoryTech": "tsml",
+      "onlineDirectory": "https://aa-intergroup.org",
+      "dailyReading": { "title": "Daily Reflections", "url": "https://www.aa.org/daily-reflections", "license": "© AAWS — link only" },
+      "color": "#2563eb"
+    },
+    {
+      "key": "NA",
+      "name": "Narcotics Anonymous",
+      "short": "NA",
+      "family": "substance",
+      "website": "https://na.org",
+      "directoryTech": "bmlt",
+      "onlineDirectory": "https://virtual-na.org",
+      "dailyReading": { "title": "Just for Today", "url": "https://na.org/daily-meditation/", "license": "© NAWS — link only" },
+      "color": "#7c3aed"
+    },
+    {
+      "key": "CA",
+      "name": "Cocaine Anonymous",
+      "short": "CA",
+      "family": "substance",
+      "website": "https://ca.org",
+      "directoryTech": "curated",
+      "onlineDirectory": "https://ca-online.org",
+      "color": "#b45309"
+    },
+    {
+      "key": "CR",
+      "name": "Celebrate Recovery",
+      "short": "CR",
+      "family": "faith",
+      "website": "https://www.celebraterecovery.com",
+      "directoryTech": "curated",
+      "onlineDirectory": "https://locator.crgroups.info",
+      "color": "#15803d"
+    },
+    {
+      "key": "ALANON",
+      "name": "Al-Anon / Alateen",
+      "short": "Al-Anon",
+      "family": "family",
+      "website": "https://al-anon.org",
+      "directoryTech": "tsml",
+      "dailyReading": { "title": "Courage to Change", "url": "https://al-anon.org/newcomers/daily-reading/", "license": "© Al-Anon WSO — link only" },
+      "color": "#0e7490"
+    },
+    {
+      "key": "OA",
+      "name": "Overeaters Anonymous",
+      "short": "OA",
+      "family": "behavioral",
+      "website": "https://oa.org",
+      "directoryTech": "tsml",
+      "color": "#be185d"
+    },
+    {
+      "key": "MA",
+      "name": "Marijuana Anonymous",
+      "short": "MA",
+      "family": "substance",
+      "website": "https://marijuana-anonymous.org",
+      "directoryTech": "tsml",
+      "dailyReading": { "title": "A New Leaf", "url": "https://marijuana-anonymous.org/literature/", "license": "© MA World Services — link only" },
+      "color": "#4d7c0f"
+    },
+    {
+      "key": "HA",
+      "name": "Heroin Anonymous",
+      "short": "HA",
+      "family": "substance",
+      "website": "https://heroinanonymous.org",
+      "directoryTech": "curated",
+      "color": "#a21caf"
+    },
+    {
+      "key": "GA",
+      "name": "Gamblers Anonymous",
+      "short": "GA",
+      "family": "behavioral",
+      "website": "https://gamblersanonymous.org",
+      "directoryTech": "curated",
+      "color": "#b91c1c"
+    },
+    {
+      "key": "ACA",
+      "name": "Adult Children of Alcoholics & Dysfunctional Families",
+      "short": "ACA",
+      "family": "family",
+      "website": "https://adultchildren.org",
+      "directoryTech": "custom",
+      "color": "#c2410c"
+    },
+    {
+      "key": "CODA",
+      "name": "Co-Dependents Anonymous",
+      "short": "CoDA",
+      "family": "behavioral",
+      "website": "https://coda.org",
+      "directoryTech": "tsml",
+      "color": "#0f766e"
+    },
+    {
+      "key": "SLAA",
+      "name": "Sex & Love Addicts Anonymous",
+      "short": "SLAA",
+      "family": "behavioral",
+      "website": "https://slaafws.org",
+      "directoryTech": "tsml",
+      "color": "#6d28d9"
+    },
+    {
+      "key": "SMART",
+      "name": "SMART Recovery",
+      "short": "SMART",
+      "family": "secular",
+      "website": "https://smartrecovery.org",
+      "directoryTech": "custom",
+      "onlineDirectory": "https://meetings.smartrecovery.org/meetings/",
+      "notes": "No public API — meetings curated pending a data agreement.",
+      "color": "#4338ca"
+    },
+    {
+      "key": "RD",
+      "name": "Recovery Dharma",
+      "short": "Recovery Dharma",
+      "family": "secular",
+      "website": "https://recoverydharma.org",
+      "directoryTech": "custom",
+      "notes": "Program book is Creative Commons — verify variant before embedding text.",
+      "color": "#9a3412"
+    }
+  ]
+}

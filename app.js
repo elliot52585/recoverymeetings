@@ -6,24 +6,24 @@
 
   const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   const DAYS_SHORT = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  const FELLOWSHIPS = [
-    { key: "AA", label: "AA" },
-    { key: "NA", label: "NA" },
-    { key: "CA", label: "CA" },
-    { key: "CR", label: "Celebrate Recovery" },
-  ];
   const PLAN_KEY = "rm-plan-v1";
+  const REPORT_URL = "https://github.com/elliot52585/recoverymeetings/issues/new";
+  const FALLBACK_COLOR = "#64748b";
 
   const state = {
     cityKey: null,
     city: null,        // cities/<key>/city.json
     tz: "America/Chicago",
+    registry: [],      // registry/fellowships.json records, in registry order
     meetings: [],      // normalized: one entry per (meeting, day)
     meta: null,
     filters: { fellowship: null, day: null, time: null, format: new Set(), q: "" },
     plan: loadPlan(),  // [{id}] — id already encodes the day
     tab: "meetings",
   };
+
+  const fellowshipInfo = (key) =>
+    state.registry.find((f) => f.key === key) || { key, name: key, short: key, color: FALLBACK_COLOR };
 
   const $ = (sel) => document.querySelector(sel);
 
@@ -45,6 +45,7 @@
     });
 
     state.city = await getJSON(`cities/${state.cityKey}/city.json`);
+    state.registry = (await getJSON("registry/fellowships.json")).fellowships || [];
     state.tz = state.city.timezone || "America/Chicago";
     document.title = `Recovery Meetings in ${state.city.name} — every AA, NA, CA & Celebrate Recovery meeting`;
 
@@ -103,25 +104,28 @@
   }
 
   function renderAboutSources() {
-    const s = state.city.sources || {};
-    const rows = [
-      ["AA", s.aa?.finder, "Middle Tennessee Central Office"],
-      ["NA", s.na?.finder, "NA Middle Tennessee"],
-      ["CA", s.ca?.finder, "CA Nashville"],
-      ["Celebrate Recovery", s.cr?.finder, "official group locator"],
-    ];
-    $("#about-sources").innerHTML = rows
-      .filter(([, url]) => url)
-      .map(([f, url, name]) => `<li><strong>${f}:</strong> <a href="${esc(url)}" target="_blank" rel="noopener">${esc(name)}</a></li>`)
+    $("#about-sources").innerHTML = (state.city.sources || [])
+      .filter((s) => s.finder)
+      .map((s) => {
+        const info = fellowshipInfo(s.fellowship);
+        return `<li><strong>${esc(info.short)}:</strong> <a href="${esc(s.finder)}" target="_blank" rel="noopener">${esc(info.name)} — official meeting finder</a></li>`;
+      })
       .join("");
   }
 
   // ---------- filters ----------
 
   function buildFilterChips() {
+    // Offer a chip for every fellowship present in this city's data (or
+    // configured as a source), in registry order — new fellowships appear
+    // automatically when their feed starts returning meetings.
+    const present = new Set(state.meetings.map((m) => m.fellowship));
+    for (const s of state.city.sources || []) present.add(s.fellowship);
+    const chips = state.registry.filter((f) => present.has(f.key));
+    for (const key of present) if (!chips.some((f) => f.key === key)) chips.push(fellowshipInfo(key));
     $("#chips-fellowship").innerHTML =
       `<button class="chip on" data-fellowship="">All</button>` +
-      FELLOWSHIPS.map((f) => `<button class="chip" data-fellowship="${f.key}">${f.label}</button>`).join("");
+      chips.map((f) => `<button class="chip" data-fellowship="${esc(f.key)}">${esc(f.short)}</button>`).join("");
 
     const today = todayInTz();
     $("#chips-day").innerHTML =
@@ -227,6 +231,7 @@
       if (f.format.has("online") && !(m.online || m.hybrid)) return false;
       if (f.format.has("inperson") && m.online && !m.hybrid) return false;
       if (f.format.has("open") && !m.types.some((t) => /open/i.test(t))) return false;
+      if (f.format.has("wheelchair") && !m.types.some((t) => /wheelchair/i.test(t))) return false;
       if (f.q) {
         const hay = [m.name, m.venue, m.address, m.city, m.region, m.notes, ...(m.types || [])]
           .join(" ")
@@ -287,9 +292,10 @@
 
   function emptyStateHtml() {
     const f = state.filters.fellowship;
-    const finder = f && state.city.sources?.[f.toLowerCase()]?.finder;
-    const officialLink = finder
-      ? `<p>Check the <a href="${esc(finder)}" target="_blank" rel="noopener">official ${f === "CR" ? "Celebrate Recovery" : f} meeting finder</a> — new data lands here after the next refresh.</p>`
+    const src = f && (state.city.sources || []).find((s) => s.fellowship === f);
+    const finder = src?.finder || fellowshipInfo(f || "")?.onlineDirectory;
+    const officialLink = f && finder
+      ? `<p>Check the <a href="${esc(finder)}" target="_blank" rel="noopener">official ${esc(fellowshipInfo(f).short)} meeting finder</a> — new data lands here after the next refresh.</p>`
       : "";
     return `<div class="empty"><p><strong>No meetings match those filters yet.</strong></p>${officialLink}<p>Try clearing a filter, or search less specifically.</p></div>`;
   }
@@ -307,14 +313,16 @@
       m.region || null,
     ].filter(Boolean);
 
+    const info = fellowshipInfo(m.fellowship);
+    const reportLink = `${REPORT_URL}?title=${encodeURIComponent(`[meeting] ${m.name} (${m.fellowship})`)}&body=${encodeURIComponent(`Meeting: ${m.name}\nID: ${m.id}\nWhat changed (time / place / cancelled / other)?\n\n`)}`;
     return `<article class="mtg" data-id="${esc(m.id)}">
       <div class="mtg-time">${fmtTime(m.time)}</div>
       <div class="mtg-main">
-        <h3 class="mtg-name"><span class="badge ${m.fellowship}">${m.fellowship}</span> ${esc(m.name)}</h3>
+        <h3 class="mtg-name"><span class="badge" style="background:${esc(info.color || FALLBACK_COLOR)}" title="${esc(info.name)}">${esc(info.short)}</span> ${esc(m.name)}</h3>
         <p class="mtg-where">${m.venue ? esc(m.venue) + " · " : ""}${mapLink}</p>
         ${tags.length ? `<div class="mtg-tags">${tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}
         ${m.notes ? `<p class="mtg-notes">${esc(m.notes)}</p>` : ""}
-        ${m.source ? `<p class="mtg-notes"><a href="${esc(m.source)}" target="_blank" rel="noopener">source</a></p>` : ""}
+        <p class="mtg-notes">${m.source ? `<a href="${esc(m.source)}" target="_blank" rel="noopener">source</a> · ` : ""}<a href="${reportLink}" target="_blank" rel="noopener">report a change</a></p>
       </div>
       <div class="mtg-actions">
         <button class="btn small ${inPlan ? "in-plan" : ""}" data-act="plan" ${noDay ? "disabled title='Confirm the day with the source first'" : ""}>
@@ -407,9 +415,9 @@
         <h3>${DAYS[d]}${d === today ? ' <span class="today-tag">· today</span>' : ""}</h3>
         ${items.length
           ? items.map((m) => `
-            <div class="week-item ${m.fellowship}">
+            <div class="week-item" style="border-left-color:${esc(fellowshipInfo(m.fellowship).color || FALLBACK_COLOR)}">
               <strong>${fmtTime(m.time)} — ${esc(m.name)}</strong>
-              <span class="wi-meta">${m.fellowship} · ${esc(m.venue || m.address || m.city || "")}</span>
+              <span class="wi-meta">${esc(fellowshipInfo(m.fellowship).short)} · ${esc(m.venue || m.address || m.city || "")}</span>
               <div class="wi-actions">
                 <button data-wi="cal" data-id="${esc(m.id)}">📅 .ics</button>
                 <button data-wi="rm" data-id="${esc(m.id)}">remove</button>
@@ -624,6 +632,10 @@
     t.hidden = false;
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => (t.hidden = true), 3200);
+  }
+
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
   }
 
   boot().catch((err) => {

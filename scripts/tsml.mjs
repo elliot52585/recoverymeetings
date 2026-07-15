@@ -1,6 +1,6 @@
-// AA meetings via the 12 Step Meeting List (TSML) feed that most AA
-// intergroup sites expose (aanashville.org runs it). Feed reference:
-// https://github.com/code4recovery/12-step-meeting-list
+// Meetings via the 12 Step Meeting List (TSML) / Meeting Guide API feed that
+// many fellowships' intergroup sites expose (AA, Al-Anon, OA, MA, SLAA, CoDA…).
+// Feed reference: https://github.com/code4recovery/spec
 import { fetchJson, haversineMiles, normTime, slugify } from "./util.mjs";
 
 // TSML type codes -> friendly labels (unknown codes pass through as-is).
@@ -15,8 +15,8 @@ const TYPE_LABELS = {
   FF: "Fragrance free", OUT: "Outdoor", DB: "Digital basket",
 };
 
-export async function fetchTsml(cityCfg) {
-  const src = cityCfg.sources.aa;
+// src: { fellowship, urls: [...], finder } from the city's sources array.
+export async function fetchTsml(cityCfg, src) {
   let raw = null;
   let used = null;
   const errors = [];
@@ -32,6 +32,8 @@ export async function fetchTsml(cityCfg) {
   if (!raw) throw new Error(`all TSML feeds failed: ${errors.join(" | ")}`);
   if (!Array.isArray(raw)) throw new Error(`${used}: expected a JSON array`);
 
+  const prefix = src.fellowship.toLowerCase();
+  const radius = src.radiusMiles || cityCfg.radiusMiles;
   const { lat: cLat, lng: cLng } = cityCfg.center;
   const meetings = [];
   for (const m of raw) {
@@ -44,16 +46,19 @@ export async function fetchTsml(cityCfg) {
     const hybrid = m.attendance_option === "hybrid";
     if (!online) {
       if (lat === null || lng === null) continue;
-      if (haversineMiles(cLat, cLng, lat, lng) > cityCfg.radiusMiles) continue;
+      if (haversineMiles(cLat, cLng, lat, lng) > radius) continue;
     }
+    // National feeds (e.g. MA) can list hundreds of online meetings; keep
+    // online meetings only when the source opts in.
+    if (online && src.skipOnline) continue;
 
     const types = (m.types || [])
       .map((t) => (t in TYPE_LABELS ? TYPE_LABELS[t] : t))
       .filter(Boolean);
 
     meetings.push({
-      id: `aa-${slugify(m.slug || m.name)}-d${m.day}-${String(normTime(m.time) || "").replace(":", "")}`,
-      fellowship: "AA",
+      id: `${prefix}-${slugify(m.slug || m.name)}-d${m.day}-${String(normTime(m.time) || "").replace(":", "")}`,
+      fellowship: src.fellowship,
       name: m.name,
       day: Number(m.day), // TSML: 0=Sunday..6=Saturday
       time: normTime(m.time),

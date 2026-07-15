@@ -1,24 +1,81 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-14T12:02:47.408Z",
+    "generated": "2026-07-15T04:08:15.266Z",
     "seed": false,
     "counts": {
       "AA": 787,
       "NA": 118,
-      "CR": 5,
+      "SLAA": 7,
+      "GA": 2,
+      "HA": 3,
+      "SMART": 3,
+      "CR": 9,
+      "ACA": 4,
+      "RD": 1,
+      "OA": 1,
       "CA": 1
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 788,
-        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: https://aanashville.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403 | https://www.area64assembly.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
       },
       "NA": {
+        "ok": false,
+        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 403"
+      },
+      "CA": {
         "ok": true,
-        "count": 119,
-        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
+        "count": 1,
+        "source": "curated"
+      },
+      "CR": {
+        "ok": true,
+        "count": 9,
+        "source": "curated"
+      },
+      "MA": {
+        "ok": false,
+        "error": "all TSML feeds failed: https://marijuana-anonymous.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+      },
+      "HA": {
+        "ok": false,
+        "error": "all TSML feeds failed: https://heroinanonymous.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+      },
+      "RD": {
+        "ok": false,
+        "error": "all TSML feeds failed: https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
+      },
+      "SLAA": {
+        "ok": true,
+        "count": 7,
+        "source": "curated"
+      },
+      "GA": {
+        "ok": true,
+        "count": 2,
+        "source": "curated"
+      },
+      "SMART": {
+        "ok": true,
+        "count": 3,
+        "source": "curated"
+      },
+      "ACA": {
+        "ok": true,
+        "count": 4,
+        "source": "curated"
+      },
+      "OA": {
+        "ok": true,
+        "count": 1,
+        "source": "curated"
+      },
+      "ALANON": {
+        "ok": true,
+        "count": 0,
+        "source": "curated"
       }
     }
   },
@@ -1223,6 +1280,24 @@
       "source": "https://aanashville.org/meetings/shade-tree-group-4/"
     },
     {
+      "id": "slaa-sun-edgehill",
+      "fellowship": "SLAA",
+      "name": "SLAA Co-ed Meeting — Edgehill",
+      "day": 0,
+      "time": "14:00",
+      "endTime": "15:00",
+      "types": [
+        "Open"
+      ],
+      "venue": "Edgehill United Methodist Church",
+      "address": "1502 Edgehill Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37212",
+      "region": "Edgehill",
+      "source": "https://slaanashville.org/meetings/"
+    },
+    {
       "id": "aa-202-friendship-house-21-d0-1500",
       "fellowship": "AA",
       "name": "5 x 5 Group",
@@ -1246,6 +1321,24 @@
       "region": "Nashville",
       "notes": "Tel. 615-327-3909",
       "source": "https://aanashville.org/meetings/202-friendship-house-21/"
+    },
+    {
+      "id": "ga-sun-bethel",
+      "fellowship": "GA",
+      "name": "Nashville GA — Sunday",
+      "day": 0,
+      "time": "15:00",
+      "types": [
+        "Open"
+      ],
+      "venue": "Bethel Church of the Nazarene",
+      "address": "455 Broadmoor Dr",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37216",
+      "region": "East Nashville",
+      "notes": "Confirm address with the GA hotline (615) 254-6454.",
+      "source": "https://gamblersanonymous.org/find-a-meeting/nashville-g-a-sunday/"
     },
     {
       "id": "aa-serenity-group-d0-1500",
@@ -1574,6 +1667,24 @@
       "region": "Smyrna",
       "notes": "All meetings are non-smoking. 7 a.m. meetings outdoors, weather permitting",
       "source": "https://aanashville.org/meetings/167smg01730/"
+    },
+    {
+      "id": "ha-cartel-sun",
+      "fellowship": "HA",
+      "name": "The Cartel",
+      "day": 0,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "Open"
+      ],
+      "venue": "The Cartel",
+      "address": "2122 Utopia Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37211",
+      "region": "South Nashville",
+      "source": "https://heroinanonymous.org/locations/nashville-area/"
     },
     {
       "id": "na-the-group-conscience-172381",
@@ -2339,6 +2450,24 @@
       "region": null,
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "smart-sun-nashville",
+      "fellowship": "SMART",
+      "name": "SMART Recovery Nashville — Sunday",
+      "day": 0,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Open"
+      ],
+      "venue": "See meeting page for location",
+      "address": null,
+      "city": "Nashville",
+      "state": "TN",
+      "zip": null,
+      "region": "Nashville",
+      "source": "https://meetings.smartrecovery.org/meetings/5678/"
     },
     {
       "id": "aa-grupo-mi-ultima-copa-7-d0-2000",
@@ -3923,6 +4052,24 @@
       "source": "https://aanashville.org/meetings/130mur11730/"
     },
     {
+      "id": "ha-no-boi-allowed-mon",
+      "fellowship": "HA",
+      "name": "No Boi Allowed (women's)",
+      "day": 1,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "Women"
+      ],
+      "venue": "The Cartel",
+      "address": "2122 Utopia Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37211",
+      "region": "South Nashville",
+      "source": "https://heroinanonymous.org/locations/nashville-area/"
+    },
+    {
       "id": "aa-nolensville-gratitude-group-d1-1730",
       "fellowship": "AA",
       "name": "Nolensville Gratitude Group",
@@ -4811,6 +4958,42 @@
       "source": "https://aanashville.org/meetings/recovery-hill-group/"
     },
     {
+      "id": "slaa-mon-women-ilc",
+      "fellowship": "SLAA",
+      "name": "SLAA Women's Meeting",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Women"
+      ],
+      "venue": "Integrative Life Center",
+      "address": "1105 16th Ave S",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37212",
+      "region": "Music Row",
+      "source": "https://slaanashville.org/meetings/"
+    },
+    {
+      "id": "smart-mon-nashville",
+      "fellowship": "SMART",
+      "name": "SMART Recovery Nashville — Monday",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open"
+      ],
+      "venue": "See meeting page for location",
+      "address": null,
+      "city": "Nashville",
+      "state": "TN",
+      "zip": null,
+      "region": "Nashville",
+      "source": "https://meetings.smartrecovery.org/meetings/4657/"
+    },
+    {
       "id": "aa-174spr12000-d1-1830",
       "fellowship": "AA",
       "name": "Spring Hill Group",
@@ -4980,6 +5163,25 @@
       "region": "Madison",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aca-attracted-by-strength",
+      "fellowship": "ACA",
+      "name": "Attracted by Strength",
+      "day": 1,
+      "time": "19:00",
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
+      "venue": null,
+      "address": "3534 West End Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37205",
+      "region": "West End",
+      "notes": "WSO meeting TN0110. Confirm day/time at adultchildren.org.",
+      "source": "https://alcohol.org/meeting-finder/adult-children-of-alcoholics/aca-attracted-by-strength-tn0110-nashville-tn-1-19-00/"
     },
     {
       "id": "cr-woodmont-baptist",
@@ -5327,6 +5529,26 @@
       "region": "Pulaski",
       "notes": "ID: 889 131 0346\nPW: 085607",
       "source": "https://aanashville.org/meetings/pulaski-group/"
+    },
+    {
+      "id": "rd-wild-heart-book-study",
+      "fellowship": "RD",
+      "name": "RD @ Wild Heart Book Study",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Book study",
+        "Meditation"
+      ],
+      "venue": "Wild Heart Meditation Center",
+      "address": "3123 Gallatin Pike",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37216",
+      "region": "East Nashville",
+      "notes": "Peer-led; no registration needed. recoverydharmanashville@gmail.com",
+      "source": "https://recoverydharma.org/meetings/rd-wild-heart-book-study/"
     },
     {
       "id": "aa-roots-in-recovery-d1-1900",
@@ -5706,6 +5928,24 @@
       "region": "Nashville",
       "notes": "Enter in the basement entrance behind the building (near dumpsters)",
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "ga-mon-west-end",
+      "fellowship": "GA",
+      "name": "Nashville GA — Monday",
+      "day": 1,
+      "time": "19:30",
+      "types": [
+        "Open"
+      ],
+      "venue": "West End United Methodist Church, Room LL1",
+      "address": "2200 West End Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37203",
+      "region": "West End",
+      "notes": "Across from Vanderbilt. Nashville GA hotline: (615) 254-6454.",
+      "source": "https://gamblersanonymous.org/mtgdirTN.html"
     },
     {
       "id": "aa-prime-time-d1-1930",
@@ -7966,6 +8206,24 @@
       "source": "https://aanashville.org/meetings/076sob21900/"
     },
     {
+      "id": "ha-cartel-tue",
+      "fellowship": "HA",
+      "name": "The Cartel",
+      "day": 2,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open"
+      ],
+      "venue": "The Cartel",
+      "address": "2122 Utopia Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37211",
+      "region": "South Nashville",
+      "source": "https://heroinanonymous.org/locations/nashville-area/"
+    },
+    {
       "id": "aa-there-is-a-solution-d2-1800",
       "fellowship": "AA",
       "name": "There is a Solution",
@@ -8150,6 +8408,26 @@
       "region": "Dickson",
       "notes": null,
       "source": "https://aanashville.org/meetings/055dic21830/"
+    },
+    {
+      "id": "aca-east-side",
+      "fellowship": "ACA",
+      "name": "East Side ACA",
+      "day": 2,
+      "time": "18:30",
+      "types": [
+        "Closed",
+        "Step study",
+        "Wheelchair accessible"
+      ],
+      "venue": null,
+      "address": "1211 Riverside Dr",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37206",
+      "region": "East Nashville",
+      "notes": "WSO meeting TN0075. Confirm day/time at adultchildren.org.",
+      "source": "https://alcohol.org/meeting-finder/adult-children-of-alcoholics/aca-east-side-aca-tn0075-nashville-tn-2-18-30/"
     },
     {
       "id": "aa-east-side-womens-meeting-d2-1830",
@@ -8890,6 +9168,23 @@
       "source": "https://aanashville.org/meetings/shade-tree-group-2/"
     },
     {
+      "id": "slaa-tue-murfreesboro-women",
+      "fellowship": "SLAA",
+      "name": "SLAA Women's Meeting — Murfreesboro",
+      "day": 2,
+      "time": "19:00",
+      "types": [
+        "Women"
+      ],
+      "venue": "Blackman United Methodist Church",
+      "address": null,
+      "city": "Murfreesboro",
+      "state": "TN",
+      "zip": null,
+      "region": "Murfreesboro",
+      "source": "https://slaanashville.org/meetings/"
+    },
+    {
       "id": "na-spiritual-foundation-174227",
       "fellowship": "NA",
       "name": "Spiritual Foundation",
@@ -9218,6 +9513,23 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/214mlc21930/"
+    },
+    {
+      "id": "slaa-tue-nrc",
+      "fellowship": "SLAA",
+      "name": "SLAA Co-ed Meeting",
+      "day": 2,
+      "time": "19:30",
+      "types": [
+        "Open"
+      ],
+      "venue": "Nashville Recovery Center",
+      "address": null,
+      "city": "Nashville",
+      "state": "TN",
+      "zip": null,
+      "region": "Nashville",
+      "source": "https://slaanashville.org/meetings/"
     },
     {
       "id": "aa-167smg22000-d2-1930",
@@ -11726,6 +12038,24 @@
       "source": "https://aanashville.org/meetings/by-the-book/"
     },
     {
+      "id": "cr-hermitage-umc",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Hermitage United Methodist",
+      "day": 3,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Hermitage United Methodist Church (sanctuary)",
+      "address": null,
+      "city": "Hermitage",
+      "state": "TN",
+      "zip": null,
+      "region": "Hermitage",
+      "notes": "Large group 6:30–7:30pm, small groups 7:30–8:30pm.",
+      "source": "https://humc.org/celebraterecovery/"
+    },
+    {
       "id": "aa-055dic31830-d3-1830",
       "fellowship": "AA",
       "name": "Dickson Group",
@@ -12271,6 +12601,24 @@
       "region": "Nashville",
       "notes": "ID: 872 3860 6774\nPW: Hope",
       "source": "https://aanashville.org/meetings/save-her-a-seat/"
+    },
+    {
+      "id": "slaa-wed-living-room",
+      "fellowship": "SLAA",
+      "name": "SLAA Living Room Meeting",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "venue": "Integrative Life Center",
+      "address": "1105 16th Ave S",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37212",
+      "region": "Music Row",
+      "source": "https://slaanashville.org/meetings/"
     },
     {
       "id": "na-spirit-13979",
@@ -14747,6 +15095,24 @@
       "source": "https://aanashville.org/meetings/129ser41800/"
     },
     {
+      "id": "slaa-thu-west-end-beginners",
+      "fellowship": "SLAA",
+      "name": "SLAA Beginner's Meeting",
+      "day": 4,
+      "time": "18:00",
+      "types": [
+        "Beginner",
+        "Open"
+      ],
+      "venue": "West End United Methodist Church",
+      "address": "2200 West End Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37203",
+      "region": "West End",
+      "source": "https://slaanashville.org/meetings/"
+    },
+    {
       "id": "aa-sobriety-first-group-4-d4-1800",
       "fellowship": "AA",
       "name": "Sobriety First Group",
@@ -14924,6 +15290,41 @@
       "source": "https://aanashville.org/meetings/055byt41830/"
     },
     {
+      "id": "cr-madison-heights-baptist",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Madison Heights Baptist",
+      "day": 4,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Madison Heights Baptist Church",
+      "address": "815 E Old Hickory Blvd",
+      "city": "Madison",
+      "state": "TN",
+      "zip": "37115",
+      "region": "Madison",
+      "notes": "Confirm with the church before attending.",
+      "source": "https://alcohol.org/meeting-finder/celebrate-recovery/brentwood-tn/"
+    },
+    {
+      "id": "cr-west-end-community",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — West End Community Church",
+      "day": 4,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "West End Community Church",
+      "address": "235 White Bridge Pike",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37209",
+      "region": "West Nashville",
+      "source": "https://www.westendcc.org/celebrate-recovery"
+    },
+    {
       "id": "aa-055dic41830-d4-1830",
       "fellowship": "AA",
       "name": "Dickson Group",
@@ -15074,6 +15475,24 @@
       "region": "Nashville",
       "notes": "Tel. 615-327-3909",
       "source": "https://aanashville.org/meetings/203lif41830/"
+    },
+    {
+      "id": "smart-thu-nashville",
+      "fellowship": "SMART",
+      "name": "SMART Recovery Nashville — Thursday",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open"
+      ],
+      "venue": "See meeting page for location",
+      "address": null,
+      "city": "Nashville",
+      "state": "TN",
+      "zip": null,
+      "region": "Nashville",
+      "source": "https://meetings.smartrecovery.org/meetings/3560/"
     },
     {
       "id": "aa-174spr42000-d4-1830",
@@ -17187,6 +17606,25 @@
       "source": "https://aanashville.org/meetings/064fra51200/"
     },
     {
+      "id": "aca-fri-noon",
+      "fellowship": "ACA",
+      "name": "Friday Noon ACA Meeting",
+      "day": 5,
+      "time": "12:00",
+      "types": [
+        "Big Red Book study",
+        "Discussion"
+      ],
+      "venue": null,
+      "address": "3710 Franklin Pike",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37204",
+      "region": "Berry Hill",
+      "notes": "WSO meeting TN0121.",
+      "source": "https://alcohol.org/meeting-finder/adult-children-of-alcoholics/aca-friday-noon-aca-meeting-tn0121-nashville-tn-5-12-00/"
+    },
+    {
       "id": "aa-066gaa51200-d5-1200",
       "fellowship": "AA",
       "name": "GAA (Gallatin AA)",
@@ -17974,6 +18412,25 @@
       "source": "https://aanashville.org/meetings/129ser51800/"
     },
     {
+      "id": "slaa-fri-lgbtq-ilc",
+      "fellowship": "SLAA",
+      "name": "SLAA LGBTQ+-Focused Meeting (all welcome)",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "LGBTQ+",
+        "Open"
+      ],
+      "venue": "Integrative Life Center (Administrative building)",
+      "address": "1105 16th Ave S",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37212",
+      "region": "Music Row",
+      "source": "https://slaanashville.org/meetings/"
+    },
+    {
       "id": "aa-087sfg51800-d5-1800",
       "fellowship": "AA",
       "name": "Sobriety First Group",
@@ -18098,6 +18555,24 @@
       "region": "Lebanon",
       "notes": "Building and parking in back",
       "source": "https://aanashville.org/meetings/087any51830/"
+    },
+    {
+      "id": "cr-christ-church-nashville",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Christ Church Nashville",
+      "day": 5,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Christ Church Nashville",
+      "address": "15354 Old Hickory Blvd",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37211",
+      "region": "South Nashville",
+      "notes": "Dinner at 5:45pm, service 6:30–8:30pm. Church office (615) 834-6171.",
+      "source": "https://christchurchnashville.org/recovery/"
     },
     {
       "id": "aa-055dic51830-d5-1830",
@@ -20109,6 +20584,24 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "oa-sat-morning",
+      "fellowship": "OA",
+      "name": "OA Saturday Morning Meeting",
+      "day": 6,
+      "time": "09:00",
+      "types": [
+        "Open"
+      ],
+      "venue": "See OA listing for location",
+      "address": null,
+      "city": "Nashville",
+      "state": "TN",
+      "zip": null,
+      "region": "Nashville",
+      "notes": "Middle TN Intergroup: (615) 442-6780 — meetings 7 days a week at oanashville.org.",
+      "source": "https://oa.org/meetings/21452/"
+    },
+    {
       "id": "aa-out-to-breakfast-bunch-12-d6-0900",
       "fellowship": "AA",
       "name": "Out to Breakfast Bunch",
@@ -21100,6 +21593,25 @@
       "region": "Brentwood",
       "notes": "ENTER THROUGH DOOR E",
       "source": "https://aanashville.org/meetings/027lat61300/"
+    },
+    {
+      "id": "aca-west-saturday",
+      "fellowship": "ACA",
+      "name": "Nashville West Saturday ACA",
+      "day": 6,
+      "time": "13:00",
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "venue": null,
+      "address": null,
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37205",
+      "region": "West Nashville",
+      "notes": "WSO meeting TN045; online option available. Confirm time at adultchildren.org.",
+      "source": "https://alcohol.org/meeting-finder/adult-children-of-alcoholics/aca-nashville-west-saturday-aca-tn045-nashville-tn-6-13-00/"
     },
     {
       "id": "aa-recovery-at-the-bend-2-d6-1400",
