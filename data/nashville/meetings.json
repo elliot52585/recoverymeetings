@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-15T04:10:01.000Z",
+    "generated": "2026-07-15T13:50:50.467Z",
     "seed": false,
     "counts": {
       "AA": 788,
@@ -13,19 +13,18 @@
       "CR": 9,
       "RD": 4,
       "ACA": 4,
-      "OA": 1,
-      "CA": 1
+      "ALANON": 4,
+      "CA": 1,
+      "OA": 1
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 789,
-        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: https://aanashville.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403 | https://www.area64assembly.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
       },
       "NA": {
-        "ok": true,
-        "count": 120,
-        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
+        "ok": false,
+        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=35&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 403"
       },
       "CA": {
         "ok": true,
@@ -38,17 +37,18 @@
         "source": "curated"
       },
       "MA": {
-        "ok": false,
-        "error": "all TSML feeds failed: https://marijuana-anonymous.org/wp-admin/admin-ajax.php?action=meetings — HTTP 401"
+        "ok": true,
+        "count": 0,
+        "source": "curated"
       },
       "HA": {
-        "ok": false,
-        "error": "all TSML feeds failed: https://heroinanonymous.org/wp-admin/admin-ajax.php?action=meetings — HTTP 400"
+        "ok": true,
+        "count": 3,
+        "source": "curated"
       },
       "RD": {
-        "ok": true,
-        "count": 4,
-        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings — HTTP 403"
       },
       "SLAA": {
         "ok": true,
@@ -77,7 +77,7 @@
       },
       "ALANON": {
         "ok": true,
-        "count": 0,
+        "count": 4,
         "source": "curated"
       }
     }
@@ -8384,6 +8384,23 @@
       "source": "https://aanashville.org/meetings/awol/"
     },
     {
+      "id": "alanon-alateen-woodmont-tue",
+      "fellowship": "ALANON",
+      "name": "Alateen — Woodmont",
+      "day": 2,
+      "time": "18:30",
+      "types": [
+        "Alateen (teens)"
+      ],
+      "venue": "Woodmont Christian Church, Room 100",
+      "address": "3601 Hillsboro Pike",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37215",
+      "region": "Green Hills",
+      "source": "https://tn-al-anon.org/tn-alateen-meeting-schedule/"
+    },
+    {
       "id": "aa-087any21830-d2-1830",
       "fellowship": "AA",
       "name": "Any Lengths Group",
@@ -9572,6 +9589,25 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/214mlc21930/"
+    },
+    {
+      "id": "ca-off-the-rocks",
+      "fellowship": "CA",
+      "name": "Off The Rocks",
+      "day": 2,
+      "time": "19:30",
+      "types": [
+        "Open",
+        "Discussion"
+      ],
+      "venue": "Home Church Nashville (White Scout building behind the church)",
+      "address": "3511 Gallatin Pike",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37216",
+      "region": "East Nashville",
+      "notes": "Verify at canashville.com.",
+      "source": "https://alcohol.org/meeting-finder/cocaine-anonymous/nashville-tn/"
     },
     {
       "id": "slaa-tue-nrc",
@@ -21038,6 +21074,24 @@
       "source": "https://aanashville.org/meetings/172rob61000/"
     },
     {
+      "id": "alanon-self-worth-sat",
+      "fellowship": "ALANON",
+      "name": "Saturday Morning Self-Worth AFG",
+      "day": 6,
+      "time": "10:00",
+      "types": [
+        "Beginner",
+        "Wheelchair accessible"
+      ],
+      "venue": "Woodmont Christian Church, Room 105 (lower level)",
+      "address": "3601 Hillsboro Pike",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37215",
+      "region": "Green Hills",
+      "source": "https://findrecovery.com/alanon_meetings/tn/nashville/"
+    },
+    {
       "id": "aa-searchers-d6-1000",
       "fellowship": "AA",
       "name": "Searchers",
@@ -23404,22 +23458,40 @@
       "source": "https://aanashville.org/meetings/211mnt62359/"
     },
     {
-      "id": "ca-gallatin-pike",
-      "fellowship": "CA",
-      "name": "CA Nashville — Gallatin Pike Group",
+      "id": "alanon-courage-to-change",
+      "fellowship": "ALANON",
+      "name": "East Nashville Courage To Change AFG",
       "day": null,
-      "time": "19:30",
+      "time": "10:00",
       "types": [
-        "Open"
+        "Open to observers"
       ],
-      "venue": "White Scout building (behind the church)",
-      "address": "3511 Gallatin Pike",
+      "venue": "Woodland Presbyterian Church (enter on Gartland Ave, upstairs)",
+      "address": null,
       "city": "Nashville",
       "state": "TN",
-      "zip": "37216",
+      "zip": "37206",
       "region": "East Nashville",
-      "notes": "Confirm the meeting day at canashville.com before attending.",
-      "source": "https://canashville.com/"
+      "notes": "Confirm day with the Middle TN Al-Anon office: (615) 333-6066.",
+      "source": "https://findrecovery.com/alanon_meetings/tn/nashville/"
+    },
+    {
+      "id": "alanon-parents-woodmont",
+      "fellowship": "ALANON",
+      "name": "Al-Anon Parents AFG — Woodmont",
+      "day": null,
+      "time": "18:30",
+      "types": [
+        "Parents focus"
+      ],
+      "venue": "Woodmont Christian Church, Room 105 (west entrance)",
+      "address": "3601 Hillsboro Pike",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37215",
+      "region": "Green Hills",
+      "notes": "Grandparents meeting 1st & 3rd Tuesdays. Confirm day/time: parentAlAnonFamilyGroup@gmail.com or (615) 333-6066.",
+      "source": "https://findrecovery.com/alanon_meetings/tn/nashville/"
     }
   ]
 }
