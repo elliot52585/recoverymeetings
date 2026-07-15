@@ -394,6 +394,11 @@
   }
 
   function emptyStateHtml() {
+    if (nearCenter()) {
+      return `<div class="empty"><p><strong>No meetings within ${state.near.radius} miles of ${esc(state.near.zip)} match those filters.</strong></p>
+        <p>Try a wider radius — or clear the distance filter to see online meetings too.</p>
+        <p>If you think meetings are missing for your area, <a href="${REPORT_URL}?title=${encodeURIComponent(`[coverage] No meetings near ${state.near.zip}`)}" target="_blank" rel="noopener">tell us</a>.</p></div>`;
+    }
     const f = state.filters.fellowship.size === 1 ? [...state.filters.fellowship][0] : null;
     const src = f && (state.city.sources || []).find((s) => s.fellowship === f);
     const finder = src?.finder || fellowshipInfo(f || "")?.onlineDirectory;

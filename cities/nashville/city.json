@@ -4,7 +4,7 @@
   "state": "TN",
   "timezone": "America/Chicago",
   "center": { "lat": 36.1627, "lng": -86.7816 },
-  "radiusMiles": 35,
+  "radiusMiles": 55,
 
   "helplines": [
     { "fellowship": "AA", "name": "Middle TN Central Office (AA)", "phone": "(615) 831-1050", "url": "https://aanashville.org/" },
