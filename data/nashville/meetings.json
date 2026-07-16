@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-15T15:30:08.474Z",
+    "generated": "2026-07-16T13:04:27.254Z",
     "seed": false,
     "counts": {
-      "AA": 882,
+      "AA": 876,
       "NA": 161,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 883,
+        "count": 877,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -4109,32 +4109,6 @@
       "region": "Nashville",
       "notes": "Free parking garage available behind Double Dogs restaurant (across 21st Ave)",
       "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "aa-serenity-and-strength-d1-1200",
-      "fellowship": "AA",
-      "name": "Serenity and Strength",
-      "day": 1,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "12x12",
-        "Literature",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/6726274521",
-      "venue": null,
-      "address": "Clarksville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.5297706,
-      "lng": -87.3594528,
-      "region": "Clarksville",
-      "notes": "ID: 672 627 4521\nPW: 085082",
-      "source": "https://aanashville.org/meetings/serenity-and-strength/"
     },
     {
       "id": "aa-129ser11200-d1-1200",
@@ -8363,31 +8337,6 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
-      "id": "aa-serenity-and-strength-3-d2-1200",
-      "fellowship": "AA",
-      "name": "Serenity and Strength",
-      "day": 2,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/6726274521",
-      "venue": null,
-      "address": "Clarksville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.5297706,
-      "lng": -87.3594528,
-      "region": "Clarksville",
-      "notes": "ID: 672 627 4521\nPW: 085082",
-      "source": "https://aanashville.org/meetings/serenity-and-strength-3/"
-    },
-    {
       "id": "aa-129ser21200-d2-1200",
       "fellowship": "AA",
       "name": "Serenity Group",
@@ -12605,31 +12554,6 @@
       "source": "https://aanashville.org/meetings/212sai31200/"
     },
     {
-      "id": "aa-serenity-and-strength-4-d3-1200",
-      "fellowship": "AA",
-      "name": "Serenity and Strength",
-      "day": 3,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/6726274521",
-      "venue": null,
-      "address": "Clarksville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.5297706,
-      "lng": -87.3594528,
-      "region": "Clarksville",
-      "notes": "ID: 672 627 4521\nPW: 085082",
-      "source": "https://aanashville.org/meetings/serenity-and-strength-4/"
-    },
-    {
       "id": "aa-129ser31200-d3-1200",
       "fellowship": "AA",
       "name": "Serenity Group",
@@ -16280,32 +16204,6 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
-      "id": "aa-serenity-and-strength-5-d4-1200",
-      "fellowship": "AA",
-      "name": "Serenity and Strength",
-      "day": 4,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Speaker"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/6726274521",
-      "venue": null,
-      "address": "Clarksville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.5297706,
-      "lng": -87.3594528,
-      "region": "Clarksville",
-      "notes": "ID: 672 627 4521\nPW: 085082\n\nLast Saturday of the month is a Speaker Meeting",
-      "source": "https://aanashville.org/meetings/serenity-and-strength-5/"
-    },
-    {
       "id": "aa-129ser41200-d4-1200",
       "fellowship": "AA",
       "name": "Serenity Group",
@@ -17247,32 +17145,6 @@
       "region": "Fairview",
       "notes": null,
       "source": "https://aanashville.org/meetings/you-are-not-alone-2/"
-    },
-    {
-      "id": "aa-a-second-surrender-d4-1830",
-      "fellowship": "AA",
-      "name": "A Second Surrender",
-      "day": 4,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Literature",
-        "Men",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Brenthaven Cumberland Presbyterian",
-      "address": "516 Franklin Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.01908,
-      "lng": -86.795756,
-      "region": "Brentwood",
-      "notes": null,
-      "source": "https://aanashville.org/meetings/a-second-surrender/"
     },
     {
       "id": "aa-087any41830-d4-1830",
@@ -18719,6 +18591,32 @@
       "region": "Nashville",
       "notes": "LGBTQ All Wecome",
       "source": "https://aanashville.org/meetings/lambda-group/"
+    },
+    {
+      "id": "aa-a-second-surrender-d4-1930",
+      "fellowship": "AA",
+      "name": "Men's Log Cabin South: Emotional Sobriety",
+      "day": 4,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Literature",
+        "Men",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Brenthaven Cumberland Presbyterian",
+      "address": "516 Franklin Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.01908,
+      "lng": -86.795756,
+      "region": "Brentwood",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/a-second-surrender/"
     },
     {
       "id": "na-new-new-horizons-152788",
@@ -20302,32 +20200,6 @@
       "region": "Nashville",
       "notes": "NOTE: OTLB IS NOW MEETING ONLY ON MON/WED/FRI — Free parking garage available behind Double Dogs restaurant (across 21st Ave)",
       "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "aa-serenity-and-strength-2-d5-1200",
-      "fellowship": "AA",
-      "name": "Serenity and Strength",
-      "day": 5,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Big Book",
-        "Literature",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/6726274521",
-      "venue": null,
-      "address": "Clarksville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.5297706,
-      "lng": -87.3594528,
-      "region": "Clarksville",
-      "notes": "ID: 672 627 4521\nPW: 085082",
-      "source": "https://aanashville.org/meetings/serenity-and-strength-2/"
     },
     {
       "id": "aa-129ser51200-d5-1200",
@@ -24905,31 +24777,6 @@
       "region": "Nashville",
       "notes": "Tel. 615-327-3909",
       "source": "https://aanashville.org/meetings/202-friendship-house-20/"
-    },
-    {
-      "id": "aa-serenity-and-strength-11-d6-1500",
-      "fellowship": "AA",
-      "name": "Serenity and Strength",
-      "day": 6,
-      "time": "15:00",
-      "endTime": "16:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/6726274521",
-      "venue": null,
-      "address": "Clarksville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.5297706,
-      "lng": -87.3594528,
-      "region": "Clarksville",
-      "notes": "ID: 672 627 4521\nPW: 085082\n\nLast Saturday of the month is a Speaker Meeting",
-      "source": "https://aanashville.org/meetings/serenity-and-strength-11/"
     },
     {
       "id": "aa-5-and-5-group-6-d6-1700",
