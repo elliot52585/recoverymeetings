@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-19T11:35:35.469Z",
+    "generated": "2026-07-20T13:31:13.549Z",
     "seed": false,
     "counts": {
       "AA": 876,
@@ -10596,8 +10596,7 @@
       "types": [
         "Discussion",
         "Open",
-        "LT",
-        "SP"
+        "SPAD"
       ],
       "online": false,
       "hybrid": false,
