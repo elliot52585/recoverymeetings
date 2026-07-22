@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-21T12:47:32.473Z",
+    "generated": "2026-07-22T12:56:58.098Z",
     "seed": false,
     "counts": {
       "AA": 876,
-      "NA": 163,
+      "NA": 164,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -19,13 +19,12 @@
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 877,
-        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings: expected a JSON array"
       },
       "NA": {
         "ok": true,
-        "count": 164,
+        "count": 165,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -7986,6 +7985,31 @@
       "region": "Nashville",
       "notes": "ID: 842 2102 4955\nPW: 1234",
       "source": "https://aanashville.org/meetings/downtown-1130-lunch-meeting/"
+    },
+    {
+      "id": "na-midday-miracles-229413",
+      "fellowship": "NA",
+      "name": "Midday Miracles",
+      "day": 2,
+      "time": "11:30",
+      "endTime": "13:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Jefferson Street Missionary Bapt",
+      "address": "2708 Jefferson Street",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37208",
+      "lat": 36.1680972,
+      "lng": -86.8195133,
+      "region": "Nashville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-202-friendship-house-2-d2-1130",
