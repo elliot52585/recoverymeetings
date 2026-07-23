@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-22T12:56:58.098Z",
+    "generated": "2026-07-23T13:11:41.016Z",
     "seed": false,
     "counts": {
       "AA": 876,
-      "NA": 164,
+      "NA": 162,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -24,7 +24,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 165,
+        "count": 163,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -18341,30 +18341,6 @@
       "source": "https://aanashville.org/meetings/she-recovers/"
     },
     {
-      "id": "na-surrender-up-229375",
-      "fellowship": "NA",
-      "name": "Surrender Up",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Basic Text"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Fellowship House",
-      "address": "206 S College St",
-      "city": "Lebanon",
-      "state": "TN",
-      "zip": "37087",
-      "lat": 36.2042651,
-      "lng": -86.2905426,
-      "region": "Lebanon",
-      "notes": null,
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
       "id": "na-the-acheivers-of-na-168796",
       "fellowship": "NA",
       "name": "The Acheivers Of NA",
@@ -22044,30 +22020,6 @@
       "region": "Gallatin",
       "notes": null,
       "source": "https://aanashville.org/meetings/searchers-3/"
-    },
-    {
-      "id": "na-surrender-up-229376",
-      "fellowship": "NA",
-      "name": "Surrender Up",
-      "day": 5,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Basic Text"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Fellowship House",
-      "address": "206 S College St",
-      "city": "Lebanon",
-      "state": "TN",
-      "zip": "37087",
-      "lat": 36.2042651,
-      "lng": -86.2905426,
-      "region": "Lebanon",
-      "notes": null,
-      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-the-basement-bunch-2-d5-1900",
