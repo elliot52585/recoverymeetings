@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-23T13:11:41.016Z",
+    "generated": "2026-07-24T09:41:03.419Z",
     "seed": false,
     "counts": {
       "AA": 876,
-      "NA": 162,
+      "NA": 163,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -24,7 +24,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 163,
+        "count": 164,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -15875,6 +15875,31 @@
       "region": "Nashville",
       "notes": "ID: 842 2102 4955\nPW: 1234",
       "source": "https://aanashville.org/meetings/downtown-lunch-group/"
+    },
+    {
+      "id": "na-midday-miracles-229438",
+      "fellowship": "NA",
+      "name": "Midday Miracles",
+      "day": 4,
+      "time": "11:30",
+      "endTime": "13:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Jefferson Street Missionary Bapt",
+      "address": "2708 Jefferson Street",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37208",
+      "lat": 36.1680972,
+      "lng": -86.8195133,
+      "region": "Nashville",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-202-friendship-house-4-d4-1130",
