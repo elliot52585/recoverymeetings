@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-24T09:41:03.419Z",
+    "generated": "2026-07-25T09:15:42.122Z",
     "seed": false,
     "counts": {
       "AA": 876,
-      "NA": 163,
+      "NA": 164,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -19,12 +19,13 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings: expected a JSON array"
+        "ok": true,
+        "count": 877,
+        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 164,
+        "count": 165,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -134,6 +135,31 @@
       "region": "Franklin",
       "notes": null,
       "source": "https://aanashville.org/meetings/064out0630/"
+    },
+    {
+      "id": "aa-any-lengths-group-3-d0-0700",
+      "fellowship": "AA",
+      "name": "Any Lengths Group",
+      "day": 0,
+      "time": "07:00",
+      "endTime": "08:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Other House Building",
+      "address": "407 Park Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.2068936,
+      "lng": -86.2843536,
+      "region": "Lebanon",
+      "notes": "Building and parking in back",
+      "source": "https://aanashville.org/meetings/any-lengths-group-3/"
     },
     {
       "id": "aa-first-things-first-7-d0-0700",
@@ -3226,31 +3252,6 @@
       "source": "https://aanashville.org/meetings/064out1630/"
     },
     {
-      "id": "aa-any-lengths-group-3-d1-0700",
-      "fellowship": "AA",
-      "name": "Any Lengths Group",
-      "day": 1,
-      "time": "07:00",
-      "endTime": "08:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The Other House Building",
-      "address": "407 Park Ave",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.2068936,
-      "lng": -86.2843536,
-      "region": "Lebanon",
-      "notes": "Building and parking in back",
-      "source": "https://aanashville.org/meetings/any-lengths-group-3/"
-    },
-    {
       "id": "na-early-birds-46549",
       "fellowship": "NA",
       "name": "Early Birds",
@@ -4456,31 +4457,6 @@
       "source": "https://aanashville.org/meetings/house-meeting/"
     },
     {
-      "id": "aa-columbia-group-4-d1-1700",
-      "fellowship": "AA",
-      "name": "Columbia Group",
-      "day": 1,
-      "time": "17:00",
-      "endTime": "18:00",
-      "types": [
-        "Big Book",
-        "Closed"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Friendship House",
-      "address": "1113 S High St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.6104114,
-      "lng": -87.0376561,
-      "region": "Columbia",
-      "notes": null,
-      "source": "https://aanashville.org/meetings/columbia-group-4/"
-    },
-    {
       "id": "aa-back-to-the-big-book-group-d1-1730",
       "fellowship": "AA",
       "name": "Back To The Big Book Group",
@@ -5572,7 +5548,8 @@
       "endTime": "19:30",
       "types": [
         "Discussion",
-        "Open"
+        "Open",
+        "Speaker"
       ],
       "online": false,
       "hybrid": false,
@@ -9581,31 +9558,6 @@
       "source": "https://aanashville.org/meetings/east-side-womens-meeting/"
     },
     {
-      "id": "aa-just-for-today-d2-1830",
-      "fellowship": "AA",
-      "name": "Just For Today",
-      "day": 2,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Open",
-        "Women"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/895916392?pwd=aHp5VFRicUVvMG5heXAweWp3d0cwdz09",
-      "venue": null,
-      "address": "Nashville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1523805,
-      "lng": -86.7893889,
-      "region": "Nashville",
-      "notes": "ID: 895 916 392\nPW: JFT",
-      "source": "https://aanashville.org/meetings/just-for-today/"
-    },
-    {
       "id": "na-keeping-hope-alive-177644",
       "fellowship": "NA",
       "name": "Keeping Hope Alive",
@@ -13053,6 +13005,32 @@
       "source": "https://aanashville.org/meetings/202-friendship-house-24/"
     },
     {
+      "id": "aa-any-lengths-group-4-d3-1715",
+      "fellowship": "AA",
+      "name": "Any Lengths Group",
+      "day": 3,
+      "time": "17:15",
+      "endTime": "18:15",
+      "types": [
+        "Discussion",
+        "Open",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Other House Building",
+      "address": "407 Park Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.2068936,
+      "lng": -86.2843536,
+      "region": "Lebanon",
+      "notes": "Building and parking in back",
+      "source": "https://aanashville.org/meetings/any-lengths-group-4/"
+    },
+    {
       "id": "aa-lewisburg-primary-purpose-sassy-sisters-in-sobriety-group-d3-1730",
       "fellowship": "AA",
       "name": "Lewisburg Primary Purpose Sassy Sisters in Sobriety Group",
@@ -13968,6 +13946,31 @@
       "region": "Clarksville",
       "notes": "The glass door on the left side of the building down by the portico.",
       "source": "https://aanashville.org/meetings/040sou31830/"
+    },
+    {
+      "id": "aa-the-unshackled-group-d3-1830",
+      "fellowship": "AA",
+      "name": "The Unshackled Group",
+      "day": 3,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Beech Cumberland Presbyterian Church",
+      "address": "3216 Long Hollow Pike",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.3710625,
+      "lng": -86.625434,
+      "region": "Hendersonville",
+      "notes": "Use door at the top of ramp on the right side of driveway at the Life Center building",
+      "source": "https://aanashville.org/meetings/the-unshackled-group/"
     },
     {
       "id": "na-unloaded-13960",
@@ -21082,6 +21085,33 @@
       "region": "Lebanon",
       "notes": "2nd Street Off Square- Handicapped accessible",
       "source": "https://aanashville.org/meetings/087sfg51800/"
+    },
+    {
+      "id": "na-spiritual-solutions-group-229450",
+      "fellowship": "NA",
+      "name": "Spiritual Solutions Group",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Closed",
+        "H",
+        "SP",
+        "SPAD"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cumberland Height IOP Facility",
+      "address": "745 S. Church Street, Suite 501",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "zip": "37130",
+      "lat": 35.8384387,
+      "lng": -86.3912391,
+      "region": "Murfreesboro",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-spiritual-warfare-d5-1800",
