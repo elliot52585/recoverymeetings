@@ -13,6 +13,9 @@
   <meta property="og:description" content="Every AA, NA, CA, and Celebrate Recovery meeting in the Nashville area — filter, plan your week, add to your calendar." id="og-desc" />
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230f766e'/%3E%3Ctext x='50' y='68' font-size='48' font-family='Helvetica,Arial,sans-serif' font-weight='800' fill='%23f0fdfa' text-anchor='middle'%3E24%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="vendor/leaflet.css" />
+  <link rel="stylesheet" href="vendor/MarkerCluster.css" />
+  <link rel="stylesheet" href="vendor/MarkerCluster.Default.css" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="manifest" href="manifest.webmanifest" />
 </head>
@@ -37,6 +40,7 @@
 
       <nav class="tabs" role="tablist">
         <button class="tab active" role="tab" data-tab="meetings" aria-selected="true">Find a meeting <span class="tab-count" id="count-meetings">—</span></button>
+        <button class="tab" role="tab" data-tab="map" aria-selected="false">Map</button>
         <button class="tab" role="tab" data-tab="week" aria-selected="false">My week <span class="tab-count" id="count-week">0</span></button>
         <button class="tab" role="tab" data-tab="about" aria-selected="false">About</button>
       </nav>
@@ -97,6 +101,11 @@
       <div id="meetings-list"></div>
     </section>
 
+    <section id="view-map" class="view" hidden>
+      <p class="muted map-note" id="map-note">Every filter above applies to the map too. Online-only meetings aren't shown here — switch to the list for those.</p>
+      <div id="map" aria-label="Map of meetings"></div>
+    </section>
+
     <section id="view-week" class="view" hidden>
       <div class="week-toolbar">
         <div>
@@ -139,6 +148,8 @@
 
   <div id="toast" class="toast" hidden></div>
 
+  <script src="vendor/leaflet.js"></script>
+  <script src="vendor/leaflet.markercluster.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
