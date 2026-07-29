@@ -211,6 +211,27 @@ a { color: var(--accent); }
 .cal-menu button:hover, .cal-menu a:hover { background: var(--chip-bg); }
 .cal-menu .menu-note { font-size: 0.7rem; color: var(--muted); padding: 2px 10px 6px; }
 
+/* ---------- map ---------- */
+#map { height: min(72vh, 640px); border-radius: 14px; border: 1px solid var(--line); z-index: 0; }
+.map-note { margin: 0 0 10px; }
+.map-pin {
+  display: grid; place-items: center;
+  width: 26px; height: 26px; border-radius: 50%;
+  color: #fff; font-size: 0.6rem; font-weight: 800;
+  border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.map-pop { font-size: 0.85rem; line-height: 1.5; }
+.map-pop .badge { margin-left: 4px; }
+.map-pop button {
+  font: inherit; font-size: 0.78rem; cursor: pointer;
+  background: var(--chip-bg); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 6px; padding: 1px 8px;
+}
+@media (prefers-color-scheme: dark) {
+  .leaflet-tile { filter: brightness(0.7) contrast(1.1); }
+  .leaflet-container { background: #16241f; }
+}
+
 /* ---------- week view ---------- */
 .week-toolbar { display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: flex-end; margin-bottom: 16px; }
 .week-toolbar h2 { margin: 0; }

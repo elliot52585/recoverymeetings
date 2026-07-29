@@ -4,7 +4,7 @@
 // Strategy:
 //   - app shell (html/css/js/registry): cache-first, refreshed in background
 //   - meeting data (data/, cities/): network-first, cache fallback
-const VERSION = "rm-v3";
+const VERSION = "rm-v4";
 const SHELL = [
   "./",
   "index.html",
@@ -13,6 +13,11 @@ const SHELL = [
   "manifest.webmanifest",
   "icon.svg",
   "registry/fellowships.json",
+  "vendor/leaflet.js",
+  "vendor/leaflet.css",
+  "vendor/leaflet.markercluster.js",
+  "vendor/MarkerCluster.css",
+  "vendor/MarkerCluster.Default.css",
 ];
 
 self.addEventListener("install", (e) => {

@@ -298,11 +298,74 @@
       t.setAttribute("aria-selected", String(on));
     });
     $("#view-meetings").hidden = tab !== "meetings";
+    $("#view-map").hidden = tab !== "map";
     $("#view-week").hidden = tab !== "week";
     $("#view-about").hidden = tab !== "about";
-    const showFilters = tab === "meetings";
+    const showFilters = tab === "meetings" || tab === "map";
     $("#filters").style.display = showFilters ? "" : "none";
     $("#search-row").style.display = showFilters ? "" : "none";
+    if (tab === "map") renderMap();
+  }
+
+  // ---------- map ----------
+
+  let map = null;
+  let mapCluster = null;
+
+  function renderMap() {
+    if (typeof L === "undefined") {
+      $("#map").innerHTML = '<p class="muted" style="padding:20px">Map library unavailable — use the list view.</p>';
+      return;
+    }
+    if (!map) {
+      map = L.map("map").setView([state.city.center.lat, state.city.center.lng], 11);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map);
+      mapCluster = L.markerClusterGroup({ maxClusterRadius: 46, showCoverageOnHover: false });
+      map.addLayer(mapCluster);
+      map.on("popupopen", (e) => {
+        const btn = e.popup.getElement()?.querySelector("[data-map-plan]");
+        if (btn) btn.addEventListener("click", () => {
+          togglePlan(btn.dataset.mapPlan);
+          map.closePopup();
+        });
+      });
+    }
+    // The map ignores the day's grouping but honors every active filter;
+    // in-person/hybrid with a resolvable location only.
+    const list = applyFilters().filter((m) => !(m.online && !m.hybrid));
+    const markers = [];
+    for (const m of list) {
+      const pt = m.lat != null && m.lng != null ? [m.lat, m.lng] : state.zips[m.zip] || null;
+      if (!pt) continue;
+      const info = fellowshipInfo(m.fellowship);
+      const icon = L.divIcon({
+        className: "",
+        html: `<span class="map-pin" style="background:${esc(info.color || FALLBACK_COLOR)}">${esc(info.short.slice(0, 2))}</span>`,
+        iconSize: [26, 26],
+        iconAnchor: [13, 13],
+      });
+      const inPlan = state.plan.includes(m.id);
+      const marker = L.marker(pt, { icon });
+      marker.bindPopup(
+        `<div class="map-pop">
+          <strong>${esc(m.name)}</strong>
+          <span class="badge" style="background:${esc(info.color || FALLBACK_COLOR)}">${esc(info.short)}</span><br>
+          ${m.day != null ? esc(DAYS[m.day]) + "s " : ""}${fmtTime(m.time).replace(/<[^>]+>/g, " ")}${m._dist != null ? ` · ${m._dist.toFixed(1)} mi` : ""}<br>
+          ${esc([m.venue, m.address, m.city].filter(Boolean).join(" · "))}<br>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([m.address, m.city, m.state, m.zip].filter(Boolean).join(", "))}" target="_blank" rel="noopener">directions</a>
+          ${m.day != null ? ` · <button type="button" data-map-plan="${esc(m.id)}">${inPlan ? "✓ in my week" : "+ my week"}</button>` : ""}
+        </div>`
+      );
+      markers.push(marker);
+    }
+    mapCluster.clearLayers();
+    mapCluster.addLayers(markers);
+    $("#map-note").textContent =
+      `${markers.length} in-person meetings on the map — every filter above applies. Online-only meetings are in the list view.`;
+    setTimeout(() => map.invalidateSize(), 50);
   }
 
   function applyFilters() {
@@ -391,6 +454,7 @@
     }
     host.innerHTML = html;
     wireCards(host);
+    if (state.tab === "map") renderMap();
   }
 
   function emptyStateHtml() {
