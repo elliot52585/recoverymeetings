@@ -1,78 +1,120 @@
 {
-  "generated": "2026-07-30T17:22:27.644Z",
-  "round": 2,
+  "generated": "2026-07-30T17:26:01.868Z",
+  "round": 3,
   "results": [
     {
-      "key": "oa-ns",
-      "url": "https://oa.org/wp-json/oa-meetings/v1/",
+      "key": "oa-search-empty",
+      "url": "https://oa.org/wp-json/oa-meetings/v1/meetings_search",
+      "sent": {},
       "status": 200,
       "contentType": "application/json; charset=UTF-8",
-      "bytes": 1258,
+      "bytes": 71772,
       "kind": "json-object",
-      "sample": "{\"namespace\":\"oa-meetings/v1\",\"routes\":{\"/oa-meetings/v1\":{\"namespace\":\"oa-meetings/v1\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"namespace\":{\"default\":\"oa-meetings/v1\",\"required\":false},\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https://oa.org/wp-json/oa-meetings/v1\"}]}},\"/oa-meetings/v1/results\":{\"namespace\":\"oa-meetings/v1\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https://oa.org/wp-json/oa-meetings/v1/results\"}]}},\"/oa-meetings/v1/meetings_search\":{\"namespace\":\"oa-meetings/v1\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https://oa.org/wp-json/oa-meetings/v1/meetings_search\"}]}},\"/oa-meetings/v1/locales\":{\"namespace\":\"oa-meetings/v1\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"locale\":{\"type\":\"string\",\"required\":true},\"country\":{\"type\":\"integer\",\"required\":true},\"arguments\":{\"type\":\"string\",\"required\":false},\"state\":{\"type\":\"integer\",\"required\":false},\"meeting_type\":{\"type\":\"integer\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https://oa.org/wp-json/oa-meetings/v1/locales\"}]}}},\"_links\":{\"up\":[{\"href\":\"https://oa.org/wp-json/\"}]}}"
+      "sample": "{\"html\":\"<div class=\\\"meeting-results has-small-font-size\\\">\\n                <div class=\\\"meeting-results__tools hidden-print\\\">\\n        <a\\n            class=\\\"meeting-results__tool meeting-results__tool--print\\\"\\n            href=\\\"#\\\"\\n            rel=\\\"nofollow noopener\\\"\\n            data-export-action=\\\"print\\\"\\n            data-tippy-content=\\\"Open a printable view. Only the results shown on this page are included. To print additional pages, open each page and print it separately.\\\"\\n            data-gt-translate-attributes='[\\\"data-tippy-content\\\"]'\\n        >\\n            Print        </a>\\n        <a\\n            class=\\\"meeting-results__tool meeting-results__tool--excel\\\"\\n            href=\\\"#\\\"\\n            rel=\\\"nofollow noopener\\\"\\n            data-export-action=\\\"xls\\\"\\n            data-export-nonce=\\\"74cb48849b\\\"\\n            data-tippy-content=\\\"Download the results shown on this page as an Excel file (.xlsx). \\\"\\n            data-gt-translate-attributes='[\\\"data-tippy-content\\\"]'\\n        >\\n            Download        </a>\\n\\n    </div>\\n    \\n    <div class=\\\"meeting-results__table\\\" role=\\\"table\\\" aria-label=\\\"Meeting results\\\">\\n        <div class=\\\"meeting-results__thead sticky\\\" role=\\\"rowgroup\\\">\\n            <div class=\\\"meeting-results__tr meeting-results__tr--head\\\" role=\\\"row\\\">\\n                <div class=\\\"meeting-results__th meeting-results__th--time-day\\\" role=\\\"columnheader\\\">\\n                    Time &amp; Day                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--types\\\" role=\\\"columnheader\\\">\\n                    Type(s)                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--language\\\" role=\\\"columnheader\\\">\\n                    Language / Literature                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Name / Location                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Topics / Focus                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--meeting-number\\\" role=\\\"columnheader\\\">\\n                    Meeting #                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--icons\\\" role=\\\"columnheader\\\" aria-label=\\\"Accessibility options\\\">&nbsp;\\n                </div>\\n            </div>\\n        </div>\\n\\n        <div class=\\\"meeting-results__tbody\\\" role=\\\"rowgroup\\\">\\n            \\n                                                                                                <div class=\\\"meeting-results__tr meeting-results__tr--publish\\\" role=\\\"row\\\" data-permalink=\\\"https://oa.org/meetings/47774/?day=thursday&#038;tzdb=America/New_York\\\">\\n                        <div class=\\\"meeting-results__td meeting-results__td--time-day\\\" role=\\\"cell\\\">\\n                                                                                                <span class=\\\"meeting-results__time-day-time\\\"><strong>1:10<span class=\\\"meeting-results__time-day-meridiem\\\">PM</span></strong></span>\\n                                    <span class=\\\"meeting-results__time-day-day has-small-font-size\\\">Thursday</span>\\n                                                                                                                </div>\\n\\n                        <div class=\\\"m"
     },
     {
-      "key": "aca-ns",
-      "url": "https://adultchildren.org/wp-json/wsom/v1/",
+      "key": "oa-search-latlng",
+      "url": "https://oa.org/wp-json/oa-meetings/v1/meetings_search",
+      "sent": {
+        "latitude": 36.1627,
+        "longitude": -86.7816,
+        "distance": 50,
+        "type": 0,
+        "unit": "mi"
+      },
       "status": 200,
       "contentType": "application/json; charset=UTF-8",
-      "bytes": 1244,
+      "bytes": 71109,
       "kind": "json-object",
-      "sample": "{\"namespace\":\"wsom/v1\",\"routes\":{\"/wsom/v1\":{\"namespace\":\"wsom/v1\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"namespace\":{\"default\":\"wsom/v1\",\"required\":false},\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https://adultchildren.org/wp-json/wsom/v1\"}]}},\"/wsom/v1/meeting-search\":{\"namespace\":\"wsom/v1\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https://adultchildren.org/wp-json/wsom/v1/meeting-search\"}]}},\"/wsom/v1/meeting-popup-details\":{\"namespace\":\"wsom/v1\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https://adultchildren.org/wp-json/wsom/v1/meeting-popup-details\"}]}},\"/wsom/v1/intergroup-search\":{\"namespace\":\"wsom/v1\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https://adultchildren.org/wp-json/wsom/v1/intergroup-search\"}]}},\"/wsom/v1/region-search\":{\"namespace\":\"wsom/v1\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https://adultchildren.org/wp-json/wsom/v1/region-search\"}]}}},\"_links\":{\"up\":[{\"href\":\"https://adultchildren.org/wp-json/\"}]}}"
+      "sample": "{\"html\":\"<div class=\\\"meeting-results has-small-font-size\\\">\\n                <div class=\\\"meeting-results__tools hidden-print\\\">\\n        <a\\n            class=\\\"meeting-results__tool meeting-results__tool--print\\\"\\n            href=\\\"#\\\"\\n            rel=\\\"nofollow noopener\\\"\\n            data-export-action=\\\"print\\\"\\n            data-tippy-content=\\\"Open a printable view. Only the results shown on this page are included. To print additional pages, open each page and print it separately.\\\"\\n            data-gt-translate-attributes='[\\\"data-tippy-content\\\"]'\\n        >\\n            Print        </a>\\n        <a\\n            class=\\\"meeting-results__tool meeting-results__tool--excel\\\"\\n            href=\\\"#\\\"\\n            rel=\\\"nofollow noopener\\\"\\n            data-export-action=\\\"xls\\\"\\n            data-export-nonce=\\\"74cb48849b\\\"\\n            data-tippy-content=\\\"Download the results shown on this page as an Excel file (.xlsx). \\\"\\n            data-gt-translate-attributes='[\\\"data-tippy-content\\\"]'\\n        >\\n            Download        </a>\\n\\n    </div>\\n    \\n    <div class=\\\"meeting-results__table\\\" role=\\\"table\\\" aria-label=\\\"Meeting results\\\">\\n        <div class=\\\"meeting-results__thead sticky\\\" role=\\\"rowgroup\\\">\\n            <div class=\\\"meeting-results__tr meeting-results__tr--head\\\" role=\\\"row\\\">\\n                <div class=\\\"meeting-results__th meeting-results__th--time-day\\\" role=\\\"columnheader\\\">\\n                    Time &amp; Day                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--types\\\" role=\\\"columnheader\\\">\\n                    Type(s)                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--language\\\" role=\\\"columnheader\\\">\\n                    Language / Literature                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Name / Location                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Topics / Focus                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--meeting-number\\\" role=\\\"columnheader\\\">\\n                    Meeting #                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--icons\\\" role=\\\"columnheader\\\" aria-label=\\\"Accessibility options\\\">&nbsp;\\n                </div>\\n            </div>\\n        </div>\\n\\n        <div class=\\\"meeting-results__tbody\\\" role=\\\"rowgroup\\\">\\n            \\n                                                                                                <div class=\\\"meeting-results__tr meeting-results__tr--publish\\\" role=\\\"row\\\" data-permalink=\\\"https://oa.org/meetings/41103/?distance=50\\\">\\n                        <div class=\\\"meeting-results__td meeting-results__td--time-day\\\" role=\\\"cell\\\">\\n                                                                                                <span class=\\\"meeting-results__time-day-time\\\"><strong>11:30<span class=\\\"meeting-results__time-day-meridiem\\\">AM</span></strong></span>\\n                                    <span class=\\\"meeting-results__time-day-day has-small-font-size\\\">Thursday</span>\\n                                                                                                                </div>\\n\\n                        <div class=\\\"meeting-results__td meeting-"
     },
     {
-      "key": "alanon-ns",
-      "url": "https://al-anon.org/wp-json/tm/v1/",
-      "status": 404,
+      "key": "oa-search-location",
+      "url": "https://oa.org/wp-json/oa-meetings/v1/meetings_search",
+      "sent": {
+        "location": "Nashville, TN",
+        "distance": 50,
+        "type": 0
+      },
+      "status": 200,
       "contentType": "application/json; charset=UTF-8",
-      "bytes": 114,
+      "bytes": 72309,
       "kind": "json-object",
-      "sample": "{\"code\":\"rest_no_route\",\"message\":\"No route was found matching the URL and request method.\",\"data\":{\"status\":404}}"
+      "sample": "{\"html\":\"<div class=\\\"meeting-results has-small-font-size\\\">\\n                <div class=\\\"meeting-results__tools hidden-print\\\">\\n        <a\\n            class=\\\"meeting-results__tool meeting-results__tool--print\\\"\\n            href=\\\"#\\\"\\n            rel=\\\"nofollow noopener\\\"\\n            data-export-action=\\\"print\\\"\\n            data-tippy-content=\\\"Open a printable view. Only the results shown on this page are included. To print additional pages, open each page and print it separately.\\\"\\n            data-gt-translate-attributes='[\\\"data-tippy-content\\\"]'\\n        >\\n            Print        </a>\\n        <a\\n            class=\\\"meeting-results__tool meeting-results__tool--excel\\\"\\n            href=\\\"#\\\"\\n            rel=\\\"nofollow noopener\\\"\\n            data-export-action=\\\"xls\\\"\\n            data-export-nonce=\\\"74cb48849b\\\"\\n            data-tippy-content=\\\"Download the results shown on this page as an Excel file (.xlsx). \\\"\\n            data-gt-translate-attributes='[\\\"data-tippy-content\\\"]'\\n        >\\n            Download        </a>\\n\\n    </div>\\n    \\n    <div class=\\\"meeting-results__table\\\" role=\\\"table\\\" aria-label=\\\"Meeting results\\\">\\n        <div class=\\\"meeting-results__thead sticky\\\" role=\\\"rowgroup\\\">\\n            <div class=\\\"meeting-results__tr meeting-results__tr--head\\\" role=\\\"row\\\">\\n                <div class=\\\"meeting-results__th meeting-results__th--time-day\\\" role=\\\"columnheader\\\">\\n                    Time &amp; Day                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--types\\\" role=\\\"columnheader\\\">\\n                    Type(s)                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--language\\\" role=\\\"columnheader\\\">\\n                    Language / Literature                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Name / Location                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Topics / Focus                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--meeting-number\\\" role=\\\"columnheader\\\">\\n                    Meeting #                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--icons\\\" role=\\\"columnheader\\\" aria-label=\\\"Accessibility options\\\">&nbsp;\\n                </div>\\n            </div>\\n        </div>\\n\\n        <div class=\\\"meeting-results__tbody\\\" role=\\\"rowgroup\\\">\\n            \\n                                                                                                <div class=\\\"meeting-results__tr meeting-results__tr--publish\\\" role=\\\"row\\\" data-permalink=\\\"https://oa.org/meetings/41103/?location=Nashville,%20TN&#038;distance=50\\\">\\n                        <div class=\\\"meeting-results__td meeting-results__td--time-day\\\" role=\\\"cell\\\">\\n                                                                                                <span class=\\\"meeting-results__time-day-time\\\"><strong>11:30<span class=\\\"meeting-results__time-day-meridiem\\\">AM</span></strong></span>\\n                                    <span class=\\\"meeting-results__time-day-day has-small-font-size\\\">Thursday</span>\\n                                                                                                                </div>\\n\\n                        <div class="
     },
     {
-      "key": "oa-q1",
-      "url": "https://oa.org/wp-json/oa-meetings/v1/meetings?latitude=36.1627&longitude=-86.7816&distance=55",
-      "status": 404,
+      "key": "oa-results-empty",
+      "url": "https://oa.org/wp-json/oa-meetings/v1/results",
+      "sent": {},
+      "status": 200,
       "contentType": "application/json; charset=UTF-8",
-      "bytes": 114,
+      "bytes": 68810,
       "kind": "json-object",
-      "sample": "{\"code\":\"rest_no_route\",\"message\":\"No route was found matching the URL and request method.\",\"data\":{\"status\":404}}"
+      "sample": "{\"html\":\"<div class=\\\"meeting-results has-small-font-size\\\">\\n            \\n    <div class=\\\"meeting-results__table\\\" role=\\\"table\\\" aria-label=\\\"Meeting results\\\">\\n        <div class=\\\"meeting-results__thead sticky\\\" role=\\\"rowgroup\\\">\\n            <div class=\\\"meeting-results__tr meeting-results__tr--head\\\" role=\\\"row\\\">\\n                <div class=\\\"meeting-results__th meeting-results__th--time-day\\\" role=\\\"columnheader\\\">\\n                    Time &amp; Day                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--types\\\" role=\\\"columnheader\\\">\\n                    Type(s)                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--language\\\" role=\\\"columnheader\\\">\\n                    Language / Literature                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Name / Location                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Topics / Focus                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--meeting-number\\\" role=\\\"columnheader\\\">\\n                    Meeting #                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--icons\\\" role=\\\"columnheader\\\" aria-label=\\\"Accessibility options\\\">&nbsp;\\n                </div>\\n            </div>\\n        </div>\\n\\n        <div class=\\\"meeting-results__tbody\\\" role=\\\"rowgroup\\\">\\n            \\n                                                                                                <div class=\\\"meeting-results__tr meeting-results__tr--publish\\\" role=\\\"row\\\" data-permalink=\\\"https://oa.org/meetings/55670/\\\">\\n                        <div class=\\\"meeting-results__td meeting-results__td--time-day\\\" role=\\\"cell\\\">\\n                                                                                                <span class=\\\"meeting-results__time-day-time\\\"><strong>11:15<span class=\\\"meeting-results__time-day-meridiem\\\">AM</span></strong></span>\\n                                    <span class=\\\"meeting-results__time-day-day has-small-font-size\\\">Thursday</span>\\n                                                                                                                </div>\\n\\n                        <div class=\\\"meeting-results__td meeting-results__td--types\\\" role=\\\"cell\\\">\\n                                                                                            <span class=\\\"meeting-results__type meeting-results__type--phone\\\">\\n                                        Phone                                    </span>\\n                                                    </div>\\n\\n                        <div class=\\\"meeting-results__td meeting-results__td--language\\\" role=\\\"cell\\\">\\n                            <span class=\\\"row-label\\\"><strong>Language(s) &amp; literature:</strong></span>\\n                            <span class=\\\"meeting-lang\\\">English</span>\\n                                                    </div>\\n\\n                        <div class=\\\"meeting-results__td meeting-results__td--name-location\\\" role=\\\"cell\\\">\\n                            <span class=\\\"row-label\\\"><strong>Meeting name &amp; location:</strong></span>\\n                                                                                            <a class"
     },
     {
-      "key": "oa-q2",
-      "url": "https://oa.org/wp-json/oa-meetings/v1/search?lat=36.1627&lng=-86.7816&distance=55",
-      "status": 404,
+      "key": "oa-results-latlng",
+      "url": "https://oa.org/wp-json/oa-meetings/v1/results",
+      "sent": {
+        "latitude": 36.1627,
+        "longitude": -86.7816,
+        "distance": 50
+      },
+      "status": 200,
       "contentType": "application/json; charset=UTF-8",
-      "bytes": 114,
+      "bytes": 68810,
       "kind": "json-object",
-      "sample": "{\"code\":\"rest_no_route\",\"message\":\"No route was found matching the URL and request method.\",\"data\":{\"status\":404}}"
+      "sample": "{\"html\":\"<div class=\\\"meeting-results has-small-font-size\\\">\\n            \\n    <div class=\\\"meeting-results__table\\\" role=\\\"table\\\" aria-label=\\\"Meeting results\\\">\\n        <div class=\\\"meeting-results__thead sticky\\\" role=\\\"rowgroup\\\">\\n            <div class=\\\"meeting-results__tr meeting-results__tr--head\\\" role=\\\"row\\\">\\n                <div class=\\\"meeting-results__th meeting-results__th--time-day\\\" role=\\\"columnheader\\\">\\n                    Time &amp; Day                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--types\\\" role=\\\"columnheader\\\">\\n                    Type(s)                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--language\\\" role=\\\"columnheader\\\">\\n                    Language / Literature                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Name / Location                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--name-location\\\" role=\\\"columnheader\\\">\\n                    Topics / Focus                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--meeting-number\\\" role=\\\"columnheader\\\">\\n                    Meeting #                </div>\\n\\n                <div class=\\\"meeting-results__th meeting-results__th--icons\\\" role=\\\"columnheader\\\" aria-label=\\\"Accessibility options\\\">&nbsp;\\n                </div>\\n            </div>\\n        </div>\\n\\n        <div class=\\\"meeting-results__tbody\\\" role=\\\"rowgroup\\\">\\n            \\n                                                                                                <div class=\\\"meeting-results__tr meeting-results__tr--publish\\\" role=\\\"row\\\" data-permalink=\\\"https://oa.org/meetings/55670/\\\">\\n                        <div class=\\\"meeting-results__td meeting-results__td--time-day\\\" role=\\\"cell\\\">\\n                                                                                                <span class=\\\"meeting-results__time-day-time\\\"><strong>11:15<span class=\\\"meeting-results__time-day-meridiem\\\">AM</span></strong></span>\\n                                    <span class=\\\"meeting-results__time-day-day has-small-font-size\\\">Thursday</span>\\n                                                                                                                </div>\\n\\n                        <div class=\\\"meeting-results__td meeting-results__td--types\\\" role=\\\"cell\\\">\\n                                                                                            <span class=\\\"meeting-results__type meeting-results__type--phone\\\">\\n                                        Phone                                    </span>\\n                                                    </div>\\n\\n                        <div class=\\\"meeting-results__td meeting-results__td--language\\\" role=\\\"cell\\\">\\n                            <span class=\\\"row-label\\\"><strong>Language(s) &amp; literature:</strong></span>\\n                            <span class=\\\"meeting-lang\\\">English</span>\\n                                                    </div>\\n\\n                        <div class=\\\"meeting-results__td meeting-results__td--name-location\\\" role=\\\"cell\\\">\\n                            <span class=\\\"row-label\\\"><strong>Meeting name &amp; location:</strong></span>\\n                                                                                            <a class"
     },
     {
-      "key": "aca-q1",
-      "url": "https://adultchildren.org/wp-json/wsom/v1/meetings?lat=36.1627&lng=-86.7816&radius=55",
-      "status": 404,
+      "key": "aca-search-empty",
+      "url": "https://adultchildren.org/wp-json/wsom/v1/meeting-search",
+      "sent": {},
+      "status": 500,
       "contentType": "application/json; charset=UTF-8",
-      "bytes": 114,
+      "bytes": 285,
       "kind": "json-object",
-      "sample": "{\"code\":\"rest_no_route\",\"message\":\"No route was found matching the URL and request method.\",\"data\":{\"status\":404}}"
+      "sample": "{\"code\":\"internal_server_error\",\"message\":\"<p>There has been a critical error on this website.</p><p><a href=\\\"https://wordpress.org/documentation/article/faq-troubleshooting/\\\">Learn more about troubleshooting WordPress.</a></p>\",\"data\":{\"status\":500},\"additional_errors\":[]}"
     },
     {
-      "key": "aca-q2",
-      "url": "https://adultchildren.org/wp-json/wsom/v1/search?latitude=36.1627&longitude=-86.7816",
-      "status": 404,
+      "key": "aca-search-latlng",
+      "url": "https://adultchildren.org/wp-json/wsom/v1/meeting-search",
+      "sent": {
+        "latitude": 36.1627,
+        "longitude": -86.7816,
+        "radius": 55
+      },
+      "status": 500,
       "contentType": "application/json; charset=UTF-8",
-      "bytes": 114,
+      "bytes": 285,
       "kind": "json-object",
-      "sample": "{\"code\":\"rest_no_route\",\"message\":\"No route was found matching the URL and request method.\",\"data\":{\"status\":404}}"
+      "sample": "{\"code\":\"internal_server_error\",\"message\":\"<p>There has been a critical error on this website.</p><p><a href=\\\"https://wordpress.org/documentation/article/faq-troubleshooting/\\\">Learn more about troubleshooting WordPress.</a></p>\",\"data\":{\"status\":500},\"additional_errors\":[]}"
     },
     {
-      "key": "alanon-q1",
-      "url": "https://al-anon.org/wp-json/tm/v1/meetings?lat=36.1627&lng=-86.7816&radius=55",
-      "status": 404,
+      "key": "aca-search-state",
+      "url": "https://adultchildren.org/wp-json/wsom/v1/meeting-search",
+      "sent": {
+        "country": "US",
+        "state": "TN"
+      },
+      "status": 500,
       "contentType": "application/json; charset=UTF-8",
-      "bytes": 114,
+      "bytes": 285,
       "kind": "json-object",
-      "sample": "{\"code\":\"rest_no_route\",\"message\":\"No route was found matching the URL and request method.\",\"data\":{\"status\":404}}"
+      "sample": "{\"code\":\"internal_server_error\",\"message\":\"<p>There has been a critical error on this website.</p><p><a href=\\\"https://wordpress.org/documentation/article/faq-troubleshooting/\\\">Learn more about troubleshooting WordPress.</a></p>\",\"data\":{\"status\":500},\"additional_errors\":[]}"
+    },
+    {
+      "key": "aca-intergroup-state",
+      "url": "https://adultchildren.org/wp-json/wsom/v1/intergroup-search",
+      "sent": {
+        "country": "US",
+        "state": "TN"
+      },
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": 13271,
+      "kind": "json-object",
+      "sample": "{\"results\":[{\"I_GID\":\"826\",\"IntergroupName\":\"ACA Nevada Intergroup\",\"Address1\":\"NV0081 Mountain of Hope noon PT Hybrid\",\"City\":\"Gardnerville\",\"State\":\"Nevada\",\"Country\":\"United States\",\"PostalCode\":\"89410\",\"Phone1\":\"(530) 748 6539\",\"email\":\"monagiovanna@gmail.com\",\"WebSite\":\"\",\"Notes\":\"<p>NV 0081 Mountain of Hope hybrid noon PT book study meeting Since July 2024. We are currently in Region 6, ARC, registering new ACA Nevada Intergroup</p>\\n\",\"LastUpdate\":\"2026-06-25 07:22:46\",\"R_GID\":\"6\",\"meetingID\":null},{\"I_GID\":\"825\",\"IntergroupName\":\"Nordic ACA English Intergroup\",\"Address1\":\"Finland\",\"City\":\"Helsinki\",\"State\":\"Uusimaa\",\"Country\":\"Finland\",\"PostalCode\":\"\",\"Phone1\":\"\",\"email\":\"nordicacaig@gmail.com\",\"WebSite\":\"\",\"Notes\":\"<p>Every 2nd Friday at 9am PST on Zoom: 891 6572 2623, code 333444</p>\\n\",\"LastUpdate\":\"2026-07-14 04:39:06\",\"R_GID\":\"6\",\"meetingID\":null},{\"I_GID\":\"824\",\"IntergroupName\":\"Australia Asia Pacific zoom only\",\"Address1\":\"\",\"City\":\"Melbourne\",\"State\":\"Victoria\",\"Country\":\"Australia\",\"PostalCode\":\"\",\"Phone1\":\"0423308005\",\"email\":\"kerrie.pach@gmail.com\",\"WebSite\":\"\",\"Notes\":\"<p>This Intergroup is zoom only and will be supporting 3 meetings at this point with room for more</p>\\n\",\"LastUpdate\":\"2026-05-22 08:00:44\",\"R_GID\":\"0\",\"meetingID\":\"8594\"},{\"I_GID\":\"820\",\"IntergroupName\":\"Fun Coast Intergroup of ACA\",\"Address1\":\"600 S Nova Rd., Ormond Beach, FL 32174\",\"City\":\"Ormond Beach\",\"State\":\"Florida\",\"Country\":\"United States\",\"PostalCode\":\"32174\",\"Phone1\":\"(386) 315-2570\",\"email\":\"163WGb@gmail.com\",\"WebSite\":\"\",\"Notes\":\"<p>We meet on the last Saturday of the month at 11am ET in the Religious Education Building, rm #3, behind the Prince of Peace church.</p>\\n\",\"LastUpdate\":\"2026-06-16 00:50:00\",\"R_GID\":\"0\",\"meetingID\":\"1535\"},{\"I_GID\":\"814\",\"IntergroupName\":\"HOPE Helping Others People Exist\",\"Address1\":\"237 W Ashworth Lane\",\"City\":\"Post Falls\",\"State\":\"Idaho\",\"Country\":\"United States\",\"PostalCode\":\"83854\",\"Phone1\":\"2086189297\",\"email\":\"gnndnit@gmail.com\",\"WebSite\":\"\",\"Notes\":\"<p>We have five meeting now in the Idaho panhandle and would like to create a intergroup</p>\\n<p>Wed 630 pm Post Falls</p>\\n<p>Wed 630 PM Spokane Valley</p>\\n<p>Sat 1030 Am Post Falls</p>\\n<p>Sat 6 pm Spokane Wa</p>\\n<p>Tuesday 6 pm Nine mile Falls  WA</p>\\n<p>&nbsp;</p>\\n<p>due to the diastance between western Washington and Montana we would create our own intergroup</p>\\n\",\"LastUpdate\":\"2025-09-11 02:32:02\",\"R_GID\":\"2\",\"meetingID\":\"6951\"},{\"I_GID\":\"812\",\"IntergroupName\":\"ACA Utah Intergroup\",\"Address1\":\"c/o Dani McNair 985 Sundown Lane Tooele, UT 84074\",\"City\":\"\",\"State\":\"Utah\",\"Country\":\"United States\",\"PostalCode\":\"84074\",\"Phone1\":\"2012071276\",\"email\":\"jamie.a.diaz@gmail.com\",\"WebSite\":\"\",\"Notes\":\"<p>ACA Utah Intergroup; current member groups:</p>\\n<p>-Murray, UT: Winds of Change<br />\\n-Park City, UT: Park City Wednesday ACA Meeting<br />\\n-Provo, UT: Let it Begin with Me<br />\\n-Salt Lake City, UT: Strength in Unity</p>\\n\",\"LastUpdate\":\"2025-09-26 05:05:02\",\"R_GID\":\"2\",\"meetingID\":\"8681\"},{\"I_GID\":\"805\",\"IntergroupName\":\"Lithuanian Intergroup\",\"Address1\":\"\",\"City\":\"\",\"State\":\"\",\"Country\":\"Lithuania\",\"PostalCode\":\"\",\"Phone1\":\"+37064800514\",\"email\":\"sav.inter.lt@gmail.com\",\"WebSite\":\"\",\"Notes\":\"<p>Intergroup meets on first Thursday of the month at 8pm Vilnius time. If you want to get a freeconference link email sav.vaikai@gmail.com</p>\\n\",\"LastUpdate\":\"2025-05-28 22:51:13\",\"R_GID\":\"0\",\"meetingID\":\"6057\"},{\"I_GID\":\"804\",\"IntergroupName\":\"ACA Western Aust"
     }
   ]
 }
