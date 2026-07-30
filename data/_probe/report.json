@@ -1,0 +1,167 @@
+{
+  "generated": "2026-07-30T17:18:38.694Z",
+  "results": [
+    {
+      "key": "alanon-wso-tsml",
+      "url": "https://al-anon.org/wp-admin/admin-ajax.php?action=meetings",
+      "status": 400,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1,
+      "kind": "json-object",
+      "sample": "0"
+    },
+    {
+      "key": "alanon-wso-wpjson",
+      "url": "https://al-anon.org/wp-json/",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": 573176,
+      "kind": "json-object",
+      "sample": "{\"name\":\"Al-Anon Family Groups\",\"description\":\"Help and hope for families and friends of alcoholics\",\"url\":\"https://al-anon.org\",\"home\":\"https://al-anon.org\",\"gmt_offset\":-4,\"timezone_string\":\"America/New_York\",\"page_for_posts\":0,\"page_on_front\":1885,\"show_on_front\":\"page\",\"namespaces\":[\"oembed/1.0\",\"wpml/v1\",\"akismet/v1\",\"redirection/v1\",\"sliderrevolution\",\"simple-history/v1\",\"simple-sitemap/v1\",\"wordfence/v1\",\"yoast/v1\",\"liquidweb/harbor/v1\",\"tribe/event-aggregator/v1\",\"tribe/events/v1\",\"tribe/views/v2\",\"tec/v2/onboarding\",\"tec/v1\",\"tribe/zapier/v1\",\"tribe/power-automate/v1\",\"wpml/tm/v1\",\"wpml/ate/v1\",\"tribe_events/v2\",\"wppost/v2\",\"wppost/v2/fr\",\"awb/instagram\",\"awb\",\"font-awesome/v1\",\"otgs/installer/v1\",\"wp/v2\",\"wp-site-health/v1\",\"wp-block-editor/v1\",\"wp-abilities/v1\"],\"authentication\":[],\"routes\":{\"/\":{\"namespace\":\"\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https://al-anon.org/wp-json/\"}]}},\"/batch/v1\":{\"namespace\":\"\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":{\"validation\":{\"type\":\"string\",\"enum\":[\"require-all-validate\",\"normal\"],\"default\":\"normal\",\"required\":false},\"requests\":{\"type\":\"array\",\"maxItems\":25,\"items\":{\"type\":\"object\",\"properties\":{\"method\":{\"type\":\"string\",\"enum\":[\"POST\",\"PUT\",\"PATCH\",\"DELETE\"],\"default\":\"POST\"},\"path\":{\"type\":\"string\",\"required\":true},\"body\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":true},\"headers\":{\"type\":\"object\",\"p"
+    },
+    {
+      "key": "alanon-afsmidtn-home",
+      "url": "https://afsofmiddletn.org/",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 273881,
+      "kind": "text",
+      "sample": "<!doctype html>\n<html xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://www.facebook.com/2008/fbml\" lang=\"en-US\"  >\n  <head>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- This is Squarespace. --><!-- marigold-nectarine-sks4 -->\n<base href=\"\">\n<meta charset=\"utf-8\" />\n<title>Al-Anon Family Services of Middle Tennessee</title>\n<meta http-equiv=\"Accept-CH\" content=\"Sec-CH-UA-Platform-Version, Sec-CH-UA-Model\" /><link rel=\"icon\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\" href=\"https://images.squarespace-cdn.com/content/v1/62562923ea25c94d08d01cad/a2a7203b-b594-477a-9936-b9be71e07afe/favicon.ico?format=100w\"/>\n<link rel=\"icon\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\" href=\"https://images.squarespace-cdn.com/content/v1/62562923ea25c94d08d01cad/aed45cb9-b04a-4399-9324-542b483fb04f/favicon.ico?format=100w\"/>\n<link rel=\"canonical\" href=\"https://afsofmiddletn.org\"/>\n<meta property=\"og:site_name\" content=\"Al-Anon Family Services of Middle Tennessee\"/>\n<meta property=\"og:title\" content=\"Al-Anon Family Services of Middle Tennessee\"/>\n<meta property"
+    },
+    {
+      "key": "oa-tsml",
+      "url": "https://oa.org/wp-admin/admin-ajax.php?action=meetings",
+      "status": 400,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1,
+      "kind": "json-object",
+      "sample": "0"
+    },
+    {
+      "key": "oa-wpjson",
+      "url": "https://oa.org/wp-json/",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": 380866,
+      "kind": "json-object",
+      "sample": "{\"name\":\"Overeaters Anonymous\",\"description\":\"A twelve-step program for people with problems related to food.\",\"url\":\"https://oa.org/wp\",\"home\":\"https://oa.org\",\"gmt_offset\":-6,\"timezone_string\":\"America/Denver\",\"page_for_posts\":0,\"page_on_front\":14,\"show_on_front\":\"page\",\"namespaces\":[\"oembed/1.0\",\"contact-form-7/v1\",\"redirection/v1\",\"akismet/v1\",\"flexible-table-block/v1\",\"oa-meetings/v1\",\"relevanssi/v1\",\"wp-mail-smtp/v1\",\"posts-table-pro/v1\",\"wp-offload-media/v1\",\"two-factor/1.0\",\"barn2-table-generator/v1/posts-table-pro\",\"wp/v2\",\"wp-site-health/v1\",\"wp-block-editor/v1\",\"wp-abilities/v1\"],\"authentication\":{\"application-passwords\":{\"endpoints\":{\"authorization\":\"https://oa.org/wp/wp-admin/authorize-application.php\"}}},\"routes\":{\"/\":{\"namespace\":\"\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https://oa.org/wp-json/\"}]}},\"/batch/v1\":{\"namespace\":\"\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":{\"validation\":{\"type\":\"string\",\"enum\":[\"require-all-validate\",\"normal\"],\"default\":\"normal\",\"required\":false},\"requests\":{\"type\":\"array\",\"maxItems\":25,\"items\":{\"type\":\"object\",\"properties\":{\"method\":{\"type\":\"string\",\"enum\":[\"POST\",\"PUT\",\"PATCH\",\"DELETE\"],\"default\":\"POST\"},\"path\":{\"type\":\"string\",\"required\":true},\"body\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":true},\"headers\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":{\"type\":[\"string\",\"array\"],\"items\":{\"type\":\""
+    },
+    {
+      "key": "oa-find-html",
+      "url": "https://oa.org/find-a-meeting/?type=0&distance=50&location=Nashville%2C%20TN",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 180738,
+      "kind": "text",
+      "sample": "<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<meta name='robots' content='max-image-preview:large, noindex, nofollow' />\n<meta name=\"uri-translation\" content=\"on\" />    <script>\n(function(document, pathname, scriptTag, scriptId, cookiebotId, defaultLanguage) {\nlet firstScript = document.scripts[0];\nlet language = defaultLanguage;\nconst regex = /^\\/([a-z]{2})\\//;\nlet pathnameSubstring = pathname.substring(0,4);\nif (regex.test(pathnameSubstring)) {\nlet match = /^\\/([a-z]{2})([_-][a-z]{2})?(\\/.*)?/g.exec(pathname);\nif (match) language = match[1] || defaultLanguage;\n}\nlet languageMap = { at:\"de\", au:\"en\", ca:\"en\", cz:\"cs\", dk:\"da\", ee:\"et\", no:\"nb\", se:\"sv\", uk:\"en\" };\nlanguage = (language.length === 2 && languageMap[language]) ? languageMap[language] : language;\nlet s = document.createElement(scriptTag);\ns.id = scriptId;\ns.src = \"https://consent.cookiebot.com/uc.js\";\ns.dataset.cbid = cookiebotId;\ns.dataset.culture = language;      // supported by Cookiebot :contentReference[oaicite:1]{index=1}\ns.async = true;\nfirstScript.parentNode.insertBefore(s, firstScript);\n})(document, location.pathname,"
+    },
+    {
+      "key": "oa-nashville-meetings",
+      "url": "https://www.oanashville.org/meetings",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 605961,
+      "kind": "text",
+      "sample": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  \n  <meta charset='utf-8'>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" id=\"wixDesktopViewport\" />\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"generator\" content=\"Wix.com Website Builder\"/>\n\n  <link rel=\"icon\" sizes=\"192x192\" href=\"https://static.parastorage.com/client/pfavico.ico\" type=\"image/x-icon\"/>\n  <link rel=\"shortcut icon\" href=\"https://static.parastorage.com/client/pfavico.ico\" type=\"image/x-icon\"/>\n  <link rel=\"apple-touch-icon\" href=\"https://static.parastorage.com/client/pfavico.ico\" type=\"image/x-icon\"/>\n\n  <!-- Safari Pinned Tab Icon -->\n  <!-- <link rel=\"mask-icon\" href=\"https://static.parastorage.com/client/pfavico.ico\"> -->\n\n  <!-- Segmenter Polyfill -->\n  <script>\n    if (!window.Intl || !window.Intl.Segmenter) {\n      (function() {\n        var script = document.createElement('script');\n        script.src = 'https://static.parastorage.com/unpkg/@formatjs/intl-segmenter@11.7.10/polyfill.iife.js';\n        document.head.appendChild(script);\n      })();\n    }\n  </script>\n\n  <!-- Legacy Polyfills -->\n  <script nomodule=\"\" src=\"https://static.parastorage.com/unpkg/core-js-bundle@3"
+    },
+    {
+      "key": "cr-locator-home",
+      "url": "https://crlocator.com/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 108050,
+      "kind": "text",
+      "sample": "<!DOCTYPE html>\n<html class=\"h-full bg-white\" dir=\"ltr\" lang=\"en\">\n  <head>\n<script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"errorBeacon\":\"bam.nr-data.net\",\"licenseKey\":\"NRJS-15fd353f4f9ab07332d\",\"applicationID\":\"531929540\",\"transactionName\":\"Il4PF0VXDV5QER5bDgJQFQxFFwldWAYeXg8FVBk=\",\"queueTime\":2,\"applicationTime\":18,\"agent\":\"\"}</script>\n<script type=\"text/javascript\">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:[\"bam.nr-data.net\"]},feature_flags:[\"soft_nav\"],distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:\"601542279\",accountID:\"6572047\",trustKey:\"6572047\",xpid:\"UgMAU1ZXDxAFV1BbBQgCUlQ=\",licenseKey:\"NRJS-15fd353f4f9ab07332d\",applicationID:\"531929540\",browserID:\"601542279\"};;/*! For license information please see nr-loader-spa-1.319.0.min.js.LICENSE.txt */\n(()=>{var e={8122(e,t,r){\"use strict\";r.d(t,{a:()=>s});var n=r(944);function s(e,t){try{if(!e||\"object\"!=typeof e)return(0,n.R)(3);if(!t||\"object\"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),i=0===Object.keys(r).length?e:r;for(let o in i)if(void "
+    },
+    {
+      "key": "cr-locator-api-guess",
+      "url": "https://crlocator.com/api/groups?latitude=36.1627&longitude=-86.7816&radius=55",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 4449,
+      "kind": "text",
+      "sample": "<!DOCTYPE html>\n<html class=\"h-full bg-white\" dir=\"ltr\" lang=\"en\">\n  <head>\n    <!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GQJKMD2GCL\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GQJKMD2GCL');\n</script>\n    <title>CR Locator </title>\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n    <link rel=\"manifest\" href=\"/site.webmanifest\">\n\n    <meta name=\"csrf-param\" content=\"authenticity_token\" />\n<meta name=\"csrf-token\" content=\"nZMfvPidYmCauY3cr-cn1ULjC2xqIjVBDGA80VSNIyEbU_X1C2wxoRDlfiUgKIWEuC6lE8O8_-RYIg8g1yfpmQ\" />\n    \n\n    <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;1,500&display=swap\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:FILL"
+    },
+    {
+      "key": "smart-meeting-page",
+      "url": "https://meetings.smartrecovery.org/meetings/3560/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52810,
+      "kind": "text",
+      "sample": "\n\n\n\n\n\n\n<!DOCTYPE html>\n<html>\n    <head>\n        <!-- Strip the ?fromlist marker (used server-side to show \"Back to List\")\n             from the address bar. replaceState updates the current entry without\n             adding one, so history.back() still returns to the list. -->\n        <script>\n            (function () {\n                var url = new URL(window.location.href);\n                if (url.searchParams.has('fromlist')) {\n                    url.searchParams.delete('fromlist');\n                    try {\n                        history.replaceState(history.state, '', url.pathname + url.search + url.hash);\n                    } catch (e) { /* opaque-origin/sandboxed iframe: leave URL as-is */ }\n                }\n            })();\n        </script>\n        <!-- QRCode.js -->\n        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js\"></script>\n        <!-- AddEvent script -->\n    <!-- <script type=\"text/javascript\" src=\"https://addevent.com/libs/atc/1.6.1/atc.min.js\" async defer></script>\n                                        -->\n    <script type=\"text/javascript\"\n            src=\"https://addevent.com/libs/atc/1.6.1/atc.min.js\"></script>\n    <"
+    },
+    {
+      "key": "smart-api-guess",
+      "url": "https://meetings.smartrecovery.org/api/meetings/?location=nashville%2C%20tn&coordinates=55",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 15817,
+      "kind": "text",
+      "sample": "\n\n\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <title>SMART Recovery USA - Page Not Found</title>\n        \n\n\n\n\n\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n\n\n<script>\n(function () {\n    var store = window.__plsDebug || (window.__plsDebug = {\n        pageStaticVersion: 'b7b76459dc1a',\n        startedAt: Date.now(),\n        errors: [],\n        events: []\n    });\n    function record(kind, e) {\n        try {\n            var reason = e && e.reason;\n            store.errors.push({\n                kind: kind,\n                message: (e && e.message) || (reason && (reason.message || String(reason))) || String(e),\n                source: (e && e.filename) || '',\n                line: (e && e.lineno) || null,\n                col: (e && e.colno) || null,\n                at: Date.now() - store.startedAt\n            });\n            if (store.errors.length > 20) store.errors.shift();\n        } catch (_) { /* diagnostics must never break the page */ }\n    }\n    window.addEventListener('error', function (e) { record('error', e); });\n    window.addEventListener('unhandled"
+    },
+    {
+      "key": "aca-wpjson",
+      "url": "https://adultchildren.org/wp-json/",
+      "status": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": 286272,
+      "kind": "json-object",
+      "sample": "{\"name\":\"Adult Children of Alcoholics &amp; Dysfunctional Families\",\"description\":\"\",\"url\":\"https://adultchildren.org\",\"home\":\"https://adultchildren.org\",\"gmt_offset\":-4,\"timezone_string\":\"America/New_York\",\"page_for_posts\":0,\"page_on_front\":2,\"show_on_front\":\"page\",\"namespaces\":[\"oembed/1.0\",\"code-snippets/v1\",\"omgf/v1\",\"litespeed/v1\",\"litespeed/v3\",\"redirection/v1\",\"userway/v1\",\"wordfence/v1\",\"wsom/v1\",\"complianz/v1\",\"wp-mail-smtp/v1\",\"divi/v1\",\"hub-connector/v1\",\"wpmudev_blc/v1\",\"wpmudev_pcs/v1\",\"publishpress-authors/v1\",\"fpframework/v1\",\"firebox/v1\",\"wp/v2\",\"wp-site-health/v1\",\"wp-block-editor/v1\",\"wp-abilities/v1\"],\"authentication\":[],\"routes\":{\"/\":{\"namespace\":\"\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https://adultchildren.org/wp-json/\"}]}},\"/batch/v1\":{\"namespace\":\"\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":{\"validation\":{\"type\":\"string\",\"enum\":[\"require-all-validate\",\"normal\"],\"default\":\"normal\",\"required\":false},\"requests\":{\"type\":\"array\",\"maxItems\":25,\"items\":{\"type\":\"object\",\"properties\":{\"method\":{\"type\":\"string\",\"enum\":[\"POST\",\"PUT\",\"PATCH\",\"DELETE\"],\"default\":\"POST\"},\"path\":{\"type\":\"string\",\"required\":true},\"body\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":true},\"headers\":{\"type\":\"object\",\"properties\":[],\"additionalProperties\":{\"type\":[\"string\",\"array\"],\"items\":{\"type\":\"string\"}}}}},\"required\":true}}}],\"_links\":{\"self\":[{\"href\":\"https://a"
+    },
+    {
+      "key": "aca-tsml",
+      "url": "https://adultchildren.org/wp-admin/admin-ajax.php?action=meetings",
+      "status": 400,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1,
+      "kind": "json-object",
+      "sample": "0"
+    },
+    {
+      "key": "ga-tn-static",
+      "url": "https://gamblersanonymous.org/mtgdirTN.html",
+      "status": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 103457,
+      "kind": "text",
+      "sample": "<!DOCTYPE HTML>\r\n<html lang=\"en\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><meta name='robots' content='noindex, follow' />\n\n\t<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->\n\t<title>Page not found - Gamblers Anonymous</title>\n\t<meta property=\"og:locale\" content=\"en_US\" />\n\t<meta property=\"og:title\" content=\"Page not found - Gamblers Anonymous\" />\n\t<meta property=\"og:site_name\" content=\"Gamblers Anonymous\" />\n\t<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/gamblersanonymous.org\\/#website\",\"url\":\"https:\\/\\/gamblersanonymous.org\\/\",\"name\":\"Gamblers Anonymous\",\"description\":\"There is hope\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/gamblersanonymous.org\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en\"}]}</script>\n\t<!-- / Yoast SEO plugin. -->\n\n\n<link rel="
+    },
+    {
+      "key": "ha-tn-local",
+      "url": "https://tnheroinanonymous.org/meetings",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 105046,
+      "kind": "text",
+      "sample": "<!doctype html>\n<html xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://www.facebook.com/2008/fbml\" lang=\"en-US\"  >\n  <head>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- This is Squarespace. --><!-- tnheroinanonymous -->\n<base href=\"\">\n<meta charset=\"utf-8\" />\n<title>Services &mdash; Tennessee Heroin Anonymous</title>\n<meta http-equiv=\"Accept-CH\" content=\"Sec-CH-UA-Platform-Version, Sec-CH-UA-Model\" /><link rel=\"icon\" type=\"image/x-icon\" href=\"https://images.squarespace-cdn.com/content/v1/5f9e0a53fed8660aab0c32f9/1605846798195-W03W8M8S72T4O84U752R/favicon.ico?format=100w\"/>\n<link rel=\"canonical\" href=\"https://tnheroinanonymous.org/meetings\"/>\n<meta property=\"og:site_name\" content=\"Tennessee Heroin Anonymous\"/>\n<meta property=\"og:title\" content=\"Services &mdash; Tennessee Heroin Anonymous\"/>\n<meta property=\"og:url\" content=\"https://tnheroinanonymous.org/meetings\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:image\" content=\"http://static1.squarespace.com/static/5f9e0a53fed8660aab0c32f9/t/5fb74652706167092c6962ca/1605846613672/HAlogo.jpg?format=15"
+    },
+    {
+      "key": "ma-tsml-browser",
+      "url": "https://marijuana-anonymous.org/wp-admin/admin-ajax.php?action=meetings",
+      "status": 401,
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": 38,
+      "kind": "json-object",
+      "sample": "{\"error\":\"HTTP/1.1 401 Unauthorized\"}"
+    },
+    {
+      "key": "ha-tsml-browser",
+      "url": "https://heroinanonymous.org/wp-admin/admin-ajax.php?action=meetings",
+      "status": 400,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1,
+      "kind": "json-object",
+      "sample": "0"
+    },
+    {
+      "key": "slaa-nashville-tsml",
+      "url": "https://slaanashville.org/wp-admin/admin-ajax.php?action=meetings",
+      "status": 400,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1,
+      "kind": "json-object",
+      "sample": "0"
+    }
+  ]
+}
