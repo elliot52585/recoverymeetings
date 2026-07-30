@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-30T17:30:39.555Z",
+    "generated": "2026-07-30T17:35:57.306Z",
     "seed": false,
     "counts": {
       "AA": 876,
@@ -14,8 +14,7 @@
       "RD": 4,
       "ACA": 4,
       "ALANON": 4,
-      "CA": 1,
-      "OA": 1
+      "CA": 1
     },
     "sources": {
       "AA": {
@@ -75,8 +74,8 @@
       },
       "OA": {
         "ok": true,
-        "count": 1,
-        "source": "curated"
+        "count": 0,
+        "source": "oa-meetings/v1/meetings_search"
       },
       "ALANON": {
         "ok": true,
@@ -23609,24 +23608,6 @@
       "region": "Murfreesboro",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "oa-sat-morning",
-      "fellowship": "OA",
-      "name": "OA Saturday Morning Meeting",
-      "day": 6,
-      "time": "09:00",
-      "types": [
-        "Open"
-      ],
-      "venue": "See OA listing for location",
-      "address": null,
-      "city": "Nashville",
-      "state": "TN",
-      "zip": null,
-      "region": "Nashville",
-      "notes": "Middle TN Intergroup: (615) 442-6780 — meetings 7 days a week at oanashville.org.",
-      "source": "https://oa.org/meetings/21452/"
     },
     {
       "id": "aa-out-to-breakfast-bunch-12-d6-0900",
