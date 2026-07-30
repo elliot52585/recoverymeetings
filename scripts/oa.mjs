@@ -17,21 +17,46 @@ export async function fetchOa(cityCfg, src) {
     throw new Error("no zips.json for this city yet — run scripts/zips.mjs first");
   }
 
-  const res = await fetch(src.url || "https://oa.org/wp-json/oa-meetings/v1/meetings_search", {
-    method: "POST",
-    headers: {
-      "User-Agent": "recoverymeetings-fetcher/1.0 (free community meeting directory; repo issues for contact)",
-      Accept: "application/json",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ location: `${cityCfg.name}, ${cityCfg.state}`, distance: 50, type: 0 }),
-    signal: AbortSignal.timeout(30000),
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const html = (await res.json()).html || "";
-  if (!html) throw new Error("empty results html");
+  // The endpoint geocodes client-side, so a location string isn't enough —
+  // send the city's own lat/lng. Try a few body shapes the plugin accepts.
+  const { lat: cLat, lng: cLng } = cityCfg.center;
+  const bodies = [
+    { latitude: cLat, longitude: cLng, distance: 55, distance_units: "mi", type: 0 },
+    { lat: cLat, lng: cLng, distance: 55, unit: "mi", type: 0 },
+    { latitude: cLat, longitude: cLng, distance: 55, type: 0, location: `${cityCfg.name}, ${cityCfg.state}` },
+    { location: `${cityCfg.name}, ${cityCfg.state}`, distance: 55, type: 0 },
+  ];
+  const url = src.url || "https://oa.org/wp-json/oa-meetings/v1/meetings_search";
+  let html = "";
+  let bestRows = [];
+  for (const body of bodies) {
+    let res;
+    try {
+      res = await fetch(url, {
+        method: "POST",
+        headers: {
+          "User-Agent": "recoverymeetings-fetcher/1.0 (free community meeting directory; repo issues for contact)",
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(body),
+        signal: AbortSignal.timeout(30000),
+      });
+    } catch { continue; }
+    if (!res.ok) continue;
+    const h = (await res.json()).html || "";
+    const rows = h.split("meeting-results__tr--").slice(1);
+    // Prefer the body shape that yields the most rows carrying a TN-area ZIP.
+    const tnRows = rows.filter((r) => {
+      const z = ((r.match(/meeting-results__meta">([\s\S]*?)<\/div>/) || [])[1] || "").match(/\b(\d{5})\b/);
+      return z && zipData[z[1]];
+    });
+    if (tnRows.length > bestRows.length) { bestRows = tnRows; html = h; }
+    if (tnRows.length >= 3) break; // good enough, stop probing
+  }
+  if (!html) throw new Error("no results html from any body shape");
 
-  const rows = html.split('meeting-results__tr--').slice(1);
+  const rows = html.split("meeting-results__tr--").slice(1);
   const meetings = [];
   for (const row of rows) {
     // Skip online-only rows — no local location to anchor.
