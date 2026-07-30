@@ -80,9 +80,9 @@
     },
     {
       "fellowship": "OA",
-      "type": "oa",
-      "url": "https://oa.org/wp-json/oa-meetings/v1/meetings_search",
-      "finder": "https://oa.org/find-a-meeting/"
+      "type": "curated",
+      "finder": "https://oa.org/find-a-meeting/",
+      "_note": "oa.org has an internal API (oa-meetings/v1/meetings_search) but it geocodes client-side and needs an undocumented param shape — returns national results otherwise. Curated + outreach for now; oa.mjs adapter kept for when the param shape is confirmed."
     },
     {
       "fellowship": "ALANON",

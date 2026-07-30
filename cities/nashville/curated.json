@@ -612,6 +612,24 @@
       "region": "West End",
       "notes": "WSO meeting TN0110. Confirm day/time at adultchildren.org.",
       "source": "https://alcohol.org/meeting-finder/adult-children-of-alcoholics/aca-attracted-by-strength-tn0110-nashville-tn-1-19-00/"
+    },
+    {
+      "id": "oa-sat-morning",
+      "fellowship": "OA",
+      "name": "OA Saturday Morning Meeting",
+      "day": 6,
+      "time": "09:00",
+      "types": [
+        "Open"
+      ],
+      "venue": "See OA listing for location",
+      "address": null,
+      "city": "Nashville",
+      "state": "TN",
+      "zip": null,
+      "region": "Nashville",
+      "notes": "Middle TN Intergroup: (615) 442-6780 — meetings 7 days a week at oanashville.org.",
+      "source": "https://oa.org/meetings/21452/"
     }
   ]
 }

@@ -208,6 +208,22 @@ Everything that doesn't flow through these four is either a **custom finder** (S
 
 *Registry maintenance: this table lives as `registry/fellowships.json` in-repo — one record per org with all fields from §1.2, machine-readable, powering both the docs and the ingestion pipeline config.*
 
+### 1.4 Source-access findings (Nashville probe, 2026-07)
+
+Recon on each feedless fellowship's website (`wp-json` namespace enumeration + endpoint probing), to record what's actually reachable so we don't re-litigate it:
+
+| Fellowship | Endpoint found | Result | Verdict |
+|---|---|---|---|
+| Recovery Dharma | `/wp-admin/admin-ajax.php?action=meetings` (TSML) | Works — 4 live meetings | **Automated** |
+| Overeaters Anonymous | `oa-meetings/v1/meetings_search` (POST → HTML) | Reachable, but geocodes client-side; no server-side geo-filter, so a location query returns national results. Exact geocoded param shape undocumented | Curated + outreach |
+| ACA | `wsom/v1/meeting-search` (POST) | HTTP 500 on every param shape tried; `intergroup-search` works but returns intergroups, not meetings | Curated + outreach |
+| Al-Anon | `tm/v1` namespace exists | No meeting route (`rest_no_route`) | Curated + outreach |
+| Marijuana Anonymous | TSML feed | HTTP 401 (gated), even with browser headers | Outreach |
+| Heroin Anonymous | TSML feed | HTTP 400 | Curated + outreach |
+| GA / SMART / CR | — | Static HTML / closed platform / no public API | Curated + outreach |
+
+Takeaway: the four open infrastructures (§1.1) are the only *reliable* automated sources. Everything else is either curation or an outreach conversation — reverse-engineering internal, client-geocoded APIs proved brittle and low-yield. The `oa.mjs` adapter is kept in-repo for the day OA's param shape is confirmed (or they expose the standard feed).
+
 ---
 
 ## 2. Complete information architecture
