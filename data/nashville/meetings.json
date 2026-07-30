@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-30T17:35:57.306Z",
+    "generated": "2026-07-30T17:39:44.390Z",
     "seed": false,
     "counts": {
       "AA": 876,
@@ -73,9 +73,8 @@
         "source": "curated"
       },
       "OA": {
-        "ok": true,
-        "count": 0,
-        "source": "oa-meetings/v1/meetings_search"
+        "ok": false,
+        "error": "no results html from any body shape"
       },
       "ALANON": {
         "ok": true,
