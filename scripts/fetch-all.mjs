@@ -6,6 +6,7 @@
 // Run one city with: CITY=nashville npm run fetch
 import { fetchTsml } from "./tsml.mjs";
 import { fetchBmlt } from "./bmlt.mjs";
+import { fetchOa } from "./oa.mjs";
 import { readJsonIfExists, writeJson } from "./util.mjs";
 import { readFile } from "node:fs/promises";
 
@@ -17,7 +18,7 @@ if (!cities.length) {
   process.exit(1);
 }
 
-const FETCHERS = { tsml: fetchTsml, bmlt: fetchBmlt };
+const FETCHERS = { tsml: fetchTsml, bmlt: fetchBmlt, oa: fetchOa };
 let failures = 0;
 
 for (const { key } of cities) {

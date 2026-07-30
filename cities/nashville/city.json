@@ -80,8 +80,9 @@
     },
     {
       "fellowship": "OA",
-      "type": "curated",
-      "finder": "https://www.oanashville.org/meetings"
+      "type": "oa",
+      "url": "https://oa.org/wp-json/oa-meetings/v1/meetings_search",
+      "finder": "https://oa.org/find-a-meeting/"
     },
     {
       "fellowship": "ALANON",

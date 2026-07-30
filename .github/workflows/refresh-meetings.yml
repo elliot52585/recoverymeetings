@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Probe candidate endpoints (branch recon — remove after adapters land)
-        run: node scripts/probe-sources.mjs || true
-
       - name: Generate ZIP centroids (skips when already census-sourced)
         run: node scripts/zips.mjs
 
