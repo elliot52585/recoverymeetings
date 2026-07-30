@@ -7,7 +7,9 @@
       "name": "Celebrate Recovery — Grace Place",
       "day": 1,
       "time": "18:30",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "Grace Place",
       "address": "4316 Central Pike",
       "city": "Hermitage",
@@ -22,7 +24,9 @@
       "name": "Celebrate Recovery — Long Hollow Church",
       "day": 1,
       "time": "18:30",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "Long Hollow Church (Hendersonville Campus Chapel)",
       "address": "3031 Long Hollow Pike",
       "city": "Hendersonville",
@@ -37,7 +41,9 @@
       "name": "Celebrate Recovery — Woodmont Baptist",
       "day": 1,
       "time": "19:00",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "Woodmont Baptist Church",
       "address": "2100 Woodmont Blvd",
       "city": "Nashville",
@@ -52,7 +58,9 @@
       "name": "Celebrate Recovery — McKendree UMC",
       "day": 2,
       "time": "18:30",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "McKendree United Methodist Church",
       "address": "523 Church St",
       "city": "Nashville",
@@ -67,7 +75,9 @@
       "name": "Celebrate Recovery — Grace Church of the Nazarene",
       "day": 2,
       "time": "18:30",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "Grace Church of the Nazarene",
       "address": "2620 Pennington Bend Rd",
       "city": "Nashville",
@@ -82,7 +92,9 @@
       "name": "Celebrate Recovery — Christ Church Nashville",
       "day": 5,
       "time": "18:30",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "Christ Church Nashville",
       "address": "15354 Old Hickory Blvd",
       "city": "Nashville",
@@ -98,7 +110,9 @@
       "name": "Celebrate Recovery — West End Community Church",
       "day": 4,
       "time": "18:30",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "West End Community Church",
       "address": "235 White Bridge Pike",
       "city": "Nashville",
@@ -113,7 +127,9 @@
       "name": "Celebrate Recovery — Hermitage United Methodist",
       "day": 3,
       "time": "18:30",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "Hermitage United Methodist Church (sanctuary)",
       "address": null,
       "city": "Hermitage",
@@ -129,7 +145,9 @@
       "name": "Celebrate Recovery — Madison Heights Baptist",
       "day": 4,
       "time": "18:30",
-      "types": ["Large group + open share"],
+      "types": [
+        "Large group + open share"
+      ],
       "venue": "Madison Heights Baptist Church",
       "address": "815 E Old Hickory Blvd",
       "city": "Madison",
@@ -145,7 +163,10 @@
       "name": "Off The Rocks",
       "day": 2,
       "time": "19:30",
-      "types": ["Open", "Discussion"],
+      "types": [
+        "Open",
+        "Discussion"
+      ],
       "venue": "Home Church Nashville (White Scout building behind the church)",
       "address": "3511 Gallatin Pike",
       "city": "Nashville",
@@ -161,7 +182,10 @@
       "name": "Saturday Morning Self-Worth AFG",
       "day": 6,
       "time": "10:00",
-      "types": ["Beginner", "Wheelchair accessible"],
+      "types": [
+        "Beginner",
+        "Wheelchair accessible"
+      ],
       "venue": "Woodmont Christian Church, Room 105 (lower level)",
       "address": "3601 Hillsboro Pike",
       "city": "Nashville",
@@ -176,7 +200,9 @@
       "name": "Alateen — Woodmont",
       "day": 2,
       "time": "18:30",
-      "types": ["Alateen (teens)"],
+      "types": [
+        "Alateen (teens)"
+      ],
       "venue": "Woodmont Christian Church, Room 100",
       "address": "3601 Hillsboro Pike",
       "city": "Nashville",
@@ -191,7 +217,9 @@
       "name": "Al-Anon Parents AFG — Woodmont",
       "day": null,
       "time": "18:30",
-      "types": ["Parents focus"],
+      "types": [
+        "Parents focus"
+      ],
       "venue": "Woodmont Christian Church, Room 105 (west entrance)",
       "address": "3601 Hillsboro Pike",
       "city": "Nashville",
@@ -207,7 +235,9 @@
       "name": "East Nashville Courage To Change AFG",
       "day": null,
       "time": "10:00",
-      "types": ["Open to observers"],
+      "types": [
+        "Open to observers"
+      ],
       "venue": "Woodland Presbyterian Church (enter on Gartland Ave, upstairs)",
       "address": null,
       "city": "Nashville",
@@ -224,7 +254,9 @@
       "day": 1,
       "time": "18:30",
       "endTime": "19:30",
-      "types": ["Women"],
+      "types": [
+        "Women"
+      ],
       "venue": "Integrative Life Center",
       "address": "1105 16th Ave S",
       "city": "Nashville",
@@ -239,7 +271,9 @@
       "name": "SLAA Women's Meeting — Murfreesboro",
       "day": 2,
       "time": "19:00",
-      "types": ["Women"],
+      "types": [
+        "Women"
+      ],
       "venue": "Blackman United Methodist Church",
       "address": null,
       "city": "Murfreesboro",
@@ -254,7 +288,9 @@
       "name": "SLAA Co-ed Meeting",
       "day": 2,
       "time": "19:30",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "Nashville Recovery Center",
       "address": null,
       "city": "Nashville",
@@ -270,7 +306,9 @@
       "day": 3,
       "time": "19:00",
       "endTime": "20:00",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "Integrative Life Center",
       "address": "1105 16th Ave S",
       "city": "Nashville",
@@ -285,7 +323,10 @@
       "name": "SLAA Beginner's Meeting",
       "day": 4,
       "time": "18:00",
-      "types": ["Beginner", "Open"],
+      "types": [
+        "Beginner",
+        "Open"
+      ],
       "venue": "West End United Methodist Church",
       "address": "2200 West End Ave",
       "city": "Nashville",
@@ -301,7 +342,10 @@
       "day": 5,
       "time": "18:00",
       "endTime": "19:00",
-      "types": ["LGBTQ+", "Open"],
+      "types": [
+        "LGBTQ+",
+        "Open"
+      ],
       "venue": "Integrative Life Center (Administrative building)",
       "address": "1105 16th Ave S",
       "city": "Nashville",
@@ -317,7 +361,9 @@
       "day": 0,
       "time": "14:00",
       "endTime": "15:00",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "Edgehill United Methodist Church",
       "address": "1502 Edgehill Ave",
       "city": "Nashville",
@@ -332,7 +378,9 @@
       "name": "Nashville GA — Monday",
       "day": 1,
       "time": "19:30",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "West End United Methodist Church, Room LL1",
       "address": "2200 West End Ave",
       "city": "Nashville",
@@ -348,7 +396,9 @@
       "name": "Nashville GA — Sunday",
       "day": 0,
       "time": "15:00",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "Bethel Church of the Nazarene",
       "address": "455 Broadmoor Dr",
       "city": "Nashville",
@@ -365,7 +415,9 @@
       "day": 0,
       "time": "17:30",
       "endTime": "18:30",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "The Cartel",
       "address": "2122 Utopia Ave",
       "city": "Nashville",
@@ -381,7 +433,9 @@
       "day": 2,
       "time": "18:00",
       "endTime": "19:00",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "The Cartel",
       "address": "2122 Utopia Ave",
       "city": "Nashville",
@@ -397,7 +451,9 @@
       "day": 1,
       "time": "17:30",
       "endTime": "18:30",
-      "types": ["Women"],
+      "types": [
+        "Women"
+      ],
       "venue": "The Cartel",
       "address": "2122 Utopia Ave",
       "city": "Nashville",
@@ -413,7 +469,9 @@
       "day": 1,
       "time": "18:30",
       "endTime": "19:30",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "See meeting page for location",
       "address": null,
       "city": "Nashville",
@@ -429,7 +487,9 @@
       "day": 4,
       "time": "18:30",
       "endTime": "19:30",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "See meeting page for location",
       "address": null,
       "city": "Nashville",
@@ -445,7 +505,9 @@
       "day": 0,
       "time": "19:30",
       "endTime": "20:30",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "See meeting page for location",
       "address": null,
       "city": "Nashville",
@@ -461,7 +523,10 @@
       "day": 1,
       "time": "19:00",
       "endTime": "20:00",
-      "types": ["Book study", "Meditation"],
+      "types": [
+        "Book study",
+        "Meditation"
+      ],
       "venue": "Wild Heart Meditation Center",
       "address": "3123 Gallatin Pike",
       "city": "Nashville",
@@ -477,7 +542,10 @@
       "name": "Friday Noon ACA Meeting",
       "day": 5,
       "time": "12:00",
-      "types": ["Big Red Book study", "Discussion"],
+      "types": [
+        "Big Red Book study",
+        "Discussion"
+      ],
       "venue": null,
       "address": "3710 Franklin Pike",
       "city": "Nashville",
@@ -493,7 +561,11 @@
       "name": "East Side ACA",
       "day": 2,
       "time": "18:30",
-      "types": ["Closed", "Step study", "Wheelchair accessible"],
+      "types": [
+        "Closed",
+        "Step study",
+        "Wheelchair accessible"
+      ],
       "venue": null,
       "address": "1211 Riverside Dr",
       "city": "Nashville",
@@ -509,7 +581,10 @@
       "name": "Nashville West Saturday ACA",
       "day": 6,
       "time": "13:00",
-      "types": ["Open", "Discussion"],
+      "types": [
+        "Open",
+        "Discussion"
+      ],
       "venue": null,
       "address": null,
       "city": "Nashville",
@@ -525,7 +600,10 @@
       "name": "Attracted by Strength",
       "day": 1,
       "time": "19:00",
-      "types": ["Closed", "Discussion"],
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
       "venue": null,
       "address": "3534 West End Ave",
       "city": "Nashville",
@@ -541,7 +619,9 @@
       "name": "OA Saturday Morning Meeting",
       "day": 6,
       "time": "09:00",
-      "types": ["Open"],
+      "types": [
+        "Open"
+      ],
       "venue": "See OA listing for location",
       "address": null,
       "city": "Nashville",

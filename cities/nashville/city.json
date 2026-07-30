@@ -81,7 +81,8 @@
     {
       "fellowship": "OA",
       "type": "curated",
-      "finder": "https://www.oanashville.org/meetings"
+      "finder": "https://oa.org/find-a-meeting/",
+      "_note": "oa.org has an internal API (oa-meetings/v1/meetings_search) but it geocodes client-side and needs an undocumented param shape — returns national results otherwise. Curated + outreach for now; oa.mjs adapter kept for when the param shape is confirmed."
     },
     {
       "fellowship": "ALANON",
