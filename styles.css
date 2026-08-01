@@ -257,6 +257,52 @@ a { color: var(--accent); }
 }
 .week-empty { font-size: 0.82rem; color: var(--muted); }
 
+/* ---------- my recovery ---------- */
+.recovery-head { margin-bottom: 16px; }
+.recovery-head h2 { margin: 0; }
+.sobriety-card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: var(--shadow); padding: 16px 18px; margin-bottom: 12px;
+}
+.sc-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.sc-label { font-weight: 700; font-size: 1.05rem; }
+.sc-since { font-size: 0.8rem; color: var(--muted); }
+.sc-count {
+  display: flex; gap: 18px; margin: 12px 0 4px; flex-wrap: wrap;
+  font-variant-numeric: tabular-nums;
+}
+.sc-num { font-size: 1.9rem; font-weight: 800; line-height: 1; color: var(--accent); }
+.sc-unit { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.sc-big { font-size: 0.9rem; color: var(--ink); margin-top: 2px; }
+.sc-big strong { color: var(--accent); }
+.sc-milestones { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.ms-chip {
+  font-size: 0.74rem; font-weight: 600; border-radius: 999px; padding: 3px 10px;
+  background: var(--chip-bg); color: var(--muted);
+}
+.ms-chip.reached { background: var(--accent); color: var(--accent-ink); }
+.ms-chip.next { border: 1px dashed var(--accent); color: var(--accent); background: transparent; }
+.sc-actions { margin-top: 12px; display: flex; gap: 8px; }
+.sc-actions button {
+  font: inherit; font-size: 0.78rem; cursor: pointer;
+  background: transparent; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 7px; padding: 3px 10px;
+}
+.sobriety-form {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+  padding: 16px 18px; margin-top: 4px;
+}
+.sf-row { display: flex; gap: 14px; flex-wrap: wrap; }
+.sf-row label { display: flex; flex-direction: column; gap: 4px; font-size: 0.82rem; color: var(--muted); flex: 1; min-width: 160px; }
+.sf-row input {
+  font: inherit; font-size: 0.95rem; color: var(--ink);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 9px; padding: 8px 10px;
+}
+.sf-row input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.sf-actions { margin-top: 12px; display: flex; gap: 8px; }
+.recovery-help { font-size: 0.82rem; color: var(--muted); margin-top: 14px; max-width: 620px; }
+.recovery-empty { color: var(--muted); font-size: 0.9rem; margin-bottom: 12px; }
+
 /* ---------- about / footer ---------- */
 .about { max-width: 680px; }
 .about h2 { margin-top: 0; }

@@ -8,6 +8,21 @@
   const DAYS_SHORT = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const PLAN_KEY = "rm-plan-v1";
   const NEAR_KEY = "rm-near-v1";
+  const SOBRIETY_KEY = "rm-sobriety-v1";
+
+  // Focus filters: label -> regex tested against a meeting's types.
+  const FOCUS_FILTERS = [
+    { key: "women", label: "Women", re: /^w(omen)?$/i },
+    { key: "men", label: "Men", re: /^m(en)?$/i },
+    { key: "young", label: "Young people", re: /young|^y$/i },
+    { key: "lgbtq", label: "LGBTQ+", re: /lgbt|^g$/i },
+    { key: "spanish", label: "Spanish", re: /spanish|espa|^s$/i },
+    { key: "beginner", label: "Beginner", re: /beginn|newcomer|^be$/i },
+    { key: "bigbook", label: "Big Book", re: /big ?book|basic text/i },
+    { key: "step", label: "Step study", re: /step/i },
+    { key: "speaker", label: "Speaker", re: /speaker/i },
+    { key: "meditation", label: "Meditation", re: /medit/i },
+  ];
   const REPORT_URL = "https://github.com/elliot52585/recoverymeetings/issues/new";
   const FALLBACK_COLOR = "#64748b";
 
@@ -18,7 +33,7 @@
     registry: [],      // registry/fellowships.json records, in registry order
     meetings: [],      // normalized: one entry per (meeting, day)
     meta: null,
-    filters: { fellowship: new Set(), day: null, time: null, format: new Set(), q: "" },
+    filters: { fellowship: new Set(), day: null, time: null, format: new Set(), focus: new Set(), q: "" },
     near: loadNear(),  // { zip: "37203", radius: 10 } — stored on-device only
     zips: {},          // ZIP -> [lat, lng] centroids (census file + meeting-derived fallback)
     plan: loadPlan(),  // [{id}] — id already encodes the day
@@ -62,6 +77,7 @@
 
     buildFilterChips();
     wireEvents();
+    wireRecovery();
     renderAll();
   }
 
@@ -189,6 +205,14 @@
       `<button class="chip on" data-day="">All week</button>` +
       `<button class="chip today-chip" data-day="${today}">Today</button>` +
       DAYS_SHORT.map((d, i) => `<button class="chip" data-day="${i}">${d}</button>`).join("");
+
+    // Focus chips — only show a chip if some meeting actually matches it.
+    const focusable = FOCUS_FILTERS.filter((f) =>
+      state.meetings.some((m) => (m.types || []).some((t) => f.re.test(t)))
+    );
+    $("#chips-focus").innerHTML = focusable
+      .map((f) => `<button class="chip" data-focus="${esc(f.key)}">${esc(f.label)}</button>`)
+      .join("") || `<span class="muted" style="font-size:.82rem">—</span>`;
   }
 
   function wireEvents() {
@@ -231,6 +255,15 @@
       if (!b) return;
       const f = b.dataset.format;
       state.filters.format.has(f) ? state.filters.format.delete(f) : state.filters.format.add(f);
+      b.classList.toggle("on");
+      renderMeetings();
+    });
+
+    $("#chips-focus").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-focus]");
+      if (!b) return;
+      const f = b.dataset.focus;
+      state.filters.focus.has(f) ? state.filters.focus.delete(f) : state.filters.focus.add(f);
       b.classList.toggle("on");
       renderMeetings();
     });
@@ -300,11 +333,13 @@
     $("#view-meetings").hidden = tab !== "meetings";
     $("#view-map").hidden = tab !== "map";
     $("#view-week").hidden = tab !== "week";
+    $("#view-recovery").hidden = tab !== "recovery";
     $("#view-about").hidden = tab !== "about";
     const showFilters = tab === "meetings" || tab === "map";
     $("#filters").style.display = showFilters ? "" : "none";
     $("#search-row").style.display = showFilters ? "" : "none";
     if (tab === "map") renderMap();
+    if (tab === "recovery") renderRecovery();
   }
 
   // ---------- map ----------
@@ -396,6 +431,11 @@
       if (f.format.has("inperson") && m.online && !m.hybrid) return false;
       if (f.format.has("open") && !m.types.some((t) => /open/i.test(t))) return false;
       if (f.format.has("wheelchair") && !m.types.some((t) => /wheelchair/i.test(t))) return false;
+      // Focus filters are AND — a meeting must match every selected focus.
+      for (const key of f.focus) {
+        const spec = FOCUS_FILTERS.find((x) => x.key === key);
+        if (spec && !(m.types || []).some((t) => spec.re.test(t))) return false;
+      }
       if (f.q) {
         const hay = [m.name, m.venue, m.address, m.city, m.region, m.notes, ...(m.types || [])]
           .join(" ")
@@ -546,6 +586,181 @@
 
   function closeCalMenus() {
     document.querySelectorAll(".cal-menu").forEach((m) => m.remove());
+  }
+
+  // ---------- my recovery: sobriety tracker (device-only) ----------
+
+  // Traditional recovery milestones, in days. Months are approximated at
+  // 30.4375 days so the "6 months" chip lands on the calendar 6-month mark.
+  const MS_DAY = 1;
+  const MONTH = 30.4375;
+  const YEAR = 365.25;
+  const MILESTONES = [
+    { d: 1, label: "24 hours" },
+    { d: 30, label: "30 days" },
+    { d: 60, label: "60 days" },
+    { d: 90, label: "90 days" },
+    { d: 6 * MONTH, label: "6 months" },
+    { d: 9 * MONTH, label: "9 months" },
+    { d: 1 * YEAR, label: "1 year" },
+    { d: 18 * MONTH, label: "18 months" },
+  ];
+  // Then every year after the first.
+  function milestonesFor() {
+    const list = [...MILESTONES];
+    for (let y = 2; y <= 60; y++) list.push({ d: y * YEAR, label: `${y} years` });
+    return list;
+  }
+
+  let sobriety = loadSobriety();
+  let editingId = null;
+
+  function loadSobriety() {
+    try {
+      const s = JSON.parse(localStorage.getItem(SOBRIETY_KEY) || "[]");
+      return Array.isArray(s) ? s : [];
+    } catch {
+      return [];
+    }
+  }
+  function saveSobriety() {
+    try { localStorage.setItem(SOBRIETY_KEY, JSON.stringify(sobriety)); } catch {}
+  }
+
+  function daysBetween(isoDate) {
+    // Whole days from the start date to today, in the city's timezone,
+    // counted on calendar dates so DST never shifts the number.
+    const [y, mo, d] = isoDate.split("-").map(Number);
+    const start = Date.UTC(y, mo - 1, d);
+    const now = nowPartsInTz();
+    const today = Date.UTC(now.y, now.mo - 1, now.d);
+    return Math.floor((today - start) / 86400000);
+  }
+
+  function breakdown(totalDays) {
+    let rem = totalDays;
+    const years = Math.floor(rem / YEAR); rem -= Math.floor(years * YEAR);
+    const months = Math.floor(rem / MONTH); rem -= Math.floor(months * MONTH);
+    const days = Math.round(rem);
+    return { years, months, days };
+  }
+
+  function renderRecovery() {
+    const host = $("#sobriety-list");
+    if (!sobriety.length) {
+      host.innerHTML = `<p class="recovery-empty">Add a date below to start counting. Many people track a sobriety or clean date; you can add more than one (say, sobriety and a separate abstinence date).</p>`;
+      return;
+    }
+    const all = milestonesFor();
+    host.innerHTML = sobriety
+      .slice()
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .map((s) => {
+        const total = daysBetween(s.date);
+        if (total < 0) {
+          return `<div class="sobriety-card" data-sid="${esc(s.id)}">
+            <div class="sc-top"><span class="sc-label">${esc(s.label)}</span><span class="sc-since">starts ${esc(fmtDate(s.date))}</span></div>
+            <p class="muted">That date is in the future — counting begins then.</p>
+            ${sobActionsHtml(s.id)}
+          </div>`;
+        }
+        const bd = breakdown(total);
+        const reached = all.filter((m) => total >= Math.floor(m.d));
+        const next = all.find((m) => total < Math.floor(m.d));
+        const lastReached = reached.slice(-6);
+        const chips = lastReached
+          .map((m) => `<span class="ms-chip reached">✓ ${esc(m.label)}</span>`)
+          .join("") +
+          (next
+            ? `<span class="ms-chip next">${esc(next.label)} in ${Math.ceil(Math.floor(next.d) - total)} day${Math.ceil(Math.floor(next.d) - total) === 1 ? "" : "s"}</span>`
+            : "");
+        return `<div class="sobriety-card" data-sid="${esc(s.id)}">
+          <div class="sc-top">
+            <span class="sc-label">${esc(s.label)}</span>
+            <span class="sc-since">since ${esc(fmtDate(s.date))}</span>
+          </div>
+          <div class="sc-count">
+            ${bd.years ? `<span><span class="sc-num">${bd.years}</span> <span class="sc-unit">year${bd.years === 1 ? "" : "s"}</span></span>` : ""}
+            ${bd.months ? `<span><span class="sc-num">${bd.months}</span> <span class="sc-unit">month${bd.months === 1 ? "" : "s"}</span></span>` : ""}
+            <span><span class="sc-num">${bd.days}</span> <span class="sc-unit">day${bd.days === 1 ? "" : "s"}</span></span>
+          </div>
+          <p class="sc-big"><strong>${total.toLocaleString()}</strong> day${total === 1 ? "" : "s"} total</p>
+          <div class="sc-milestones">${chips}</div>
+          ${sobActionsHtml(s.id)}
+        </div>`;
+      })
+      .join("");
+
+    host.querySelectorAll("[data-sob-edit]").forEach((b) =>
+      b.addEventListener("click", () => startEditSobriety(b.dataset.sobEdit))
+    );
+    host.querySelectorAll("[data-sob-del]").forEach((b) =>
+      b.addEventListener("click", () => {
+        const s = sobriety.find((x) => x.id === b.dataset.sobDel);
+        if (s && confirm(`Remove "${s.label}"? This only clears it from this device.`)) {
+          sobriety = sobriety.filter((x) => x.id !== b.dataset.sobDel);
+          saveSobriety();
+          renderRecovery();
+        }
+      })
+    );
+  }
+
+  function sobActionsHtml(id) {
+    return `<div class="sc-actions">
+      <button type="button" data-sob-edit="${esc(id)}">Edit</button>
+      <button type="button" data-sob-del="${esc(id)}">Remove</button>
+    </div>`;
+  }
+
+  function startEditSobriety(id) {
+    const s = sobriety.find((x) => x.id === id);
+    if (!s) return;
+    editingId = id;
+    $("#sf-label").value = s.label;
+    $("#sf-date").value = s.date;
+    $("#sf-cancel").hidden = false;
+    $("#sobriety-form").querySelector("button[type=submit]").textContent = "Save changes";
+    $("#sf-label").focus();
+  }
+
+  function resetSobrietyForm() {
+    editingId = null;
+    $("#sobriety-form").reset();
+    $("#sf-cancel").hidden = true;
+    $("#sobriety-form").querySelector("button[type=submit]").textContent = "Add date";
+  }
+
+  function wireRecovery() {
+    const form = $("#sobriety-form");
+    // Default the date input's max to today (no future-dating by accident is
+    // fine to allow, but cap the picker at today for the common case).
+    const now = nowPartsInTz();
+    $("#sf-date").max = `${now.y}-${pad(now.mo)}-${pad(now.d)}`;
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const label = $("#sf-label").value.trim();
+      const date = $("#sf-date").value;
+      if (!label || !date) return;
+      if (editingId) {
+        const s = sobriety.find((x) => x.id === editingId);
+        if (s) { s.label = label; s.date = date; }
+      } else {
+        sobriety.push({ id: `sob-${Math.max(0, ...sobriety.map((s) => +s.id.split("-")[1] || 0)) + 1}`, label, date });
+      }
+      saveSobriety();
+      resetSobrietyForm();
+      renderRecovery();
+      toast("Saved on this device.");
+    });
+    $("#sf-cancel").addEventListener("click", resetSobrietyForm);
+  }
+
+  function fmtDate(iso) {
+    const [y, mo, d] = iso.split("-").map(Number);
+    return new Date(Date.UTC(y, mo - 1, d)).toLocaleDateString(undefined, {
+      year: "numeric", month: "long", day: "numeric", timeZone: "UTC",
+    });
   }
 
   // ---------- weekly plan ----------
