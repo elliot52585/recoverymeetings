@@ -2,6 +2,8 @@
   "key": "nashville",
   "name": "Nashville",
   "state": "TN",
+  "area": "Middle Tennessee",
+  "tagline": "Every AA, NA, CA, and Celebrate Recovery meeting — one place. Plan your week, add it to your calendar.",
   "timezone": "America/Chicago",
   "center": { "lat": 36.1627, "lng": -86.7816 },
   "radiusMiles": 55,

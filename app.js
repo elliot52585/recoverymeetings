@@ -65,7 +65,14 @@
     state.city = await getJSON(`cities/${state.cityKey}/city.json`);
     state.registry = (await getJSON("registry/fellowships.json")).fellowships || [];
     state.tz = state.city.timezone || "America/Chicago";
-    document.title = `Recovery Meetings in ${state.city.name} — every AA, NA, CA & Celebrate Recovery meeting`;
+    const area = state.city.area || `the ${state.city.name} area`;
+    document.title = `Recovery Meetings in ${state.city.name} — AA, NA, CA & more`;
+    if (state.city.tagline) $("#tagline").textContent = state.city.tagline;
+    const aboutIntro = $("#about-intro");
+    if (aboutIntro) {
+      aboutIntro.innerHTML =
+        `This is a one-stop directory of recovery meetings — <strong>AA</strong>, <strong>NA</strong>, <strong>CA</strong>, <strong>Celebrate Recovery</strong>, and more — in ${esc(area)}. Meeting data comes from each fellowship's official schedule and is refreshed nightly.`;
+    }
 
     renderHelplines();
     renderAboutSources();
