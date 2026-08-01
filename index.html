@@ -42,6 +42,7 @@
         <button class="tab active" role="tab" data-tab="meetings" aria-selected="true">Find a meeting <span class="tab-count" id="count-meetings">—</span></button>
         <button class="tab" role="tab" data-tab="map" aria-selected="false">Map</button>
         <button class="tab" role="tab" data-tab="week" aria-selected="false">My week <span class="tab-count" id="count-week">0</span></button>
+        <button class="tab" role="tab" data-tab="recovery" aria-selected="false">My recovery</button>
         <button class="tab" role="tab" data-tab="about" aria-selected="false">About</button>
       </nav>
 
@@ -91,6 +92,10 @@
             <button class="chip" data-format="wheelchair">Wheelchair accessible</button>
           </div>
         </div>
+        <div class="filter-group">
+          <span class="filter-label">Focus</span>
+          <div class="chips" id="chips-focus"></div>
+        </div>
       </div>
     </div>
   </header>
@@ -123,6 +128,29 @@
         </div>
       </div>
       <div id="week-grid" class="week-grid"></div>
+    </section>
+
+    <section id="view-recovery" class="view" hidden>
+      <div class="recovery-head">
+        <h2>My recovery</h2>
+        <p class="muted">Private by design — your dates live only on this device. Never uploaded, never shown to anyone. Clearing your browser data clears this.</p>
+      </div>
+      <div id="sobriety-list"></div>
+      <form id="sobriety-form" class="sobriety-form" autocomplete="off">
+        <div class="sf-row">
+          <label>What are you counting?
+            <input id="sf-label" type="text" maxlength="40" placeholder="e.g. Sobriety, Clean date, Abstinence" required />
+          </label>
+          <label>Since
+            <input id="sf-date" type="date" required />
+          </label>
+        </div>
+        <div class="sf-actions">
+          <button type="submit" class="btn primary">Add date</button>
+          <button type="button" id="sf-cancel" class="btn" hidden>Cancel</button>
+        </div>
+      </form>
+      <p class="recovery-help">Milestones follow the traditional recovery markers — 24 hours, 30/60/90 days, 6 &amp; 9 months, then yearly. Reaching one is worth celebrating; this just quietly keeps the count for you.</p>
     </section>
 
     <section id="view-about" class="view" hidden>
