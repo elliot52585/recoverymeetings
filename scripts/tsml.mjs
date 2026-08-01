@@ -22,29 +22,47 @@ const TYPE_LABELS = {
 const BROWSER_UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const BLOCK_CODES = new Set([401, 403, 429, 500, 502, 503, 504]);
+
+// Try one URL for a non-empty meeting array. Uses a browser User-Agent (many
+// intergroup hosts sit behind Cloudflare and block generic agents), and
+// retries transient blocks/timeouts with exponential backoff.
 async function fetchArray(url) {
-  for (const ua of [undefined, BROWSER_UA]) {
+  let lastErr = "unknown";
+  for (let attempt = 0; attempt < 3; attempt++) {
+    if (attempt) await sleep(2000 * attempt); // 0, 2s, 4s
     try {
       const res = await fetch(url, {
         headers: {
-          "User-Agent": ua || "recoverymeetings-fetcher/1.0 (free community meeting directory; repo issues for contact)",
-          Accept: "application/json",
+          "User-Agent": BROWSER_UA,
+          Accept: "application/json, text/plain, */*",
         },
-        signal: AbortSignal.timeout(30000),
+        signal: AbortSignal.timeout(45000),
       });
-      if (!res.ok) { if (res.status === 403 && !ua) continue; throw new Error(`HTTP ${res.status}`); }
-      const data = await res.json();
-      // Some sites expose the array under a key; accept the common shapes.
+      if (!res.ok) {
+        lastErr = `HTTP ${res.status}`;
+        if (BLOCK_CODES.has(res.status)) continue; // transient — retry
+        throw new Error(lastErr);
+      }
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch {
+        // Cloudflare/WAF challenge pages are HTML, not JSON — treat as a block.
+        lastErr = "non-JSON response (likely a challenge page)";
+        continue;
+      }
       const arr = Array.isArray(data) ? data : Array.isArray(data?.meetings) ? data.meetings : null;
       if (arr && arr.length) return arr;
-      if (!ua) continue; // empty/non-array on default UA — retry with browser UA
-      throw new Error("no meeting array");
+      lastErr = "no meeting array";
+      // An empty array can be a real empty feed OR a soft block; one retry.
     } catch (err) {
-      if (!ua) continue; // let the browser-UA attempt run
-      throw err;
+      lastErr = err.message;
     }
   }
-  throw new Error("empty");
+  throw new Error(lastErr);
 }
 
 export async function fetchTsml(cityCfg, src) {
