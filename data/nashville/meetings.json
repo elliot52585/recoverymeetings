@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-07-31T10:02:39.293Z",
+    "generated": "2026-08-01T00:33:21.527Z",
     "seed": false,
     "counts": {
       "AA": 876,
@@ -19,9 +19,8 @@
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 877,
-        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings: expected a JSON array"
       },
       "NA": {
         "ok": true,
