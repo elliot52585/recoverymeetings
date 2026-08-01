@@ -1,4 +1,4 @@
-/* Recovery Meetings — find meetings, plan your week, export to calendar.
+/* Recovery Now — find meetings, plan your week, export to calendar.
    No accounts, no tracking: state lives in localStorage only. */
 
 (() => {
@@ -66,7 +66,7 @@
     state.registry = (await getJSON("registry/fellowships.json")).fellowships || [];
     state.tz = state.city.timezone || "America/Chicago";
     const area = state.city.area || `the ${state.city.name} area`;
-    document.title = `Recovery Meetings in ${state.city.name} — AA, NA, CA & more`;
+    document.title = `Recovery Now in ${state.city.name} — AA, NA, CA & more`;
     if (state.city.tagline) $("#tagline").textContent = state.city.tagline;
     const aboutIntro = $("#about-intro");
     if (aboutIntro) {
@@ -976,7 +976,7 @@
     return [
       "BEGIN:VCALENDAR",
       "VERSION:2.0",
-      "PRODID:-//Recovery Meetings//EN",
+      "PRODID:-//Recovery Now//EN",
       "CALSCALE:GREGORIAN",
       VTIMEZONE_CHICAGO,
       ...events,

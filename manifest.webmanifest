@@ -1,6 +1,6 @@
 {
-  "name": "Recovery Meetings",
-  "short_name": "Recovery",
+  "name": "Recovery Now",
+  "short_name": "Recovery Now",
   "description": "Every AA, NA, CA, Al-Anon, and Celebrate Recovery meeting in your city — plan your week, add it to your calendar. Works offline.",
   "start_url": "./",
   "scope": "./",
