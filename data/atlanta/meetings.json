@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-01T00:33:34.091Z",
+    "generated": "2026-08-01T00:43:38.748Z",
     "seed": false,
     "counts": {
       "AA": 1375,
@@ -10,9 +10,8 @@
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 1387,
-        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — Unexpected token '<', \"<html><hea\"... is not valid JSON | atlantaaa.org/wp-json/tsml/v1/meetings — Unexpected token '<', \"<html><hea\"... is not valid JSON"
       },
       "NA": {
         "ok": true,
