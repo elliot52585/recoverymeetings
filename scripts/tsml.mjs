@@ -16,21 +16,51 @@ const TYPE_LABELS = {
 };
 
 // src: { fellowship, urls: [...], finder } from the city's sources array.
+// Tries every URL until one returns a non-empty meeting array. Some
+// intergroup hosts block the default agent, so a 403/empty result is retried
+// once with a browser User-Agent before moving on.
+const BROWSER_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
+
+async function fetchArray(url) {
+  for (const ua of [undefined, BROWSER_UA]) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": ua || "recoverymeetings-fetcher/1.0 (free community meeting directory; repo issues for contact)",
+          Accept: "application/json",
+        },
+        signal: AbortSignal.timeout(30000),
+      });
+      if (!res.ok) { if (res.status === 403 && !ua) continue; throw new Error(`HTTP ${res.status}`); }
+      const data = await res.json();
+      // Some sites expose the array under a key; accept the common shapes.
+      const arr = Array.isArray(data) ? data : Array.isArray(data?.meetings) ? data.meetings : null;
+      if (arr && arr.length) return arr;
+      if (!ua) continue; // empty/non-array on default UA — retry with browser UA
+      throw new Error("no meeting array");
+    } catch (err) {
+      if (!ua) continue; // let the browser-UA attempt run
+      throw err;
+    }
+  }
+  throw new Error("empty");
+}
+
 export async function fetchTsml(cityCfg, src) {
   let raw = null;
   let used = null;
   const errors = [];
   for (const url of src.urls) {
     try {
-      raw = await fetchJson(url);
+      raw = await fetchArray(url);
       used = url;
       break;
     } catch (err) {
-      errors.push(err.message);
+      errors.push(`${url.split("//")[1]?.slice(0, 40)} — ${err.message}`);
     }
   }
   if (!raw) throw new Error(`all TSML feeds failed: ${errors.join(" | ")}`);
-  if (!Array.isArray(raw)) throw new Error(`${used}: expected a JSON array`);
 
   const prefix = src.fellowship.toLowerCase();
   const radius = src.radiusMiles || cityCfg.radiusMiles;
