@@ -361,10 +361,18 @@
       mapCluster = L.markerClusterGroup({ maxClusterRadius: 46, showCoverageOnHover: false });
       map.addLayer(mapCluster);
       map.on("popupopen", (e) => {
-        const btn = e.popup.getElement()?.querySelector("[data-map-plan]");
-        if (btn) btn.addEventListener("click", () => {
-          togglePlan(btn.dataset.mapPlan);
+        const el = e.popup.getElement();
+        const planBtn = el?.querySelector("[data-map-plan]");
+        if (planBtn) planBtn.addEventListener("click", () => {
+          togglePlan(planBtn.dataset.mapPlan);
           map.closePopup();
+        });
+        const calBtn = el?.querySelector("[data-map-cal]");
+        if (calBtn) calBtn.addEventListener("click", async () => {
+          const m = state.meetings.find((x) => x.id === calBtn.dataset.mapCal);
+          if (!m) return;
+          const status = await saveIcs(icsForMeetings([m], "weekly"), icsFileName(m), `${m.name} (${m.fellowship})`);
+          if (status !== "cancelled") toast(calToast(status));
         });
       });
     }
@@ -391,7 +399,7 @@
           ${m.day != null ? esc(DAYS[m.day]) + "s " : ""}${fmtTime(m.time).replace(/<[^>]+>/g, " ")}${m._dist != null ? ` · ${m._dist.toFixed(1)} mi` : ""}<br>
           ${esc([m.venue, m.address, m.city].filter(Boolean).join(" · "))}<br>
           <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([m.address, m.city, m.state, m.zip].filter(Boolean).join(", "))}" target="_blank" rel="noopener">directions</a>
-          ${m.day != null ? ` · <button type="button" data-map-plan="${esc(m.id)}">${inPlan ? "✓ in my week" : "+ my week"}</button>` : ""}
+          ${m.day != null ? ` · <button type="button" data-map-cal="${esc(m.id)}">📅 calendar</button> · <button type="button" data-map-plan="${esc(m.id)}">${inPlan ? "✓ in my week" : "+ my week"}</button>` : ""}
         </div>`
       );
       markers.push(marker);
@@ -570,15 +578,16 @@
     menu.className = "cal-menu";
     menu.innerHTML = `
       <div class="menu-note">${esc(m.name)} — ${DAYS[m.day]}s ${fmtTime(m.time)}</div>
-      <button data-mode="once">Just ${esc(DAYS_SHORT[m.day])} ${next.getMonth() + 1}/${next.getDate()} (.ics)</button>
-      <button data-mode="weekly">Every ${esc(DAYS[m.day])} (.ics)</button>
-      <a href="${gcalUrl(m, "weekly")}" target="_blank" rel="noopener">Google Calendar (weekly)</a>
-      <a href="${gcalUrl(m, "once")}" target="_blank" rel="noopener">Google Calendar (once)</a>`;
+      <button data-mode="weekly">📅 Add every ${esc(DAYS[m.day])}</button>
+      <button data-mode="once">📅 Add just ${esc(DAYS_SHORT[m.day])} ${next.getMonth() + 1}/${next.getDate()}</button>
+      <a href="${gcalUrl(m, "weekly")}" target="_blank" rel="noopener">Google Calendar — weekly</a>
+      <a href="${gcalUrl(m, "once")}" target="_blank" rel="noopener">Google Calendar — once</a>
+      <div class="menu-note">Adds to Apple Calendar, Outlook, or your phone's calendar.</div>`;
     menu.querySelectorAll("button").forEach((b) =>
-      b.addEventListener("click", () => {
-        downloadIcs(icsForMeetings([m], b.dataset.mode), icsFileName(m));
+      b.addEventListener("click", async () => {
+        const status = await saveIcs(icsForMeetings([m], b.dataset.mode), icsFileName(m), `${m.name} (${m.fellowship})`);
         closeCalMenus();
-        toast("Calendar file downloaded — open it to add the event.");
+        if (status !== "cancelled") toast(calToast(status));
       })
     );
     anchor.parentElement.appendChild(menu);
@@ -819,16 +828,16 @@
       b.addEventListener("click", () => togglePlan(b.dataset.id))
     );
     host.querySelectorAll("[data-wi='cal']").forEach((b) =>
-      b.addEventListener("click", () => {
+      b.addEventListener("click", async () => {
         const m = state.meetings.find((x) => x.id === b.dataset.id);
         const mode = $("#week-repeat").value === "once" ? "once" : "weekly";
-        downloadIcs(icsForMeetings([m], mode), icsFileName(m));
-        toast("Calendar file downloaded.");
+        const status = await saveIcs(icsForMeetings([m], mode), icsFileName(m), `${m.name} (${m.fellowship})`);
+        if (status !== "cancelled") toast(calToast(status));
       })
     );
   }
 
-  function exportWeek() {
+  async function exportWeek() {
     const planned = state.plan
       .map((id) => state.meetings.find((m) => m.id === id))
       .filter(Boolean);
@@ -837,8 +846,18 @@
       return;
     }
     const mode = $("#week-repeat").value === "once" ? "once" : "weekly";
-    downloadIcs(icsForMeetings(planned, mode), `my-recovery-week-${state.cityKey}.ics`);
-    toast(`Downloaded ${planned.length} meeting${planned.length > 1 ? "s" : ""} — open the file to add them.`);
+    const status = await saveIcs(icsForMeetings(planned, mode), `my-recovery-week-${state.cityKey}.ics`, "My recovery week");
+    if (status !== "cancelled") {
+      toast(status === "shared" || status === "opened"
+        ? `Adding ${planned.length} meeting${planned.length > 1 ? "s" : ""} to your calendar.`
+        : `Downloaded ${planned.length} meeting${planned.length > 1 ? "s" : ""} — open the file to add them.`);
+    }
+  }
+
+  // Toast wording per how the .ics was handed off (share sheet vs download).
+  function calToast(status) {
+    if (status === "shared" || status === "opened") return "Opening your calendar to add it…";
+    return "Calendar file saved — open it to add the event.";
   }
 
   // ---------- dates / timezone ----------
@@ -968,7 +987,31 @@
     return `${m.baseId || m.id}.ics`;
   }
 
-  function downloadIcs(text, filename) {
+  // Save an .ics reliably across devices. Phones can't "download" a calendar
+  // file usefully, so prefer the native share sheet (which offers the
+  // Calendar app directly); iOS Safari opens a data: URL as an event; desktop
+  // gets a normal download. Returns a short status for the toast.
+  async function saveIcs(text, filename, title) {
+    const isIOS =
+      /iP(hone|ad|od)/.test(navigator.userAgent) ||
+      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
+    if (navigator.canShare) {
+      try {
+        const file = new File([text], filename, { type: "text/calendar" });
+        if (navigator.canShare({ files: [file] })) {
+          await navigator.share({ files: [file], title: title || "Meeting" });
+          return "shared";
+        }
+      } catch (err) {
+        if (err && err.name === "AbortError") return "cancelled";
+        // otherwise fall through to a download/open
+      }
+    }
+    if (isIOS) {
+      location.href = "data:text/calendar;charset=utf-8," + encodeURIComponent(text);
+      return "opened";
+    }
     const blob = new Blob([text], { type: "text/calendar;charset=utf-8" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
@@ -977,6 +1020,7 @@
     a.click();
     a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+    return "downloaded";
   }
 
   function gcalUrl(m, mode) {
