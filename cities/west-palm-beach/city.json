@@ -1,0 +1,61 @@
+{
+  "key": "west-palm-beach",
+  "name": "West Palm Beach",
+  "state": "FL",
+  "area": "Palm Beach County",
+  "tagline": "Every AA, NA, and Celebrate Recovery meeting in Palm Beach County — plan your week, add it to your calendar.",
+  "timezone": "America/New_York",
+  "center": {
+    "lat": 26.7153,
+    "lng": -80.0534
+  },
+  "radiusMiles": 45,
+  "helplines": [
+    {
+      "fellowship": "AA",
+      "name": "AA Central Office (West Palm Beach)",
+      "phone": null,
+      "url": "https://aa-palmbeachcounty.org/meetings/"
+    },
+    {
+      "fellowship": null,
+      "name": "SAMHSA National Helpline (24/7, free, confidential)",
+      "phone": "1-800-662-4357",
+      "url": "https://www.samhsa.gov/find-help/national-helpline"
+    },
+    {
+      "fellowship": null,
+      "name": "988 Suicide & Crisis Lifeline",
+      "phone": "988",
+      "url": "https://988lifeline.org/"
+    }
+  ],
+  "sources": [
+    {
+      "fellowship": "AA",
+      "type": "tsml",
+      "urls": [
+        "https://aa-palmbeachcounty.org/wp-admin/admin-ajax.php?action=meetings",
+        "https://aa-palmbeachcounty.org/wp-json/tsml/v1/meetings",
+        "https://aa-palmbeachcounty.org/new/wp-admin/admin-ajax.php?action=meetings",
+        "https://aa-palmbeachcounty.org/new/wp-json/tsml/v1/meetings"
+      ],
+      "finder": "https://aa-palmbeachcounty.org/meetings/"
+    },
+    {
+      "fellowship": "NA",
+      "type": "bmlt",
+      "aggregator": "https://aggregator.bmltenabled.org/main_server",
+      "finder": "https://na.org/meetingsearch/"
+    },
+    {
+      "fellowship": "RD",
+      "type": "tsml",
+      "urls": [
+        "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
+      ],
+      "finder": "https://recoverydharma.org/meetings/",
+      "skipOnline": true
+    }
+  ]
+}

@@ -35,6 +35,36 @@
       "key": "austin",
       "name": "Austin",
       "state": "TX"
+    },
+    {
+      "key": "miami",
+      "name": "Miami",
+      "state": "FL"
+    },
+    {
+      "key": "orlando",
+      "name": "Orlando",
+      "state": "FL"
+    },
+    {
+      "key": "tampa",
+      "name": "Tampa",
+      "state": "FL"
+    },
+    {
+      "key": "jacksonville",
+      "name": "Jacksonville",
+      "state": "FL"
+    },
+    {
+      "key": "fort-lauderdale",
+      "name": "Fort Lauderdale",
+      "state": "FL"
+    },
+    {
+      "key": "west-palm-beach",
+      "name": "West Palm Beach",
+      "state": "FL"
     }
   ]
 }
