@@ -26,6 +26,19 @@
   const REPORT_URL = "https://github.com/elliot52585/recoverymeetings/issues/new";
   const FALLBACK_COLOR = "#64748b";
 
+  const STATE_NAMES = {
+    AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",
+    CO: "Colorado", CT: "Connecticut", DE: "Delaware", FL: "Florida", GA: "Georgia",
+    HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa",
+    KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland",
+    MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri",
+    MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey",
+    NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio",
+    OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina",
+    SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont",
+    VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming", DC: "Washington, D.C.",
+  };
+
   const state = {
     cityKey: null,
     city: null,        // cities/<key>/city.json
@@ -53,8 +66,18 @@
     state.cityKey = params.get("city") || registry.default;
 
     const citySel = $("#city-select");
-    citySel.innerHTML = registry.cities
-      .map((c) => `<option value="${c.key}" ${c.key === state.cityKey ? "selected" : ""}>${esc(c.name)}</option>`)
+    // Group cities by state (State → City), states and cities both A–Z.
+    const byState = {};
+    for (const c of registry.cities) (byState[c.state] = byState[c.state] || []).push(c);
+    citySel.innerHTML = Object.keys(byState)
+      .sort((a, b) => (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b))
+      .map((st) => {
+        const opts = byState[st]
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((c) => `<option value="${esc(c.key)}" ${c.key === state.cityKey ? "selected" : ""}>${esc(c.name)}</option>`)
+          .join("");
+        return `<optgroup label="${esc(STATE_NAMES[st] || st)}">${opts}</optgroup>`;
+      })
       .join("");
     citySel.addEventListener("change", () => {
       const url = new URL(location.href);
