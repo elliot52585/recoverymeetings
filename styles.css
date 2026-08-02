@@ -58,8 +58,8 @@ a { color: var(--accent); }
   flex: 0 0 auto;
   width: 46px; height: 46px; border-radius: 12px;
   background: var(--accent); color: var(--accent-ink);
-  display: grid; place-items: center;
-  font-weight: 800; font-size: 1.25rem;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 0.72rem; line-height: 1.02; letter-spacing: 0.01em;
 }
 .masthead { margin: 0; font-size: 1.45rem; line-height: 1.2; display: flex; flex-wrap: wrap; gap: 0 8px; align-items: baseline; }
 .tagline { margin: 4px 0 0; color: var(--muted); font-size: 0.95rem; }
@@ -264,6 +264,7 @@ a { color: var(--accent); }
   display: grid; place-items: center; padding: 20px;
   overflow-y: auto;
 }
+.gate[hidden] { display: none; } /* author display must re-honor the hidden attr */
 .gate-card {
   background: var(--panel); border: 1px solid var(--line); border-radius: 18px;
   box-shadow: var(--shadow); padding: 28px 24px; width: 100%; max-width: 420px;
@@ -272,7 +273,8 @@ a { color: var(--accent); }
 .gate-mark {
   width: 54px; height: 54px; border-radius: 14px; margin: 0 auto;
   background: var(--accent); color: var(--accent-ink);
-  display: grid; place-items: center; font-weight: 800; font-size: 1.4rem;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 0.85rem; line-height: 1.05;
 }
 .gate-title { margin: 4px 0 0; font-size: 1.5rem; }
 .gate-sub { margin: 0 0 6px; color: var(--muted); font-size: 0.95rem; }
