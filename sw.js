@@ -4,7 +4,7 @@
 // Strategy: network-first for everything — online visitors always get the
 // latest app and data; the cache is an offline-only fallback. (Cache-first
 // caused a "stale until you refresh twice" problem.)
-const VERSION = "rm-v13";
+const VERSION = "rm-v14";
 const SHELL = [
   "./",
   "index.html",
