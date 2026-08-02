@@ -4,8 +4,67 @@
     {
       "key": "nashville",
       "name": "Nashville",
-      "state": "TN",
-      "tagline": "Every AA, NA, CA, and Celebrate Recovery meeting in Middle Tennessee — one place."
+      "state": "TN"
+    },
+    {
+      "key": "memphis",
+      "name": "Memphis",
+      "state": "TN"
+    },
+    {
+      "key": "knoxville",
+      "name": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "key": "atlanta",
+      "name": "Atlanta",
+      "state": "GA"
+    },
+    {
+      "key": "louisville",
+      "name": "Louisville",
+      "state": "KY"
+    },
+    {
+      "key": "denver",
+      "name": "Denver",
+      "state": "CO"
+    },
+    {
+      "key": "austin",
+      "name": "Austin",
+      "state": "TX"
+    },
+    {
+      "key": "miami",
+      "name": "Miami",
+      "state": "FL"
+    },
+    {
+      "key": "orlando",
+      "name": "Orlando",
+      "state": "FL"
+    },
+    {
+      "key": "tampa",
+      "name": "Tampa",
+      "state": "FL"
+    },
+    {
+      "key": "jacksonville",
+      "name": "Jacksonville",
+      "state": "FL"
+    },
+    {
+      "key": "fort-lauderdale",
+      "name": "Fort Lauderdale",
+      "state": "FL"
+    },
+    {
+      "key": "west-palm-beach",
+      "name": "West Palm Beach",
+      "state": "FL"
     }
   ]
 }

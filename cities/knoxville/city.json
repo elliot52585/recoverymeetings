@@ -1,0 +1,59 @@
+{
+  "key": "knoxville",
+  "name": "Knoxville",
+  "state": "TN",
+  "area": "the Knoxville area",
+  "tagline": "Every AA, NA, and Celebrate Recovery meeting in East Tennessee — plan your week, add it to your calendar.",
+  "timezone": "America/New_York",
+  "center": {
+    "lat": 35.9606,
+    "lng": -83.9207
+  },
+  "radiusMiles": 45,
+  "helplines": [
+    {
+      "fellowship": "AA",
+      "name": "AA Central Office (Knoxville)",
+      "phone": "(865) 522-9667",
+      "url": "https://www.etiaa.org/meetings/"
+    },
+    {
+      "fellowship": null,
+      "name": "SAMHSA National Helpline (24/7, free, confidential)",
+      "phone": "1-800-662-4357",
+      "url": "https://www.samhsa.gov/find-help/national-helpline"
+    },
+    {
+      "fellowship": null,
+      "name": "988 Suicide & Crisis Lifeline",
+      "phone": "988",
+      "url": "https://988lifeline.org/"
+    }
+  ],
+  "sources": [
+    {
+      "fellowship": "AA",
+      "type": "tsml",
+      "urls": [
+        "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings",
+        "https://www.etiaa.org/wp-json/tsml/v1/meetings"
+      ],
+      "finder": "https://www.etiaa.org/meetings/"
+    },
+    {
+      "fellowship": "NA",
+      "type": "bmlt",
+      "aggregator": "https://aggregator.bmltenabled.org/main_server",
+      "finder": "https://na.org/meetingsearch/"
+    },
+    {
+      "fellowship": "RD",
+      "type": "tsml",
+      "urls": [
+        "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
+      ],
+      "finder": "https://recoverydharma.org/meetings/",
+      "skipOnline": true
+    }
+  ]
+}

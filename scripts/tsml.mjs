@@ -16,21 +16,69 @@ const TYPE_LABELS = {
 };
 
 // src: { fellowship, urls: [...], finder } from the city's sources array.
+// Tries every URL until one returns a non-empty meeting array. Some
+// intergroup hosts block the default agent, so a 403/empty result is retried
+// once with a browser User-Agent before moving on.
+const BROWSER_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const BLOCK_CODES = new Set([401, 403, 429, 500, 502, 503, 504]);
+
+// Try one URL for a non-empty meeting array. Uses a browser User-Agent (many
+// intergroup hosts sit behind Cloudflare and block generic agents), and
+// retries transient blocks/timeouts with exponential backoff.
+async function fetchArray(url) {
+  let lastErr = "unknown";
+  for (let attempt = 0; attempt < 3; attempt++) {
+    if (attempt) await sleep(2000 * attempt); // 0, 2s, 4s
+    try {
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": BROWSER_UA,
+          Accept: "application/json, text/plain, */*",
+        },
+        signal: AbortSignal.timeout(45000),
+      });
+      if (!res.ok) {
+        lastErr = `HTTP ${res.status}`;
+        if (BLOCK_CODES.has(res.status)) continue; // transient — retry
+        throw new Error(lastErr);
+      }
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch {
+        // Cloudflare/WAF challenge pages are HTML, not JSON — treat as a block.
+        lastErr = "non-JSON response (likely a challenge page)";
+        continue;
+      }
+      const arr = Array.isArray(data) ? data : Array.isArray(data?.meetings) ? data.meetings : null;
+      if (arr && arr.length) return arr;
+      lastErr = "no meeting array";
+      // An empty array can be a real empty feed OR a soft block; one retry.
+    } catch (err) {
+      lastErr = err.message;
+    }
+  }
+  throw new Error(lastErr);
+}
+
 export async function fetchTsml(cityCfg, src) {
   let raw = null;
   let used = null;
   const errors = [];
   for (const url of src.urls) {
     try {
-      raw = await fetchJson(url);
+      raw = await fetchArray(url);
       used = url;
       break;
     } catch (err) {
-      errors.push(err.message);
+      errors.push(`${url.split("//")[1]?.slice(0, 40)} — ${err.message}`);
     }
   }
   if (!raw) throw new Error(`all TSML feeds failed: ${errors.join(" | ")}`);
-  if (!Array.isArray(raw)) throw new Error(`${used}: expected a JSON array`);
 
   const prefix = src.fellowship.toLowerCase();
   const radius = src.radiusMiles || cityCfg.radiusMiles;

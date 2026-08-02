@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-02T09:28:05.534Z",
+    "generated": "2026-08-01T00:43:26.555Z",
     "seed": false,
     "counts": {
       "AA": 876,
@@ -9,19 +9,18 @@
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
+      "CR": 24,
       "SMART": 3,
-      "CR": 9,
       "RD": 4,
       "ACA": 4,
+      "CA": 5,
       "ALANON": 4,
-      "CA": 1,
       "OA": 1
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 877,
-        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: aanashville.org/wp-admin/admin-ajax.php? — no meeting array | www.area64assembly.org/wp-admin/admin-aj — HTTP 401"
       },
       "NA": {
         "ok": true,
@@ -30,12 +29,12 @@
       },
       "CA": {
         "ok": true,
-        "count": 1,
+        "count": 5,
         "source": "curated"
       },
       "CR": {
         "ok": true,
-        "count": 9,
+        "count": 24,
         "source": "curated"
       },
       "MA": {
@@ -2042,6 +2041,23 @@
       "region": "Woodbury",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "cr-mfwc-murfreesboro",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Murfreesboro Family Worship Center",
+      "day": 0,
+      "time": "18:00",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Murfreesboro Family Worship Center",
+      "address": "3045 Memorial Blvd",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "zip": "37129",
+      "region": "Murfreesboro",
+      "source": "https://www.facebook.com/p/Celebrate-Recovery-at-Murfreesboro-Family-Worship-Center-100066514542139/"
     },
     {
       "id": "aa-040cla01800-d0-1800",
@@ -4753,6 +4769,23 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "cr-compassion-dickson",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Compassion Church",
+      "day": 1,
+      "time": "18:00",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Compassion Church",
+      "address": "3525 Hwy 70 E",
+      "city": "Dickson",
+      "state": "TN",
+      "zip": "37055",
+      "region": "Dickson",
+      "source": "https://alcohol.org/meeting-finder/celebrate-recovery/nashville-tn/"
+    },
+    {
       "id": "aa-040cla11800-d1-1800",
       "fellowship": "AA",
       "name": "Clark Street Group",
@@ -5256,6 +5289,23 @@
       "source": "https://aanashville.org/meetings/055byt11830/"
     },
     {
+      "id": "cr-crossroads-lebanon",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Crossroads Fellowship",
+      "day": 1,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Crossroads Fellowship",
+      "address": "7860 Linwood Rd",
+      "city": "Lebanon",
+      "state": "TN",
+      "zip": "37090",
+      "region": "Lebanon",
+      "source": "https://12stepnearme.com/locations/celebrate-recovery-lebanon-tn.html"
+    },
+    {
       "id": "cr-grace-place-hermitage",
       "fellowship": "CR",
       "name": "Celebrate Recovery — Grace Place",
@@ -5288,6 +5338,24 @@
       "zip": "37075",
       "region": "Hendersonville",
       "source": "https://longhollow.com/celebrate-recovery"
+    },
+    {
+      "id": "cr-providence-mt-juliet",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Providence Church",
+      "day": 1,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Providence Church",
+      "address": "2293 S Rutland Rd",
+      "city": "Mt. Juliet",
+      "state": "TN",
+      "zip": "37122",
+      "region": "Mt. Juliet",
+      "source": "https://www.provchurch.net/celebraterecovery",
+      "notes": "Light supper, worship; ends ~8:30pm."
     },
     {
       "id": "aa-055dic11830-d1-1830",
@@ -5839,6 +5907,24 @@
       "region": "Columbia",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "cr-north-blvd-murfreesboro",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — North Boulevard Church of Christ",
+      "day": 1,
+      "time": "19:00",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "North Boulevard Church of Christ",
+      "address": "1112 N Rutherford Blvd",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "zip": "37130",
+      "region": "Murfreesboro",
+      "source": "https://www.northboulevard.com/celebrate-recovery",
+      "notes": "Meal 6:00pm, large group 7:00pm, share 8:00pm."
     },
     {
       "id": "cr-woodmont-baptist",
@@ -6806,6 +6892,24 @@
       "region": "West End",
       "notes": "Across from Vanderbilt. Nashville GA hotline: (615) 254-6454.",
       "source": "https://gamblersanonymous.org/mtgdirTN.html"
+    },
+    {
+      "id": "ca-off-the-rocks-mon",
+      "fellowship": "CA",
+      "name": "Off The Rocks (Big Book)",
+      "day": 1,
+      "time": "19:30",
+      "types": [
+        "Open",
+        "Big Book"
+      ],
+      "venue": "Home Church Nashville",
+      "address": "3511 Gallatin Pike",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37216",
+      "region": "East Nashville",
+      "source": "https://canashville.com/meetings/"
     },
     {
       "id": "aa-prime-time-d1-1930",
@@ -9452,6 +9556,40 @@
       "source": "https://aanashville.org/meetings/087any21830/"
     },
     {
+      "id": "cr-cotc-spring-hill",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Church of the City — Spring Hill",
+      "day": 2,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Church of the City",
+      "address": "4910 Main St",
+      "city": "Spring Hill",
+      "state": "TN",
+      "zip": "37174",
+      "region": "Spring Hill",
+      "source": "https://www.facebook.com/cotcspringhillcelebraterecovery/"
+    },
+    {
+      "id": "cr-fbc-hendersonville",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — First Baptist Hendersonville",
+      "day": 2,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "First Baptist Church Hendersonville",
+      "address": "106 Bluegrass Commons Blvd",
+      "city": "Hendersonville",
+      "state": "TN",
+      "zip": "37075",
+      "region": "Hendersonville",
+      "source": "https://alcohol.org/meeting-finder/celebrate-recovery/nashville-tn/"
+    },
+    {
       "id": "cr-grace-nazarene",
       "fellowship": "CR",
       "name": "Celebrate Recovery — Grace Church of the Nazarene",
@@ -10842,23 +10980,23 @@
       "source": "https://aanashville.org/meetings/214mlc21930/"
     },
     {
-      "id": "ca-off-the-rocks",
+      "id": "ca-off-the-rocks-tue",
       "fellowship": "CA",
       "name": "Off The Rocks",
       "day": 2,
       "time": "19:30",
+      "endTime": "20:30",
       "types": [
         "Open",
         "Discussion"
       ],
-      "venue": "Home Church Nashville (White Scout building behind the church)",
+      "venue": "Home Church Nashville (White Scout bldg behind the church)",
       "address": "3511 Gallatin Pike",
       "city": "Nashville",
       "state": "TN",
       "zip": "37216",
       "region": "East Nashville",
-      "notes": "Verify at canashville.com.",
-      "source": "https://alcohol.org/meeting-finder/cocaine-anonymous/nashville-tn/"
+      "source": "https://canashville.com/meetings/"
     },
     {
       "id": "slaa-tue-nrc",
@@ -13281,6 +13419,42 @@
       "source": "https://aanashville.org/meetings/by-the-book-2/"
     },
     {
+      "id": "cr-salem-clarksville",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Salem Community Church",
+      "day": 3,
+      "time": "18:00",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Salem Community Church",
+      "address": null,
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": null,
+      "region": "Clarksville",
+      "source": "https://www.facebook.com/salemcommunityCR/",
+      "notes": "Doors/food 5:15pm, meeting 6:00pm. Confirm address."
+    },
+    {
+      "id": "cr-southside-lebanon",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Southside Christian Church",
+      "day": 3,
+      "time": "18:00",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Southside Christian Church",
+      "address": null,
+      "city": "Lebanon",
+      "state": "TN",
+      "zip": null,
+      "region": "Lebanon",
+      "source": "https://southsidelebanon.com/celebrate-recovery",
+      "notes": "Dinner/doors 5:15pm, meeting 6:00pm. Confirm address."
+    },
+    {
       "id": "aa-040cla31800-d3-1800",
       "fellowship": "AA",
       "name": "Clark Street Group",
@@ -13630,6 +13804,23 @@
       "source": "https://aanashville.org/meetings/by-the-book/"
     },
     {
+      "id": "cr-graceland-franklin",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — GraceLand Church",
+      "day": 3,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "GraceLand Church",
+      "address": "1667 Lewisburg Pike",
+      "city": "Franklin",
+      "state": "TN",
+      "zip": "37064",
+      "region": "Franklin",
+      "source": "https://gracelandchurch.com/celebrate-recovery/"
+    },
+    {
       "id": "cr-hermitage-umc",
       "fellowship": "CR",
       "name": "Celebrate Recovery — Hermitage United Methodist",
@@ -13644,8 +13835,25 @@
       "state": "TN",
       "zip": null,
       "region": "Hermitage",
-      "notes": "Large group 6:30–7:30pm, small groups 7:30–8:30pm.",
-      "source": "https://humc.org/celebraterecovery/"
+      "source": "https://humc.org/celebraterecovery/",
+      "notes": "Large group 6:30–7:30pm, small groups 7:30–8:30pm."
+    },
+    {
+      "id": "cr-madison-church-of-christ",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Madison Church of Christ",
+      "day": 3,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Madison Church of Christ",
+      "address": "106 Gallatin Pike N",
+      "city": "Madison",
+      "state": "TN",
+      "zip": "37115",
+      "region": "Madison",
+      "source": "https://alcohol.org/meeting-finder/celebrate-recovery/nashville-tn/"
     },
     {
       "id": "aa-055dic31830-d3-1830",
@@ -17173,6 +17381,24 @@
       "source": "https://aanashville.org/meetings/womens-lost-and-found-group/"
     },
     {
+      "id": "cr-community-of-hope-clarksville",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Community of Hope (Clarksville First)",
+      "day": 4,
+      "time": "18:15",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Clarksville First",
+      "address": null,
+      "city": "Clarksville",
+      "state": "TN",
+      "zip": null,
+      "region": "Clarksville",
+      "source": "http://www.clarksvillefirst.org/ministries",
+      "notes": "Confirm address."
+    },
+    {
       "id": "aa-you-are-not-alone-2-d4-1815",
       "fellowship": "AA",
       "name": "You Are Not Alone",
@@ -17249,6 +17475,24 @@
       "source": "https://aanashville.org/meetings/055byt41830/"
     },
     {
+      "id": "cr-harpeth-christian-franklin",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — Harpeth Christian Church",
+      "day": 4,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "Harpeth Christian Church",
+      "address": "1101 Gardner Dr",
+      "city": "Franklin",
+      "state": "TN",
+      "zip": "37064",
+      "region": "Franklin",
+      "source": "https://harpethcc.com/ministries/celebrate-recovery/",
+      "notes": "Large group 6:30pm, open share 7:30pm."
+    },
+    {
       "id": "cr-madison-heights-baptist",
       "fellowship": "CR",
       "name": "Celebrate Recovery — Madison Heights Baptist",
@@ -17263,8 +17507,41 @@
       "state": "TN",
       "zip": "37115",
       "region": "Madison",
-      "notes": "Confirm with the church before attending.",
       "source": "https://alcohol.org/meeting-finder/celebrate-recovery/brentwood-tn/"
+    },
+    {
+      "id": "cr-northfield-gallatin",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — NorthField Church",
+      "day": 4,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "NorthField Church",
+      "address": "2100 Nashville Pike",
+      "city": "Gallatin",
+      "state": "TN",
+      "zip": "37066",
+      "region": "Gallatin",
+      "source": "https://alcohol.org/meeting-finder/celebrate-recovery/nashville-tn/"
+    },
+    {
+      "id": "cr-experience-murfreesboro",
+      "fellowship": "CR",
+      "name": "Celebrate Recovery — The Experience Community Church",
+      "day": 4,
+      "time": "18:30",
+      "types": [
+        "Large group + open share"
+      ],
+      "venue": "The Experience Community Church (Student Center, door #14)",
+      "address": "521 Old Salem Rd",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "zip": "37129",
+      "region": "Murfreesboro",
+      "source": "https://experiencecc.com/celebrate-recovery/"
     },
     {
       "id": "cr-west-end-community",
@@ -21230,8 +21507,8 @@
       "state": "TN",
       "zip": "37211",
       "region": "South Nashville",
-      "notes": "Dinner at 5:45pm, service 6:30–8:30pm. Church office (615) 834-6171.",
-      "source": "https://christchurchnashville.org/recovery/"
+      "source": "https://christchurchnashville.org/recovery/",
+      "notes": "Dinner 5:45pm, service 6:30–8:30pm."
     },
     {
       "id": "aa-055dic51830-d5-1830",
@@ -26794,6 +27071,60 @@
       "region": "Green Hills",
       "notes": "Grandparents meeting 1st & 3rd Tuesdays. Confirm day/time: parentAlAnonFamilyGroup@gmail.com or (615) 333-6066.",
       "source": "https://findrecovery.com/alanon_meetings/tn/nashville/"
+    },
+    {
+      "id": "ca-columbia",
+      "fellowship": "CA",
+      "name": "Columbia Group",
+      "day": null,
+      "time": "18:30",
+      "types": [
+        "Open"
+      ],
+      "venue": null,
+      "address": "1113 S High St",
+      "city": "Columbia",
+      "state": "TN",
+      "zip": "38401",
+      "region": "Columbia",
+      "notes": "Confirm day at canashville.com/meetings/.",
+      "source": "https://canashville.com/meetings/"
+    },
+    {
+      "id": "ca-last-stop",
+      "fellowship": "CA",
+      "name": "Last Stop Club Group",
+      "day": null,
+      "time": "18:30",
+      "types": [
+        "Open"
+      ],
+      "venue": "Last Stop Club",
+      "address": "2122 Utopia Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37211",
+      "region": "South Nashville",
+      "notes": "Confirm day/time at canashville.com/meetings/.",
+      "source": "https://canashville.com/meetings/"
+    },
+    {
+      "id": "ca-otter-creek",
+      "fellowship": "CA",
+      "name": "Otter Creek Group",
+      "day": null,
+      "time": "19:30",
+      "types": [
+        "Open"
+      ],
+      "venue": "Otter Creek Church (Entrance G via Richland Ave, Rooms 301/310/311)",
+      "address": "3534 West End Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37205",
+      "region": "West End",
+      "notes": "Confirm day at canashville.com/meetings/.",
+      "source": "https://canashville.com/meetings/"
     }
   ]
 }

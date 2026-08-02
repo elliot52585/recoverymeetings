@@ -1,0 +1,59 @@
+{
+  "key": "orlando",
+  "name": "Orlando",
+  "state": "FL",
+  "area": "the Orlando area",
+  "tagline": "Every AA, NA, and Celebrate Recovery meeting in Central Florida — plan your week, add it to your calendar.",
+  "timezone": "America/New_York",
+  "center": {
+    "lat": 28.5383,
+    "lng": -81.3792
+  },
+  "radiusMiles": 45,
+  "helplines": [
+    {
+      "fellowship": "AA",
+      "name": "AA Central Office (Orlando)",
+      "phone": "(407) 260-5408",
+      "url": "https://cflintergroup.org/meetings/"
+    },
+    {
+      "fellowship": null,
+      "name": "SAMHSA National Helpline (24/7, free, confidential)",
+      "phone": "1-800-662-4357",
+      "url": "https://www.samhsa.gov/find-help/national-helpline"
+    },
+    {
+      "fellowship": null,
+      "name": "988 Suicide & Crisis Lifeline",
+      "phone": "988",
+      "url": "https://988lifeline.org/"
+    }
+  ],
+  "sources": [
+    {
+      "fellowship": "AA",
+      "type": "tsml",
+      "urls": [
+        "https://cflintergroup.org/wp-admin/admin-ajax.php?action=meetings",
+        "https://cflintergroup.org/wp-json/tsml/v1/meetings"
+      ],
+      "finder": "https://cflintergroup.org/meetings/"
+    },
+    {
+      "fellowship": "NA",
+      "type": "bmlt",
+      "aggregator": "https://aggregator.bmltenabled.org/main_server",
+      "finder": "https://na.org/meetingsearch/"
+    },
+    {
+      "fellowship": "RD",
+      "type": "tsml",
+      "urls": [
+        "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
+      ],
+      "finder": "https://recoverydharma.org/meetings/",
+      "skipOnline": true
+    }
+  ]
+}

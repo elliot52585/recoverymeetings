@@ -1,0 +1,59 @@
+{
+  "key": "miami",
+  "name": "Miami",
+  "state": "FL",
+  "area": "the Miami area",
+  "tagline": "Every AA, NA, and Celebrate Recovery meeting in Miami-Dade — plan your week, add it to your calendar.",
+  "timezone": "America/New_York",
+  "center": {
+    "lat": 25.7743,
+    "lng": -80.1937
+  },
+  "radiusMiles": 45,
+  "helplines": [
+    {
+      "fellowship": "AA",
+      "name": "AA Central Office (Miami)",
+      "phone": "(305) 461-2425",
+      "url": "https://aamiamidade.org/meetings"
+    },
+    {
+      "fellowship": null,
+      "name": "SAMHSA National Helpline (24/7, free, confidential)",
+      "phone": "1-800-662-4357",
+      "url": "https://www.samhsa.gov/find-help/national-helpline"
+    },
+    {
+      "fellowship": null,
+      "name": "988 Suicide & Crisis Lifeline",
+      "phone": "988",
+      "url": "https://988lifeline.org/"
+    }
+  ],
+  "sources": [
+    {
+      "fellowship": "AA",
+      "type": "tsml",
+      "urls": [
+        "https://aamiamidade.org/wp-json/tsml/v1/meetings",
+        "https://aamiamidade.org/wp-admin/admin-ajax.php?action=meetings"
+      ],
+      "finder": "https://aamiamidade.org/meetings"
+    },
+    {
+      "fellowship": "NA",
+      "type": "bmlt",
+      "aggregator": "https://aggregator.bmltenabled.org/main_server",
+      "finder": "https://na.org/meetingsearch/"
+    },
+    {
+      "fellowship": "RD",
+      "type": "tsml",
+      "urls": [
+        "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
+      ],
+      "finder": "https://recoverydharma.org/meetings/",
+      "skipOnline": true
+    }
+  ]
+}

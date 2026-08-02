@@ -1,0 +1,60 @@
+{
+  "key": "tampa",
+  "name": "Tampa",
+  "state": "FL",
+  "area": "the Tampa Bay area",
+  "tagline": "Every AA, NA, and Celebrate Recovery meeting in Tampa Bay — plan your week, add it to your calendar.",
+  "timezone": "America/New_York",
+  "center": {
+    "lat": 27.9506,
+    "lng": -82.4572
+  },
+  "radiusMiles": 45,
+  "helplines": [
+    {
+      "fellowship": "AA",
+      "name": "AA Central Office (Tampa)",
+      "phone": "(813) 933-9123",
+      "url": "https://meetings.aatampa-area.org/meetings/"
+    },
+    {
+      "fellowship": null,
+      "name": "SAMHSA National Helpline (24/7, free, confidential)",
+      "phone": "1-800-662-4357",
+      "url": "https://www.samhsa.gov/find-help/national-helpline"
+    },
+    {
+      "fellowship": null,
+      "name": "988 Suicide & Crisis Lifeline",
+      "phone": "988",
+      "url": "https://988lifeline.org/"
+    }
+  ],
+  "sources": [
+    {
+      "fellowship": "AA",
+      "type": "tsml",
+      "urls": [
+        "https://meetings.aatampa-area.org/wp-admin/admin-ajax.php?action=meetings",
+        "https://meetings.aatampa-area.org/wp-json/tsml/v1/meetings",
+        "https://aatampa-area.org/wp-admin/admin-ajax.php?action=meetings"
+      ],
+      "finder": "https://meetings.aatampa-area.org/meetings/"
+    },
+    {
+      "fellowship": "NA",
+      "type": "bmlt",
+      "aggregator": "https://aggregator.bmltenabled.org/main_server",
+      "finder": "https://na.org/meetingsearch/"
+    },
+    {
+      "fellowship": "RD",
+      "type": "tsml",
+      "urls": [
+        "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
+      ],
+      "finder": "https://recoverydharma.org/meetings/",
+      "skipOnline": true
+    }
+  ]
+}

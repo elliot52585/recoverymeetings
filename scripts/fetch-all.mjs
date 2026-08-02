@@ -42,6 +42,7 @@ for (const { key } of cities) {
       status[f] = { ok: false, error: `unknown source type: ${src.type}` };
       continue;
     }
+    await new Promise((r) => setTimeout(r, 1200)); // be polite between feed hits
     try {
       const { meetings, used } = await fetcher(cityCfg, src);
       fetched[f] = [...(fetched[f] || []), ...meetings];

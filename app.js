@@ -1,4 +1,4 @@
-/* Recovery Meetings — find meetings, plan your week, export to calendar.
+/* Recovery Now — find meetings, plan your week, export to calendar.
    No accounts, no tracking: state lives in localStorage only. */
 
 (() => {
@@ -25,6 +25,19 @@
   ];
   const REPORT_URL = "https://github.com/elliot52585/recoverymeetings/issues/new";
   const FALLBACK_COLOR = "#64748b";
+
+  const STATE_NAMES = {
+    AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",
+    CO: "Colorado", CT: "Connecticut", DE: "Delaware", FL: "Florida", GA: "Georgia",
+    HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa",
+    KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland",
+    MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri",
+    MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey",
+    NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio",
+    OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina",
+    SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont",
+    VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming", DC: "Washington, D.C.",
+  };
 
   const state = {
     cityKey: null,
@@ -53,8 +66,18 @@
     state.cityKey = params.get("city") || registry.default;
 
     const citySel = $("#city-select");
-    citySel.innerHTML = registry.cities
-      .map((c) => `<option value="${c.key}" ${c.key === state.cityKey ? "selected" : ""}>${esc(c.name)}</option>`)
+    // Group cities by state (State → City), states and cities both A–Z.
+    const byState = {};
+    for (const c of registry.cities) (byState[c.state] = byState[c.state] || []).push(c);
+    citySel.innerHTML = Object.keys(byState)
+      .sort((a, b) => (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b))
+      .map((st) => {
+        const opts = byState[st]
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((c) => `<option value="${esc(c.key)}" ${c.key === state.cityKey ? "selected" : ""}>${esc(c.name)}</option>`)
+          .join("");
+        return `<optgroup label="${esc(STATE_NAMES[st] || st)}">${opts}</optgroup>`;
+      })
       .join("");
     citySel.addEventListener("change", () => {
       const url = new URL(location.href);
@@ -65,7 +88,14 @@
     state.city = await getJSON(`cities/${state.cityKey}/city.json`);
     state.registry = (await getJSON("registry/fellowships.json")).fellowships || [];
     state.tz = state.city.timezone || "America/Chicago";
-    document.title = `Recovery Meetings in ${state.city.name} — every AA, NA, CA & Celebrate Recovery meeting`;
+    const area = state.city.area || `the ${state.city.name} area`;
+    document.title = `Recovery Now in ${state.city.name} — AA, NA, CA & more`;
+    if (state.city.tagline) $("#tagline").textContent = state.city.tagline;
+    const aboutIntro = $("#about-intro");
+    if (aboutIntro) {
+      aboutIntro.innerHTML =
+        `This is a one-stop directory of recovery meetings — <strong>AA</strong>, <strong>NA</strong>, <strong>CA</strong>, <strong>Celebrate Recovery</strong>, and more — in ${esc(area)}. Meeting data comes from each fellowship's official schedule and is refreshed nightly.`;
+    }
 
     renderHelplines();
     renderAboutSources();
@@ -969,7 +999,7 @@
     return [
       "BEGIN:VCALENDAR",
       "VERSION:2.0",
-      "PRODID:-//Recovery Meetings//EN",
+      "PRODID:-//Recovery Now//EN",
       "CALSCALE:GREGORIAN",
       VTIMEZONE_CHICAGO,
       ...events,
