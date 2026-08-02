@@ -4,67 +4,93 @@
     {
       "key": "nashville",
       "name": "Nashville",
-      "state": "TN"
+      "state": "TN",
+      "lat": 36.1627,
+      "lng": -86.7816
     },
     {
       "key": "memphis",
       "name": "Memphis",
-      "state": "TN"
+      "state": "TN",
+      "lat": 35.1495,
+      "lng": -90.049
     },
     {
       "key": "knoxville",
       "name": "Knoxville",
-      "state": "TN"
+      "state": "TN",
+      "lat": 35.9606,
+      "lng": -83.9207
     },
     {
       "key": "atlanta",
       "name": "Atlanta",
-      "state": "GA"
+      "state": "GA",
+      "lat": 33.749,
+      "lng": -84.388
     },
     {
       "key": "louisville",
       "name": "Louisville",
-      "state": "KY"
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585
     },
     {
       "key": "denver",
       "name": "Denver",
-      "state": "CO"
+      "state": "CO",
+      "lat": 39.7392,
+      "lng": -104.9903
     },
     {
       "key": "austin",
       "name": "Austin",
-      "state": "TX"
+      "state": "TX",
+      "lat": 30.2672,
+      "lng": -97.7431
     },
     {
       "key": "miami",
       "name": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "lat": 25.7743,
+      "lng": -80.1937
     },
     {
       "key": "orlando",
       "name": "Orlando",
-      "state": "FL"
+      "state": "FL",
+      "lat": 28.5383,
+      "lng": -81.3792
     },
     {
       "key": "tampa",
       "name": "Tampa",
-      "state": "FL"
+      "state": "FL",
+      "lat": 27.9506,
+      "lng": -82.4572
     },
     {
       "key": "jacksonville",
       "name": "Jacksonville",
-      "state": "FL"
+      "state": "FL",
+      "lat": 30.3322,
+      "lng": -81.6557
     },
     {
       "key": "fort-lauderdale",
       "name": "Fort Lauderdale",
-      "state": "FL"
+      "state": "FL",
+      "lat": 26.1224,
+      "lng": -80.1373
     },
     {
       "key": "west-palm-beach",
       "name": "West Palm Beach",
-      "state": "FL"
+      "state": "FL",
+      "lat": 26.7153,
+      "lng": -80.0534
     }
   ]
 }

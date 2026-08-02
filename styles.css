@@ -257,6 +257,39 @@ a { color: var(--accent); }
 }
 .week-empty { font-size: 0.82rem; color: var(--muted); }
 
+/* ---------- location gate (first run) ---------- */
+.gate {
+  position: fixed; inset: 0; z-index: 200;
+  background: var(--bg);
+  display: grid; place-items: center; padding: 20px;
+  overflow-y: auto;
+}
+.gate-card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 18px;
+  box-shadow: var(--shadow); padding: 28px 24px; width: 100%; max-width: 420px;
+  display: flex; flex-direction: column; gap: 12px; text-align: center;
+}
+.gate-mark {
+  width: 54px; height: 54px; border-radius: 14px; margin: 0 auto;
+  background: var(--accent); color: var(--accent-ink);
+  display: grid; place-items: center; font-weight: 800; font-size: 1.4rem;
+}
+.gate-title { margin: 4px 0 0; font-size: 1.5rem; }
+.gate-sub { margin: 0 0 6px; color: var(--muted); font-size: 0.95rem; }
+.gate-field { display: flex; flex-direction: column; gap: 5px; text-align: left; font-size: 0.8rem; font-weight: 600; color: var(--muted); }
+.gate-field select, .gate-field input {
+  font: inherit; font-size: 1rem; font-weight: 400; color: var(--ink);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 11px 12px;
+}
+.gate-field select:focus, .gate-field input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.gate-or { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 0.8rem; }
+.gate-or::before, .gate-or::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.gate-go { font-size: 1rem; padding: 12px; margin-top: 4px; }
+.gate-geo { font-size: 0.9rem; }
+.gate-msg { margin: 0; font-size: 0.85rem; color: #b23a3a; }
+:root[data-theme="dark"] .gate-msg, .gate-msg { color: #d66; }
+.gate-fine { margin: 6px 0 0; font-size: 0.75rem; color: var(--muted); }
+
 /* ---------- my recovery ---------- */
 .recovery-head { margin-bottom: 16px; }
 .recovery-head h2 { margin: 0; }
