@@ -34,12 +34,13 @@ self.addEventListener("activate", (e) => {
   );
 });
 
+// Network-first for everything: online visitors always get the latest app
+// and data; the cache is purely an offline fallback. This avoids the
+// cache-first "stale until you refresh twice" problem.
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
-
-  const isData = url.pathname.includes("/data/") || url.pathname.includes("/cities/");
-  e.respondWith(isData ? networkFirst(e.request) : cacheFirst(e.request));
+  e.respondWith(networkFirst(e.request));
 });
 
 async function networkFirst(req) {
@@ -49,20 +50,9 @@ async function networkFirst(req) {
     if (res.ok) cache.put(req, res.clone());
     return res;
   } catch {
-    const hit = await cache.match(req);
+    // Offline: fall back to cache (ignore ?city= etc. for navigations).
+    const hit = await cache.match(req, { ignoreSearch: req.mode === "navigate" });
     if (hit) return hit;
     throw new Error("offline and not cached");
   }
-}
-
-async function cacheFirst(req) {
-  const cache = await caches.open(VERSION);
-  const hit = await cache.match(req, { ignoreSearch: req.mode === "navigate" });
-  const refresh = fetch(req)
-    .then((res) => {
-      if (res.ok) cache.put(req, res.clone());
-      return res;
-    })
-    .catch(() => hit);
-  return hit || refresh;
 }
