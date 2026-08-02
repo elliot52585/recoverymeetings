@@ -60,10 +60,22 @@
 
   // ---------- boot ----------
 
+  const CITY_KEY = "rm-city-v1";
+
   async function boot() {
     const registry = await getJSON("cities/index.json");
+    state.registryCities = registry.cities;
     const params = new URLSearchParams(location.search);
-    state.cityKey = params.get("city") || registry.default;
+    let chosen = params.get("city") || localStorage.getItem(CITY_KEY);
+    if (chosen && !registry.cities.some((c) => c.key === chosen)) chosen = null;
+
+    // First visit (or no valid saved city): ask where they are before loading.
+    if (!chosen) {
+      showLocationGate(registry);
+      return;
+    }
+    if (params.get("city")) { try { localStorage.setItem(CITY_KEY, chosen); } catch {} }
+    state.cityKey = chosen;
 
     const citySel = $("#city-select");
     // Group cities by state (State → City), states and cities both A–Z.
@@ -80,6 +92,7 @@
       })
       .join("");
     citySel.addEventListener("change", () => {
+      try { localStorage.setItem(CITY_KEY, citySel.value); } catch {}
       const url = new URL(location.href);
       url.searchParams.set("city", citySel.value);
       location.href = url.toString();
@@ -115,6 +128,93 @@
     const res = await fetch(path, { cache: "no-cache" });
     if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
     return res.json();
+  }
+
+  // ---------- first-run location gate ----------
+
+  function goToCity(key, opts = {}) {
+    try { localStorage.setItem(CITY_KEY, key); } catch {}
+    if (opts.zip) {
+      // Pre-arm the distance filter so they land on meetings near their ZIP.
+      try { localStorage.setItem(NEAR_KEY, JSON.stringify({ zip: opts.zip, radius: 10 })); } catch {}
+    }
+    const url = new URL(location.href);
+    url.searchParams.set("city", key);
+    location.href = url.toString();
+  }
+
+  function showLocationGate(registry) {
+    const gate = $("#location-gate");
+    gate.hidden = false;
+
+    // Populate the gate's city dropdown, grouped by state.
+    const byState = {};
+    for (const c of registry.cities) (byState[c.state] = byState[c.state] || []).push(c);
+    const groups = Object.keys(byState)
+      .sort((a, b) => (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b))
+      .map((st) => {
+        const opts = byState[st]
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((c) => `<option value="${esc(c.key)}">${esc(c.name)}</option>`)
+          .join("");
+        return `<optgroup label="${esc(STATE_NAMES[st] || st)}">${opts}</optgroup>`;
+      })
+      .join("");
+    $("#gate-city").insertAdjacentHTML("beforeend", groups);
+
+    const msg = $("#gate-msg");
+    const showMsg = (t) => { msg.textContent = t; msg.hidden = !t; };
+    const citySel = $("#gate-city");
+    const zipInput = $("#gate-zip");
+    // Typing a ZIP clears a city pick and vice-versa, so intent is unambiguous.
+    citySel.addEventListener("change", () => { if (citySel.value) { zipInput.value = ""; showMsg(""); } });
+    zipInput.addEventListener("input", () => { if (zipInput.value) { citySel.value = ""; } showMsg(""); });
+
+    $("#gate-go").addEventListener("click", async () => {
+      showMsg("");
+      if (citySel.value) return goToCity(citySel.value);
+      const zip = zipInput.value.trim();
+      if (/^\d{5}$/.test(zip)) {
+        $("#gate-go").disabled = true;
+        showMsg("Finding meetings near " + zip + "…");
+        const key = await nearestCityForZip(zip, registry.cities);
+        $("#gate-go").disabled = false;
+        if (key) return goToCity(key, { zip });
+        showMsg("We're not in that area yet — pick the closest city above. New cities are coming.");
+        return;
+      }
+      showMsg("Choose a city, or enter a 5-digit ZIP code.");
+    });
+
+    $("#gate-geo").addEventListener("click", () => {
+      if (!navigator.geolocation) { showMsg("Location isn't available — pick a city instead."); return; }
+      showMsg("Getting your location…");
+      $("#gate-geo").disabled = true;
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          const nearest = registry.cities
+            .map((c) => ({ c, d: haversineMiles(pos.coords.latitude, pos.coords.longitude, c.lat, c.lng) }))
+            .sort((a, b) => a.d - b.d)[0];
+          goToCity(nearest.c.key);
+        },
+        () => { $("#gate-geo").disabled = false; showMsg("Couldn't get your location — pick a city or enter a ZIP."); },
+        { timeout: 10000 }
+      );
+    });
+  }
+
+  // Which city's coverage area contains this ZIP? (nearest center among matches)
+  async function nearestCityForZip(zip, cities) {
+    const found = [];
+    await Promise.all(cities.map(async (c) => {
+      try {
+        const z = (await getJSON(`data/${c.key}/zips.json`)).zips;
+        if (z && z[zip]) found.push({ key: c.key, d: haversineMiles(z[zip][0], z[zip][1], c.lat, c.lng) });
+      } catch { /* city without a zip file yet — skip */ }
+    }));
+    if (!found.length) return null;
+    found.sort((a, b) => a.d - b.d);
+    return found[0].key;
   }
 
   // ZIP centroids: the census-derived file, with centroids computed from the

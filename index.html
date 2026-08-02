@@ -20,6 +20,27 @@
   <link rel="manifest" href="manifest.webmanifest" />
 </head>
 <body>
+  <div id="location-gate" class="gate" hidden>
+    <div class="gate-card">
+      <span class="gate-mark" aria-hidden="true">24</span>
+      <h1 class="gate-title">Recovery Now</h1>
+      <p class="gate-sub">Find AA, NA, CA, Celebrate Recovery and more — near you. Where are you?</p>
+      <label class="gate-field">Your city
+        <select id="gate-city" aria-label="Choose your city">
+          <option value="">Select a city…</option>
+        </select>
+      </label>
+      <div class="gate-or"><span>or</span></div>
+      <label class="gate-field">ZIP code
+        <input id="gate-zip" inputmode="numeric" pattern="[0-9]*" maxlength="5" placeholder="e.g. 37203" aria-label="ZIP code" />
+      </label>
+      <p id="gate-msg" class="gate-msg" hidden></p>
+      <button id="gate-go" class="btn primary gate-go" type="button">Show meetings</button>
+      <button id="gate-geo" class="btn gate-geo" type="button">📍 Use my location</button>
+      <p class="gate-fine">No account, no tracking. Your choice is remembered on this device only.</p>
+    </div>
+  </div>
+
   <header class="hero">
     <div class="wrap">
       <div class="brand">
