@@ -66,21 +66,25 @@
     const registry = await getJSON("cities/index.json");
     state.registryCities = registry.cities;
     const params = new URLSearchParams(location.search);
-    let chosen = params.get("city") || localStorage.getItem(CITY_KEY);
+    let chosen = params.get("city");
     if (chosen && !registry.cities.some((c) => c.key === chosen)) chosen = null;
 
-    // First visit (or no valid saved city): ask where they are before loading.
+    // The location picker is the landing screen every visit. Only an explicit
+    // ?city= link (how the picker proceeds, and how shared links work) goes
+    // straight to results. The last-used city is pre-selected for a quick
+    // one-tap through.
     if (!chosen) {
-      showLocationGate(registry);
+      const last = localStorage.getItem(CITY_KEY);
+      showLocationGate(registry, { preselect: last });
       return;
     }
-    if (params.get("city")) { try { localStorage.setItem(CITY_KEY, chosen); } catch {} }
+    try { localStorage.setItem(CITY_KEY, chosen); } catch {}
     state.cityKey = chosen;
 
     // The city name in the masthead is a button that reopens the location
     // picker (city list + ZIP + use-my-location) — reliably tappable on mobile.
     $("#city-button").addEventListener("click", () =>
-      showLocationGate({ cities: state.registryCities }, { dismissable: true })
+      showLocationGate({ cities: state.registryCities }, { dismissable: true, preselect: state.cityKey })
     );
 
     state.city = await getJSON(`cities/${state.cityKey}/city.json`);
@@ -135,16 +139,18 @@
     const gate = $("#location-gate");
     gate.hidden = false;
     // Reset fields each open.
-    $("#gate-city").value = "";
     $("#gate-zip").value = "";
     $("#gate-msg").hidden = true;
-    const closeBtn = $("#gate-close");
-    closeBtn.hidden = !opts.dismissable; // first-run has no close (must choose)
+    $("#gate-close").hidden = !opts.dismissable; // landing/first-run has no close
+    const applyPreselect = () => {
+      const sel = $("#gate-city");
+      sel.value = opts.preselect && [...sel.options].some((o) => o.value === opts.preselect) ? opts.preselect : "";
+    };
 
-    if (gateWired) return; // handlers + options only need building once
+    if (gateWired) { applyPreselect(); return; } // options only need building once
     gateWired = true;
 
-    closeBtn.addEventListener("click", () => { $("#location-gate").hidden = true; });
+    $("#gate-close").addEventListener("click", () => { $("#location-gate").hidden = true; });
 
     // Populate the gate's city dropdown, grouped by state.
     const byState = {};
@@ -200,6 +206,8 @@
         { timeout: 10000 }
       );
     });
+
+    applyPreselect(); // first open: preselect now that options exist
   }
 
   // Which city's coverage area contains this ZIP? (nearest center among matches)
