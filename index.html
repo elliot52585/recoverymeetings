@@ -22,6 +22,7 @@
 <body>
   <div id="location-gate" class="gate" hidden>
     <div class="gate-card">
+      <button type="button" id="gate-close" class="gate-close" hidden aria-label="Close">×</button>
       <span class="gate-mark" aria-label="Open 24/7/365"><b>24/7</b><b>365</b></span>
       <h1 class="gate-title">Recovery Now</h1>
       <p class="gate-sub">Find AA, NA, CA, Celebrate Recovery and more — near you. Where are you?</p>
@@ -48,10 +49,10 @@
         <div>
           <h1 class="masthead">
             <span>Recovery Now in</span>
-            <span class="city-select-wrap">
-              <select id="city-select" aria-label="Choose a city"></select>
+            <button type="button" id="city-button" class="city-button" aria-haspopup="dialog" aria-label="Change city">
+              <span id="city-button-name">…</span>
               <span class="city-caret" aria-hidden="true">▾</span>
-            </span>
+            </button>
           </h1>
           <p class="tagline" id="tagline">Every AA, NA, CA, and Celebrate Recovery meeting — one place. Plan your week, add it to your calendar.</p>
         </div>

@@ -1,10 +1,17 @@
 // Offline support. Someone looking for tonight's meeting on a dead spot of
 // signal still gets the last-known schedule.
 //
+<<<<<<< Updated upstream
 // Strategy:
 //   - app shell (html/css/js/registry): cache-first, refreshed in background
 //   - meeting data (data/, cities/): network-first, cache fallback
 const VERSION = "rm-v12";
+=======
+// Strategy: network-first for everything — online visitors always get the
+// latest app and data; the cache is an offline-only fallback. (Cache-first
+// caused a "stale until you refresh twice" problem.)
+const VERSION = "rm-v14";
+>>>>>>> Stashed changes
 const SHELL = [
   "./",
   "index.html",

@@ -77,32 +77,18 @@
     if (params.get("city")) { try { localStorage.setItem(CITY_KEY, chosen); } catch {} }
     state.cityKey = chosen;
 
-    const citySel = $("#city-select");
-    // Group cities by state (State → City), states and cities both A–Z.
-    const byState = {};
-    for (const c of registry.cities) (byState[c.state] = byState[c.state] || []).push(c);
-    citySel.innerHTML = Object.keys(byState)
-      .sort((a, b) => (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b))
-      .map((st) => {
-        const opts = byState[st]
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map((c) => `<option value="${esc(c.key)}" ${c.key === state.cityKey ? "selected" : ""}>${esc(c.name)}</option>`)
-          .join("");
-        return `<optgroup label="${esc(STATE_NAMES[st] || st)}">${opts}</optgroup>`;
-      })
-      .join("");
-    citySel.addEventListener("change", () => {
-      try { localStorage.setItem(CITY_KEY, citySel.value); } catch {}
-      const url = new URL(location.href);
-      url.searchParams.set("city", citySel.value);
-      location.href = url.toString();
-    });
+    // The city name in the masthead is a button that reopens the location
+    // picker (city list + ZIP + use-my-location) — reliably tappable on mobile.
+    $("#city-button").addEventListener("click", () =>
+      showLocationGate({ cities: state.registryCities }, { dismissable: true })
+    );
 
     state.city = await getJSON(`cities/${state.cityKey}/city.json`);
     state.registry = (await getJSON("registry/fellowships.json")).fellowships || [];
     state.tz = state.city.timezone || "America/Chicago";
     const area = state.city.area || `the ${state.city.name} area`;
     document.title = `Recovery Now in ${state.city.name} — AA, NA, CA & more`;
+    $("#city-button-name").textContent = state.city.name;
     if (state.city.tagline) $("#tagline").textContent = state.city.tagline;
     const aboutIntro = $("#about-intro");
     if (aboutIntro) {
@@ -143,9 +129,22 @@
     location.href = url.toString();
   }
 
-  function showLocationGate(registry) {
+  let gateWired = false;
+
+  function showLocationGate(registry, opts = {}) {
     const gate = $("#location-gate");
     gate.hidden = false;
+    // Reset fields each open.
+    $("#gate-city").value = "";
+    $("#gate-zip").value = "";
+    $("#gate-msg").hidden = true;
+    const closeBtn = $("#gate-close");
+    closeBtn.hidden = !opts.dismissable; // first-run has no close (must choose)
+
+    if (gateWired) return; // handlers + options only need building once
+    gateWired = true;
+
+    closeBtn.addEventListener("click", () => { $("#location-gate").hidden = true; });
 
     // Populate the gate's city dropdown, grouped by state.
     const byState = {};
@@ -153,11 +152,11 @@
     const groups = Object.keys(byState)
       .sort((a, b) => (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b))
       .map((st) => {
-        const opts = byState[st]
+        const opts2 = byState[st]
           .sort((a, b) => a.name.localeCompare(b.name))
           .map((c) => `<option value="${esc(c.key)}">${esc(c.name)}</option>`)
           .join("");
-        return `<optgroup label="${esc(STATE_NAMES[st] || st)}">${opts}</optgroup>`;
+        return `<optgroup label="${esc(STATE_NAMES[st] || st)}">${opts2}</optgroup>`;
       })
       .join("");
     $("#gate-city").insertAdjacentHTML("beforeend", groups);
