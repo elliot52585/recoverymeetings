@@ -621,7 +621,11 @@
     for (const d of dayOrder) {
       let dayList = list.filter((m) => m.day === d);
       if (!dayList.length) continue;
-      if (nearActive) dayList = [...dayList].sort((a, b) => (a._dist ?? 9e9) - (b._dist ?? 9e9));
+      // Always chronological by start time; when a distance filter is active,
+      // meetings at the same time are ordered nearest-first.
+      dayList = [...dayList].sort(
+        (a, b) => cmp(a.time, b.time) || (nearActive ? (a._dist ?? 9e9) - (b._dist ?? 9e9) : 0) || cmp(a.name, b.name)
+      );
       html += `<h2 class="day-header">${DAYS[d]}${d === today ? ' <span class="today-tag">· today</span>' : ""}</h2>`;
       html += dayList.map(cardHtml).join("");
     }
