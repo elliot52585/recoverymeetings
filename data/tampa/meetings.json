@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-08-01T00:44:11.555Z",
+    "generated": "2026-08-03T10:55:37.081Z",
     "seed": false,
     "counts": {
-      "NA": 341,
+      "NA": 340,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 348,
+        "count": 347,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -7407,7 +7407,7 @@
       "lat": 28.1928424,
       "lng": -82.4349783,
       "region": "Land O' Lakes",
-      "notes": "Begins June 20, 2025",
+      "notes": "Speaker Meeting last Friday of the month. Additional 15 minutes.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -8746,33 +8746,6 @@
       "lng": -82.4548599,
       "region": "Tampa",
       "notes": "No longer a Mens' meeting",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-friends-of-jimmy-k-172547",
-      "fellowship": "NA",
-      "name": "Friends of Jimmy K.",
-      "day": 6,
-      "time": "19:15",
-      "endTime": "20:15",
-      "types": [
-        "Basic Text",
-        "VAR",
-        "LIT",
-        "It Works study"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "9025 49th St N",
-      "city": "Pinellas Park",
-      "state": "FL",
-      "zip": "33782",
-      "lat": 27.8544915,
-      "lng": -82.6995342,
-      "region": "Pinellas Park",
-      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {

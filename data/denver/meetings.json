@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-01T00:43:45.469Z",
+    "generated": "2026-08-03T10:53:59.738Z",
     "seed": false,
     "counts": {
       "AA": 1124,
@@ -4237,7 +4237,7 @@
       "lat": 39.7409583,
       "lng": -105.0956226,
       "region": "Lakewood",
-      "notes": "Campfire Meeting, Dog Friendly, May-Oct weather permitting above 49°",
+      "notes": "Campfire Meeting, Dog Friendly, weather permitting above 49°",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -8830,7 +8830,7 @@
       "name": "Surrender To Win",
       "day": 1,
       "time": "20:00",
-      "endTime": "21:15",
+      "endTime": "21:00",
       "types": [
         "Wheelchair accessible",
         "Open",
@@ -18457,7 +18457,7 @@
       "name": "Surrender To Win",
       "day": 3,
       "time": "20:00",
-      "endTime": "21:15",
+      "endTime": "21:00",
       "types": [
         "Wheelchair accessible",
         "Open",

@@ -1,17 +1,18 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-01T00:43:38.748Z",
+    "generated": "2026-08-03T10:53:45.367Z",
     "seed": false,
     "counts": {
       "AA": 1375,
       "NA": 302,
-      "RD": 5
+      "RD": 6
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — Unexpected token '<', \"<html><hea\"... is not valid JSON | atlantaaa.org/wp-json/tsml/v1/meetings — Unexpected token '<', \"<html><hea\"... is not valid JSON"
+        "ok": true,
+        "count": 1387,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -20,7 +21,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 5,
+        "count": 6,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -33611,6 +33612,30 @@
       "region": "Lawrenceville",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "rd-quiet-mind-sangha-d5-1300",
+      "fellowship": "RD",
+      "name": "Quiet Mind Sangha",
+      "day": 5,
+      "time": "13:00",
+      "endTime": "14:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Dr. Tracy P Stallings Community Center",
+      "address": "118 S White St",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.5788523,
+      "lng": -85.0704844,
+      "region": "Georgia",
+      "notes": "A 60 min meeting focusing on mental health and holistic wellness.",
+      "source": "https://recoverydharma.org/meetings/quiet-mind-sangha/"
     },
     {
       "id": "aa-think-it-through-sober-d5-1330",

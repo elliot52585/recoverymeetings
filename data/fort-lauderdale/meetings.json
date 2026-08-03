@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "fort-lauderdale",
-    "generated": "2026-08-01T00:44:31.393Z",
+    "generated": "2026-08-03T10:56:17.201Z",
     "seed": false,
     "counts": {
-      "NA": 463,
+      "NA": 464,
       "RD": 6
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 471,
+        "count": 472,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=26.1224&long_val=-80.1373&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -10288,6 +10288,34 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-tradition-bound-229556",
+      "fellowship": "NA",
+      "name": "Tradition Bound",
+      "day": 5,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "LIT",
+        "SPK"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Michael Evangelical Lutheran Church",
+      "address": "1925 Birkdale Dr",
+      "city": "Wellington",
+      "state": "FL",
+      "zip": "33414",
+      "lat": 26.6523026,
+      "lng": -80.2228473,
+      "region": "Wellington",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-fems-and-thems-153622",
       "fellowship": "NA",
       "name": "Fems and Thems",
@@ -10973,7 +11001,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Delevoe Park",
+      "venue": "Boulevard Gardens Community Center",
       "address": "2870 NW 4th St.",
       "city": "Fort Lauderdale",
       "state": "FL",
