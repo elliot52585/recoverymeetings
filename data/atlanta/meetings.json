@@ -1,22 +1,21 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-03T10:53:45.367Z",
+    "generated": "2026-08-04T10:06:04.352Z",
     "seed": false,
     "counts": {
       "AA": 1375,
-      "NA": 302,
+      "NA": 303,
       "RD": 6
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 1387,
-        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
       },
       "NA": {
         "ok": true,
-        "count": 302,
+        "count": 303,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -3481,6 +3480,31 @@
       "region": "Peachtree City",
       "notes": "Church Basement",
       "source": "https://atlantaaa.org/meetings/new-start-2/"
+    },
+    {
+      "id": "na-surrender-at-six-229572",
+      "fellowship": "NA",
+      "name": "Surrender At Six",
+      "day": 0,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "FD"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Paulding RCO",
+      "address": "276 B Main St",
+      "city": "Hiram",
+      "state": "GA",
+      "zip": "30141",
+      "lat": 33.8755597,
+      "lng": -84.7593659,
+      "region": "Hiram",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-turin-lost-found-2-d0-1830",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-08-03T10:55:44.217Z",
+    "generated": "2026-08-04T10:08:06.138Z",
     "seed": false,
     "counts": {
       "AA": 676,
@@ -3093,12 +3093,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Center for Spiritual Living First City",
-      "address": "93 Orange St STE D",
+      "address": "93D Orange St",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.89704,
-      "lng": -81.3198515,
+      "lat": 29.8969425,
+      "lng": -81.3199566,
       "region": "St. Augustine",
       "notes": "Plain Language Big Book Study",
       "source": "https://neflaa.org/meetings/language-of-the-heart-st-augustine/"
@@ -5502,18 +5502,19 @@
       "types": [
         "ABSI",
         "Literature",
-        "Open"
+        "Open",
+        "Young people"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Center for Spiritual Living First City",
-      "address": "93 Orange St STE D",
+      "address": "93D Orange St",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.89704,
-      "lng": -81.3198515,
+      "lat": 29.8969425,
+      "lng": -81.3199566,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/language-of-the-heart/"
@@ -6365,7 +6366,7 @@
       "lat": 29.9742166,
       "lng": -81.5048317,
       "region": "St. Augustine",
-      "notes": "O-D\nPod-7\nNo Tuesday meetings the first Tuesday of the month",
+      "notes": "O-D\nPod-7\nNO TUESDAY MEETING ON THE FIRST OF THE MONTH.",
       "source": "https://neflaa.org/meetings/a-design-for-living/"
     },
     {
@@ -7070,7 +7071,7 @@
       "lat": 29.9742166,
       "lng": -81.5048317,
       "region": "St. Augustine",
-      "notes": "O-Beg-S( Speaker 4th Tuesday)\nPod-7\nNo Tuesday meeting the first Tuesday of the month.",
+      "notes": "O-Beg-S( Speaker 4th Tuesday)\nPod-7\nNO TUESDAY MEETING: THE FIRST TUESDAY OF THE MONTH.",
       "source": "https://neflaa.org/meetings/a-design-for-living-1/"
     },
     {
@@ -8942,12 +8943,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Center for Spiritual Living First City",
-      "address": "93 Orange St STE D",
+      "address": "93D Orange St",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.89704,
-      "lng": -81.3198515,
+      "lat": 29.8969425,
+      "lng": -81.3199566,
       "region": "St. Augustine",
       "notes": "Teacher Chapter\nTradition of the Month Meeting on the 4th Wednesday of the Month.",
       "source": "https://neflaa.org/meetings/language-of-the-heart-st-aug/"
@@ -14543,12 +14544,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Center for Spiritual Living First City",
-      "address": "93 Orange St STE D",
+      "address": "93D Orange St",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.89704,
-      "lng": -81.3198515,
+      "lat": 29.8969425,
+      "lng": -81.3199566,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/language-of-the-heart-st-aug-1/"

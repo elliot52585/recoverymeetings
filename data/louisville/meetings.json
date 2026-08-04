@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-08-03T10:53:52.447Z",
+    "generated": "2026-08-04T10:06:11.276Z",
     "seed": false,
     "counts": {
-      "AA": 546,
+      "AA": 545,
       "NA": 84,
       "RD": 2
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 546,
+        "count": 545,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -8612,31 +8612,6 @@
       "region": "Louisville",
       "notes": "Located in the gymnasium. Come through the covered entrance doors in the parking lot.",
       "source": "https://loukyaa.org/meetings/serenity-seekers-newcomers-group/"
-    },
-    {
-      "id": "aa-the-dry-dock-d3-1830",
-      "fellowship": "AA",
-      "name": "The Dry Dock",
-      "day": 3,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Lanesville Methodist Church",
-      "address": "2575 St Johns Church Rd NE",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2362873,
-      "lng": -85.9854226,
-      "region": "Harrison County, IN",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/the-dry-dock/"
     },
     {
       "id": "aa-token-3-newcomer-wednesday-d3-1830",

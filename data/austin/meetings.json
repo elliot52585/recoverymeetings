@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-08-03T10:54:19.694Z",
+    "generated": "2026-08-04T10:06:37.577Z",
     "seed": false,
     "counts": {
-      "NA": 93,
+      "NA": 94,
       "RD": 4
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 93,
+        "count": 94,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=30.2672&long_val=-97.7431&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -929,6 +929,32 @@
       "lng": -97.727235,
       "region": "Austin",
       "notes": "Room 1",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-lighthouse-229571",
+      "fellowship": "NA",
+      "name": "Lighthouse",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "CC"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "** STARTS AUGUST 18, 2026 **",
+      "city": "Leander",
+      "state": "TX",
+      "zip": null,
+      "lat": 30.5788055,
+      "lng": -97.8530686,
+      "region": "Leander",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
