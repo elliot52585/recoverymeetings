@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-08-04T10:06:59.459Z",
+    "generated": "2026-08-05T10:04:45.491Z",
     "seed": false,
     "counts": {
       "NA": 356,
@@ -4082,6 +4082,32 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-beginner-s-meeting-151955",
+      "fellowship": "NA",
+      "name": "Beginner's Meeting",
+      "day": 2,
+      "time": "22:00",
+      "endTime": "23:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "L"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://us02web.zoom.us/j/263386705?pwd=WHh2cytzb1I3Um1Wdk1CYnJZS0ZTQT09",
+      "venue": null,
+      "address": null,
+      "city": "Fort Lauderdale",
+      "state": "Trinidad and Tobago",
+      "zip": null,
+      "lat": 26.1224386,
+      "lng": -80.1373174,
+      "region": "Fort Lauderdale",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-last-chance-95783",
       "fellowship": "NA",
       "name": "Last Chance",
@@ -4130,32 +4156,6 @@
       "zip": "33315",
       "lat": 26.1033725,
       "lng": -80.152735,
-      "region": "Fort Lauderdale",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-the-wich-group-151955",
-      "fellowship": "NA",
-      "name": "The Wich Group",
-      "day": 2,
-      "time": "22:00",
-      "endTime": "23:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "L"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/263386705?pwd=WHh2cytzb1I3Um1Wdk1CYnJZS0ZTQT09",
-      "venue": null,
-      "address": null,
-      "city": "Fort Lauderdale",
-      "state": "Trinidad and Tobago",
-      "zip": null,
-      "lat": 26.1224386,
-      "lng": -80.1373174,
       "region": "Fort Lauderdale",
       "notes": null,
       "source": "https://na.org/meetingsearch/"

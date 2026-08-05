@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-04T10:06:18.953Z",
+    "generated": "2026-08-05T10:04:02.534Z",
     "seed": false,
     "counts": {
       "AA": 1124,
@@ -6270,7 +6270,7 @@
       "time": "17:00",
       "endTime": "18:00",
       "types": [
-        "Closed"
+        "Open"
       ],
       "online": true,
       "hybrid": false,
@@ -7179,8 +7179,8 @@
         "Women"
       ],
       "online": false,
-      "hybrid": true,
-      "conferenceUrl": "https://us02web.zoom.us/j/86017234053?pwd=anBmaXJIMFQ5UkpQaDd3eFZLK3hlZz09",
+      "hybrid": false,
+      "conferenceUrl": null,
       "venue": "Room 211",
       "address": "1280 Vine St",
       "city": null,
@@ -7189,7 +7189,7 @@
       "lat": 39.7365571,
       "lng": -104.9617954,
       "region": "Denver",
-      "notes": "Join via ZOOM:\n\nMeeting ID: 860 1723 4053\n\nPasscode: 362630",
+      "notes": null,
       "source": "https://daccaa.org/meetings/969-2511/"
     },
     {
@@ -10923,7 +10923,7 @@
       "time": "17:00",
       "endTime": "18:00",
       "types": [
-        "Closed"
+        "Open"
       ],
       "online": true,
       "hybrid": false,
@@ -15691,7 +15691,7 @@
       "time": "17:00",
       "endTime": "18:00",
       "types": [
-        "Closed"
+        "Open"
       ],
       "online": true,
       "hybrid": false,
@@ -20653,7 +20653,7 @@
       "time": "17:00",
       "endTime": "18:00",
       "types": [
-        "Closed"
+        "Open"
       ],
       "online": true,
       "hybrid": false,
@@ -30628,7 +30628,8 @@
       "time": "17:00",
       "endTime": "18:00",
       "types": [
-        "Closed"
+        "Open",
+        "Speaker"
       ],
       "online": true,
       "hybrid": false,
