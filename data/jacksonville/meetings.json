@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-08-05T10:05:53.033Z",
+    "generated": "2026-08-06T10:07:10.195Z",
     "seed": false,
     "counts": {
       "AA": 677,
@@ -9073,9 +9073,9 @@
       "source": "https://neflaa.org/meetings/orange-park-group-19/"
     },
     {
-      "id": "aa-rebellion-dogs-d3-1200",
+      "id": "aa-rebellion-dogs-group-d3-1200",
       "fellowship": "AA",
-      "name": "Rebellion Dogs",
+      "name": "Rebellion Dogs Group",
       "day": 3,
       "time": "12:00",
       "endTime": "13:00",
@@ -9088,15 +9088,15 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "601 Centre St. Fernandina Beach",
-      "address": "603 Centre St",
+      "address": "601 Centre St",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 30.6711348,
-      "lng": -81.4598291,
+      "lat": 30.671296,
+      "lng": -81.460171,
       "region": "Fernandina Beach",
       "notes": "Actual Address is:\n\n601 Centre Street, Fernandina Beach, FL 32034",
-      "source": "https://neflaa.org/meetings/rebellion-dogs/"
+      "source": "https://neflaa.org/meetings/rebellion-dogs-group/"
     },
     {
       "id": "aa-stepping-up-group-1-d3-1200",

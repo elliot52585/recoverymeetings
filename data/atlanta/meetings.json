@@ -1,17 +1,18 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-05T10:03:46.934Z",
+    "generated": "2026-08-06T10:05:20.633Z",
     "seed": false,
     "counts": {
-      "AA": 1375,
+      "AA": 1378,
       "NA": 303,
       "RD": 6
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "ok": true,
+        "count": 1390,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -3687,31 +3688,6 @@
       "source": "https://atlantaaa.org/meetings/clayton-new-life-3/"
     },
     {
-      "id": "aa-conyers-ga-20-d0-1900",
-      "fellowship": "AA",
-      "name": "Conyers GA 20",
-      "day": 0,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Crosspoint Christian Church",
-      "address": "4550 GA-20",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.5672764,
-      "lng": -84.0151002,
-      "region": "Conyers",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/conyers-ga-20/"
-    },
-    {
       "id": "aa-covington-11-d0-1900",
       "fellowship": "AA",
       "name": "Covington",
@@ -4304,6 +4280,31 @@
       "source": "https://atlantaaa.org/meetings/raiders-of-the-lost-big-book/"
     },
     {
+      "id": "aa-conyers-ga-20-d0-1930",
+      "fellowship": "AA",
+      "name": "Conyers GA 20",
+      "day": 0,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Crosspoint Christian Church",
+      "address": "4550 GA-20",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.5672764,
+      "lng": -84.0151002,
+      "region": "Conyers",
+      "notes": null,
+      "source": "https://atlantaaa.org/meetings/conyers-ga-20/"
+    },
+    {
       "id": "na-on-the-right-track-group-57870",
       "fellowship": "NA",
       "name": "On The Right Track Group",
@@ -4520,6 +4521,32 @@
       "region": "Jonesboro",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-better-life-d0-2000",
+      "fellowship": "AA",
+      "name": "Better Life",
+      "day": 0,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Big Book",
+        "Open",
+        "Step study"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Powder Springs First Baptist Church",
+      "address": "4330 North Ave",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.8597238,
+      "lng": -84.6803348,
+      "region": "Powder Springs",
+      "notes": null,
+      "source": "https://atlantaaa.org/meetings/better-life/"
     },
     {
       "id": "aa-bishop-lake-d0-2000",
@@ -19985,15 +20012,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "First Baptist Church of Marietta",
-      "address": "148 Church St",
+      "venue": "Salvation Army",
+      "address": "202 Waterman St S E",
       "city": null,
       "state": "GA",
       "zip": null,
-      "lat": 33.9549783,
-      "lng": -84.5496557,
+      "lat": 33.9480511,
+      "lng": -84.5460619,
       "region": "Marietta",
-      "notes": "Enter through Welcome Center on north side of Dobbs Street between Church Street and Cherokee Street NE. Group meets in Room 148",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/friends-of-bill-w/"
     },
     {
@@ -32156,7 +32183,7 @@
       "lat": 34.2208872,
       "lng": -84.4830914,
       "region": "Canton",
-      "notes": "As you drive up the driveway turn left onto the parking lot on the left (please Do Not park in front of the playground) enter the door next to the stone wall, someone will be at the LOCKED door until about 9:35-9:40. If you are too late knock on the window close to the door and we will let you inside",
+      "notes": "Drive to the backside of the church and go to the drop off overhang and through the double doors and straight into the Chapel",
       "source": "https://atlantaaa.org/meetings/friendship-in-step-2/"
     },
     {
@@ -35004,6 +35031,31 @@
       "region": "Cartersville",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/cartersville-closed-discussion-grotto/"
+    },
+    {
+      "id": "aa-conyers-ga-20-5-d5-1900",
+      "fellowship": "AA",
+      "name": "Conyers GA 20",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Beginner",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Crosspoint Christian Church",
+      "address": "4550 GA-20",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.5672764,
+      "lng": -84.0151002,
+      "region": "Conyers",
+      "notes": null,
+      "source": "https://atlantaaa.org/meetings/conyers-ga-20-5/"
     },
     {
       "id": "aa-covington-2-d5-1900",
@@ -42352,6 +42404,33 @@
       "region": "Conyers",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/olde-towne-3/"
+    },
+    {
+      "id": "aa-plain-language-big-book-study-d6-1900",
+      "fellowship": "AA",
+      "name": "Plain Language Big Book Study",
+      "day": 6,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Literature",
+        "Beginner",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Across The Bridge",
+      "address": "900 Cripple Creek Dr a",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.9851436,
+      "lng": -83.9865308,
+      "region": "Lawrenceville",
+      "notes": "Group Meets in Suite A",
+      "source": "https://atlantaaa.org/meetings/plain-language-big-book-study/"
     },
     {
       "id": "aa-primary-purpose-14-d6-1900",

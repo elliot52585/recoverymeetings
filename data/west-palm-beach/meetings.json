@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-08-05T10:06:35.873Z",
+    "generated": "2026-08-06T10:07:51.821Z",
     "seed": false,
     "counts": {
       "AA": 495,
@@ -19101,6 +19101,28 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-serenity-on-saturday-d6-2000",
+      "fellowship": "AA",
+      "name": "Serenity on Saturday",
+      "day": 6,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Easy Does It Club",
+      "address": "2677 Forest Hill Blvd",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6520246,
+      "lng": -80.08325,
+      "region": "West Palm Beach",
+      "notes": "OD",
+      "source": "https://aapalmbeachcounty.org/meetings/serenity-on-saturday/"
+    },
+    {
       "id": "aa-the-program-works-group-5-d6-2000",
       "fellowship": "AA",
       "name": "The Program Works Group",
@@ -19220,28 +19242,6 @@
       "region": "Palm Beach Gardens",
       "notes": "O, N",
       "source": "https://aapalmbeachcounty.org/meetings/oasis-beginners/"
-    },
-    {
-      "id": "aa-serenity-on-saturday-d6-2030",
-      "fellowship": "AA",
-      "name": "Serenity on Saturday",
-      "day": 6,
-      "time": "20:30",
-      "endTime": "21:30",
-      "types": [],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Easy Does It Club",
-      "address": "2677 Forest Hill Blvd",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 26.6520246,
-      "lng": -80.08325,
-      "region": "West Palm Beach",
-      "notes": "OD",
-      "source": "https://aapalmbeachcounty.org/meetings/serenity-on-saturday/"
     },
     {
       "id": "aa-the-night-owls-7-d6-2100",
