@@ -1,22 +1,22 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-08-06T10:05:26.343Z",
+    "generated": "2026-08-07T08:33:34.173Z",
     "seed": false,
     "counts": {
-      "AA": 545,
-      "NA": 84,
+      "AA": 544,
+      "NA": 83,
       "RD": 2
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 545,
+        "count": 544,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 84,
+        "count": 83,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=38.2527&long_val=-85.7585&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -9334,34 +9334,6 @@
       "source": "https://loukyaa.org/meetings/guerreros-del-sur-ky-wednesday/"
     },
     {
-      "id": "aa-miracle-on-market-group-d3-2000",
-      "fellowship": "AA",
-      "name": "Miracle On Market Group",
-      "day": 3,
-      "time": "20:00",
-      "endTime": null,
-      "types": [
-        "Discussion",
-        "Open",
-        "Speaker",
-        "Wheelchair accessible",
-        "XB"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Wayside Christian Mission",
-      "address": "432 E Jefferson St",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2521306,
-      "lng": -85.7449128,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/miracle-on-market-group/"
-    },
-    {
       "id": "aa-downtown-group-d3-2000",
       "fellowship": "AA",
       "name": "Open Discussion @ FCTC",
@@ -10571,7 +10543,7 @@
       "lat": 38.2626893,
       "lng": -85.5404159,
       "region": "Louisville",
-      "notes": null,
+      "notes": "Entrance in back of church",
       "source": "https://loukyaa.org/meetings/emotional-sobriety/"
     },
     {
@@ -16023,33 +15995,6 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/15-street-womens-group-2/"
-    },
-    {
-      "id": "na-freedom-spirit-166554",
-      "fellowship": "NA",
-      "name": "Freedom Spirit",
-      "day": 6,
-      "time": "18:30",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "Non-smoking"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Liberty Place",
-      "address": "1436 S. Shelby St.",
-      "city": "Louisville",
-      "state": "KY",
-      "zip": "40217",
-      "lat": 38.2270394,
-      "lng": -85.7418881,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-saturday-at-six-group-d6-1830",

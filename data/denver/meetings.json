@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-06T10:05:33.013Z",
+    "generated": "2026-08-07T08:33:41.155Z",
     "seed": false,
     "counts": {
       "AA": 1124,
@@ -16610,7 +16610,7 @@
       "lat": 39.6411668,
       "lng": -105.3382343,
       "region": "Evergreen",
-      "notes": null,
+      "notes": "Upper Parking Lot, Outpost Building",
       "source": "https://daccaa.org/meetings/wednesday-night-open-candlelight/"
     },
     {
@@ -19922,7 +19922,7 @@
       "lat": 39.6411668,
       "lng": -105.3382343,
       "region": "Evergreen",
-      "notes": null,
+      "notes": "Upper Parking Lot, Outpost Building",
       "source": "https://daccaa.org/meetings/cover-to-cover/"
     },
     {
@@ -20440,7 +20440,7 @@
       "lat": 39.6411668,
       "lng": -105.3382343,
       "region": "Evergreen",
-      "notes": null,
+      "notes": "Upper Parking Lot, Outpost Building",
       "source": "https://daccaa.org/meetings/v-s-e/"
     },
     {

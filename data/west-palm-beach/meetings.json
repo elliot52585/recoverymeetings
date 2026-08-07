@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-08-06T10:07:51.821Z",
+    "generated": "2026-08-07T08:36:01.561Z",
     "seed": false,
     "counts": {
       "AA": 495,
@@ -8323,14 +8323,14 @@
     {
       "id": "aa-ebony-group-d2-2030",
       "fellowship": "AA",
-      "name": "Ebony Group",
+      "name": "Ebony Group On-Line",
       "day": 2,
       "time": "20:30",
       "endTime": "21:30",
       "types": [
+        "Closed",
         "Discussion",
-        "Literature",
-        "Open"
+        "Literature"
       ],
       "online": true,
       "hybrid": false,
@@ -8343,7 +8343,7 @@
       "lat": 26.7753405,
       "lng": -80.0580969,
       "region": "Riviera Beach",
-      "notes": "D, L, O\nLog in: 870 218 269 40\nPass Code: 201263",
+      "notes": "D, L, C\nLog in: 870 218 269 40\nPass Code: 201263",
       "source": "https://aapalmbeachcounty.org/meetings/ebony-group/"
     },
     {
@@ -16723,7 +16723,7 @@
     {
       "id": "aa-ebony-group-2-d5-2030",
       "fellowship": "AA",
-      "name": "Ebony Group",
+      "name": "Ebony Group On-Line",
       "day": 5,
       "time": "20:30",
       "endTime": "21:30",

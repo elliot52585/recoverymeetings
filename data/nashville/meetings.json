@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-06T10:04:57.054Z",
+    "generated": "2026-08-07T08:32:55.267Z",
     "seed": false,
     "counts": {
       "AA": 876,
-      "NA": 164,
+      "NA": 163,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -25,7 +25,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 165,
+        "count": 164,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -22056,31 +22056,6 @@
       "lng": -86.6176827,
       "region": "Hendersonville",
       "notes": null,
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "na-keep-it-real-14126",
-      "fellowship": "NA",
-      "name": "Keep it Real",
-      "day": 5,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Fairlane Church of Christ",
-      "address": "101 Dow Drive",
-      "city": "Shelbyville",
-      "state": "TN",
-      "zip": "37160",
-      "lat": 35.5060549,
-      "lng": -86.4804244,
-      "region": "Shelbyville",
-      "notes": "(3rd Friday is a bonfire meeting) — Annex building",
       "source": "https://nanashville.org/meetings/"
     },
     {
