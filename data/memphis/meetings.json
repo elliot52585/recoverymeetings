@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-08-08T08:04:38.040Z",
+    "generated": "2026-08-09T08:06:26.605Z",
     "seed": false,
     "counts": {
       "AA": 392,
@@ -10,9 +10,8 @@
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 393,
-        "source": "https://www.memphis-aa.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: www.memphis-aa.org/wp-admin/admin-ajax.p — HTTP 403 | www.memphis-aa.org/wp-json/tsml/v1/meeti — HTTP 403"
       },
       "NA": {
         "ok": true,
