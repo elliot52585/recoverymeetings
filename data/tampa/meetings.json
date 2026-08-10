@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-08-09T08:08:49.227Z",
+    "generated": "2026-08-10T08:57:18.208Z",
     "seed": false,
     "counts": {
       "NA": 340,
@@ -3375,7 +3375,6 @@
       "time": "19:00",
       "endTime": "20:00",
       "types": [
-        "TOP",
         "JFT",
         "LGBTQ+",
         "SPAD"

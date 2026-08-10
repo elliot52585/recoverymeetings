@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-09T08:06:08.178Z",
+    "generated": "2026-08-10T08:54:56.279Z",
     "seed": false,
     "counts": {
       "AA": 876,
@@ -19,8 +19,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: aanashville.org/wp-admin/admin-ajax.php? — HTTP 403 | www.area64assembly.org/wp-admin/admin-aj — HTTP 401"
+        "ok": true,
+        "count": 877,
+        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,

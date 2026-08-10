@@ -1,21 +1,22 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-08-09T08:06:26.605Z",
+    "generated": "2026-08-10T08:55:03.402Z",
     "seed": false,
     "counts": {
       "AA": 392,
-      "NA": 44,
+      "NA": 42,
       "RD": 2
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: www.memphis-aa.org/wp-admin/admin-ajax.p — HTTP 403 | www.memphis-aa.org/wp-json/tsml/v1/meeti — HTTP 403"
+        "ok": true,
+        "count": 393,
+        "source": "https://www.memphis-aa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 44,
+        "count": 42,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.1495&long_val=-90.049&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -6351,28 +6352,6 @@
       "source": "https://www.memphis-aa.org/meetings/great-reality-group-3"
     },
     {
-      "id": "na-new-beginnings-ii-43554",
-      "fellowship": "NA",
-      "name": "New Beginnings II",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Recovery Club",
-      "address": "1953 Sartain Dr",
-      "city": "Horn Lake",
-      "state": "MS",
-      "zip": "38637",
-      "lat": 34.961012,
-      "lng": -90.0242187,
-      "region": "Horn Lake",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "aa-two-doors-down-25-d3-2000",
       "fellowship": "AA",
       "name": "Two Doors Down",
@@ -10512,28 +10491,6 @@
       "lat": 35.2309188,
       "lng": -89.82776,
       "region": "Bartlett",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-new-beginnings-ii-43570",
-      "fellowship": "NA",
-      "name": "New Beginnings II",
-      "day": 6,
-      "time": "17:00",
-      "endTime": "18:00",
-      "types": [],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Recovery Club",
-      "address": "1953 Sartain Dr",
-      "city": "Horn Lake",
-      "state": "MS",
-      "zip": "38637",
-      "lat": 34.961012,
-      "lng": -90.0242187,
-      "region": "Horn Lake",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
