@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-11T08:29:12.127Z",
+    "generated": "2026-08-12T08:44:23.484Z",
     "seed": false,
     "counts": {
-      "AA": 876,
+      "AA": 878,
       "NA": 163,
       "SLAA": 7,
       "GA": 2,
@@ -19,8 +19,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: aanashville.org/wp-admin/admin-ajax.php? — HTTP 403 | www.area64assembly.org/wp-admin/admin-aj — HTTP 401"
+        "ok": true,
+        "count": 879,
+        "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -1494,6 +1495,31 @@
       "region": "East Nashville",
       "notes": "Confirm address with the GA hotline (615) 254-6454.",
       "source": "https://gamblersanonymous.org/find-a-meeting/nashville-g-a-sunday/"
+    },
+    {
+      "id": "aa-pure-aa-at-dafa-2-d0-1500",
+      "fellowship": "AA",
+      "name": "Pure AA at DAFA",
+      "day": 0,
+      "time": "15:00",
+      "endTime": "16:00",
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "DAFA House",
+      "address": "110 S Main St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.0755302,
+      "lng": -87.3898136,
+      "region": "Dickson",
+      "notes": "Meet in small room",
+      "source": "https://aanashville.org/meetings/pure-aa-at-dafa-2/"
     },
     {
       "id": "aa-serenity-group-d0-1500",
@@ -8120,7 +8146,7 @@
     {
       "id": "aa-pure-aa-d2-1130",
       "fellowship": "AA",
-      "name": "Pure AA",
+      "name": "Pure AA at DAFA",
       "day": 2,
       "time": "11:30",
       "endTime": "12:30",
@@ -8139,7 +8165,7 @@
       "lat": 36.0755302,
       "lng": -87.3898136,
       "region": "Dickson",
-      "notes": null,
+      "notes": "Meets in small room",
       "source": "https://aanashville.org/meetings/pure-aa/"
     },
     {
@@ -8688,6 +8714,31 @@
       "region": "Brentwood",
       "notes": "ID: 853 235 8476\nPW: getsponsor\n\nAccess to meeting is locked out after 15minutes",
       "source": "https://aanashville.org/meetings/friends-in-recovery-2/"
+    },
+    {
+      "id": "aa-pure-aa-at-dafa-d2-1400",
+      "fellowship": "AA",
+      "name": "316 Pure AA",
+      "day": 2,
+      "time": "14:00",
+      "endTime": "15:00",
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Burns Church of Christ",
+      "address": "2718 Church St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.0523338,
+      "lng": -87.3125855,
+      "region": "Burns",
+      "notes": "Meets at 316 White House next to church",
+      "source": "https://aanashville.org/meetings/pure-aa-at-dafa/"
     },
     {
       "id": "aa-202-friendship-house-16-d2-1500",
@@ -14678,13 +14729,13 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "316 White House",
+      "venue": "Burns Church of Christ",
       "address": "2718 Church St",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 36.0523296,
-      "lng": -87.3126012,
+      "lat": 36.0523338,
+      "lng": -87.3125855,
       "region": "Burns",
       "notes": "Located in Annex - 316 White House",
       "source": "https://aanashville.org/meetings/youve-been-noticed/"
@@ -26429,31 +26480,6 @@
       "source": "https://aanashville.org/meetings/217cam62000/"
     },
     {
-      "id": "aa-202-friendship-house-32-d6-2000",
-      "fellowship": "AA",
-      "name": "Centennial Speaker Meeting",
-      "day": 6,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Friendship House",
-      "address": "202 23rd Ave N",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1511908,
-      "lng": -86.8059113,
-      "region": "Nashville",
-      "notes": "Tel. 615-327-3909",
-      "source": "https://aanashville.org/meetings/202-friendship-house-32/"
-    },
-    {
       "id": "aa-040cla62000-d6-2000",
       "fellowship": "AA",
       "name": "Clark Street Group",
@@ -26807,6 +26833,31 @@
       "region": "Smyrna",
       "notes": "All meetings are non-smoking. 7 a.m. meetings outdoors, weather permitting",
       "source": "https://aanashville.org/meetings/smyrna-gratitude-group-7/"
+    },
+    {
+      "id": "aa-202-friendship-house-32-d6-2000",
+      "fellowship": "AA",
+      "name": "The Way Out",
+      "day": 6,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "202 23rd Ave N",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.1511908,
+      "lng": -86.8059113,
+      "region": "Nashville",
+      "notes": "Tel. 615-327-3909",
+      "source": "https://aanashville.org/meetings/202-friendship-house-32/"
     },
     {
       "id": "aa-transmitelo-6-d6-2000",

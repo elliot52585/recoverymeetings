@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-11T08:30:25.364Z",
+    "generated": "2026-08-12T08:45:27.868Z",
     "seed": false,
     "counts": {
       "AA": 1124,
@@ -6825,17 +6825,17 @@
         "Wheelchair accessible"
       ],
       "online": false,
-      "hybrid": false,
+      "hybrid": true,
       "conferenceUrl": null,
       "venue": "Church",
       "address": "3690 Cherry Creek S Dr",
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7093913,
-      "lng": -104.9472935,
+      "lat": 39.7096062,
+      "lng": -104.9472474,
       "region": "Denver",
-      "notes": null,
+      "notes": "Join us on Zoom: ID 8940530908 - Password:212197",
       "source": "https://daccaa.org/meetings/395-914/"
     },
     {
@@ -16882,8 +16882,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7093913,
-      "lng": -104.9472935,
+      "lat": 39.7096062,
+      "lng": -104.9472474,
       "region": "Denver",
       "notes": null,
       "source": "https://daccaa.org/meetings/step-by-step-2/"
@@ -21496,8 +21496,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7093913,
-      "lng": -104.9472935,
+      "lat": 39.7096062,
+      "lng": -104.9472474,
       "region": "Denver",
       "notes": null,
       "source": "https://daccaa.org/meetings/rebellion-dogs/"
@@ -27675,8 +27675,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7093913,
-      "lng": -104.9472935,
+      "lat": 39.7096062,
+      "lng": -104.9472474,
       "region": "Denver",
       "notes": "ZOOM ID: 508 190 710\nPassword: 637686\n(audio-only)",
       "source": "https://daccaa.org/meetings/289-698/"
