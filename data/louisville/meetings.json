@@ -1,17 +1,18 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-08-12T08:45:20.808Z",
+    "generated": "2026-08-13T08:48:52.035Z",
     "seed": false,
     "counts": {
-      "AA": 544,
+      "AA": 539,
       "NA": 83,
       "RD": 2
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
+        "ok": true,
+        "count": 539,
+        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -2678,31 +2679,6 @@
       "source": "https://loukyaa.org/meetings/keep-it-real-monday-wetc/"
     },
     {
-      "id": "aa-crystal-clear-2-monday-d1-1330",
-      "fellowship": "AA",
-      "name": "Love You Back To Life Monday",
-      "day": 1,
-      "time": "13:30",
-      "endTime": "14:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "1st Step Recovery",
-      "address": "3620 W Broadway",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2495887,
-      "lng": -85.8120171,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/crystal-clear-2-monday/"
-    },
-    {
       "id": "aa-unshakable-foundation-4-living-monday-d1-1430",
       "fellowship": "AA",
       "name": "Unshakable Foundation 4 Living Monday",
@@ -5342,31 +5318,6 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/keep-it-real-tuesday-wetc/"
-    },
-    {
-      "id": "aa-crystal-clear-2-tuesday-d2-1330",
-      "fellowship": "AA",
-      "name": "Love You Back To Life Tuesday",
-      "day": 2,
-      "time": "13:30",
-      "endTime": "14:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "1st Step Recovery",
-      "address": "3620 W Broadway",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2495887,
-      "lng": -85.8120171,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/crystal-clear-2-tuesday/"
     },
     {
       "id": "aa-abc-newcomers-daily-online-tuesday-d2-1600",
@@ -8027,31 +7978,6 @@
       "source": "https://loukyaa.org/meetings/keep-it-real-wednesday-wetc/"
     },
     {
-      "id": "aa-crystal-clear-2-wednesday-d3-1330",
-      "fellowship": "AA",
-      "name": "Love You Back To Life Wednesday",
-      "day": 3,
-      "time": "13:30",
-      "endTime": "14:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "1st Step Recovery",
-      "address": "3620 W Broadway",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2495887,
-      "lng": -85.8120171,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/crystal-clear-2-wednesday/"
-    },
-    {
       "id": "aa-sobriety-beyond-d3-1400",
       "fellowship": "AA",
       "name": "Sobriety & Beyond",
@@ -10364,31 +10290,6 @@
       "source": "https://loukyaa.org/meetings/keep-it-real-thursday-wetc/"
     },
     {
-      "id": "aa-crystal-clear-2-thursday-d4-1330",
-      "fellowship": "AA",
-      "name": "Love You Back To Life Thursday",
-      "day": 4,
-      "time": "13:30",
-      "endTime": "14:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "1st Step Recovery",
-      "address": "3620 W Broadway",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2495887,
-      "lng": -85.8120171,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/crystal-clear-2-thursday/"
-    },
-    {
       "id": "aa-thursday-afternoon-big-book-study-d4-1400",
       "fellowship": "AA",
       "name": "Thursday Afternoon Big Book Study",
@@ -10519,31 +10420,6 @@
       "region": "Clark County, IN",
       "notes": null,
       "source": "https://loukyaa.org/meetings/big-book-164/"
-    },
-    {
-      "id": "aa-emotional-sobriety-d4-1800",
-      "fellowship": "AA",
-      "name": "Emotional Sobriety",
-      "day": 4,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "St Luke's Episcopal",
-      "address": "1206 Maple Ln",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2626893,
-      "lng": -85.5404159,
-      "region": "Louisville",
-      "notes": "Entrance in back of church",
-      "source": "https://loukyaa.org/meetings/emotional-sobriety/"
     },
     {
       "id": "aa-icehouse-group-2-d4-1800",
@@ -16126,7 +16002,7 @@
       "lat": 38.1501097,
       "lng": -85.8364911,
       "region": "Louisville",
-      "notes": "Hillary Hall Building - Behind Chapel - Look for sign on door",
+      "notes": "Hillary Hall Building - Behind Chapel - Look for sign on door ****No Mgt on June 15th — ****No Mgt on June 15th",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -16334,7 +16210,7 @@
       "lat": 38.2245508,
       "lng": -85.692585,
       "region": "Louisville",
-      "notes": "No meeting Saturday 12-25.",
+      "notes": null,
       "source": "https://loukyaa.org/meetings/11th-step-group/"
     },
     {

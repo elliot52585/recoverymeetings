@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-08-12T08:46:10.321Z",
+    "generated": "2026-08-13T08:49:38.976Z",
     "seed": false,
     "counts": {
       "NA": 356,
@@ -2706,10 +2706,8 @@
       "time": "22:00",
       "endTime": "23:00",
       "types": [
-        "Discussion",
-        "Open",
-        "JFT",
-        "LC"
+        "Basic Text",
+        "Open"
       ],
       "online": false,
       "hybrid": true,
@@ -2722,7 +2720,7 @@
       "lat": 26.3350688,
       "lng": -80.2012294,
       "region": "Boca Raton",
-      "notes": "https://zoom.us/j/2972701674 Password: 10PM — Virtual (zoom) only for Wed Nov 12, 2025 and Mon Nov 17, 2025 due to building renovations.",
+      "notes": "https://zoom.us/j/2972701674 Password: 10PM",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -5493,9 +5491,8 @@
       "time": "22:00",
       "endTime": "23:00",
       "types": [
-        "Discussion",
         "Open",
-        "JFT",
+        "SPAD",
         "L"
       ],
       "online": false,
@@ -5509,7 +5506,7 @@
       "lat": 26.3351599,
       "lng": -80.2013235,
       "region": "Boca Raton",
-      "notes": "https://zoom.us/j/2972701674 Password: 10PM — Virtual (zoom) only for Wed Nov 12, 2025 and Mon Nov 17, 2025 due to building renovations.",
+      "notes": "https://zoom.us/j/2972701674 Password: 10PM",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -6424,7 +6421,7 @@
       "endTime": "20:00",
       "types": [
         "Open",
-        "SD"
+        "CPC"
       ],
       "online": false,
       "hybrid": false,

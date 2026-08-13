@@ -1,17 +1,18 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-12T08:44:59.477Z",
+    "generated": "2026-08-13T08:48:45.925Z",
     "seed": false,
     "counts": {
-      "AA": 1378,
+      "AA": 1377,
       "NA": 303,
       "RD": 6
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "ok": true,
+        "count": 1389,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -23964,32 +23965,6 @@
       "region": "Sandy Springs",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/mens-wednesday/"
-    },
-    {
-      "id": "aa-midtown-miracles-d3-2000",
-      "fellowship": "AA",
-      "name": "Midtown Miracles",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Chabad Intown Atlanta",
-      "address": "730 Ponce De Leon Pl NE",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7745018,
-      "lng": -84.3642008,
-      "region": "Atlanta NE",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/midtown-miracles/"
     },
     {
       "id": "aa-mlk-adamsville-2-d3-2000",

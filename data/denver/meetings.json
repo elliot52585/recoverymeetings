@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-12T08:45:27.868Z",
+    "generated": "2026-08-13T08:48:58.502Z",
     "seed": false,
     "counts": {
-      "AA": 1124,
+      "AA": 1119,
       "NA": 151,
       "RD": 12
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1124,
+        "count": 1119,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -4688,30 +4688,6 @@
       "source": "https://daccaa.org/meetings/592-1484-2/"
     },
     {
-      "id": "aa-231-mornings-d1-0700",
-      "fellowship": "AA",
-      "name": "231 Mornings",
-      "day": 1,
-      "time": "07:00",
-      "endTime": "08:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club , Unit 1",
-      "address": "15210 E 6th Ave",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7246914,
-      "lng": -104.8123117,
-      "region": "Aurora",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/231-mornings/"
-    },
-    {
       "id": "aa-30-105-2-d1-0700",
       "fellowship": "AA",
       "name": "Attitude Adjustment",
@@ -6826,7 +6802,7 @@
       ],
       "online": false,
       "hybrid": true,
-      "conferenceUrl": null,
+      "conferenceUrl": "https://zoom.us/j/8940530908",
       "venue": "Church",
       "address": "3690 Cherry Creek S Dr",
       "city": null,
@@ -9394,30 +9370,6 @@
       "region": "Highlands Ranch",
       "notes": null,
       "source": "https://daccaa.org/meetings/592-1479/"
-    },
-    {
-      "id": "aa-231-mornings-2-d2-0700",
-      "fellowship": "AA",
-      "name": "231 Mornings",
-      "day": 2,
-      "time": "07:00",
-      "endTime": "08:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club , Unit 1",
-      "address": "15210 E 6th Ave",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7246914,
-      "lng": -104.8123117,
-      "region": "Aurora",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/231-mornings-2/"
     },
     {
       "id": "aa-30-106-d2-0700",
@@ -14132,30 +14084,6 @@
       "region": "Highlands Ranch",
       "notes": null,
       "source": "https://daccaa.org/meetings/592-1482/"
-    },
-    {
-      "id": "aa-231-mornings-3-d3-0700",
-      "fellowship": "AA",
-      "name": "231 Mornings",
-      "day": 3,
-      "time": "07:00",
-      "endTime": "08:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club , Unit 1",
-      "address": "15210 E 6th Ave",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7246914,
-      "lng": -104.8123117,
-      "region": "Aurora",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/231-mornings-3/"
     },
     {
       "id": "aa-30-107-d3-0700",
@@ -19071,30 +18999,6 @@
       "region": "Highlands Ranch",
       "notes": null,
       "source": "https://daccaa.org/meetings/592-1480/"
-    },
-    {
-      "id": "aa-231-mornings-4-d4-0700",
-      "fellowship": "AA",
-      "name": "231 Mornings",
-      "day": 4,
-      "time": "07:00",
-      "endTime": "08:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club , Unit 1",
-      "address": "15210 E 6th Ave",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7246914,
-      "lng": -104.8123117,
-      "region": "Aurora",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/231-mornings-4/"
     },
     {
       "id": "aa-30-108-d4-0700",
@@ -24071,30 +23975,6 @@
       "region": "Highlands Ranch",
       "notes": null,
       "source": "https://daccaa.org/meetings/592-1483/"
-    },
-    {
-      "id": "aa-231-mornings-6-d5-0700",
-      "fellowship": "AA",
-      "name": "231 Mornings",
-      "day": 5,
-      "time": "07:00",
-      "endTime": "08:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club , Unit 1",
-      "address": "15210 E 6th Ave",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7246914,
-      "lng": -104.8123117,
-      "region": "Aurora",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/231-mornings-6/"
     },
     {
       "id": "aa-30-109-d5-0700",

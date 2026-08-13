@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-08-12T08:45:47.810Z",
+    "generated": "2026-08-13T08:49:17.979Z",
     "seed": false,
     "counts": {
       "NA": 94,
@@ -941,18 +941,19 @@
       "types": [
         "Open",
         "Wheelchair accessible",
+        "Non-smoking",
         "CC"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": null,
-      "address": "** STARTS AUGUST 18, 2026 **",
+      "venue": "Rockpointe Church",
+      "address": "1070 County Road 177",
       "city": "Leander",
       "state": "TX",
-      "zip": null,
-      "lat": 30.5788055,
-      "lng": -97.8530686,
+      "zip": "78641",
+      "lat": 30.5700981,
+      "lng": -97.7995142,
       "region": "Leander",
       "notes": null,
       "source": "https://na.org/meetingsearch/"

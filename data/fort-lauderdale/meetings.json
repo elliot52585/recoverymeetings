@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "fort-lauderdale",
-    "generated": "2026-08-12T08:47:41.762Z",
+    "generated": "2026-08-13T08:51:13.736Z",
     "seed": false,
     "counts": {
       "NA": 465,
@@ -181,7 +181,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "meeting in person",
+      "notes": "meeting in person — Room C",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -745,7 +745,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": null,
-      "notes": null,
+      "notes": "Room C",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -1676,7 +1676,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "Meeting in person",
+      "notes": "Meeting in person — Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2635,7 +2635,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "Meeting in person",
+      "notes": "Meeting in person — Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -3379,7 +3379,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Sala de conferencies",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -3484,7 +3484,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -3520,10 +3520,8 @@
       "time": "22:00",
       "endTime": "23:00",
       "types": [
-        "Discussion",
-        "Open",
-        "JFT",
-        "LC"
+        "Basic Text",
+        "Open"
       ],
       "online": false,
       "hybrid": true,
@@ -3536,7 +3534,7 @@
       "lat": 26.3350688,
       "lng": -80.2012294,
       "region": "Boca Raton",
-      "notes": "https://zoom.us/j/2972701674 Password: 10PM — Virtual (zoom) only for Wed Nov 12, 2025 and Mon Nov 17, 2025 due to building renovations.",
+      "notes": "https://zoom.us/j/2972701674 Password: 10PM",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -4039,7 +4037,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "Meets in Person",
+      "notes": "Meets in Person — Room C",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -5368,7 +5366,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "Meeting in Person",
+      "notes": "Meeting in Person — Room C",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -6459,7 +6457,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "Meeting in Person",
+      "notes": "Meeting in Person — Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -7082,7 +7080,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "Meeting in Person",
+      "notes": "Meeting in Person — Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -7196,9 +7194,8 @@
       "time": "22:00",
       "endTime": "23:00",
       "types": [
-        "Discussion",
         "Open",
-        "JFT",
+        "SPAD",
         "L"
       ],
       "online": false,
@@ -7212,7 +7209,7 @@
       "lat": 26.3351599,
       "lng": -80.2013235,
       "region": "Boca Raton",
-      "notes": "https://zoom.us/j/2972701674 Password: 10PM — Virtual (zoom) only for Wed Nov 12, 2025 and Mon Nov 17, 2025 due to building renovations.",
+      "notes": "https://zoom.us/j/2972701674 Password: 10PM",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -7686,7 +7683,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "Meeting in Person",
+      "notes": "Meeting in Person — Room C",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -8200,7 +8197,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Conference Room",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -8411,7 +8408,7 @@
       "endTime": "20:00",
       "types": [
         "Open",
-        "SD"
+        "CPC"
       ],
       "online": false,
       "hybrid": false,
@@ -8870,7 +8867,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -9346,7 +9343,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Room C",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -9863,7 +9860,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -10518,7 +10515,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -11107,7 +11104,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -11617,7 +11614,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": null,
+      "notes": "Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -12047,7 +12044,7 @@
       "lat": 26.47105,
       "lng": -80.0904631,
       "region": "Delray Beach",
-      "notes": "Meeting in Person",
+      "notes": "Meeting in Person — Room C-D",
       "source": "https://na.org/meetingsearch/"
     },
     {
