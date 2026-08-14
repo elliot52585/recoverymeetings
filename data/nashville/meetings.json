@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-13T08:48:22.260Z",
+    "generated": "2026-08-14T08:41:33.232Z",
     "seed": false,
     "counts": {
       "AA": 878,
@@ -14333,7 +14333,7 @@
       "endTime": null,
       "types": [
         "Open",
-        "Discussion"
+        "Step study"
       ],
       "online": false,
       "hybrid": false,
@@ -14346,7 +14346,7 @@
       "lat": 35.6104114,
       "lng": -87.0376561,
       "region": "Columbia",
-      "notes": null,
+      "notes": "Steps 1, 2 and 3",
       "source": "https://aanashville.org/meetings/401col31900/"
     },
     {
@@ -18061,7 +18061,8 @@
       "time": "19:00",
       "endTime": null,
       "types": [
-        "Closed"
+        "Closed",
+        "Step study"
       ],
       "online": false,
       "hybrid": false,

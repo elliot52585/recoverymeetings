@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-08-13T08:48:30.828Z",
+    "generated": "2026-08-14T08:41:40.264Z",
     "seed": false,
     "counts": {
-      "AA": 392,
+      "AA": 393,
       "NA": 42,
       "RD": 2
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 393,
+        "count": 394,
         "source": "https://www.memphis-aa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -2155,30 +2155,6 @@
       "source": "https://www.memphis-aa.org/meetings/waagl-group-8"
     },
     {
-      "id": "aa-brand-new-aa-meeting-d1-1800",
-      "fellowship": "AA",
-      "name": "Brand New AA Meeting",
-      "day": 1,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Harmony Church of Bartlett",
-      "address": "6740 St Elmo Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.2291314,
-      "lng": -89.8385342,
-      "region": "Bartlett",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/brand-new-aa-meeting"
-    },
-    {
       "id": "aa-bull-frog-corner-d1-1800",
       "fellowship": "AA",
       "name": "BullFrog Corner",
@@ -2294,15 +2270,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Shady Grove & Yates far back left corner of Church-Shady Grove Presbyterian Church",
+      "venue": "Shady Grove Presbyterian Church at Yates",
       "address": "5530 Shady Grove Rd",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.1236756,
-      "lng": -89.877529,
+      "lat": 35.1236872,
+      "lng": -89.8775333,
       "region": "Memphis",
-      "notes": "Meets in the Fishbowl Room",
+      "notes": null,
       "source": "https://www.memphis-aa.org/meetings/shady-ladies-group"
     },
     {
@@ -2330,6 +2306,30 @@
       "region": "Bartlett",
       "notes": "Meets in the Ministry House",
       "source": "https://www.memphis-aa.org/meetings/solutions-group-2"
+    },
+    {
+      "id": "aa-brand-new-aa-meeting-d1-1800",
+      "fellowship": "AA",
+      "name": "The Four Absolutes AA Meeting",
+      "day": 1,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Harmony Church of Bartlett",
+      "address": "6740 St Elmo Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.2291314,
+      "lng": -89.8385342,
+      "region": "Bartlett",
+      "notes": null,
+      "source": "https://www.memphis-aa.org/meetings/brand-new-aa-meeting"
     },
     {
       "id": "aa-friends-of-bill-w-d1-1830",
@@ -4092,15 +4092,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Shady Grove & Yates far back left corner of Church-Shady Grove Presbyterian Church",
+      "venue": "Shady Grove Presbyterian Church at Yates",
       "address": "5530 Shady Grove Rd",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.1236756,
-      "lng": -89.877529,
+      "lat": 35.1236872,
+      "lng": -89.8775333,
       "region": "Memphis",
-      "notes": "Meets in the Fishbowl Room",
+      "notes": "O/S Last Mtg of Month",
       "source": "https://www.memphis-aa.org/meetings/a-b-c-group-2"
     },
     {
@@ -5851,15 +5851,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Shady Grove & Yates far back left corner of Church-Shady Grove Presbyterian Church",
+      "venue": "Shady Grove Presbyterian Church at Yates",
       "address": "5530 Shady Grove Rd",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.1236756,
-      "lng": -89.877529,
+      "lat": 35.1236872,
+      "lng": -89.8775333,
       "region": "Memphis",
-      "notes": "Meets in the Fishbowl Room",
+      "notes": "Last Wed. Bday",
       "source": "https://www.memphis-aa.org/meetings/shady-ladies-group-2"
     },
     {
@@ -5990,6 +5990,32 @@
       "region": "Memphis",
       "notes": "Enter in Rear, then downstairs",
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-east-memphis-group-d3-1900",
+      "fellowship": "AA",
+      "name": "East Memphis Group",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "12x12",
+        "Big Book",
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Shady Grove Presbyterian Church at Yates",
+      "address": "5530 Shady Grove Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.1236872,
+      "lng": -89.8775333,
+      "region": "Memphis",
+      "notes": null,
+      "source": "https://www.memphis-aa.org/meetings/east-memphis-group"
     },
     {
       "id": "aa-germantown-happy-group-2-d3-1900",
@@ -7398,15 +7424,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Shady Grove & Yates far back left corner of Church-Shady Grove Presbyterian Church",
+      "venue": "Shady Grove Presbyterian Church at Yates",
       "address": "5530 Shady Grove Rd",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.1236756,
-      "lng": -89.877529,
+      "lat": 35.1236872,
+      "lng": -89.8775333,
       "region": "Memphis",
-      "notes": "Meets in the Fishbowl Room",
+      "notes": "1st Thursday of the month is a Tradition study",
       "source": "https://www.memphis-aa.org/meetings/a-b-c"
     },
     {
@@ -8885,30 +8911,6 @@
       "source": "https://www.memphis-aa.org/meetings/waagl-group-12"
     },
     {
-      "id": "aa-brand-new-aa-meeting-2-d5-1800",
-      "fellowship": "AA",
-      "name": "Brand New AA Meeting",
-      "day": 5,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Harmony Church of Bartlett",
-      "address": "6740 St Elmo Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.2291314,
-      "lng": -89.8385342,
-      "region": "Bartlett",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/brand-new-aa-meeting-2"
-    },
-    {
       "id": "aa-bull-frog-corner-5-d5-1800",
       "fellowship": "AA",
       "name": "BullFrog Corner",
@@ -8959,6 +8961,30 @@
       "region": "Memphis",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-brand-new-aa-meeting-2-d5-1800",
+      "fellowship": "AA",
+      "name": "The Four Absolutes AA Meeting",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Harmony Church of Bartlett",
+      "address": "6740 St Elmo Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.2291314,
+      "lng": -89.8385342,
+      "region": "Bartlett",
+      "notes": null,
+      "source": "https://www.memphis-aa.org/meetings/brand-new-aa-meeting-2"
     },
     {
       "id": "aa-how-it-works-group-d5-1830",

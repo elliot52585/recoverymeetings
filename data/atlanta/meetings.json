@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-13T08:48:45.925Z",
+    "generated": "2026-08-14T08:41:57.333Z",
     "seed": false,
     "counts": {
       "AA": 1377,
@@ -31035,7 +31035,9 @@
       "time": "20:00",
       "endTime": "21:00",
       "types": [
-        "Big Book"
+        "12x12",
+        "Big Book",
+        "DR"
       ],
       "online": false,
       "hybrid": false,

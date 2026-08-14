@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-13T08:48:58.502Z",
+    "generated": "2026-08-14T08:42:11.697Z",
     "seed": false,
     "counts": {
-      "AA": 1119,
+      "AA": 1118,
       "NA": 151,
       "RD": 12
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1119,
+        "count": 1118,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -15938,31 +15938,6 @@
       "region": "Lakewood",
       "notes": "JOIN ONLINE MEETING VIA ZOOM\n\nMEETING ID: 882 6187 6411",
       "source": "https://daccaa.org/meetings/712-1793/"
-    },
-    {
-      "id": "aa-the-deep-2-d3-1730",
-      "fellowship": "AA",
-      "name": "The Deep",
-      "day": 3,
-      "time": "17:30",
-      "endTime": "18:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "All Walks of Life Hall",
-      "address": "1865 S Pearl St",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.6827576,
-      "lng": -104.9806654,
-      "region": "Denver",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/the-deep-2/"
     },
     {
       "id": "aa-vast-amount-of-fun-online-d3-1730",
