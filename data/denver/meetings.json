@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-14T08:42:11.697Z",
+    "generated": "2026-08-15T07:49:56.633Z",
     "seed": false,
     "counts": {
-      "AA": 1118,
+      "AA": 1117,
       "NA": 151,
       "RD": 12
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1118,
+        "count": 1117,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1395,30 +1395,6 @@
       "region": "Morrison",
       "notes": "Red Rocks Park Picnic Shelter-Geological Marker at the end of Plains View Rd.",
       "source": "https://daccaa.org/meetings/931-2435/"
-    },
-    {
-      "id": "aa-sober-on-sundays-online-d0-1000",
-      "fellowship": "AA",
-      "name": "Sober on Sundays",
-      "day": 0,
-      "time": "10:00",
-      "endTime": "11:00",
-      "types": [
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/9274213433",
-      "venue": null,
-      "address": "Aurora",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7393313,
-      "lng": -104.8629746,
-      "region": "Aurora",
-      "notes": "Join Via Zoom:\nMeeting ID: 927 421 3433\nPasscode: 747744",
-      "source": "https://daccaa.org/meetings/sober-on-sundays-online/"
     },
     {
       "id": "aa-385-905-d0-1000",

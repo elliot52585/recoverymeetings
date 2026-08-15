@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-14T08:41:33.232Z",
+    "generated": "2026-08-15T07:49:04.428Z",
     "seed": false,
     "counts": {
-      "AA": 878,
+      "AA": 876,
       "NA": 163,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 879,
+        "count": 877,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -5557,31 +5557,6 @@
       "region": "Nashville",
       "notes": "Tel. 615-327-3909",
       "source": "https://aanashville.org/meetings/203lif11830/"
-    },
-    {
-      "id": "aa-muletown-aa-d1-1830",
-      "fellowship": "AA",
-      "name": "Muletown AA",
-      "day": 1,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Maury Hills Church",
-      "address": "101 Unity Dr",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.5808865,
-      "lng": -87.0445477,
-      "region": "Columbia",
-      "notes": "Room 110",
-      "source": "https://aanashville.org/meetings/muletown-aa/"
     },
     {
       "id": "aa-211nip11830-d1-1830",
@@ -25961,32 +25936,6 @@
       "region": "Fairview",
       "notes": null,
       "source": "https://aanashville.org/meetings/you-are-not-alone-3/"
-    },
-    {
-      "id": "aa-091hap61900-d6-1900",
-      "fellowship": "AA",
-      "name": "AA Mtg with Al-Anon participation",
-      "day": 6,
-      "time": "19:00",
-      "endTime": null,
-      "types": [
-        "Concurrent with Al-Anon",
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Serenity House",
-      "address": "440 College St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.4542959,
-      "lng": -86.7928232,
-      "region": "Lewisburg",
-      "notes": null,
-      "source": "https://aanashville.org/meetings/091hap61900/"
     },
     {
       "id": "aa-401col61900-d6-1900",

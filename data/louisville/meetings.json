@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-08-14T08:42:04.363Z",
+    "generated": "2026-08-15T07:49:49.968Z",
     "seed": false,
     "counts": {
       "AA": 539,
@@ -10,9 +10,8 @@
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 539,
-        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
       },
       "NA": {
         "ok": true,
@@ -13435,7 +13434,7 @@
       "lat": 38.3157953,
       "lng": -85.699965,
       "region": "Jeffersonville",
-      "notes": "Fellowship entrance in back of Church  ***Will not meet July 10th*** — ***Will not meet July 10th***",
+      "notes": "Fellowship entrance in back of Church — *",
       "source": "https://na.org/meetingsearch/"
     },
     {
