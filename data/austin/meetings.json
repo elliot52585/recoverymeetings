@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-08-15T07:50:25.842Z",
+    "generated": "2026-08-16T07:52:08.899Z",
     "seed": false,
     "counts": {
       "NA": 94,
@@ -1391,8 +1391,8 @@
         "Women"
       ],
       "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
+      "hybrid": true,
+      "conferenceUrl": "https://us02web.zoom.us/j/84525370177?pwd=8D30SwEMJUAmaTzFtsPGsjOYahlbqP.1",
       "venue": "Gruene United Methodist Church",
       "address": "2629 E Common Street",
       "city": "New Braunfels",
@@ -1401,7 +1401,7 @@
       "lat": 29.7403229,
       "lng": -98.095974,
       "region": "New Braunfels",
-      "notes": "Room 304 (Game Room) — Primarily Women (NO ADDICT WILL BE TURNED AWAY)",
+      "notes": "Room 304 (Game Room) — Primarily Women (NO ADDICT WILL BE TURNED AWAY) Zoom Meeting ID:  845 2537 0177, Passcode:  005981",
       "source": "https://na.org/meetingsearch/"
     },
     {

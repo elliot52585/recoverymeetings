@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-08-15T07:51:42.413Z",
+    "generated": "2026-08-16T07:53:23.407Z",
     "seed": false,
     "counts": {
       "NA": 340,
@@ -8672,7 +8672,7 @@
     {
       "id": "rd-rd-st-petersburg-saturday-d6-1900",
       "fellowship": "RD",
-      "name": "Saturday Night St. Pete.  **Not meeting on July 4th**",
+      "name": "Saturday Night St. Pete.",
       "day": 6,
       "time": "19:00",
       "endTime": "20:00",
@@ -8692,7 +8692,7 @@
       "lat": 27.7505353,
       "lng": -82.6462423,
       "region": "Florida",
-      "notes": "**We are not meeting this Saturday, July 4th!**",
+      "notes": null,
       "source": "https://recoverydharma.org/meetings/rd-st-petersburg-saturday/"
     },
     {

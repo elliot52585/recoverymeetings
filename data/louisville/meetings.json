@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-08-15T07:49:49.968Z",
+    "generated": "2026-08-16T07:51:34.673Z",
     "seed": false,
     "counts": {
       "AA": 539,
@@ -10,8 +10,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
+        "ok": true,
+        "count": 539,
+        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -16001,7 +16002,7 @@
       "lat": 38.1501097,
       "lng": -85.8364911,
       "region": "Louisville",
-      "notes": "Hillary Hall Building - Behind Chapel - Look for sign on door ****No Mgt on June 15th — ****No Mgt on June 15th",
+      "notes": "Hillary Hall Building - Behind Chapel - Look for sign on door ****No Mgt on Aug 15th — ****No Mgt on Aug 15th",
       "source": "https://na.org/meetingsearch/"
     },
     {
