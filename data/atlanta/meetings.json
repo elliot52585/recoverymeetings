@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-16T07:51:28.470Z",
+    "generated": "2026-08-17T08:05:33.319Z",
     "seed": false,
     "counts": {
       "AA": 1377,
@@ -10,8 +10,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "ok": true,
+        "count": 1389,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -7221,7 +7222,7 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Paulding County RCO",
-      "address": "276B Main Street",
+      "address": "276 B Main Street",
       "city": "Hiram",
       "state": "GA",
       "zip": "30141",

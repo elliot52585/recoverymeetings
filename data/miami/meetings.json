@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-08-16T07:52:31.138Z",
+    "generated": "2026-08-17T08:06:53.482Z",
     "seed": false,
     "counts": {
-      "NA": 356,
+      "NA": 355,
       "RD": 3
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 358,
+        "count": 357,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=25.7743&long_val=-80.1937&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -813,32 +813,6 @@
       "lat": 25.8507262,
       "lng": -80.1960873,
       "region": "Miami",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-rainbow-unity-226760",
-      "fellowship": "NA",
-      "name": "Rainbow Unity",
-      "day": 0,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "Open",
-        "LGBTQ+"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Unity Room",
-      "address": "6600 sw 62 Ave",
-      "city": null,
-      "state": "FL",
-      "zip": "33143",
-      "lat": 25.7093981,
-      "lng": -80.2939533,
-      "region": null,
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -8383,12 +8357,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Lambda Miami-Dade",
-      "address": "2990 SW 35th Ave",
+      "address": "28 NE 54th St",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 25.7355828,
-      "lng": -80.2513686,
+      "lat": 25.8251355,
+      "lng": -80.1952896,
       "region": "Florida",
       "notes": null,
       "source": "https://recoverydharma.org/meetings/rd-miami/"

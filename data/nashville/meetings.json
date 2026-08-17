@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-16T07:50:37.003Z",
+    "generated": "2026-08-17T08:05:10.308Z",
     "seed": false,
     "counts": {
       "AA": 876,
-      "NA": 163,
+      "NA": 162,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -25,7 +25,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 164,
+        "count": 163,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -12636,28 +12636,6 @@
       "conferenceUrl": null,
       "venue": "Cumberland Presbyterian Church",
       "address": "522 Castle Heights Ave.",
-      "city": "Lebanon",
-      "state": "TN",
-      "zip": "37090",
-      "lat": 36.1992624,
-      "lng": -86.3097066,
-      "region": "Lebanon",
-      "notes": null,
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "na-primary-purpose-226236",
-      "fellowship": "NA",
-      "name": "Primary Purpose",
-      "day": 3,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Cumberland Heights Presbyterian Church",
-      "address": "522 Castle Heights Avenue",
       "city": "Lebanon",
       "state": "TN",
       "zip": "37090",
