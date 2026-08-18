@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-08-17T08:06:31.657Z",
+    "generated": "2026-08-18T08:00:13.095Z",
     "seed": false,
     "counts": {
       "NA": 94,
@@ -1802,7 +1802,7 @@
       "lat": 29.8871423,
       "lng": -97.9421513,
       "region": "San Marcos",
-      "notes": "Where Guadalupe St. dead ends at Texas State University.     1st Thursday Open Discussion, 2nd Thursday IP Pamphlet Study, 3rd Thursday Step Study, 4th Thursday Chapter Discussion, 5th Thursday Speaker or Just For Today.",
+      "notes": "Where Guadalupe St. dead ends at Texas State University.",
       "source": "https://na.org/meetingsearch/"
     },
     {

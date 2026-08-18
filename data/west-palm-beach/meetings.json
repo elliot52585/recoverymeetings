@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-08-17T08:08:37.890Z",
+    "generated": "2026-08-18T08:02:18.780Z",
     "seed": false,
     "counts": {
       "AA": 495,
@@ -16007,7 +16007,7 @@
       "name": "Serenity at Seven",
       "day": 5,
       "time": "19:00",
-      "endTime": "20:00",
+      "endTime": "20:15",
       "types": [
         "Discussion",
         "Open",

@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-17T08:05:33.319Z",
+    "generated": "2026-08-18T07:59:28.138Z",
     "seed": false,
     "counts": {
-      "AA": 1377,
+      "AA": 1374,
       "NA": 303,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1389,
+        "count": 1386,
         "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1884,7 +1884,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/for-the-fun-of-it-7/"
     },
     {
@@ -5364,34 +5364,6 @@
       "source": "https://atlantaaa.org/meetings/lets-get-weird-3/"
     },
     {
-      "id": "aa-sip-of-sobriety-4-d0-2200",
-      "fellowship": "AA",
-      "name": "Sip of Sobriety - Flowery Branch",
-      "day": 0,
-      "time": "22:00",
-      "endTime": "23:00",
-      "types": [
-        "Big Book",
-        "Candlelight",
-        "Discussion",
-        "Beginner",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Mercy Point Tabernacle of Praise",
-      "address": "6182 McEver Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 34.1810941,
-      "lng": -83.9456162,
-      "region": "Flowery Branch",
-      "notes": "Saturday night, after meeting, the Group hosts a game night.\n\n12 Steps &amp; 12 Traditions",
-      "source": "https://atlantaaa.org/meetings/sip-of-sobriety-4/"
-    },
-    {
       "id": "aa-tri-nite-flight-7-d0-2200",
       "fellowship": "AA",
       "name": "Tri Nite Flight",
@@ -7522,7 +7494,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/for-the-fun-of-it-13/"
     },
     {
@@ -13871,7 +13843,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/for-the-fun-of-it-14/"
     },
     {
@@ -14444,6 +14416,32 @@
       "region": "Online",
       "notes": "Online, Dicussion",
       "source": "https://atlantaaa.org/meetings/north-central-ave-beginners/"
+    },
+    {
+      "id": "aa-sisters-in-sobriety-d2-1730",
+      "fellowship": "AA",
+      "name": "Sisters in Sobriety",
+      "day": 2,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Mercy Point Tabernacle of Praise",
+      "address": "6182 McEver Rd",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 34.1810941,
+      "lng": -83.9456162,
+      "region": "Flowery Branch",
+      "notes": "around back of church",
+      "source": "https://atlantaaa.org/meetings/sisters-in-sobriety/"
     },
     {
       "id": "aa-twilight-4-d2-1730",
@@ -20487,7 +20485,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/for-the-fun-of-it-11/"
     },
     {
@@ -21835,7 +21833,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/buford-mens-primary-purpose/"
     },
     {
@@ -24581,33 +24579,6 @@
       "source": "https://atlantaaa.org/meetings/night-owls-7/"
     },
     {
-      "id": "aa-sip-of-sobriety-d3-2200",
-      "fellowship": "AA",
-      "name": "Sip of Sobriety",
-      "day": 3,
-      "time": "22:00",
-      "endTime": "23:00",
-      "types": [
-        "Big Book",
-        "Discussion",
-        "Beginner",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Mercy Point Tabernacle of Praise",
-      "address": "6182 McEver Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 34.1810941,
-      "lng": -83.9456162,
-      "region": "Flowery Branch",
-      "notes": "Saturday night, after meeting, the Group hosts a game night.\n\n12 Steps &amp; 12 Traditions",
-      "source": "https://atlantaaa.org/meetings/sip-of-sobriety/"
-    },
-    {
       "id": "aa-tri-nite-flight-6-d3-2200",
       "fellowship": "AA",
       "name": "Tri Nite Flight",
@@ -26781,7 +26752,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/for-the-fun-of-it-15/"
     },
     {
@@ -33480,7 +33451,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/for-the-fun-of-it-16/"
     },
     {
@@ -37648,33 +37619,6 @@
       "source": "https://atlantaaa.org/meetings/night-owls/"
     },
     {
-      "id": "aa-sip-of-sobriety-2-d5-2200",
-      "fellowship": "AA",
-      "name": "Sip of Sobriety",
-      "day": 5,
-      "time": "22:00",
-      "endTime": "23:00",
-      "types": [
-        "Big Book",
-        "Discussion",
-        "Beginner",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Mercy Point Tabernacle of Praise",
-      "address": "6182 McEver Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 34.1810941,
-      "lng": -83.9456162,
-      "region": "Flowery Branch",
-      "notes": "Saturday night, after meeting, the Group hosts a game night.\n\n12 Steps &amp; 12 Traditions",
-      "source": "https://atlantaaa.org/meetings/sip-of-sobriety-2/"
-    },
-    {
       "id": "aa-tri-nite-flight-3-d5-2200",
       "fellowship": "AA",
       "name": "Tri Nite Flight",
@@ -38583,7 +38527,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/for-the-fun-of-it-4/"
     },
     {
@@ -40785,7 +40729,7 @@
       "lat": 34.1810941,
       "lng": -83.9456162,
       "region": "Flowery Branch",
-      "notes": null,
+      "notes": "around back of church",
       "source": "https://atlantaaa.org/meetings/for-the-fun-of-it-17/"
     },
     {
@@ -43538,33 +43482,6 @@
       "region": "Acworth",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/night-owls-3/"
-    },
-    {
-      "id": "aa-sip-of-sobriety-3-d6-2200",
-      "fellowship": "AA",
-      "name": "Sip of Sobriety",
-      "day": 6,
-      "time": "22:00",
-      "endTime": "23:00",
-      "types": [
-        "Big Book",
-        "Discussion",
-        "Beginner",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Mercy Point Tabernacle of Praise",
-      "address": "6182 McEver Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 34.1810941,
-      "lng": -83.9456162,
-      "region": "Flowery Branch",
-      "notes": "Saturday night, after meeting, the Group hosts a game night.\n\n12 Steps &amp; 12 Traditions",
-      "source": "https://atlantaaa.org/meetings/sip-of-sobriety-3/"
     },
     {
       "id": "aa-tri-nite-flight-5-d6-2200",
