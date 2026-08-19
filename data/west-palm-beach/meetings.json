@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-08-18T08:02:18.780Z",
+    "generated": "2026-08-19T08:01:59.531Z",
     "seed": false,
     "counts": {
       "AA": 495,
@@ -13012,7 +13012,7 @@
     {
       "id": "aa-12-steps-12-traditions-d4-1900",
       "fellowship": "AA",
-      "name": "12 Steps &amp; 12 Traditions",
+      "name": "12 Steps & 12 Traditions",
       "day": 4,
       "time": "19:00",
       "endTime": "20:00",

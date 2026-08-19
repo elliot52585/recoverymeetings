@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-08-18T08:00:34.823Z",
+    "generated": "2026-08-19T08:00:15.547Z",
     "seed": false,
     "counts": {
       "NA": 355,
@@ -8645,6 +8645,32 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-saturday-nights-for-beginners-172636",
+      "fellowship": "NA",
+      "name": "Saturday Nights for Beginners",
+      "day": 6,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "BEG",
+        "Open",
+        "SD"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Sober Today Clubhouse",
+      "address": "2035 Harding St #102",
+      "city": "Hollywood",
+      "state": "FL",
+      "zip": "33020",
+      "lat": 26.0283972,
+      "lng": -80.1489184,
+      "region": "Hollywood",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-virtual-5-30-group-147930",
       "fellowship": "NA",
       "name": "Virtual 5:30 Group",
@@ -8867,32 +8893,6 @@
       "lng": -80.1489184,
       "region": "Hollywood",
       "notes": "Online translation link https://t.me/+tnxm-nzqXBmYjg5",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-saturday-nights-for-beginners-172636",
-      "fellowship": "NA",
-      "name": "Saturday Nights for Beginners",
-      "day": 6,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "BEG",
-        "Open",
-        "SD"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Saint John's Episcopal Church",
-      "address": "1704 Buchanan Church",
-      "city": "Hollywood",
-      "state": "FL",
-      "zip": "33020",
-      "lat": 26.0168598,
-      "lng": -80.142056,
-      "region": "Hollywood",
-      "notes": "Enter through alley",
       "source": "https://na.org/meetingsearch/"
     },
     {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-08-18T07:59:12.023Z",
+    "generated": "2026-08-19T07:58:54.850Z",
     "seed": false,
     "counts": {
       "AA": 393,
@@ -3056,7 +3056,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Starting Dec 23",
+      "venue": null,
       "address": "3337 Summer Ave",
       "city": "Memphis",
       "state": "TN",
@@ -3064,7 +3064,7 @@
       "lat": 35.1491807,
       "lng": -89.949858,
       "region": "Memphis",
-      "notes": "@ HopenWorks Building",
+      "notes": "@ Hope Works Building",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -4179,31 +4179,6 @@
       "region": "Covington",
       "notes": "Meeting in choir room, up wheelchair ramp.",
       "source": "https://www.memphis-aa.org/meetings/covington-group-3"
-    },
-    {
-      "id": "na-g-i-f-t-growing-in-faith-today-13898",
-      "fellowship": "NA",
-      "name": "G.I.F.T (Growing in Faith Today)",
-      "day": 2,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Basic Text",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "403 South Main Street",
-      "city": "Covington",
-      "state": "TN",
-      "zip": "38019",
-      "lat": 35.5620141,
-      "lng": -89.6464051,
-      "region": "Covington",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-hickory-hill-group-d2-1900",
@@ -7462,6 +7437,31 @@
       "source": "https://www.memphis-aa.org/meetings/fresh-start"
     },
     {
+      "id": "na-getting-another-day-starts-9-3-229744",
+      "fellowship": "NA",
+      "name": "Getting Another Day(Starts 9/3)",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "LT"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Millington Church of Christ",
+      "address": "7320 Raleigh Millington Rd",
+      "city": "Millington",
+      "state": "TN",
+      "zip": "38053",
+      "lat": 35.3255582,
+      "lng": -89.9024717,
+      "region": "Millington",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-cherokee-d4-1900",
       "fellowship": "AA",
       "name": "Cherokee",
@@ -8086,7 +8086,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Starting Dec 23",
+      "venue": null,
       "address": "3337 Summer Ave",
       "city": "Memphis",
       "state": "TN",
@@ -8094,7 +8094,7 @@
       "lat": 35.1491807,
       "lng": -89.949858,
       "region": "Memphis",
-      "notes": "@HopeNWorks Building",
+      "notes": "@ Hope Works Building",
       "source": "https://na.org/meetingsearch/"
     },
     {

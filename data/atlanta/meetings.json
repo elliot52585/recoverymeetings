@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-18T07:59:28.138Z",
+    "generated": "2026-08-19T07:59:11.589Z",
     "seed": false,
     "counts": {
       "AA": 1374,
-      "NA": 303,
+      "NA": 298,
       "RD": 6
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 303,
+        "count": 298,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -16353,34 +16353,6 @@
       "source": "https://atlantaaa.org/meetings/tuesday-night-west-cobb/"
     },
     {
-      "id": "na-turning-point-group-228819",
-      "fellowship": "NA",
-      "name": "Turning Point Group",
-      "day": 2,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Basic Text",
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "462 W Solomon St",
-      "city": "Griffin",
-      "state": "GA",
-      "zip": "30223",
-      "lat": 33.2484974,
-      "lng": -84.2701292,
-      "region": "Griffin",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-two-for-tuesday-68276",
       "fellowship": "NA",
       "name": "Two For Tuesday",
@@ -22869,33 +22841,6 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/toco-group/"
-    },
-    {
-      "id": "na-turning-point-group-228820",
-      "fellowship": "NA",
-      "name": "Turning Point Group",
-      "day": 3,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "462 W Solomon St",
-      "city": "Griffin",
-      "state": "GA",
-      "zip": "30223",
-      "lat": 33.2484974,
-      "lng": -84.2701292,
-      "region": "Griffin",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-unlimited-hope-group-hybrid-22712",
@@ -29522,33 +29467,6 @@
       "source": "https://atlantaaa.org/meetings/the-winners-circle-4/"
     },
     {
-      "id": "na-turning-point-group-155313",
-      "fellowship": "NA",
-      "name": "Turning Point Group",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "462 W Solomon St",
-      "city": "Griffin",
-      "state": "GA",
-      "zip": "30223",
-      "lat": 33.2484974,
-      "lng": -84.2701292,
-      "region": "Griffin",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "aa-veterans-in-recovery-d4-1900",
       "fellowship": "AA",
       "name": "Veterans in Recovery",
@@ -35741,33 +35659,6 @@
       "lat": 33.2557599,
       "lng": -83.89488,
       "region": "Flovilla",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-turning-point-group-155314",
-      "fellowship": "NA",
-      "name": "Turning Point Group",
-      "day": 5,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "462 W Solomon St",
-      "city": "Griffin",
-      "state": "GA",
-      "zip": "30223",
-      "lat": 33.2484974,
-      "lng": -84.2701292,
-      "region": "Griffin",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -42505,33 +42396,6 @@
       "region": "Norcross",
       "notes": "Hosptality Room in the front of the church",
       "source": "https://atlantaaa.org/meetings/sweetwater/"
-    },
-    {
-      "id": "na-turning-point-group-155317",
-      "fellowship": "NA",
-      "name": "Turning Point Group",
-      "day": 6,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "462 W Solomon St",
-      "city": "Griffin",
-      "state": "GA",
-      "zip": "30223",
-      "lat": 33.2484974,
-      "lng": -84.2701292,
-      "region": "Griffin",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-welcome-home-96399",
