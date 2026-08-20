@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-19T07:59:11.589Z",
+    "generated": "2026-08-20T08:02:14.041Z",
     "seed": false,
     "counts": {
-      "AA": 1374,
+      "AA": 1375,
       "NA": 298,
       "RD": 6
     },
@@ -7253,7 +7253,7 @@
       "lat": 33.4189585,
       "lng": -84.6024931,
       "region": "Peachtree City",
-      "notes": "Basement",
+      "notes": "Literature-Big Book study Breakout meeting\nLast Sunday only Speakers meeting",
       "source": "https://atlantaaa.org/meetings/new-start-9/"
     },
     {
@@ -8865,7 +8865,7 @@
       "source": "https://atlantaaa.org/meetings/the-alpharetta-group-7/"
     },
     {
-      "id": "aa-wicked-sobah-3-d1-1800",
+      "id": "aa-wicked-sobah-d1-1800",
       "fellowship": "AA",
       "name": "Wicked Sobah",
       "day": 1,
@@ -8874,7 +8874,7 @@
       "types": [
         "Closed",
         "Discussion",
-        "Women"
+        "Men"
       ],
       "online": false,
       "hybrid": false,
@@ -8887,8 +8887,8 @@
       "lat": 33.4189585,
       "lng": -84.6024931,
       "region": "Peachtree City",
-      "notes": "Basement",
-      "source": "https://atlantaaa.org/meetings/wicked-sobah-3/"
+      "notes": "Starting Aug 4, 2025 meeting time will changed from 5:30pm to 6:00pm",
+      "source": "https://atlantaaa.org/meetings/wicked-sobah/"
     },
     {
       "id": "aa-womens-step-study-group-d1-1800",
@@ -13603,7 +13603,7 @@
       "lat": 33.4189585,
       "lng": -84.6024931,
       "region": "Peachtree City",
-      "notes": "Basement",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/new-start-4/"
     },
     {
@@ -20220,7 +20220,7 @@
       "lat": 33.4189585,
       "lng": -84.6024931,
       "region": "Peachtree City",
-      "notes": "Basement",
+      "notes": "Last Sunday only Speakers meeting",
       "source": "https://atlantaaa.org/meetings/new-start-7/"
     },
     {
@@ -26464,7 +26464,7 @@
       "lat": 33.4189585,
       "lng": -84.6024931,
       "region": "Peachtree City",
-      "notes": "Basement",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/new-start-3/"
     },
     {
@@ -28096,6 +28096,31 @@
       "region": "Senoia",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/walking-sober/"
+    },
+    {
+      "id": "aa-wicked-sobah-3-d4-1800",
+      "fellowship": "AA",
+      "name": "Wicked Sobah",
+      "day": 4,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Big Book",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Peachtree City Christian Church",
+      "address": "500 Kedron Dr",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.4189585,
+      "lng": -84.6024931,
+      "region": "Peachtree City",
+      "notes": null,
+      "source": "https://atlantaaa.org/meetings/wicked-sobah-3/"
     },
     {
       "id": "na-women-do-recover-group-22889",
@@ -33166,7 +33191,7 @@
       "lat": 33.4189585,
       "lng": -84.6024931,
       "region": "Peachtree City",
-      "notes": "Basement",
+      "notes": "Last Sunday only Speakers meeting",
       "source": "https://atlantaaa.org/meetings/new-start-5/"
     },
     {
@@ -35895,7 +35920,7 @@
       "lat": 33.4189585,
       "lng": -84.6024931,
       "region": "Peachtree City",
-      "notes": "Basement",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/wicked-sobah-2/"
     },
     {
@@ -39948,7 +39973,7 @@
       "lat": 33.4189585,
       "lng": -84.6024931,
       "region": "Peachtree City",
-      "notes": "Basement",
+      "notes": "3rd Sat. Open Speaker",
       "source": "https://atlantaaa.org/meetings/new-start-12/"
     },
     {

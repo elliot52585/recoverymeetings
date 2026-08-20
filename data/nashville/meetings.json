@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-19T07:58:48.621Z",
+    "generated": "2026-08-20T08:01:51.389Z",
     "seed": false,
     "counts": {
       "AA": 876,
@@ -8691,31 +8691,6 @@
       "source": "https://aanashville.org/meetings/friends-in-recovery-2/"
     },
     {
-      "id": "aa-pure-aa-at-dafa-d2-1400",
-      "fellowship": "AA",
-      "name": "316 Pure AA",
-      "day": 2,
-      "time": "14:00",
-      "endTime": "15:00",
-      "types": [
-        "Closed",
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Burns Church of Christ",
-      "address": "2718 Church St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.0523338,
-      "lng": -87.3125855,
-      "region": "Burns",
-      "notes": "Meets at 316 White House next to church",
-      "source": "https://aanashville.org/meetings/pure-aa-at-dafa/"
-    },
-    {
       "id": "aa-202-friendship-house-16-d2-1500",
       "fellowship": "AA",
       "name": "5 x 5 Group",
@@ -13046,6 +13021,31 @@
       "region": "Nashville",
       "notes": "Back \"Northeast Entrance\", 2nd floor,",
       "source": "https://aanashville.org/meetings/204liv31315/"
+    },
+    {
+      "id": "aa-pure-aa-at-dafa-d3-1400",
+      "fellowship": "AA",
+      "name": "316 Pure AA",
+      "day": 3,
+      "time": "14:00",
+      "endTime": "15:00",
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Burns Church of Christ",
+      "address": "2718 Church St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.0523338,
+      "lng": -87.3125855,
+      "region": "Burns",
+      "notes": "Meets at 316 White House next to church",
+      "source": "https://aanashville.org/meetings/pure-aa-at-dafa/"
     },
     {
       "id": "aa-202-friendship-house-17-d3-1500",

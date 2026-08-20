@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-08-19T07:59:02.416Z",
+    "generated": "2026-08-20T08:02:04.779Z",
     "seed": false,
     "counts": {
       "AA": 342,
@@ -11,7 +11,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 342,
+        "count": 343,
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -5259,14 +5259,13 @@
       "source": "https://www.etiaa.org/meetings/the-1000am-meeting-3/"
     },
     {
-      "id": "aa-friendsville-fellowship-d3-1130",
+      "id": "aa-friendsville-fellowship-wednesday-d3-1130",
       "fellowship": "AA",
-      "name": "FRIENDSVILLE FELLOWSHIP",
+      "name": "Friendsville Fellowship",
       "day": 3,
       "time": "11:30",
       "endTime": "12:30",
       "types": [
-        "Discussion",
         "Open"
       ],
       "online": false,
@@ -5280,8 +5279,8 @@
       "lat": 35.7608891,
       "lng": -84.1341406,
       "region": "Friendsville",
-      "notes": "Please note the new location:\nFriendsville Community Center, 105 Homecoming Circle, Friendsville TN 37737",
-      "source": "https://www.etiaa.org/meetings/friendsville-fellowship/"
+      "notes": null,
+      "source": "https://www.etiaa.org/meetings/friendsville-fellowship-wednesday/"
     },
     {
       "id": "aa-happy-destiny-12-d3-1200",
@@ -6236,7 +6235,7 @@
       "lat": 35.9487838,
       "lng": -83.9580952,
       "region": "Knoxville",
-      "notes": "Rear of main church building, enter through children's playground",
+      "notes": "SPRING/SUMMER/FALL: In Riverside Gazebo at the bottom of the parking lot.\nWINTER: Rear of main church building, enter through children's playground",
       "source": "https://www.etiaa.org/meetings/west-knox-group/"
     },
     {

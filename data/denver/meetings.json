@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-19T07:59:24.805Z",
+    "generated": "2026-08-20T08:02:41.341Z",
     "seed": false,
     "counts": {
-      "AA": 1117,
+      "AA": 1118,
       "NA": 151,
       "RD": 12
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1117,
+        "count": 1118,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1214,8 +1214,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-182/"
@@ -3730,8 +3730,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-183/"
@@ -5329,8 +5329,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-1577/"
@@ -6943,6 +6943,31 @@
       "source": "https://daccaa.org/meetings/224-1355/"
     },
     {
+      "id": "aa-lgbtq-friendly-d1-1800",
+      "fellowship": "AA",
+      "name": "LGBTQ Friendly",
+      "day": 1,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "LGBTQ",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "147 S. 2nd Place",
+      "address": "147 2nd Pl",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
+      "region": "Brighton",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/lgbtq-friendly/"
+    },
+    {
       "id": "aa-230-531-d1-1800",
       "fellowship": "AA",
       "name": "Lilley Gulch",
@@ -8044,8 +8069,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-184/"
@@ -10066,8 +10091,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-1734/"
@@ -12701,8 +12726,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-185/"
@@ -14779,8 +14804,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-1735/"
@@ -16183,8 +16208,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-2550/"
@@ -17497,8 +17522,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-186/"
@@ -19671,8 +19696,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-2210/"
@@ -21147,8 +21172,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-188/"
@@ -24617,8 +24642,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-2211/"
@@ -26776,8 +26801,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-189/"
@@ -29770,8 +29795,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-1693/"
@@ -31315,8 +31340,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.9843642,
-      "lng": -104.8207249,
+      "lat": 39.9843743,
+      "lng": -104.8207244,
       "region": "Brighton",
       "notes": null,
       "source": "https://daccaa.org/meetings/65-190/"

@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-08-19T07:58:54.850Z",
+    "generated": "2026-08-20T08:01:57.711Z",
     "seed": false,
     "counts": {
       "AA": 393,
-      "NA": 42,
+      "NA": 43,
       "RD": 2
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 42,
+        "count": 43,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.1495&long_val=-90.049&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -7334,6 +7334,28 @@
       "region": "Collierville",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/collierville-squares-3"
+    },
+    {
+      "id": "na-fresh-start-starts-sept-3rd-229761",
+      "fellowship": "NA",
+      "name": "Fresh Start (Starts Sept 3rd)",
+      "day": 4,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Fox Meadows Square",
+      "address": "3119 S. Mendenhall, Suite A",
+      "city": "Memphis",
+      "state": "TN",
+      "zip": "38115",
+      "lat": 35.0635977,
+      "lng": -89.8870333,
+      "region": "Memphis",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-hollywood-group-d4-1800",
