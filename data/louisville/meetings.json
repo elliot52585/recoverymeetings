@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-08-20T08:02:33.874Z",
+    "generated": "2026-08-21T08:03:13.289Z",
     "seed": false,
     "counts": {
       "AA": 539,
@@ -10,8 +10,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
+        "ok": true,
+        "count": 539,
+        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -11117,6 +11118,33 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-keepin-it-big-book-d4-1900",
+      "fellowship": "AA",
+      "name": "Keepin’ It Big Book",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "XB"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "E-Z Duz It Center",
+      "address": "6605 Lower Hunters Trace",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.1698328,
+      "lng": -85.8746292,
+      "region": "Louisville",
+      "notes": null,
+      "source": "https://loukyaa.org/meetings/keepin-it-big-book/"
+    },
+    {
       "id": "aa-love-comfort-understanding-d4-1900",
       "fellowship": "AA",
       "name": "Love Comfort & Understanding",
@@ -11854,32 +11882,6 @@
       "region": "Louisville",
       "notes": "Cafeteria behind the church",
       "source": "https://loukyaa.org/meetings/guerreros-louisville-spanish-thursday/"
-    },
-    {
-      "id": "aa-keepin-it-big-book-d4-2000",
-      "fellowship": "AA",
-      "name": "Keepin’ It Big Book",
-      "day": 4,
-      "time": "20:00",
-      "endTime": null,
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "E-Z Duz It Center",
-      "address": "6605 Lower Hunters Trace",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.1698328,
-      "lng": -85.8746292,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/keepin-it-big-book/"
     },
     {
       "id": "aa-matt-talbott-group-2-d4-2000",
@@ -16001,7 +16003,7 @@
       "lat": 38.1501097,
       "lng": -85.8364911,
       "region": "Louisville",
-      "notes": "Hillary Hall Building - Behind Chapel - Look for sign on door ****No Mgt on Aug 15th — ****No Mgt on Aug 15th",
+      "notes": "Hillary Hall Building - Behind Chapel - Look for sign on door",
       "source": "https://na.org/meetingsearch/"
     },
     {

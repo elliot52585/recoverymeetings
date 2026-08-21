@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-20T08:02:41.341Z",
+    "generated": "2026-08-21T08:03:20.394Z",
     "seed": false,
     "counts": {
-      "AA": 1118,
+      "AA": 1119,
       "NA": 151,
       "RD": 12
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1118,
+        "count": 1119,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -16086,6 +16086,31 @@
       "region": "Englewood",
       "notes": "ZOOM ID: 876 4237 0836\nPassword: 919883\nDial in: +1 669 900 9128",
       "source": "https://daccaa.org/meetings/friends-fellowship-3/"
+    },
+    {
+      "id": "aa-not-about-me-d3-1745",
+      "fellowship": "AA",
+      "name": "Not About Me",
+      "day": 3,
+      "time": "17:45",
+      "endTime": "18:45",
+      "types": [
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Club",
+      "address": "1311 York St",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.7369585,
+      "lng": -104.9599915,
+      "region": "Denver",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/not-about-me/"
     },
     {
       "id": "aa-20-jun-d3-1800",

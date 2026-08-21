@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-08-20T08:02:04.779Z",
+    "generated": "2026-08-21T08:02:46.623Z",
     "seed": false,
     "counts": {
       "AA": 342,
@@ -11,7 +11,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 343,
+        "count": 342,
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -4339,7 +4339,8 @@
       "endTime": "20:00",
       "types": [
         "Closed",
-        "Discussion"
+        "Discussion",
+        "Speaker"
       ],
       "online": false,
       "hybrid": false,
@@ -4352,7 +4353,7 @@
       "lat": 35.9242811,
       "lng": -83.8796626,
       "region": "Knoxville",
-      "notes": null,
+      "notes": "* closed discussion\n* first Tuesday of the month is speaker meeting",
       "source": "https://www.etiaa.org/meetings/colonial-group/"
     },
     {

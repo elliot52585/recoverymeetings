@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-08-20T08:01:57.711Z",
+    "generated": "2026-08-21T08:02:38.821Z",
     "seed": false,
     "counts": {
       "AA": 393,
@@ -7459,9 +7459,9 @@
       "source": "https://www.memphis-aa.org/meetings/fresh-start"
     },
     {
-      "id": "na-getting-another-day-starts-9-3-229744",
+      "id": "na-getting-another-day-on-9-3-229780",
       "fellowship": "NA",
-      "name": "Getting Another Day(Starts 9/3)",
+      "name": "Getting Another Day on 9/3",
       "day": 4,
       "time": "18:30",
       "endTime": "19:30",
@@ -8973,7 +8973,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "HopeNWorks",
+      "venue": "Hope Works",
       "address": "3337 Summer Ave",
       "city": "Memphis",
       "state": "TN",
