@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-21T08:02:32.308Z",
+    "generated": "2026-08-22T07:51:30.452Z",
     "seed": false,
     "counts": {
       "AA": 876,
@@ -6536,15 +6536,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "WellSpring Christian Church",
-      "address": "1001 Chapman's Crossings",
+      "venue": "Southaven at Commonwealth",
+      "address": "100 John Grn Pl",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.7537764,
-      "lng": -86.8731186,
+      "lat": 35.744596,
+      "lng": -86.9064048,
       "region": "Spring Hill",
-      "notes": "Meets at the Farm House near the East entrance",
+      "notes": "Meets at the common area next to the front office",
       "source": "https://aanashville.org/meetings/174rus11900/"
     },
     {
@@ -18588,15 +18588,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "WellSpring Christian Church",
-      "address": "1001 Chapman's Crossings",
+      "venue": "Southaven at Commonwealth",
+      "address": "100 John Grn Pl",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.7537764,
-      "lng": -86.8731186,
+      "lat": 35.744596,
+      "lng": -86.9064048,
       "region": "Spring Hill",
-      "notes": "Meets at the Farm House near the East entrance",
+      "notes": "Meets at the common area next to the front office",
       "source": "https://aanashville.org/meetings/174rus41900/"
     },
     {
@@ -25691,6 +25691,32 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-stream-of-life-d6-1800",
+      "fellowship": "AA",
+      "name": "Stream of Life",
+      "day": 6,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Closed",
+        "Discussion",
+        "Literature"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Preservation Park",
+      "address": "1600 Thompson's Station Rd W",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.8115046,
+      "lng": -86.9060571,
+      "region": "Thompson Station",
+      "notes": "Meets at the covered pavilion near parking lot",
+      "source": "https://aanashville.org/meetings/stream-of-life/"
+    },
+    {
       "id": "na-the-recovery-plug-106866",
       "fellowship": "NA",
       "name": "The Recovery Plug",
@@ -26134,32 +26160,6 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "aa-stream-of-life-d6-1900",
-      "fellowship": "AA",
-      "name": "Stream of Life",
-      "day": 6,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Literature"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "WellSpring Christian Church",
-      "address": "1001 Chapman's Crossings",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.7537764,
-      "lng": -86.8731186,
-      "region": "Spring Hill",
-      "notes": "Meets at the Farm House near the East entrance",
-      "source": "https://aanashville.org/meetings/stream-of-life/"
     },
     {
       "id": "na-tnc-the-next-chapter-159818",

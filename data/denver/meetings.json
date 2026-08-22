@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-21T08:03:20.394Z",
+    "generated": "2026-08-22T07:52:25.553Z",
     "seed": false,
     "counts": {
       "AA": 1119,
@@ -10,9 +10,8 @@
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 1119,
-        "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: daccaa.org/wp-admin/admin-ajax.php?actio — HTTP 409 | daccaa.org/wp-json/tsml/v1/meetings — HTTP 401"
       },
       "NA": {
         "ok": true,
