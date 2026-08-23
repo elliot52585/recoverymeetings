@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-08-22T07:53:42.011Z",
+    "generated": "2026-08-23T07:55:36.024Z",
     "seed": false,
     "counts": {
-      "NA": 189,
+      "NA": 177,
       "RD": 4
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 189,
+        "count": 177,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=28.5383&long_val=-81.3792&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -26,9 +26,9 @@
   },
   "meetings": [
     {
-      "id": "na-still-working-on-it-84470",
+      "id": "na-together-we-can-84470",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 0,
       "time": "09:00",
       "endTime": "10:00",
@@ -43,12 +43,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -133,30 +133,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-a-message-of-hope-173625",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 0,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-courage-to-change-153061",
       "fellowship": "NA",
       "name": "Courage To Change",
@@ -184,9 +160,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-84494",
+      "id": "na-together-we-can-84494",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 0,
       "time": "12:00",
       "endTime": "13:00",
@@ -202,12 +178,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -284,6 +260,31 @@
       "lat": 28.341721,
       "lng": -80.7264927,
       "region": "Rockledge",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-together-we-can-173626",
+      "fellowship": "NA",
+      "name": "Together We Can",
+      "day": 0,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "ESP",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "128 East Bay Ave.",
+      "city": "Longwood",
+      "state": "FL",
+      "zip": "32750",
+      "lat": 28.6992819,
+      "lng": -81.3455632,
+      "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -550,30 +551,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-a-message-of-hope-173626",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 0,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-by-young-addicts-for-young-addicts-163732",
       "fellowship": "NA",
       "name": "By Young Addicts For Young Addicts",
@@ -764,6 +741,34 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-together-we-can-84590",
+      "fellowship": "NA",
+      "name": "Together We Can",
+      "day": 0,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Children welcome",
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "Non-smoking"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "128 East Bay Ave.",
+      "city": "Longwood",
+      "state": "FL",
+      "zip": "32750",
+      "lat": 28.6992705,
+      "lng": -81.3455608,
+      "region": "Longwood",
+      "notes": "2nd/Last ANV Celebr",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-courage-to-change-145403",
       "fellowship": "NA",
       "name": "Courage To Change",
@@ -790,34 +795,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-84590",
-      "fellowship": "NA",
-      "name": "Still Working On It",
-      "day": 0,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Children welcome",
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "Non-smoking"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
-      "region": "Longwood",
-      "notes": "2nd/Last ANV Celebr",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-funcoast-na-online-meeting-84605",
       "fellowship": "NA",
       "name": "Funcoast NA Online Meeting",
@@ -839,30 +816,6 @@
       "lat": 28.574874047447,
       "lng": -81.7822265625,
       "region": null,
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173627",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 1,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -947,9 +900,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-84625",
+      "id": "na-together-we-can-84625",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 1,
       "time": "12:00",
       "endTime": "13:00",
@@ -964,12 +917,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -1052,30 +1005,6 @@
       "lat": 28.627026,
       "lng": -81.3670324,
       "region": "Maitland",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173628",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 1,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -1425,6 +1354,34 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-together-we-can-229798",
+      "fellowship": "NA",
+      "name": "Together We Can",
+      "day": 1,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Children welcome",
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "Non-smoking"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "128 East Bay Ave.",
+      "city": "Longwood",
+      "state": "FL",
+      "zip": "32750",
+      "lat": 28.6992705,
+      "lng": -81.3455608,
+      "region": "Longwood",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-believing-in-miracles-84746",
       "fellowship": "NA",
       "name": "Believing In Miracles",
@@ -1485,34 +1442,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-84747",
-      "fellowship": "NA",
-      "name": "Still Working On It",
-      "day": 1,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Children welcome",
-        "Discussion",
-        "Wheelchair accessible",
-        "LIT",
-        "Non-smoking"
-      ],
-      "online": false,
-      "hybrid": true,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
-      "region": "Longwood",
-      "notes": "1-STP,2-TRD,3-Conc,4-SPK,5-D",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-funcoast-na-online-meeting-84767",
       "fellowship": "NA",
       "name": "Funcoast NA Online Meeting",
@@ -1534,30 +1463,6 @@
       "lat": 28.574874047447,
       "lng": -81.7822265625,
       "region": null,
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173629",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 2,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -1612,9 +1517,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-84789",
+      "id": "na-together-we-can-84789",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 2,
       "time": "12:00",
       "endTime": "13:00",
@@ -1629,12 +1534,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -1721,14 +1626,15 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-152519",
+      "id": "na-together-we-can-229799",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 2,
       "time": "18:00",
       "endTime": "19:00",
       "types": [
         "Children welcome",
+        "Discussion",
         "Open",
         "Women",
         "Wheelchair accessible",
@@ -1738,14 +1644,14 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
-      "notes": "Women’s meeting",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -1801,30 +1707,6 @@
       "lng": -81.8957355,
       "region": "Leesburg",
       "notes": "Group Conscience Wednesday before ASC",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173630",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 2,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
-      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2179,6 +2061,30 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-together-we-can-173630",
+      "fellowship": "NA",
+      "name": "Together We Can",
+      "day": 2,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "128 East Bay Ave.",
+      "city": "Longwood",
+      "state": "FL",
+      "zip": "32750",
+      "lat": 28.6992819,
+      "lng": -81.3455632,
+      "region": "Longwood",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-circle-of-hope-minneola-84900",
       "fellowship": "NA",
       "name": "Circle of Hope (Minneola)",
@@ -2236,34 +2142,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-84901",
-      "fellowship": "NA",
-      "name": "Still Working On It",
-      "day": 2,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Children welcome",
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "Non-smoking"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
-      "region": "Longwood",
-      "notes": "Split meeting open/shootout",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-funcoast-na-online-meeting-84924",
       "fellowship": "NA",
       "name": "Funcoast NA Online Meeting",
@@ -2284,30 +2162,6 @@
       "lat": 28.574874047447,
       "lng": -81.7822265625,
       "region": null,
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173631",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 3,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -2338,9 +2192,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-84951",
+      "id": "na-together-we-can-229800",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 3,
       "time": "12:00",
       "endTime": "13:00",
@@ -2348,20 +2202,19 @@
         "Children welcome",
         "Discussion",
         "Open",
-        "VAR",
         "Wheelchair accessible",
         "Non-smoking"
       ],
       "online": false,
-      "hybrid": true,
+      "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -2475,30 +2328,6 @@
       "lng": -81.3647325,
       "region": "Orlando",
       "notes": "LGBTQ+",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173632",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 3,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
-      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2843,6 +2672,34 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-together-we-can-229801",
+      "fellowship": "NA",
+      "name": "Together We Can",
+      "day": 3,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Children welcome",
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "Non-smoking"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "128 East Bay Ave.",
+      "city": "Longwood",
+      "state": "FL",
+      "zip": "32750",
+      "lat": 28.6992705,
+      "lng": -81.3455608,
+      "region": "Longwood",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-we-do-recover-22747",
       "fellowship": "NA",
       "name": "We Do Recover",
@@ -2946,34 +2803,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-85053",
-      "fellowship": "NA",
-      "name": "Still Working On It",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Children welcome",
-        "Open",
-        "Wheelchair accessible",
-        "Non-smoking",
-        "SD"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
-      "region": "Longwood",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-the-chosen-few-85070",
       "fellowship": "NA",
       "name": "The Chosen Few",
@@ -3021,30 +2850,6 @@
       "lat": 28.574874047447,
       "lng": -81.7822265625,
       "region": null,
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173633",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 4,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -3100,9 +2905,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-85098",
+      "id": "na-together-we-can-229802",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 4,
       "time": "12:00",
       "endTime": "13:00",
@@ -3111,19 +2916,18 @@
         "Discussion",
         "Open",
         "Wheelchair accessible",
-        "Non-smoking",
-        "RR"
+        "Non-smoking"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -3178,30 +2982,6 @@
       "lat": 28.3039192,
       "lng": -81.4334352,
       "region": "Kissimmee",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173634",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -3553,6 +3333,34 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-together-we-can-229803",
+      "fellowship": "NA",
+      "name": "Together We Can",
+      "day": 4,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Children welcome",
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "Non-smoking"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "128 East Bay Ave.",
+      "city": "Longwood",
+      "state": "FL",
+      "zip": "32750",
+      "lat": 28.6992705,
+      "lng": -81.3455608,
+      "region": "Longwood",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-we-do-recover-165205",
       "fellowship": "NA",
       "name": "We Do Recover",
@@ -3628,35 +3436,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-85214",
-      "fellowship": "NA",
-      "name": "Still Working On It",
-      "day": 4,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Children welcome",
-        "Discussion",
-        "Open",
-        "VAR",
-        "Wheelchair accessible",
-        "Non-smoking"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
-      "region": "Longwood",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-funcoast-na-online-meeting-85236",
       "fellowship": "NA",
       "name": "Funcoast NA Online Meeting",
@@ -3678,30 +3457,6 @@
       "lat": 28.574874047447,
       "lng": -81.7822265625,
       "region": null,
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173635",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 5,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -3732,9 +3487,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-85260",
+      "id": "na-together-we-can-229804",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 5,
       "time": "12:00",
       "endTime": "13:00",
@@ -3743,19 +3498,18 @@
         "Discussion",
         "Open",
         "Wheelchair accessible",
-        "LIT",
         "Non-smoking"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -3837,30 +3591,6 @@
       "lng": -80.8181415,
       "region": "Titusville",
       "notes": "Wk 1-3: Living Clean, Wk 4 Speaker, Wk 5 Chairs Choice",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-message-of-hope-173636",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 5,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
-      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -4190,6 +3920,30 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-together-we-can-173636",
+      "fellowship": "NA",
+      "name": "Together We Can",
+      "day": 5,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "128 East Bay Ave.",
+      "city": "Longwood",
+      "state": "FL",
+      "zip": "32750",
+      "lat": 28.6992819,
+      "lng": -81.3455632,
+      "region": "Longwood",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-circle-of-hope-minneola-85351",
       "fellowship": "NA",
       "name": "Circle of Hope (Minneola)",
@@ -4306,35 +4060,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-85353",
-      "fellowship": "NA",
-      "name": "Still Working On It",
-      "day": 5,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Children welcome",
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "Non-smoking",
-        "SPK"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
-      "region": "Longwood",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-funcoast-na-online-meeting-85388",
       "fellowship": "NA",
       "name": "Funcoast NA Online Meeting",
@@ -4359,9 +4084,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-a-message-of-hope-173637",
+      "id": "na-together-we-can-173637",
       "fellowship": "NA",
-      "name": "A Message of Hope",
+      "name": "Together We Can",
       "day": 6,
       "time": "09:00",
       "endTime": "10:00",
@@ -4487,9 +4212,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-still-working-on-it-85431",
+      "id": "na-together-we-can-85431",
       "fellowship": "NA",
-      "name": "Still Working On It",
+      "name": "Together We Can",
       "day": 6,
       "time": "12:00",
       "endTime": "13:00",
@@ -4504,12 +4229,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
+      "address": "128 East Bay Ave.",
       "city": "Longwood",
       "state": "FL",
       "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
+      "lat": 28.6992705,
+      "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -4775,30 +4500,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-a-message-of-hope-173638",
-      "fellowship": "NA",
-      "name": "A Message of Hope",
-      "day": 6,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "128 East Bay Ave.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.6992819,
-      "lng": -81.3455632,
-      "region": "Longwood",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-compass-to-hope-229028",
       "fellowship": "NA",
       "name": "Compass to Hope",
@@ -5015,6 +4716,30 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-together-we-can-173638",
+      "fellowship": "NA",
+      "name": "Together We Can",
+      "day": 6,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "128 East Bay Ave.",
+      "city": "Longwood",
+      "state": "FL",
+      "zip": "32750",
+      "lat": 28.6992819,
+      "lng": -81.3455632,
+      "region": "Longwood",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-unity-85454",
       "fellowship": "NA",
       "name": "Unity",
@@ -5065,36 +4790,6 @@
       "lng": -80.7264927,
       "region": "Rockledge",
       "notes": "IMPORTANT Enter through back door",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-still-working-on-it-85512",
-      "fellowship": "NA",
-      "name": "Still Working On It",
-      "day": 6,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Children welcome",
-        "Discussion",
-        "Open",
-        "VAR",
-        "Wheelchair accessible",
-        "Non-smoking",
-        "CAN"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1656 N. Ronald Reagan Blvd.",
-      "city": "Longwood",
-      "state": "FL",
-      "zip": "32750",
-      "lat": 28.7177197,
-      "lng": -81.3398602,
-      "region": "Longwood",
-      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
