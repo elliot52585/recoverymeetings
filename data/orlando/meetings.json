@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-08-23T07:55:36.024Z",
+    "generated": "2026-08-24T08:11:21.777Z",
     "seed": false,
     "counts": {
       "NA": 177,
@@ -271,8 +271,12 @@
       "time": "16:00",
       "endTime": "17:00",
       "types": [
-        "ESP",
-        "Open"
+        "Children welcome",
+        "Discussion",
+        "Open",
+        "VAR",
+        "Wheelchair accessible",
+        "Non-smoking"
       ],
       "online": false,
       "hybrid": false,
@@ -2068,7 +2072,11 @@
       "time": "19:30",
       "endTime": "20:30",
       "types": [
-        "Open"
+        "Children welcome",
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "Non-smoking"
       ],
       "online": false,
       "hybrid": false,
@@ -2202,6 +2210,7 @@
         "Children welcome",
         "Discussion",
         "Open",
+        "VAR",
         "Wheelchair accessible",
         "Non-smoking"
       ],
@@ -2680,10 +2689,10 @@
       "endTime": "20:30",
       "types": [
         "Children welcome",
-        "Discussion",
         "Open",
         "Wheelchair accessible",
-        "Non-smoking"
+        "Non-smoking",
+        "SD"
       ],
       "online": false,
       "hybrid": false,
@@ -2916,7 +2925,8 @@
         "Discussion",
         "Open",
         "Wheelchair accessible",
-        "Non-smoking"
+        "Non-smoking",
+        "RR"
       ],
       "online": false,
       "hybrid": false,
@@ -3343,6 +3353,7 @@
         "Children welcome",
         "Discussion",
         "Open",
+        "VAR",
         "Wheelchair accessible",
         "Non-smoking"
       ],
@@ -3497,6 +3508,7 @@
         "Children welcome",
         "Discussion",
         "Open",
+        "VAR",
         "Wheelchair accessible",
         "Non-smoking"
       ],
@@ -3927,7 +3939,12 @@
       "time": "19:30",
       "endTime": "20:30",
       "types": [
-        "Open"
+        "Children welcome",
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "Non-smoking",
+        "SPK"
       ],
       "online": false,
       "hybrid": false,
@@ -4723,7 +4740,13 @@
       "time": "19:30",
       "endTime": "20:30",
       "types": [
-        "Open"
+        "Children welcome",
+        "Discussion",
+        "Open",
+        "VAR",
+        "Wheelchair accessible",
+        "Non-smoking",
+        "CAN"
       ],
       "online": false,
       "hybrid": false,

@@ -1,21 +1,22 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-23T07:54:01.274Z",
+    "generated": "2026-08-24T08:09:35.339Z",
     "seed": false,
     "counts": {
       "AA": 1376,
-      "NA": 303,
+      "NA": 302,
       "RD": 6
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "ok": true,
+        "count": 1387,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 303,
+        "count": 302,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -3328,6 +3329,31 @@
       "source": "https://atlantaaa.org/meetings/six-oclock-2/"
     },
     {
+      "id": "na-surrender-at-six-229572",
+      "fellowship": "NA",
+      "name": "Surrender At Six",
+      "day": 0,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open",
+        "FD"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Paulding RCO",
+      "address": "276 B Main St",
+      "city": "Hiram",
+      "state": "GA",
+      "zip": "30141",
+      "lat": 33.8755597,
+      "lng": -84.7593659,
+      "region": "Hiram",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-surrender-on-sunday-group-21958",
       "fellowship": "NA",
       "name": "Surrender On Sunday Group",
@@ -3480,31 +3506,6 @@
       "region": "Peachtree City",
       "notes": "Church Basement",
       "source": "https://atlantaaa.org/meetings/new-start-2/"
-    },
-    {
-      "id": "na-surrender-at-six-229572",
-      "fellowship": "NA",
-      "name": "Surrender At Six",
-      "day": 0,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Open",
-        "FD"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Paulding RCO",
-      "address": "276 B Main St",
-      "city": "Hiram",
-      "state": "GA",
-      "zip": "30141",
-      "lat": 33.8755597,
-      "lng": -84.7593659,
-      "region": "Hiram",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-turin-lost-found-2-d0-1830",
@@ -4302,33 +4303,6 @@
       "region": "Conyers",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/conyers-ga-20/"
-    },
-    {
-      "id": "na-on-the-right-track-group-57870",
-      "fellowship": "NA",
-      "name": "On The Right Track Group",
-      "day": 0,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "AB"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Hiram United Methodist Church",
-      "address": "324 Hiram Douglasville Hwy",
-      "city": "Hiram",
-      "state": "GA",
-      "zip": "30141",
-      "lat": 33.8872323,
-      "lng": -84.7578739,
-      "region": "Hiram",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-road-to-recovery-group-58212",
