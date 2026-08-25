@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-08-24T08:09:25.312Z",
+    "generated": "2026-08-25T08:04:33.396Z",
     "seed": false,
     "counts": {
       "AA": 342,
@@ -5273,7 +5273,7 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "City of Friendsville Community Center",
-      "address": "105 Homecoming Circle",
+      "address": "City of Friendsville Community Center",
       "city": null,
       "state": "TN",
       "zip": null,

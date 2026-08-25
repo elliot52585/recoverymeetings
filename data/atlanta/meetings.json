@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-24T08:09:35.339Z",
+    "generated": "2026-08-25T08:04:42.826Z",
     "seed": false,
     "counts": {
-      "AA": 1376,
+      "AA": 1375,
       "NA": 302,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1387,
+        "count": 1386,
         "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -8269,31 +8269,6 @@
       "region": "Online",
       "notes": "The meeting opens 15 minutes early for fellowship.\nTraditions meeting 1st Monday of the month.",
       "source": "https://atlantaaa.org/meetings/i-n-a-m-e-virtual-1/"
-    },
-    {
-      "id": "aa-its-not-about-me-d1-1745",
-      "fellowship": "AA",
-      "name": "It's Not About Me!",
-      "day": 1,
-      "time": "17:45",
-      "endTime": "18:45",
-      "types": [
-        "Closed",
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": true,
-      "conferenceUrl": "https://us02web.zoom.us/j/778625060?pwd=WXpKeGpRUGRJR1NGZ1ZJNkhsWGlQQT09",
-      "venue": "Collins Memorial United Methodist Church",
-      "address": "2220 Bolton Rd NW",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.8168824,
-      "lng": -84.4663019,
-      "region": "Atlanta NW",
-      "notes": "Starting August 1 Meeting will be Zoom only",
-      "source": "https://atlantaaa.org/meetings/its-not-about-me/"
     },
     {
       "id": "aa-nabazoom545-2-d1-1745",

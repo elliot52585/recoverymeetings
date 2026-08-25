@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-24T08:09:10.120Z",
+    "generated": "2026-08-25T08:04:20.923Z",
     "seed": false,
     "counts": {
-      "AA": 876,
+      "AA": 875,
       "NA": 162,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 877,
+        "count": 876,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -9791,31 +9791,6 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/217lov21830/"
-    },
-    {
-      "id": "aa-pot-o-gold-group-d2-1830",
-      "fellowship": "AA",
-      "name": "Pot o’ Gold Group",
-      "day": 2,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Erin United Methodist Church",
-      "address": "40 E Walnut St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.3193913,
-      "lng": -87.6949873,
-      "region": "Erin",
-      "notes": null,
-      "source": "https://aanashville.org/meetings/pot-o-gold-group/"
     },
     {
       "id": "na-primary-purpose-171882",
