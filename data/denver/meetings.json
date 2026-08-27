@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-26T08:05:55.947Z",
+    "generated": "2026-08-27T18:21:01.735Z",
     "seed": false,
     "counts": {
       "AA": 1119,
@@ -11,7 +11,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1119,
+        "count": 1120,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1191,8 +1191,8 @@
       "zip": null,
       "lat": 39.8300502,
       "lng": -105.0352855,
-      "region": "Denver",
-      "notes": "Join us on Zoom ~ ID: 637 092 3293\nPassword ~ 6Vzm6d",
+      "region": "Westminster",
+      "notes": "On-Line Only",
       "source": "https://daccaa.org/meetings/sunday-sobriety-online/"
     },
     {
@@ -16113,6 +16113,32 @@
       "source": "https://daccaa.org/meetings/not-about-me/"
     },
     {
+      "id": "aa-sisters-sharing-sobriety-d3-1745",
+      "fellowship": "AA",
+      "name": "Sisters Sharing Sobriety",
+      "day": 3,
+      "time": "17:45",
+      "endTime": "18:45",
+      "types": [
+        "Big Book",
+        "Closed",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Club",
+      "address": "8484 S Valley Hwy",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.56071,
+      "lng": -104.8681551,
+      "region": "Englewood",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/sisters-sharing-sobriety/"
+    },
+    {
       "id": "aa-20-jun-d3-1800",
       "fellowship": "AA",
       "name": "231 Buckley",
@@ -16490,31 +16516,6 @@
       "region": "Littleton",
       "notes": null,
       "source": "https://daccaa.org/meetings/1000-2590/"
-    },
-    {
-      "id": "aa-sisters-sharing-sobriety-d3-1800",
-      "fellowship": "AA",
-      "name": "Sisters Sharing Sobriety",
-      "day": 3,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Big Book",
-        "Closed"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club",
-      "address": "8484 S Valley Hwy",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.56071,
-      "lng": -104.8681551,
-      "region": "Englewood",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/sisters-sharing-sobriety/"
     },
     {
       "id": "aa-wednesday-night-open-candlelight-d3-1800",
@@ -31974,14 +31975,14 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "aa-431-975-d6-2030",
+      "id": "aa-vie-tality-3-d6-2030",
       "fellowship": "AA",
       "name": "Vie-Tality",
       "day": 6,
       "time": "20:30",
       "endTime": "21:30",
       "types": [
-        "Open"
+        "Big Book"
       ],
       "online": true,
       "hybrid": false,
@@ -31991,11 +31992,11 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.8366528,
-      "lng": -105.0372046,
+      "lat": 39.8300502,
+      "lng": -105.0352855,
       "region": "Westminster",
-      "notes": "JOIN VIA ZOOM at Noon and 8:30 pm meetings.\nMeeting ID: 572 587 9228\nPassword: 505568\nMeeting online",
-      "source": "https://daccaa.org/meetings/431-975/"
+      "notes": "On-Line Only",
+      "source": "https://daccaa.org/meetings/vie-tality-3/"
     },
     {
       "id": "na-blues-breakers-105320",

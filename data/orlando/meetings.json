@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-08-26T08:07:11.440Z",
+    "generated": "2026-08-27T18:22:20.252Z",
     "seed": false,
     "counts": {
       "NA": 177,
@@ -264,9 +264,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-together-we-can-173626",
+      "id": "na-juntos-podemos-173626",
       "fellowship": "NA",
-      "name": "Together We Can",
+      "name": "Juntos Podemos",
       "day": 0,
       "time": "16:00",
       "endTime": "17:00",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-08-26T08:07:49.481Z",
+    "generated": "2026-08-27T18:22:56.273Z",
     "seed": false,
     "counts": {
       "AA": 682,
@@ -10633,6 +10633,32 @@
       "source": "https://neflaa.org/meetings/central-group-21/"
     },
     {
+      "id": "na-living-clean-85055",
+      "fellowship": "NA",
+      "name": "Living Clean",
+      "day": 3,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "RF"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "5927 Old Timuquana Rd",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32210",
+      "lat": 30.2476744,
+      "lng": -81.7371297,
+      "region": "Jacksonville",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-living-in-the-light-6-d3-1930",
       "fellowship": "AA",
       "name": "Living In The Light",
@@ -10874,32 +10900,6 @@
       "region": "Jacksonville",
       "notes": "Closed Discussion",
       "source": "https://neflaa.org/meetings/jax-mens-group/"
-    },
-    {
-      "id": "na-living-clean-85055",
-      "fellowship": "NA",
-      "name": "Living Clean",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Open",
-        "Wheelchair accessible",
-        "RF"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "St. Peter's Episcopal Church",
-      "address": "5042 Timuquana Rd",
-      "city": "Jacksonville",
-      "state": "FL",
-      "zip": "32210",
-      "lat": 30.2468541,
-      "lng": -81.7127529,
-      "region": "Jacksonville",
-      "notes": "Adult Center, Room 6",
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-oyster-creek-group-4-d3-2000",

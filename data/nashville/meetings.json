@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-26T08:05:14.534Z",
+    "generated": "2026-08-27T18:20:23.472Z",
     "seed": false,
     "counts": {
-      "AA": 875,
-      "NA": 162,
+      "AA": 876,
+      "NA": 161,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -20,12 +20,12 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 876,
+        "count": 877,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 163,
+        "count": 162,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -12571,31 +12571,6 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
-      "id": "na-primary-purpose-170911",
-      "fellowship": "NA",
-      "name": "Primary Purpose",
-      "day": 3,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Cumberland Presbyterian Church",
-      "address": "522 Castle Heights Ave.",
-      "city": "Lebanon",
-      "state": "TN",
-      "zip": "37090",
-      "lat": 36.1992624,
-      "lng": -86.3097066,
-      "region": "Lebanon",
-      "notes": null,
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
       "id": "aa-212sai31200-d3-1200",
       "fellowship": "AA",
       "name": "Saint A's",
@@ -21787,6 +21762,32 @@
       "region": "Madison",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
+    },
+    {
+      "id": "aa-womens-closed-discussion-d5-1900",
+      "fellowship": "AA",
+      "name": "Action Now",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Episcopal Church of the Redeemer",
+      "address": "203 E Lane St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.4849693,
+      "lng": -86.4581182,
+      "region": "Shelbyville",
+      "notes": "Entrance to the meeting room is off Jefferson St. on the backside of the church",
+      "source": "https://aanashville.org/meetings/womens-closed-discussion/"
     },
     {
       "id": "na-breaking-free-166283",
