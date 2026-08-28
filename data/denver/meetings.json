@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-27T18:21:01.735Z",
+    "generated": "2026-08-28T19:30:13.989Z",
     "seed": false,
     "counts": {
-      "AA": 1119,
+      "AA": 1118,
       "NA": 151,
       "RD": 12
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1120,
+        "count": 1119,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -16386,7 +16386,7 @@
       "lat": 39.7542465,
       "lng": -104.7871004,
       "region": "Aurora",
-      "notes": "JOIN VIA ZOOM:\nMeeting ID: 85944353212\nPassword: 196217",
+      "notes": "JOIN VIA ZOOM:\nMeeting ID: 85944353212\nPassword: 196217\nLAST MEETING SEPTEMBER 30, 2026",
       "source": "https://daccaa.org/meetings/982-2534/"
     },
     {
@@ -18030,31 +18030,6 @@
       "region": "Denver",
       "notes": "Join us online at Zoom: ID# 879 7190 2252\nPassword: 959425",
       "source": "https://daccaa.org/meetings/midweek-madmen/"
-    },
-    {
-      "id": "aa-964-2500-d3-1930",
-      "fellowship": "AA",
-      "name": "Now H.O.W.",
-      "day": 3,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Beginner",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/92551177507",
-      "venue": "Denver, CO",
-      "address": "Denver",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.6751269,
-      "lng": -104.9680914,
-      "region": "Denver",
-      "notes": "Join Zoom Meeting\nMeeting ID: 925 5117 7507",
-      "source": "https://daccaa.org/meetings/964-2500/"
     },
     {
       "id": "na-one-promise-167366",
