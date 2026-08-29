@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-08-28T19:32:02.004Z",
+    "generated": "2026-08-29T13:16:22.774Z",
     "seed": false,
     "counts": {
-      "NA": 340,
+      "NA": 339,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 347,
+        "count": 346,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -7058,32 +7058,6 @@
       "lng": -82.4262379,
       "region": "Parrish",
       "notes": "Red door to the right of sanctuary",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-recovery-in-the-sticks-228401",
-      "fellowship": "NA",
-      "name": "Recovery In The Sticks",
-      "day": 5,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Children welcome",
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "5300 Beulah Church Rd",
-      "city": "Lithia",
-      "state": "FL",
-      "zip": "33547",
-      "lat": 27.8657343,
-      "lng": -82.0493378,
-      "region": "Lithia",
-      "notes": "Childcare Provided",
       "source": "https://na.org/meetingsearch/"
     },
     {

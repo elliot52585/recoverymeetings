@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-08-28T19:30:13.989Z",
+    "generated": "2026-08-29T13:14:36.234Z",
     "seed": false,
     "counts": {
       "AA": 1118,
@@ -11368,6 +11368,32 @@
       "source": "https://daccaa.org/meetings/331-791/"
     },
     {
+      "id": "aa-11th-steppers-d2-1800",
+      "fellowship": "AA",
+      "name": "11th Steppers",
+      "day": 2,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Meditation",
+        "Open",
+        "Step study"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Club",
+      "address": "10576 W Alameda Ave",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.7104047,
+      "lng": -105.1163551,
+      "region": "Lakewood",
+      "notes": "11th Step Study",
+      "source": "https://daccaa.org/meetings/11th-steppers/"
+    },
+    {
       "id": "aa-19-jun-d2-1800",
       "fellowship": "AA",
       "name": "231 Buckley",
@@ -11974,32 +12000,6 @@
       "region": "Denver",
       "notes": null,
       "source": "https://daccaa.org/meetings/sisterhood/"
-    },
-    {
-      "id": "aa-11th-steppers-d2-1845",
-      "fellowship": "AA",
-      "name": "11th Steppers",
-      "day": 2,
-      "time": "18:45",
-      "endTime": "19:45",
-      "types": [
-        "Meditation",
-        "Open",
-        "Step study"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club",
-      "address": "10576 W Alameda Ave",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7104047,
-      "lng": -105.1163551,
-      "region": "Lakewood",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/11th-steppers/"
     },
     {
       "id": "rd-dharma-the-phoenix-2-d2-1845",

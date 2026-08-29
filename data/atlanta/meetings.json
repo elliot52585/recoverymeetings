@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-28T19:29:59.474Z",
+    "generated": "2026-08-29T13:14:23.377Z",
     "seed": false,
     "counts": {
       "AA": 1375,
@@ -17635,7 +17635,7 @@
       "lat": 33.7755211,
       "lng": -84.3050144,
       "region": "Decatur",
-      "notes": "Starting Sept 1, 2026 will be moving to\nFirst Baptist Chruch of Decatur\n308 Clairmont Ave\nAtlanta, GA 30030",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/ponce-de-leon/"
     },
     {
