@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-08-29T13:14:14.737Z",
+    "generated": "2026-08-30T13:02:11.251Z",
     "seed": false,
     "counts": {
       "AA": 342,
@@ -641,8 +641,8 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "Closed",
         "Discussion",
+        "Open",
         "Wheelchair accessible"
       ],
       "online": false,
@@ -5601,8 +5601,8 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "12x12",
         "Closed",
+        "Discussion",
         "Wheelchair accessible"
       ],
       "online": false,

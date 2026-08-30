@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-08-29T13:14:01.154Z",
+    "generated": "2026-08-30T13:01:59.185Z",
     "seed": false,
     "counts": {
-      "AA": 876,
+      "AA": 875,
       "NA": 161,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 877,
+        "count": 876,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -19512,32 +19512,6 @@
       "region": "Lebanon",
       "notes": "2nd Street Off Square- Handicapped accessible",
       "source": "https://aanashville.org/meetings/087wil42000/"
-    },
-    {
-      "id": "aa-wombleys-clapboard-factory-d4-2000",
-      "fellowship": "AA",
-      "name": "Wombley's Clapboard Factory",
-      "day": 4,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Closed",
-        "Literature",
-        "Men"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/82878515691",
-      "venue": null,
-      "address": "Nashville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1805194,
-      "lng": -86.7265483,
-      "region": "Nashville",
-      "notes": "ID: 828 7851 5691\nPW: 4444",
-      "source": "https://aanashville.org/meetings/wombleys-clapboard-factory/"
     },
     {
       "id": "aa-211woo42000-d4-2000",

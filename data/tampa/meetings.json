@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-08-29T13:16:22.774Z",
+    "generated": "2026-08-30T13:04:19.445Z",
     "seed": false,
     "counts": {
       "NA": 339,
@@ -6590,31 +6590,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-just-for-today-229468",
-      "fellowship": "NA",
-      "name": "Just for Today",
-      "day": 5,
-      "time": "07:30",
-      "endTime": "08:30",
-      "types": [
-        "Discussion",
-        "JFT"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "2010 North Nebraska Ave",
-      "city": "Tampa",
-      "state": "FL",
-      "zip": "33602",
-      "lat": 27.9631037,
-      "lng": -82.4514151,
-      "region": "Tampa",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-serenity-in-the-morning-97525",
       "fellowship": "NA",
       "name": "Serenity in the Morning",
@@ -6710,6 +6685,31 @@
       "zip": "33612",
       "lat": 28.0564611,
       "lng": -82.4516225,
+      "region": "Tampa",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-just-for-today-229468",
+      "fellowship": "NA",
+      "name": "Just for Today",
+      "day": 5,
+      "time": "10:00",
+      "endTime": "11:00",
+      "types": [
+        "Discussion",
+        "JFT"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "2010 North Nebraska Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33602",
+      "lat": 27.9631037,
+      "lng": -82.4514151,
       "region": "Tampa",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
