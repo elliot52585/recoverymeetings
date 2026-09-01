@@ -1,23 +1,22 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-08-31T15:13:22.096Z",
+    "generated": "2026-09-01T12:38:44.193Z",
     "seed": false,
     "counts": {
-      "AA": 1376,
+      "AA": 1377,
       "NA": 302,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1387,
+        "count": 1388,
         "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": true,
-        "count": 302,
-        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
+        "ok": false,
+        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
       },
       "RD": {
         "ok": true,
@@ -36466,6 +36465,31 @@
       "region": "Smyrna",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/friday-night-candlelight/"
+    },
+    {
+      "id": "aa-friday-night-group-carrollton-d5-2000",
+      "fellowship": "AA",
+      "name": "Friday Night Group - Carrollton",
+      "day": 5,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Our Lady of Perpetual Help",
+      "address": "210 Old Center Point Rd",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.6629624,
+      "lng": -85.0503474,
+      "region": "Carrollton",
+      "notes": null,
+      "source": "https://atlantaaa.org/meetings/friday-night-group-carrollton/"
     },
     {
       "id": "aa-friday-night-lights-2-d5-2000",

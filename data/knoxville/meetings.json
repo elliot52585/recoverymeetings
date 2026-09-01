@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-08-31T15:13:14.571Z",
+    "generated": "2026-09-01T12:38:33.341Z",
     "seed": false,
     "counts": {
       "AA": 342,
@@ -15,9 +15,8 @@
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": true,
-        "count": 101,
-        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.9606&long_val=-83.9207&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
+        "ok": false,
+        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.9606&long_val=-83.9207&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
       },
       "RD": {
         "ok": true,
@@ -535,8 +534,8 @@
       "time": "13:00",
       "endTime": "14:00",
       "types": [
-        "Closed",
         "Discussion",
+        "Open",
         "Women"
       ],
       "online": false,

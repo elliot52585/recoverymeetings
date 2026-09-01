@@ -1,22 +1,22 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-08-31T15:13:41.509Z",
+    "generated": "2026-09-01T12:38:54.210Z",
     "seed": false,
     "counts": {
-      "AA": 539,
+      "AA": 537,
       "NA": 83,
       "RD": 2
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
+        "ok": true,
+        "count": 537,
+        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": true,
-        "count": 83,
-        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=38.2527&long_val=-85.7585&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
+        "ok": false,
+        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=38.2527&long_val=-85.7585&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
       },
       "RD": {
         "ok": true,
@@ -1216,32 +1216,6 @@
       "region": "Floyd County IN",
       "notes": null,
       "source": "https://loukyaa.org/meetings/all-in-group/"
-    },
-    {
-      "id": "aa-big-book-for-dummies-d0-1900",
-      "fellowship": "AA",
-      "name": "Big Book For Dummies",
-      "day": 0,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Literature",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Women's Healing Place",
-      "address": "1503 S 15th St",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2265235,
-      "lng": -85.7798622,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/big-book-for-dummies/"
     },
     {
       "id": "aa-drop-that-thought-d0-1900",
@@ -9337,33 +9311,6 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/pages-of-progress/"
-    },
-    {
-      "id": "aa-power-in-the-pages-womens-meeting-d3-2000",
-      "fellowship": "AA",
-      "name": "Power In The Pages Women's Meeting",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Big Book",
-        "Discussion",
-        "Open",
-        "Women"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Women's Healing Place",
-      "address": "1503 S 15th St",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2265235,
-      "lng": -85.7798622,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/power-in-the-pages-womens-meeting/"
     },
     {
       "id": "aa-primary-purpose-group-d3-2000",

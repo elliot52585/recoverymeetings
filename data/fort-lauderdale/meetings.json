@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "fort-lauderdale",
-    "generated": "2026-08-31T15:16:06.106Z",
+    "generated": "2026-09-01T12:41:43.417Z",
     "seed": false,
     "counts": {
       "NA": 464,
@@ -13,9 +13,8 @@
         "error": "all TSML feeds failed: aabroward.org/wp-admin/admin-ajax.php?ac — HTTP 400 | aabroward.org/wp-json/tsml/v1/meetings — HTTP 404"
       },
       "NA": {
-        "ok": true,
-        "count": 471,
-        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=26.1224&long_val=-80.1373&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
+        "ok": false,
+        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=26.1224&long_val=-80.1373&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
       },
       "RD": {
         "ok": true,
