@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-09-01T12:41:53.786Z",
+    "generated": "2026-09-02T12:13:30.834Z",
     "seed": false,
     "counts": {
       "AA": 495,
@@ -15,8 +15,9 @@
         "source": "https://aa-palmbeachcounty.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": false,
-        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=26.7153&long_val=-80.0534&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
+        "ok": true,
+        "count": 271,
+        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=26.7153&long_val=-80.0534&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
         "ok": true,

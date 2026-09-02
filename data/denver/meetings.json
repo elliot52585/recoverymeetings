@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-01T12:39:05.758Z",
+    "generated": "2026-09-02T12:10:58.018Z",
     "seed": false,
     "counts": {
       "AA": 1118,
@@ -15,8 +15,9 @@
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": false,
-        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=39.7392&long_val=-104.9903&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
+        "ok": true,
+        "count": 152,
+        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=39.7392&long_val=-104.9903&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
         "ok": true,
@@ -16385,7 +16386,7 @@
       "lat": 39.7542465,
       "lng": -104.7871004,
       "region": "Aurora",
-      "notes": "JOIN VIA ZOOM:\nMeeting ID: 85944353212\nPassword: 196217\nLAST MEETING SEPTEMBER 30, 2026",
+      "notes": "JOIN VIA ZOOM:Meeting ID: 85944353212\nPassword: 19621\nLAST MEETING SEPTEMBER 30, 2026",
       "source": "https://daccaa.org/meetings/982-2534/"
     },
     {

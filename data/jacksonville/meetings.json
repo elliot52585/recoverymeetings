@@ -1,22 +1,23 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-09-01T12:41:11.366Z",
+    "generated": "2026-09-02T12:12:45.318Z",
     "seed": false,
     "counts": {
-      "AA": 682,
+      "AA": 681,
       "NA": 73,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 693,
+        "count": 692,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": false,
-        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=30.3322&long_val=-81.6557&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
+        "ok": true,
+        "count": 74,
+        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=30.3322&long_val=-81.6557&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
         "ok": true,
@@ -7342,8 +7343,7 @@
       "endTime": null,
       "types": [
         "Open",
-        "Discussion",
-        "Speaker"
+        "Step study"
       ],
       "online": false,
       "hybrid": false,
@@ -7356,7 +7356,7 @@
       "lat": 30.6307263,
       "lng": -81.5457056,
       "region": "Yulee",
-      "notes": null,
+      "notes": "New Vision Congressional Churh",
       "source": "https://neflaa.org/meetings/diverse-views/"
     },
     {
@@ -18560,30 +18560,6 @@
       "region": "Jacksonville",
       "notes": null,
       "source": "https://neflaa.org/meetings/fiesta-group-28/"
-    },
-    {
-      "id": "aa-marrieta-meeting-2-d6-1900",
-      "fellowship": "AA",
-      "name": "Marrieta Meeting",
-      "day": 6,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Whitehouse Church of God",
-      "address": "419 Maple Ave",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.3241581,
-      "lng": -81.8145976,
-      "region": "Jacksonville",
-      "notes": null,
-      "source": "https://neflaa.org/meetings/marrieta-meeting-2/"
     },
     {
       "id": "na-mustard-seed-group-154297",

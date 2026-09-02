@@ -1,22 +1,22 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-09-01T12:38:44.193Z",
+    "generated": "2026-09-02T12:10:45.489Z",
     "seed": false,
     "counts": {
       "AA": 1377,
-      "NA": 302,
+      "NA": 303,
       "RD": 6
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 1388,
-        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
       },
       "NA": {
-        "ok": false,
-        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
+        "ok": true,
+        "count": 303,
+        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
         "ok": true,
@@ -2147,7 +2147,7 @@
       "lat": 33.947526,
       "lng": -84.3300482,
       "region": "Dunwoody",
-      "notes": "July 27, August 24, September 28, October 26, November 23, December 14",
+      "notes": "September 27, October 25, November 22, December 20,  Area Service Empowerment Workshop: October 4",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -15912,6 +15912,31 @@
       "region": "Online",
       "notes": "12 Steps &amp; 12 Traditions",
       "source": "https://atlantaaa.org/meetings/no-name-group-mcdonough-online/"
+    },
+    {
+      "id": "na-north-atlanta-area-pr-subcommittee-meeting-229979",
+      "fellowship": "NA",
+      "name": "North Atlanta Area PR Subcommittee Meeting",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "ASM"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Mo's Pizza",
+      "address": "3109 Briarcliff Road, NE",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30329",
+      "lat": 33.8370838,
+      "lng": -84.3104844,
+      "region": "Atlanta",
+      "notes": "Meeting is held the second Tuesday of each month.",
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-on-the-porch-d2-1900",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-09-01T12:38:22.938Z",
+    "generated": "2026-09-02T12:10:18.990Z",
     "seed": false,
     "counts": {
       "AA": 393,
@@ -15,8 +15,9 @@
         "source": "https://www.memphis-aa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
-        "ok": false,
-        "error": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.1495&long_val=-90.049&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type — HTTP 503"
+        "ok": true,
+        "count": 43,
+        "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.1495&long_val=-90.049&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
         "ok": true,
@@ -7335,9 +7336,9 @@
       "source": "https://www.memphis-aa.org/meetings/collierville-squares-3"
     },
     {
-      "id": "na-fresh-start-starts-sept-3rd-229761",
+      "id": "na-fresh-start-229761",
       "fellowship": "NA",
-      "name": "Fresh Start (Starts Sept 3rd)",
+      "name": "Fresh Start",
       "day": 4,
       "time": "18:00",
       "endTime": "19:00",
@@ -7458,9 +7459,9 @@
       "source": "https://www.memphis-aa.org/meetings/fresh-start"
     },
     {
-      "id": "na-getting-another-day-on-9-3-229780",
+      "id": "na-getting-another-day-229780",
       "fellowship": "NA",
-      "name": "Getting Another Day on 9/3",
+      "name": "Getting Another Day",
       "day": 4,
       "time": "18:30",
       "endTime": "19:30",
