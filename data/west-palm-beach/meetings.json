@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-09-02T12:13:30.834Z",
+    "generated": "2026-09-03T12:12:54.802Z",
     "seed": false,
     "counts": {
       "AA": 495,
@@ -14164,7 +14164,6 @@
       "endTime": "22:00",
       "types": [
         "Discussion",
-        "Literature",
         "Open"
       ],
       "online": false,
@@ -14178,7 +14177,7 @@
       "lat": 26.6524829,
       "lng": -80.2232213,
       "region": "Wellington",
-      "notes": "O, D, L",
+      "notes": "O, D,",
       "source": "https://aapalmbeachcounty.org/meetings/the-night-owls-5/"
     },
     {
@@ -16909,8 +16908,8 @@
       "time": "21:00",
       "endTime": "22:00",
       "types": [
+        "Big Book",
         "Discussion",
-        "Literature",
         "Open"
       ],
       "online": false,
@@ -16924,7 +16923,7 @@
       "lat": 26.6524829,
       "lng": -80.2232213,
       "region": "Wellington",
-      "notes": "O, D, L",
+      "notes": "O, D, BB",
       "source": "https://aapalmbeachcounty.org/meetings/the-night-owls-6/"
     },
     {

@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-02T12:10:58.018Z",
+    "generated": "2026-09-03T12:10:32.341Z",
     "seed": false,
     "counts": {
-      "AA": 1118,
+      "AA": 1120,
       "NA": 151,
       "RD": 12
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1119,
+        "count": 1121,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -2937,6 +2937,32 @@
       "region": "Golden",
       "notes": null,
       "source": "https://daccaa.org/meetings/175-1896/"
+    },
+    {
+      "id": "aa-into-the-solution-d0-1800",
+      "fellowship": "AA",
+      "name": "Into the Solution",
+      "day": 0,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Big Book",
+        "Beginner",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Club",
+      "address": "Parking lot",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.7247771,
+      "lng": -104.812572,
+      "region": "Aurora",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/into-the-solution/"
     },
     {
       "id": "aa-230-533-d0-1800",
@@ -26832,6 +26858,31 @@
       "region": "Broomfield",
       "notes": null,
       "source": "https://daccaa.org/meetings/67-199/"
+    },
+    {
+      "id": "aa-freaky-friday-d5-1930",
+      "fellowship": "AA",
+      "name": "Freaky Friday",
+      "day": 5,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Closed",
+        "LGBTQ"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Club",
+      "address": "8484 S Valley Hwy",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.56071,
+      "lng": -104.8681551,
+      "region": "Englewood",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/freaky-friday/"
     },
     {
       "id": "aa-32-117-d5-1930",

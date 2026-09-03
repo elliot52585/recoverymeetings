@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-02T12:10:12.747Z",
+    "generated": "2026-09-03T12:09:57.954Z",
     "seed": false,
     "counts": {
       "AA": 875,
@@ -22551,6 +22551,32 @@
       "source": "https://aanashville.org/meetings/the-4th-dimension-group/"
     },
     {
+      "id": "aa-202-friendship-house-31-d5-2000",
+      "fellowship": "AA",
+      "name": "\"Chilllin' the Most\"",
+      "day": 5,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Meditation",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Friendship House",
+      "address": "202 23rd Ave N",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.1511908,
+      "lng": -86.8059113,
+      "region": "Nashville",
+      "notes": "Tel. 615-327-3909",
+      "source": "https://aanashville.org/meetings/202-friendship-house-31/"
+    },
+    {
       "id": "aa-217cam52000-d5-2000",
       "fellowship": "AA",
       "name": "Camino A La Sobriedad",
@@ -22805,31 +22831,6 @@
       "region": "Lafayette",
       "notes": "Last Friday OS",
       "source": "https://aanashville.org/meetings/083laf52000/"
-    },
-    {
-      "id": "aa-202-friendship-house-31-d5-2000",
-      "fellowship": "AA",
-      "name": "Last House on the Block",
-      "day": 5,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Friendship House",
-      "address": "202 23rd Ave N",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1511908,
-      "lng": -86.8059113,
-      "region": "Nashville",
-      "notes": "Tel. 615-327-3909",
-      "source": "https://aanashville.org/meetings/202-friendship-house-31/"
     },
     {
       "id": "aa-murfreesboro-group-d5-2000",

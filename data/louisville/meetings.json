@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-09-02T12:10:51.755Z",
+    "generated": "2026-09-03T12:10:26.169Z",
     "seed": false,
     "counts": {
       "AA": 537,
@@ -2782,7 +2782,7 @@
     {
       "id": "aa-agape-group-d1-1800",
       "fellowship": "AA",
-      "name": "Agape Group",
+      "name": "Agape Group Women's Meeting",
       "day": 1,
       "time": "18:00",
       "endTime": "19:00",
@@ -2791,7 +2791,8 @@
         "Literature",
         "Open",
         "Wheelchair accessible",
-        "XB"
+        "XB",
+        "Women"
       ],
       "online": false,
       "hybrid": false,
@@ -13851,13 +13852,13 @@
       "online": false,
       "hybrid": true,
       "conferenceUrl": "https://zoom.us/j/2179587652",
-      "venue": "St. Martin De Porres",
-      "address": "3112 W Broadway",
+      "venue": "Care Center",
+      "address": "3705 Bells Ln",
       "city": null,
       "state": "KY",
       "zip": null,
-      "lat": 38.2491306,
-      "lng": -85.8047626,
+      "lat": 38.2224267,
+      "lng": -85.8184369,
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/36th-street-group/"

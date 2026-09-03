@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-09-02T12:12:45.318Z",
+    "generated": "2026-09-03T12:12:15.843Z",
     "seed": false,
     "counts": {
-      "AA": 681,
+      "AA": 679,
       "NA": 73,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 692,
+        "count": 690,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -422,32 +422,6 @@
       "region": "Jacksonville",
       "notes": "Open Literature Mens",
       "source": "https://neflaa.org/meetings/spiritual-knights-mens/"
-    },
-    {
-      "id": "aa-survivors-group-10-d0-0900",
-      "fellowship": "AA",
-      "name": "Survivors Group",
-      "day": 0,
-      "time": "09:00",
-      "endTime": "10:00",
-      "types": [
-        "Closed",
-        "Speaker",
-        "Women"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/82739813313",
-      "venue": "Jacksonville",
-      "address": "Jacksonville",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.3297566,
-      "lng": -81.6591529,
-      "region": "Zoom",
-      "notes": "Zoom ID 893 9095 3434\nPassword 465935",
-      "source": "https://neflaa.org/meetings/survivors-group-10/"
     },
     {
       "id": "aa-sunday-morning-breakfast-d0-0930",
@@ -2785,33 +2759,6 @@
       "source": "https://neflaa.org/meetings/kingsland-recovery-group-2/"
     },
     {
-      "id": "aa-survivors-group-7-d1-0900",
-      "fellowship": "AA",
-      "name": "Survivors Group",
-      "day": 1,
-      "time": "09:00",
-      "endTime": "10:00",
-      "types": [
-        "Big Book",
-        "Closed",
-        "Discussion",
-        "Women"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/82739813313",
-      "venue": "Jacksonville",
-      "address": "Jacksonville",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.3297566,
-      "lng": -81.6591529,
-      "region": "Zoom",
-      "notes": "Zoom ID 893 9095 3434\nPassword 465935",
-      "source": "https://neflaa.org/meetings/survivors-group-7/"
-    },
-    {
       "id": "aa-living-in-the-light-1-d1-0930",
       "fellowship": "AA",
       "name": "Living In The Light",
@@ -3050,7 +2997,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "400 San Juan Dr., Ponte Vedra Beach 32082",
+      "venue": "Christ Church",
       "address": "400 San Juan Dr",
       "city": null,
       "state": "FL",
@@ -4641,7 +4588,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "400 San Juan Dr., Ponte Vedra Beach 32082",
+      "venue": "Christ Church",
       "address": "400 San Juan Dr",
       "city": null,
       "state": "FL",
@@ -5932,32 +5879,6 @@
       "source": "https://neflaa.org/meetings/springfield-serenity/"
     },
     {
-      "id": "aa-survivors-group-8-d2-0900",
-      "fellowship": "AA",
-      "name": "Survivors Group",
-      "day": 2,
-      "time": "09:00",
-      "endTime": "10:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Women"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/82739813313",
-      "venue": "Jacksonville",
-      "address": "Jacksonville",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.3297566,
-      "lng": -81.6591529,
-      "region": "Zoom",
-      "notes": "Ask it Basket Discussion\nZoom ID 893 9095 3434\nPassword 465935",
-      "source": "https://neflaa.org/meetings/survivors-group-8/"
-    },
-    {
       "id": "aa-living-in-the-light-3-d2-0930",
       "fellowship": "AA",
       "name": "Living In The Light",
@@ -6761,8 +6682,8 @@
       "time": "18:00",
       "endTime": null,
       "types": [
-        "Discussion",
-        "Open"
+        "Closed",
+        "Discussion"
       ],
       "online": false,
       "hybrid": false,
@@ -7141,7 +7062,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "400 San Juan Dr., Ponte Vedra Beach 32082",
+      "venue": "Christ Church",
       "address": "400 San Juan Dr",
       "city": null,
       "state": "FL",
@@ -8948,7 +8869,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "400 San Juan Dr., Ponte Vedra Beach 32082",
+      "venue": "Christ Church",
       "address": "400 San Juan Dr",
       "city": null,
       "state": "FL",
@@ -10476,6 +10397,31 @@
       "source": "https://neflaa.org/meetings/sojourn-group-3/"
     },
     {
+      "id": "aa-switzerland-group-d3-1900",
+      "fellowship": "AA",
+      "name": "Switzerland Group",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Swiss Cove Christian Church",
+      "address": "1965 State Rd 13 N",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.0785483,
+      "lng": -81.6441989,
+      "region": "Fruit Cove",
+      "notes": "The first Wednesday of the month is a Step Meeting. The step corresponds with the month.\nHandicap Accessible Facility",
+      "source": "https://neflaa.org/meetings/switzerland-group/"
+    },
+    {
       "id": "na-unspoken-truth-167303",
       "fellowship": "NA",
       "name": "Unspoken Truth",
@@ -10680,29 +10626,31 @@
       "source": "https://neflaa.org/meetings/living-in-the-light-6/"
     },
     {
-      "id": "aa-switzerland-group-d3-1930",
+      "id": "aa-step-brothers-d3-1930",
       "fellowship": "AA",
-      "name": "Switzerland Group",
+      "name": "Step Brothers",
       "day": 3,
       "time": "19:30",
-      "endTime": null,
+      "endTime": "20:30",
       "types": [
+        "Closed",
         "Discussion",
-        "Open"
+        "Literature",
+        "Men"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Swiss Cove Christian Church",
-      "address": "1965 State Rd 13 N",
+      "venue": "Christ Church",
+      "address": "400 San Juan Dr",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 30.0785483,
-      "lng": -81.6441989,
-      "region": "Fruit Cove",
-      "notes": "The first Wednesday of the month is a Step Meeting. The step corresponds with the month.\nHandicap Accessible Facility",
-      "source": "https://neflaa.org/meetings/switzerland-group/"
+      "lat": 30.2281636,
+      "lng": -81.3807674,
+      "region": "Ponte Vedra Beach",
+      "notes": null,
+      "source": "https://neflaa.org/meetings/step-brothers/"
     },
     {
       "id": "aa-arlington-group-11-d3-2000",
@@ -11529,33 +11477,6 @@
       "region": null,
       "notes": "Big Book Study",
       "source": "https://neflaa.org/meetings/kingsland-recovery-group-9/"
-    },
-    {
-      "id": "aa-survivors-group-9-d4-0900",
-      "fellowship": "AA",
-      "name": "Survivors Group",
-      "day": 4,
-      "time": "09:00",
-      "endTime": "10:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "LS",
-        "Women"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/82739813313",
-      "venue": "Jacksonville",
-      "address": "Jacksonville",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.3297566,
-      "lng": -81.6591529,
-      "region": "Zoom",
-      "notes": "Zoom ID 893 9095 3434\nPassword 465935",
-      "source": "https://neflaa.org/meetings/survivors-group-9/"
     },
     {
       "id": "aa-living-in-the-light-7-d4-0930",
@@ -12593,7 +12514,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "400 San Juan Dr., Ponte Vedra Beach 32082",
+      "venue": "Christ Church",
       "address": "400 San Juan Dr",
       "city": null,
       "state": "FL",
@@ -15722,6 +15643,30 @@
       "source": "https://neflaa.org/meetings/sons-of-the-spirit/"
     },
     {
+      "id": "aa-true-grit-relentless-recovery-d5-1830",
+      "fellowship": "AA",
+      "name": "True Grit Relentless Recovery",
+      "day": 5,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "2125 Ocean Front, Neptune Beach 32266",
+      "address": "2125 Ocean Front",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3083106,
+      "lng": -81.3931522,
+      "region": "Neptune Beach",
+      "notes": "First Christian Church of the Beaches\nFellowship after the meeting dinner, planned fun activities.",
+      "source": "https://neflaa.org/meetings/true-grit-relentless-recovery/"
+    },
+    {
       "id": "na-courage-to-change-161965",
       "fellowship": "NA",
       "name": "Courage to Change",
@@ -17034,7 +16979,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "400 San Juan Dr., Ponte Vedra Beach 32082",
+      "venue": "Christ Church",
       "address": "400 San Juan Dr",
       "city": null,
       "state": "FL",

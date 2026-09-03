@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-09-02T12:10:25.844Z",
+    "generated": "2026-09-03T12:10:11.773Z",
     "seed": false,
     "counts": {
       "AA": 342,
-      "NA": 100,
+      "NA": 98,
       "RD": 5
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 101,
+        "count": 99,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.9606&long_val=-83.9207&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -4770,32 +4770,6 @@
       "source": "https://www.etiaa.org/meetings/riverside-8/"
     },
     {
-      "id": "na-between-the-lakes-13937",
-      "fellowship": "NA",
-      "name": "Between the Lakes",
-      "day": 2,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "H"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Emmanuel Baptist Church",
-      "address": "1916 Overlook Dr",
-      "city": "Jefferson City",
-      "state": "TN",
-      "zip": "37760",
-      "lat": 36.1178671,
-      "lng": -83.5000215,
-      "region": "Jefferson City",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-between-the-lakes-229458",
       "fellowship": "NA",
       "name": "Between The Lakes",
@@ -8201,32 +8175,6 @@
       "region": "Strawberry Plains",
       "notes": "Zoom: 308-903-2409. Password 1935",
       "source": "https://www.etiaa.org/meetings/4-way-2/"
-    },
-    {
-      "id": "na-between-the-lakes-167600",
-      "fellowship": "NA",
-      "name": "Between the Lakes",
-      "day": 4,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Open",
-        "BK",
-        "H"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Emmanuel Baptist Church",
-      "address": "1916 Overlook Dr",
-      "city": "Jefferson City",
-      "state": "TN",
-      "zip": "37760",
-      "lat": 36.117904,
-      "lng": -83.5000539,
-      "region": "Jefferson City",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-between-the-lakes-229460",
