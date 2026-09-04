@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-09-03T12:10:11.773Z",
+    "generated": "2026-09-04T12:11:23.456Z",
     "seed": false,
     "counts": {
       "AA": 342,
-      "NA": 98,
+      "NA": 100,
       "RD": 5
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 99,
+        "count": 101,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.9606&long_val=-83.9207&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -3737,6 +3737,30 @@
       "source": "https://www.etiaa.org/meetings/metro/"
     },
     {
+      "id": "na-more-will-be-revealed-230006",
+      "fellowship": "NA",
+      "name": "More Will Be Revealed",
+      "day": 2,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Gateway",
+      "address": "530 W Fifth Ave",
+      "city": "Knoxville",
+      "state": "TN",
+      "zip": "37917",
+      "lat": 35.9722003,
+      "lng": -83.9250724,
+      "region": "Knoxville",
+      "notes": "This is a new Narcotics Anonymous meeting formerly called Reality is Change,however, the meeting basically the same format",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-morristown-group-5-d2-1200",
       "fellowship": "AA",
       "name": "Morristown Group",
@@ -3836,6 +3860,30 @@
       "region": "Sevierville",
       "notes": null,
       "source": "https://www.etiaa.org/meetings/riverside-6/"
+    },
+    {
+      "id": "na-we-do-recover-230007",
+      "fellowship": "NA",
+      "name": "We Do Recover",
+      "day": 2,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Gateway",
+      "address": "530 W Fifth Ave",
+      "city": "Knoxville",
+      "state": "TN",
+      "zip": "37917",
+      "lat": 35.9722003,
+      "lng": -83.9250724,
+      "region": "Knoxville",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-noon-thirty-88261",
