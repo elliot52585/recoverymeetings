@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-04T12:11:09.809Z",
+    "generated": "2026-09-05T11:18:55.155Z",
     "seed": false,
     "counts": {
-      "AA": 875,
+      "AA": 873,
       "NA": 161,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 876,
+        "count": 874,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -8169,31 +8169,6 @@
       "source": "https://aanashville.org/meetings/86ers/"
     },
     {
-      "id": "aa-brown-bag-group-2-d2-1200",
-      "fellowship": "AA",
-      "name": "Brown Bag Group",
-      "day": 2,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Closed",
-        "Discussion"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/81365082676",
-      "venue": null,
-      "address": "Cookeville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.162839,
-      "lng": -85.5016423,
-      "region": "Cookeville",
-      "notes": "ID: 813 6508 2676\nPW: 504690",
-      "source": "https://aanashville.org/meetings/brown-bag-group-2/"
-    },
-    {
       "id": "aa-040cla21200-d2-1200",
       "fellowship": "AA",
       "name": "Clark Street Group",
@@ -16117,31 +16092,6 @@
       "source": "https://aanashville.org/meetings/215eas41200/"
     },
     {
-      "id": "aa-brown-bag-group-4-d4-1200",
-      "fellowship": "AA",
-      "name": "Brown Bag Group",
-      "day": 4,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Closed",
-        "Discussion"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/81365082676",
-      "venue": null,
-      "address": "Cookeville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.162839,
-      "lng": -85.5016423,
-      "region": "Cookeville",
-      "notes": "ID: 813 6508 2676\nPW: 504690",
-      "source": "https://aanashville.org/meetings/brown-bag-group-4/"
-    },
-    {
       "id": "aa-040cla41200-d4-1200",
       "fellowship": "AA",
       "name": "Clark Street Group",
@@ -18883,7 +18833,7 @@
       "time": "19:30",
       "endTime": "20:30",
       "types": [
-        "Literature",
+        "Discussion",
         "Men",
         "Open"
       ],

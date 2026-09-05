@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-09-04T12:14:13.238Z",
+    "generated": "2026-09-05T11:21:51.149Z",
     "seed": false,
     "counts": {
-      "AA": 495,
+      "AA": 500,
       "NA": 265,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 496,
+        "count": 501,
         "source": "https://aa-palmbeachcounty.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -3067,6 +3067,31 @@
       "source": "https://aapalmbeachcounty.org/meetings/sunrise-sobriety-virtual/"
     },
     {
+      "id": "aa-daily-reprieve-d1-0730",
+      "fellowship": "AA",
+      "name": "Daily Reprieve",
+      "day": 1,
+      "time": "07:30",
+      "endTime": "08:30",
+      "types": [
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St Rita Catholic Church",
+      "address": "13645 Paddock Dr",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6746514,
+      "lng": -80.2613345,
+      "region": "Wellington",
+      "notes": "O, L",
+      "source": "https://aapalmbeachcounty.org/meetings/daily-reprieve/"
+    },
+    {
       "id": "aa-good-morning-group-palm-beach-d1-0900",
       "fellowship": "AA",
       "name": "Good Morning Group, Palm Beach",
@@ -5946,6 +5971,31 @@
       "region": "Wellington",
       "notes": "O,D\nCode: 380922896\nPassword: 529sunrise",
       "source": "https://aapalmbeachcounty.org/meetings/sunrise-sobriety-virtual-2/"
+    },
+    {
+      "id": "aa-daily-reprieve-2-d2-0730",
+      "fellowship": "AA",
+      "name": "Daily Reprieve",
+      "day": 2,
+      "time": "07:30",
+      "endTime": "08:30",
+      "types": [
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St Rita Catholic Church",
+      "address": "13645 Paddock Dr",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6746514,
+      "lng": -80.2613345,
+      "region": "Wellington",
+      "notes": "O, L",
+      "source": "https://aapalmbeachcounty.org/meetings/daily-reprieve-2/"
     },
     {
       "id": "aa-look-to-this-day-d2-0900",
@@ -9049,6 +9099,31 @@
       "source": "https://aapalmbeachcounty.org/meetings/sunrise-sobriety-virtual-3/"
     },
     {
+      "id": "aa-daily-reprieve-3-d3-0730",
+      "fellowship": "AA",
+      "name": "Daily Reprieve",
+      "day": 3,
+      "time": "07:30",
+      "endTime": "08:30",
+      "types": [
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St Rita Catholic Church",
+      "address": "13645 Paddock Dr",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6746514,
+      "lng": -80.2613345,
+      "region": "Wellington",
+      "notes": "O, L",
+      "source": "https://aapalmbeachcounty.org/meetings/daily-reprieve-3/"
+    },
+    {
       "id": "aa-good-morning-group-palm-beach-2-d3-0900",
       "fellowship": "AA",
       "name": "Good Morning Group, Palm Beach",
@@ -11944,6 +12019,31 @@
       "source": "https://aapalmbeachcounty.org/meetings/sunrise-sobriety-virtual-4/"
     },
     {
+      "id": "aa-daily-reprieve-4-d4-0730",
+      "fellowship": "AA",
+      "name": "Daily Reprieve",
+      "day": 4,
+      "time": "07:30",
+      "endTime": "08:30",
+      "types": [
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St Rita Catholic Church",
+      "address": "13645 Paddock Dr",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6746514,
+      "lng": -80.2613345,
+      "region": "Wellington",
+      "notes": "O, L",
+      "source": "https://aapalmbeachcounty.org/meetings/daily-reprieve-4/"
+    },
+    {
       "id": "aa-connecting-with-god-d4-0900",
       "fellowship": "AA",
       "name": "Look to This Day",
@@ -14703,6 +14803,31 @@
       "region": "Wellington",
       "notes": "O, D\nCode: 380922896\nPass Word: 529sunrise",
       "source": "https://aapalmbeachcounty.org/meetings/sunrise-sobriety-virtual-5/"
+    },
+    {
+      "id": "aa-daily-reprieve-5-d5-0730",
+      "fellowship": "AA",
+      "name": "Daily Reprieve",
+      "day": 5,
+      "time": "07:30",
+      "endTime": "08:30",
+      "types": [
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St Rita Catholic Church",
+      "address": "13645 Paddock Dr",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6746514,
+      "lng": -80.2613345,
+      "region": "Wellington",
+      "notes": "O, L",
+      "source": "https://aapalmbeachcounty.org/meetings/daily-reprieve-5/"
     },
     {
       "id": "aa-good-morning-group-palm-beach-3-d5-0900",
