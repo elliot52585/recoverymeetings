@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-09-05T11:19:07.631Z",
+    "generated": "2026-09-06T11:42:27.726Z",
     "seed": false,
     "counts": {
-      "AA": 342,
+      "AA": 343,
       "NA": 100,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 342,
+        "count": 343,
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1788,6 +1788,34 @@
       "region": "Rockford",
       "notes": null,
       "source": "https://www.etiaa.org/meetings/the-1000am-meeting/"
+    },
+    {
+      "id": "aa-riverside-lunch-bunch-d1-1100",
+      "fellowship": "AA",
+      "name": "Riverside Lunch Bunch",
+      "day": 1,
+      "time": "11:00",
+      "endTime": "12:00",
+      "types": [
+        "Closed",
+        "Discussion",
+        "Literature",
+        "Beginner",
+        "Outdoor"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "First Church Knoxville",
+      "address": "3316 Kingston Pike",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.9487838,
+      "lng": -83.9580952,
+      "region": "Knoxville",
+      "notes": "Closed, Discussion, Literature, Newcomer, outdoor by the river weather permitting",
+      "source": "https://www.etiaa.org/meetings/riverside-lunch-bunch/"
     },
     {
       "id": "aa-stepping-through-sobriety-d1-1130",
