@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-09-06T11:42:55.536Z",
+    "generated": "2026-09-07T13:35:17.999Z",
     "seed": false,
     "counts": {
       "AA": 537,
-      "NA": 83,
+      "NA": 84,
       "RD": 2
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 83,
+        "count": 84,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=38.2527&long_val=-85.7585&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -11325,6 +11325,32 @@
       "lng": -85.7536983,
       "region": "Louisville",
       "notes": "Línea de Información: (502) 996-1955",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-steps-work-230047",
+      "fellowship": "NA",
+      "name": "Steps Work",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "BK"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Recovery Complex",
+      "address": "202 Homestead Avenue",
+      "city": "Jeffersonville",
+      "state": "IN",
+      "zip": "47130",
+      "lat": 38.2850492,
+      "lng": -85.753514,
+      "region": "Jeffersonville",
+      "notes": "First door on the left",
       "source": "https://na.org/meetingsearch/"
     },
     {

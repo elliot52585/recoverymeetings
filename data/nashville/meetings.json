@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-06T11:42:09.252Z",
+    "generated": "2026-09-07T13:34:50.463Z",
     "seed": false,
     "counts": {
       "AA": 873,
@@ -1957,13 +1957,13 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Cumberland Heights IOP",
-      "address": "745 S Church St Suite 501",
+      "venue": "Trinity United Methodist Church",
+      "address": "2303 Jones Blvd",
       "city": "Murfreesboro",
       "state": "TN",
-      "zip": "37130",
-      "lat": 35.8384387,
-      "lng": -86.3912391,
+      "zip": "37129",
+      "lat": 35.8782274,
+      "lng": -86.4027227,
       "region": "Murfreesboro",
       "notes": null,
       "source": "https://nanashville.org/meetings/"

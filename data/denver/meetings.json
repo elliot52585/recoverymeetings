@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-06T11:43:01.942Z",
+    "generated": "2026-09-07T13:35:24.541Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -26649,12 +26649,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "14700 E Mississippi Ave",
+      "address": "224 Potomac Street",
       "city": "Aurora",
       "state": "CO",
       "zip": "80012",
-      "lat": 39.6958654,
-      "lng": -104.8166432,
+      "lat": 39.719124,
+      "lng": -104.8274878,
       "region": "Aurora",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
