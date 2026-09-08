@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-07T13:34:50.463Z",
+    "generated": "2026-09-08T12:12:27.477Z",
     "seed": false,
     "counts": {
-      "AA": 873,
+      "AA": 872,
       "NA": 161,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 874,
+        "count": 873,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -9934,31 +9934,6 @@
       "region": "Clarksville",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "aa-209new21900-d2-1900",
-      "fellowship": "AA",
-      "name": "A New Freedom",
-      "day": 2,
-      "time": "19:00",
-      "endTime": null,
-      "types": [
-        "Open",
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Highland Park Church",
-      "address": "5710 Knob Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1390531,
-      "lng": -86.8663216,
-      "region": "Nashville",
-      "notes": null,
-      "source": "https://aanashville.org/meetings/209new21900/"
     },
     {
       "id": "aa-401col21900-d2-1900",
