@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-09-08T12:13:42.467Z",
+    "generated": "2026-09-09T12:25:06.519Z",
     "seed": false,
     "counts": {
       "NA": 94,
@@ -409,7 +409,7 @@
       "lat": 30.5072569,
       "lng": -97.829044,
       "region": "Cedar Park",
-      "notes": "In Multi-Ministries Building, go all the way down the hall inside conference room — Reading out of the Basic Text",
+      "notes": "Now meeting in the main building. Follow the signs. — Reading out of the Basic Text",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -1691,7 +1691,7 @@
       "lat": 30.5072569,
       "lng": -97.829044,
       "region": "Cedar Park",
-      "notes": "In Multi-Ministries Building, go all the way down the hall inside conference room — Reading out of Living Clean",
+      "notes": "Now meeting in the main building. Follow the signs. — Reading out of Living Clean",
       "source": "https://na.org/meetingsearch/"
     },
     {

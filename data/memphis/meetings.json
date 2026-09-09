@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-09-08T12:12:35.058Z",
+    "generated": "2026-09-09T12:23:59.374Z",
     "seed": false,
     "counts": {
       "AA": 393,
@@ -5981,13 +5981,13 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Shady Grove Presbyterian Church at Yates",
-      "address": "5530 Shady Grove Rd",
+      "venue": "Wesleyan Hills United Meth Ch-enter top of ramp",
+      "address": "390 S Yates Rd",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.1236872,
-      "lng": -89.8775333,
+      "lat": 35.120454,
+      "lng": -89.8757991,
       "region": "Memphis",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/east-memphis-group"
@@ -7503,8 +7503,8 @@
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.1204862,
-      "lng": -89.87579,
+      "lat": 35.120454,
+      "lng": -89.8757991,
       "region": "Memphis",
       "notes": "B-day last mtg of Month",
       "source": "https://www.memphis-aa.org/meetings/cherokee"

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-08T12:13:18.492Z",
+    "generated": "2026-09-09T12:24:40.627Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -12028,6 +12028,31 @@
       "source": "https://daccaa.org/meetings/sisterhood/"
     },
     {
+      "id": "aa-westside-women-d2-1830",
+      "fellowship": "AA",
+      "name": "Westside Women",
+      "day": 2,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Closed",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": true,
+      "conferenceUrl": "https://zoom.us/j/87355915895",
+      "venue": "Club",
+      "address": "5455 W 38th Ave M",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.7698567,
+      "lng": -105.0559088,
+      "region": "Wheat Ridge",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/westside-women/"
+    },
+    {
       "id": "rd-dharma-the-phoenix-2-d2-1845",
       "fellowship": "RD",
       "name": "RD Denver @ The Phoenix",
@@ -16389,31 +16414,6 @@
       "region": "Denver",
       "notes": null,
       "source": "https://daccaa.org/meetings/mayoria-de-edad-3/"
-    },
-    {
-      "id": "aa-982-2534-d3-1800",
-      "fellowship": "AA",
-      "name": "New Direction",
-      "day": 3,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/85944353212",
-      "venue": null,
-      "address": "Aurora",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7542465,
-      "lng": -104.7871004,
-      "region": "Aurora",
-      "notes": "JOIN VIA ZOOM:Meeting ID: 85944353212\nPassword: 19621\nLAST MEETING SEPTEMBER 30, 2026",
-      "source": "https://daccaa.org/meetings/982-2534/"
     },
     {
       "id": "aa-650-1612-d3-1800",
@@ -30968,12 +30968,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Club",
-      "address": "5455 W 38th Ave m",
+      "address": "5455 W 38th Ave M",
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7698371,
-      "lng": -105.0560611,
+      "lat": 39.7698567,
+      "lng": -105.0559088,
       "region": "Wheat Ridge",
       "notes": null,
       "source": "https://daccaa.org/meetings/7pm-speaker-meeting/"
