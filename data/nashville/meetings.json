@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-09T12:23:53.293Z",
+    "generated": "2026-09-10T12:17:27.671Z",
     "seed": false,
     "counts": {
       "AA": 872,
@@ -164,7 +164,7 @@
     {
       "id": "aa-first-things-first-7-d0-0700",
       "fellowship": "AA",
-      "name": "First Things First",
+      "name": "First Thing First",
       "day": 0,
       "time": "07:00",
       "endTime": "08:00",
@@ -3348,7 +3348,7 @@
     {
       "id": "aa-first-things-first-d1-0700",
       "fellowship": "AA",
-      "name": "First Things First",
+      "name": "First Thing First",
       "day": 1,
       "time": "07:00",
       "endTime": "08:00",
@@ -7472,7 +7472,7 @@
     {
       "id": "aa-first-things-first-2-d2-0700",
       "fellowship": "AA",
-      "name": "First Things First",
+      "name": "First Thing First",
       "day": 2,
       "time": "07:00",
       "endTime": "08:00",
@@ -11622,7 +11622,7 @@
     {
       "id": "aa-first-things-first-3-d3-0700",
       "fellowship": "AA",
-      "name": "First Things First",
+      "name": "First Thing First",
       "day": 3,
       "time": "07:00",
       "endTime": "08:00",
@@ -15344,7 +15344,7 @@
     {
       "id": "aa-first-things-first-4-d4-0700",
       "fellowship": "AA",
-      "name": "First Things First",
+      "name": "First Thing First",
       "day": 4,
       "time": "07:00",
       "endTime": "08:00",
@@ -19620,7 +19620,7 @@
     {
       "id": "aa-first-things-first-5-d5-0700",
       "fellowship": "AA",
-      "name": "First Things First",
+      "name": "First Thing First",
       "day": 5,
       "time": "07:00",
       "endTime": "08:00",
@@ -23141,7 +23141,7 @@
     {
       "id": "aa-first-things-first-6-d6-0700",
       "fellowship": "AA",
-      "name": "First Things First",
+      "name": "First Thing First",
       "day": 6,
       "time": "07:00",
       "endTime": "08:00",
@@ -23882,6 +23882,32 @@
       "region": "Hermitage",
       "notes": null,
       "source": "https://aanashville.org/meetings/076sob6900/"
+    },
+    {
+      "id": "aa-stream-of-life-d6-0900",
+      "fellowship": "AA",
+      "name": "Stream of Life",
+      "day": 6,
+      "time": "09:00",
+      "endTime": "10:00",
+      "types": [
+        "Closed",
+        "Discussion",
+        "Literature"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Peace Lutheran Church",
+      "address": "762 Beechcroft Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.7544032,
+      "lng": -86.9678995,
+      "region": "Spring Hill",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/stream-of-life/"
     },
     {
       "id": "aa-the-usual-suspects-6-d6-0900",
@@ -25565,32 +25591,6 @@
       "region": "Murfreesboro",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "aa-stream-of-life-d6-1800",
-      "fellowship": "AA",
-      "name": "Stream of Life",
-      "day": 6,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Literature"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Preservation Park",
-      "address": "1600 Thompson's Station Rd W",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.8115046,
-      "lng": -86.9060571,
-      "region": "Thompson Station",
-      "notes": "Meets at the covered pavilion near parking lot",
-      "source": "https://aanashville.org/meetings/stream-of-life/"
     },
     {
       "id": "na-the-recovery-plug-106866",

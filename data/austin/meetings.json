@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-09-09T12:25:06.519Z",
+    "generated": "2026-09-10T12:18:20.481Z",
     "seed": false,
     "counts": {
       "NA": 94,
@@ -10,7 +10,7 @@
     "sources": {
       "AA": {
         "ok": false,
-        "error": "all TSML feeds failed: austinaa.org/wp-admin/admin-ajax.php?act — HTTP 401 | austinaa.org/wp-json/tsml/v1/meetings — HTTP 404"
+        "error": "all TSML feeds failed: austinaa.org/wp-admin/admin-ajax.php?act — HTTP 403 | austinaa.org/wp-json/tsml/v1/meetings — HTTP 403"
       },
       "NA": {
         "ok": true,
