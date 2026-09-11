@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-09-10T12:19:37.966Z",
+    "generated": "2026-09-11T12:17:44.680Z",
     "seed": false,
     "counts": {
       "NA": 338,
@@ -2791,7 +2791,7 @@
       "lat": 28.4327691,
       "lng": -82.6098412,
       "region": "Hudson",
-      "notes": null,
+      "notes": "MEETING IS CLOSING EFFECTIVE 9/30/2026",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -8586,7 +8586,7 @@
       "lat": 28.4327691,
       "lng": -82.6098412,
       "region": "Hudson",
-      "notes": "Last Saturday of the month @ 6:00 pm join us for food & fellowshipping followed by 7:00 pm speaker meeting",
+      "notes": "MEETING IS CLOSING EFFECTIVE 9/30/2026",
       "source": "https://na.org/meetingsearch/"
     },
     {
