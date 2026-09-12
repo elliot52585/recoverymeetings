@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-09-11T12:16:05.810Z",
+    "generated": "2026-09-12T11:40:27.015Z",
     "seed": false,
     "counts": {
-      "AA": 537,
+      "AA": 536,
       "NA": 84,
       "RD": 2
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 537,
+        "count": 536,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -11378,32 +11378,6 @@
       "region": "Floyd County IN",
       "notes": null,
       "source": "https://loukyaa.org/meetings/promises-group/"
-    },
-    {
-      "id": "aa-this-is-not-a-drill-d4-1900",
-      "fellowship": "AA",
-      "name": "This Is Not A Drill",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Speaker"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Westport Road Church of Christ",
-      "address": "4500 Westport Rd",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2632342,
-      "lng": -85.6268734,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/this-is-not-a-drill/"
     },
     {
       "id": "aa-tri-county-group-d4-1900",

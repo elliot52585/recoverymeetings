@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-09-11T12:15:50.482Z",
+    "generated": "2026-09-12T11:40:00.864Z",
     "seed": false,
     "counts": {
       "AA": 343,
@@ -8158,8 +8158,8 @@
       "time": "19:30",
       "endTime": "20:30",
       "types": [
-        "Closed",
-        "Discussion"
+        "Big Book",
+        "Closed"
       ],
       "online": false,
       "hybrid": false,

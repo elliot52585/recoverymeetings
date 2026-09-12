@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-09-11T12:17:17.601Z",
+    "generated": "2026-09-12T11:41:42.737Z",
     "seed": false,
     "counts": {
-      "NA": 176,
+      "NA": 172,
       "RD": 4
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 176,
+        "count": 172,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=28.5383&long_val=-81.3792&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -376,7 +376,7 @@
         "Children welcome",
         "Open",
         "Wheelchair accessible",
-        "JFT"
+        "BK"
       ],
       "online": false,
       "hybrid": false,
@@ -905,34 +905,6 @@
       "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-new-way-to-live-58886",
-      "fellowship": "NA",
-      "name": "New Way To Live",
-      "day": 1,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Children welcome",
-        "Open",
-        "Wheelchair accessible",
-        "JFT",
-        "ME"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1227 Florida Ave. South",
-      "city": "Rockledge",
-      "state": "FL",
-      "zip": "32955",
-      "lat": 28.341721,
-      "lng": -80.7264927,
-      "region": "Rockledge",
-      "notes": "Just For Today Meditation",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2257,34 +2229,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-new-way-to-live-58894",
-      "fellowship": "NA",
-      "name": "New Way To Live",
-      "day": 3,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Children welcome",
-        "Open",
-        "Wheelchair accessible",
-        "LIT",
-        "L"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1227 Florida Ave. South",
-      "city": "Rockledge",
-      "state": "FL",
-      "zip": "32955",
-      "lat": 28.341721,
-      "lng": -80.7264927,
-      "region": "Rockledge",
-      "notes": "Literature",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-rainbow-recovery-148028",
       "fellowship": "NA",
       "name": "Rainbow Recovery",
@@ -2916,34 +2860,6 @@
       "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-new-way-to-live-58899",
-      "fellowship": "NA",
-      "name": "New Way To Live",
-      "day": 4,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Children welcome",
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "JFT"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1227 Florida Ave. South",
-      "city": "Rockledge",
-      "state": "FL",
-      "zip": "32955",
-      "lat": 28.341721,
-      "lng": -80.7264927,
-      "region": "Rockledge",
-      "notes": "Just for Today",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -4358,33 +4274,6 @@
       "lng": -81.6356807,
       "region": "Mt Dora",
       "notes": "Bring your own chair",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-new-way-to-live-58906",
-      "fellowship": "NA",
-      "name": "New Way To Live",
-      "day": 6,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Children welcome",
-        "Open",
-        "Wheelchair accessible",
-        "JFT"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "1227 Florida Ave. South",
-      "city": "Rockledge",
-      "state": "FL",
-      "zip": "32955",
-      "lat": 28.341721,
-      "lng": -80.7264927,
-      "region": "Rockledge",
-      "notes": "Just For Today",
       "source": "https://na.org/meetingsearch/"
     },
     {

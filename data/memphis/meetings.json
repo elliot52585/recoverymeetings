@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-09-11T12:15:43.392Z",
+    "generated": "2026-09-12T11:39:54.286Z",
     "seed": false,
     "counts": {
-      "AA": 393,
+      "AA": 392,
       "NA": 43,
       "RD": 2
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 394,
+        "count": 393,
         "source": "https://www.memphis-aa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -3950,31 +3950,6 @@
       "region": "Memphis",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/hollywood-group-2"
-    },
-    {
-      "id": "aa-hope-armed-with-the-facts-d2-1800",
-      "fellowship": "AA",
-      "name": "Hope Armed with the Facts",
-      "day": 2,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Big Book",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Hope Presbyterian Church",
-      "address": "8500 Walnut Grove Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.130625,
-      "lng": -89.7794625,
-      "region": "Cordova",
-      "notes": "Meets in room 234 upstairs from entrance 1",
-      "source": "https://www.memphis-aa.org/meetings/hope-armed-with-the-facts"
     },
     {
       "id": "aa-last-chance-group-2-d2-1800",
