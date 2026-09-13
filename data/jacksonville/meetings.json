@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-09-12T11:42:20.373Z",
+    "generated": "2026-09-13T12:51:15.572Z",
     "seed": false,
     "counts": {
       "AA": 679,
@@ -16132,7 +16132,7 @@
       "lat": 30.6585003,
       "lng": -81.4550851,
       "region": "Fernandina Beach",
-      "notes": null,
+      "notes": "Meeting and eating!",
       "source": "https://na.org/meetingsearch/"
     },
     {
