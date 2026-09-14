@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-13T12:48:41.805Z",
+    "generated": "2026-09-14T14:16:59.410Z",
     "seed": false,
     "counts": {
       "AA": 1120,
-      "NA": 151,
+      "NA": 153,
       "RD": 12
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 152,
+        "count": 154,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=39.7392&long_val=-104.9903&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -20553,6 +20553,28 @@
       "source": "https://daccaa.org/meetings/1066-2726/"
     },
     {
+      "id": "na-every-day-matters-230124",
+      "fellowship": "NA",
+      "name": "Every Day Matters",
+      "day": 4,
+      "time": "15:00",
+      "endTime": "16:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Mountain View Flats",
+      "address": "14825 W Colfax Ave",
+      "city": "Lakewood",
+      "state": "CO",
+      "zip": "80401",
+      "lat": 39.7322591,
+      "lng": -105.1662842,
+      "region": "Lakewood",
+      "notes": "Pet Friendly",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-grassroots-d4-1700",
       "fellowship": "AA",
       "name": "Grassroots",
@@ -27207,6 +27229,30 @@
       "region": "Denver",
       "notes": null,
       "source": "https://daccaa.org/meetings/367-1997/"
+    },
+    {
+      "id": "na-healing-evolving-recovering-her-230125",
+      "fellowship": "NA",
+      "name": "Healing, Evolving, Recovering (HER)",
+      "day": 5,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Women"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://us06web.zoom.us/j/87056212517?pwd=Y8BvnmqAUt3FuuoG1CYM1U670yIrgd.1",
+      "venue": null,
+      "address": null,
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.739026162151,
+      "lng": -104.98938560486,
+      "region": null,
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-221-522-d5-1930",

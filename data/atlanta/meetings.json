@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-09-13T12:48:08.908Z",
+    "generated": "2026-09-14T14:16:46.542Z",
     "seed": false,
     "counts": {
-      "AA": 1377,
+      "AA": 1351,
       "NA": 303,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1388,
+        "count": 1362,
         "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1062,31 +1062,6 @@
       "source": "https://atlantaaa.org/meetings/bell-book-candle-3/"
     },
     {
-      "id": "aa-candler-d0-1000",
-      "fellowship": "AA",
-      "name": "Candler",
-      "day": 0,
-      "time": "10:00",
-      "endTime": "11:00",
-      "types": [
-        "Closed",
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center, Inc.",
-      "address": "1472 Richard Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.760177,
-      "lng": -84.2453029,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/candler/"
-    },
-    {
       "id": "na-first-step-group-170370",
       "fellowship": "NA",
       "name": "First Step Group",
@@ -1523,32 +1498,6 @@
       "region": "Hapeville",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/sunday-morning-reflection/"
-    },
-    {
-      "id": "aa-there-is-a-solution-decatur-d0-1130",
-      "fellowship": "AA",
-      "name": "There Is a Solution - Decatur",
-      "day": 0,
-      "time": "11:30",
-      "endTime": "00:30",
-      "types": [
-        "Big Book",
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "First Baptist Church of Decatur",
-      "address": "308 Clairemont Ave",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7787611,
-      "lng": -84.297999,
-      "region": "Decatur",
-      "notes": "In the back of the church, directly across from the baseball field.",
-      "source": "https://atlantaaa.org/meetings/there-is-a-solution-decatur/"
     },
     {
       "id": "aa-there-is-a-solution-decatur-3-d0-1130",
@@ -2612,31 +2561,6 @@
       "source": "https://atlantaaa.org/meetings/consolidated-group-21/"
     },
     {
-      "id": "aa-countless-dividends-big-book-study-d0-1700",
-      "fellowship": "AA",
-      "name": "Countless Dividends Big Book Study",
-      "day": 0,
-      "time": "17:00",
-      "endTime": "18:00",
-      "types": [
-        "Big Book",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Saint Thomas Moore Catholic Church",
-      "address": "636 W Ponce de Leon Ave",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7733539,
-      "lng": -84.3055213,
-      "region": "Decatur",
-      "notes": "Look for signs at front of church",
-      "source": "https://atlantaaa.org/meetings/countless-dividends-big-book-study/"
-    },
-    {
       "id": "aa-macland-mens-d0-1700",
       "fellowship": "AA",
       "name": "Macland Mens",
@@ -3046,6 +2970,32 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/clarkston-12th-step-group-13/"
+    },
+    {
+      "id": "aa-dekalb-3-d0-1800",
+      "fellowship": "AA",
+      "name": "Dekalb Group",
+      "day": 0,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open",
+        "Speaker",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": true,
+      "conferenceUrl": "https://us02web.zoom.us/j/7691546165?pwd=enVrTjZnbkhqTXRSRGJ4M0NiM3JTQT09",
+      "venue": "St. Timothy Episcopal Church",
+      "address": "2833 Flat Shoals Rd",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.7058084,
+      "lng": -84.2992585,
+      "region": "Decatur",
+      "notes": "Starting August 2 meeting time will change to 6:00pm\n\nOpen, Speaker/Anniversary Meeting - Virtual or in person as designated by the celebrants",
+      "source": "https://atlantaaa.org/meetings/dekalb-3/"
     },
     {
       "id": "aa-easy-1-2-3-7-d0-1800",
@@ -4722,32 +4672,6 @@
       "source": "https://atlantaaa.org/meetings/clarkston-12-step-group-24/"
     },
     {
-      "id": "aa-dekalb-3-d0-2000",
-      "fellowship": "AA",
-      "name": "Dekalb Group",
-      "day": 0,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Open",
-        "Speaker",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": true,
-      "conferenceUrl": "https://us02web.zoom.us/j/7691546165?pwd=enVrTjZnbkhqTXRSRGJ4M0NiM3JTQT09",
-      "venue": "St. Timothy Episcopal Church",
-      "address": "2833 Flat Shoals Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7058084,
-      "lng": -84.2992585,
-      "region": "Decatur",
-      "notes": "Starting August 2 meeting time will change to 6:00pm\n\nOpen, Speaker/Anniversary Meeting - Virtual or in person as designated by the celebrants",
-      "source": "https://atlantaaa.org/meetings/dekalb-3/"
-    },
-    {
       "id": "aa-douglasville-12-d0-2000",
       "fellowship": "AA",
       "name": "Douglasville",
@@ -5952,32 +5876,6 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/get-up-get-out-get-sober-4/"
-    },
-    {
-      "id": "aa-good-morning-decatur-3-d1-0730",
-      "fellowship": "AA",
-      "name": "Good Morning Decatur",
-      "day": 1,
-      "time": "07:30",
-      "endTime": "08:30",
-      "types": [
-        "DR",
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church at Decatur Heights",
-      "address": "735 Sycamore Dr",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7827408,
-      "lng": -84.2823986,
-      "region": "Decatur",
-      "notes": "Fellowship Hall",
-      "source": "https://atlantaaa.org/meetings/good-morning-decatur-3/"
     },
     {
       "id": "aa-quarantined-and-sober-3-d1-0730",
@@ -8481,6 +8379,31 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-dekalb-d1-1800",
+      "fellowship": "AA",
+      "name": "Dekalb Group",
+      "day": 1,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Big Book",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": true,
+      "conferenceUrl": "https://us02web.zoom.us/j/7691546165?pwd=enVrTjZnbkhqTXRSRGJ4M0NiM3JTQT09",
+      "venue": "St. Timothy Episcopal Church",
+      "address": "2833 Flat Shoals Rd",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.7058084,
+      "lng": -84.2992585,
+      "region": "Decatur",
+      "notes": "Starting August 2 meeting time will change to 6:00pm",
+      "source": "https://atlantaaa.org/meetings/dekalb/"
+    },
+    {
       "id": "aa-easy-1-2-3-3-d1-1800",
       "fellowship": "AA",
       "name": "Easy 1 2 3",
@@ -9203,31 +9126,6 @@
       "source": "https://atlantaaa.org/meetings/lakeland-new-beginnings/"
     },
     {
-      "id": "aa-ardmoor-d1-1900",
-      "fellowship": "AA",
-      "name": "Ardmoore",
-      "day": 1,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center, Inc.",
-      "address": "1472 Richard Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.760177,
-      "lng": -84.2453029,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/ardmoor/"
-    },
-    {
       "id": "aa-awakening-4-d1-1900",
       "fellowship": "AA",
       "name": "Awakening - Kennesaw",
@@ -9438,33 +9336,6 @@
       "region": "Covington",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/covington-9/"
-    },
-    {
-      "id": "aa-decatur-mens-big-book-d1-1900",
-      "fellowship": "AA",
-      "name": "Decatur Men's Big Book",
-      "day": 1,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Big Book",
-        "Closed",
-        "Men",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "First Christian Church of Decatur",
-      "address": "601 W Ponce de Leon Ave",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7755211,
-      "lng": -84.3050144,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/decatur-mens-big-book/"
     },
     {
       "id": "aa-douglas-county-d1-1900",
@@ -10720,31 +10591,6 @@
       "source": "https://atlantaaa.org/meetings/cumming-group-15/"
     },
     {
-      "id": "aa-dekalb-d1-2000",
-      "fellowship": "AA",
-      "name": "Dekalb Group",
-      "day": 1,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Big Book",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": true,
-      "conferenceUrl": "https://us02web.zoom.us/j/7691546165?pwd=enVrTjZnbkhqTXRSRGJ4M0NiM3JTQT09",
-      "venue": "St. Timothy Episcopal Church",
-      "address": "2833 Flat Shoals Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7058084,
-      "lng": -84.2992585,
-      "region": "Decatur",
-      "notes": "Starting August 2 meeting time will change to 6:00pm",
-      "source": "https://atlantaaa.org/meetings/dekalb/"
-    },
-    {
       "id": "aa-douglasville-6-d1-2000",
       "fellowship": "AA",
       "name": "Douglasville",
@@ -10871,32 +10717,6 @@
       "region": "Jonesboro",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/great-obsession/"
-    },
-    {
-      "id": "aa-journey-of-days-d1-2000",
-      "fellowship": "AA",
-      "name": "Journey of Days",
-      "day": 1,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "N.Decatur Presbyterian Church",
-      "address": "611 Medlock Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7943907,
-      "lng": -84.2898011,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/journey-of-days/"
     },
     {
       "id": "aa-macland-womens-meeting-d1-2000",
@@ -11081,31 +10901,6 @@
       "region": "Marietta",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/north-cobb/"
-    },
-    {
-      "id": "aa-one-breath-at-a-time-d1-2000",
-      "fellowship": "AA",
-      "name": "One Breath at a Time",
-      "day": 1,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Shambhala Meditation Center",
-      "address": "1447 Church St",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7897139,
-      "lng": -84.286943,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/one-breath-at-a-time/"
     },
     {
       "id": "aa-peachtree-corners-2-d1-2000",
@@ -12223,31 +12018,6 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/get-up-get-out-get-sober-2/"
-    },
-    {
-      "id": "aa-good-morning-decatur-4-d2-0730",
-      "fellowship": "AA",
-      "name": "Good Morning Decatur",
-      "day": 2,
-      "time": "07:30",
-      "endTime": "08:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church at Decatur Heights",
-      "address": "735 Sycamore Dr",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7827408,
-      "lng": -84.2823986,
-      "region": "Decatur",
-      "notes": "Fellowship Hall",
-      "source": "https://atlantaaa.org/meetings/good-morning-decatur-4/"
     },
     {
       "id": "aa-quarantined-and-sober-8-d2-0730",
@@ -14027,31 +13797,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "aa-house-of-recovery-group-d2-1430",
-      "fellowship": "AA",
-      "name": "House of Recovery Group",
-      "day": 2,
-      "time": "14:30",
-      "endTime": "15:30",
-      "types": [
-        "Big Book",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The \"DOOR\"",
-      "address": "4086 Covington Hwy #900t",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7550767,
-      "lng": -84.2332074,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/house-of-recovery-group/"
-    },
-    {
       "id": "aa-freedom-at-four-4-d2-1600",
       "fellowship": "AA",
       "name": "Freedom at Four",
@@ -14678,6 +14423,32 @@
       "source": "https://atlantaaa.org/meetings/clarkston-12th-step-group-9/"
     },
     {
+      "id": "aa-dekalb-5-d2-1800",
+      "fellowship": "AA",
+      "name": "Dekalb Group",
+      "day": 2,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Big Book",
+        "Open",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Timothy Episcopal Church",
+      "address": "2833 Flat Shoals Rd",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.7058084,
+      "lng": -84.2992585,
+      "region": "Decatur",
+      "notes": "Starting August 2 meeting time will change to 6:00pm",
+      "source": "https://atlantaaa.org/meetings/dekalb-5/"
+    },
+    {
       "id": "aa-douglasville-d2-1800",
       "fellowship": "AA",
       "name": "Douglasville",
@@ -14852,6 +14623,32 @@
       "region": "Atlanta SE",
       "notes": "Annex B building basement",
       "source": "https://atlantaaa.org/meetings/one-step-at-a-time/"
+    },
+    {
+      "id": "aa-primary-purpose-mens-meeting-d2-1800",
+      "fellowship": "AA",
+      "name": "Primary Purpose Men's Meeting",
+      "day": 2,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Men",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "80 Newnan Station",
+      "address": "80 Newnan Station Dr A",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.3980789,
+      "lng": -84.7360214,
+      "region": "Newnan",
+      "notes": null,
+      "source": "https://atlantaaa.org/meetings/primary-purpose-mens-meeting/"
     },
     {
       "id": "na-recovery-at-6-group-22396",
@@ -17044,31 +16841,6 @@
       "source": "https://atlantaaa.org/meetings/boyz-ii-men-6/"
     },
     {
-      "id": "aa-candler-2-d2-2000",
-      "fellowship": "AA",
-      "name": "Candler",
-      "day": 2,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center, Inc.",
-      "address": "1472 Richard Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.760177,
-      "lng": -84.2453029,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/candler-2/"
-    },
-    {
       "id": "aa-canton-2-d2-2000",
       "fellowship": "AA",
       "name": "Canton",
@@ -17197,32 +16969,6 @@
       "region": "Dunwoody",
       "notes": "Basement Level East Side of Building",
       "source": "https://atlantaaa.org/meetings/day-by-day/"
-    },
-    {
-      "id": "aa-dekalb-5-d2-2000",
-      "fellowship": "AA",
-      "name": "Dekalb Group",
-      "day": 2,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Big Book",
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "St. Timothy Episcopal Church",
-      "address": "2833 Flat Shoals Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7058084,
-      "lng": -84.2992585,
-      "region": "Decatur",
-      "notes": "Starting August 2 meeting time will change to 6:00pm",
-      "source": "https://atlantaaa.org/meetings/dekalb-5/"
     },
     {
       "id": "aa-douglasville-18-d2-2000",
@@ -17637,31 +17383,6 @@
       "region": "Atlanta NE",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/tues-night-beginners/"
-    },
-    {
-      "id": "aa-ponce-de-leon-d2-2000",
-      "fellowship": "AA",
-      "name": "Ponce de Leon",
-      "day": 2,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Closed",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "First Baptist Church of Decatur",
-      "address": "308 Clairemont Ave",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7787611,
-      "lng": -84.297999,
-      "region": "Decatur",
-      "notes": "In the back of the church, directly across from the baseball field.",
-      "source": "https://atlantaaa.org/meetings/ponce-de-leon/"
     },
     {
       "id": "aa-rebos-6-d2-2000",
@@ -18871,31 +18592,6 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/get-up-get-out-get-sober-5/"
-    },
-    {
-      "id": "aa-good-morning-decatur-d3-0730",
-      "fellowship": "AA",
-      "name": "Good Morning Decatur",
-      "day": 3,
-      "time": "07:30",
-      "endTime": "08:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church at Decatur Heights",
-      "address": "735 Sycamore Dr",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7827408,
-      "lng": -84.2823986,
-      "region": "Decatur",
-      "notes": "Fellowship Hall",
-      "source": "https://atlantaaa.org/meetings/good-morning-decatur/"
     },
     {
       "id": "aa-quarantined-and-sober-9-d3-0730",
@@ -20305,31 +20001,6 @@
       "region": null,
       "notes": "Zoom: https://us04web.zoom.us/j/3837559748 Password: noonday",
       "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "aa-one-breath-wednesday-d3-1200",
-      "fellowship": "AA",
-      "name": "One Breath at a Time",
-      "day": 3,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        11,
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Shambhala Meditation Center",
-      "address": "1447 Church St",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7897139,
-      "lng": -84.286943,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/one-breath-wednesday/"
     },
     {
       "id": "aa-primary-purpose-johns-creek-5-2-d3-1200",
@@ -21938,33 +21609,6 @@
       "region": "Johns Creek",
       "notes": "Behind the playground",
       "source": "https://atlantaaa.org/meetings/primary-purpose-johns-creek-3/"
-    },
-    {
-      "id": "aa-prime-time-d3-1830",
-      "fellowship": "AA",
-      "name": "Prime Time",
-      "day": 3,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Closed",
-        "Step study",
-        "Tradition study",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "North Decatur United Methodist Church",
-      "address": "1523 Church St",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7915524,
-      "lng": -84.2849301,
-      "region": "Decatur",
-      "notes": "Upstairs. Follow the signs.",
-      "source": "https://atlantaaa.org/meetings/prime-time/"
     },
     {
       "id": "aa-queer-ideas-of-fun-d3-1830",
@@ -23723,31 +23367,6 @@
       "source": "https://atlantaaa.org/meetings/great-obsession-2/"
     },
     {
-      "id": "aa-honesty-is-the-key-d3-2000",
-      "fellowship": "AA",
-      "name": "Honesty Is the Key",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center, Inc.",
-      "address": "1472 Richard Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.760177,
-      "lng": -84.2453029,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/honesty-is-the-key/"
-    },
-    {
       "id": "na-it-works-how-why-162117",
       "fellowship": "NA",
       "name": "It Works: How & Why",
@@ -23773,32 +23392,6 @@
       "region": "Suwanee",
       "notes": "Outside fire side (weather permitting) or in trailer building in back",
       "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "aa-journey-of-days-2-d3-2000",
-      "fellowship": "AA",
-      "name": "Journey of Days",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Big Book",
-        "Closed",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "N.Decatur Presbyterian Church",
-      "address": "611 Medlock Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7943907,
-      "lng": -84.2898011,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/journey-of-days-2/"
     },
     {
       "id": "aa-kennesaw-cornerstone-d3-2000",
@@ -25091,32 +24684,6 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/get-up-get-out-get-sober-6/"
-    },
-    {
-      "id": "aa-good-morning-decatur-5-d4-0730",
-      "fellowship": "AA",
-      "name": "Good Morning Decatur",
-      "day": 4,
-      "time": "07:30",
-      "endTime": "08:30",
-      "types": [
-        "Big Book",
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church at Decatur Heights",
-      "address": "735 Sycamore Dr",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7827408,
-      "lng": -84.2823986,
-      "region": "Decatur",
-      "notes": "Fellowship Hall",
-      "source": "https://atlantaaa.org/meetings/good-morning-decatur-5/"
     },
     {
       "id": "aa-happy-hour-group-fayetteville-d4-0730",
@@ -27328,14 +26895,13 @@
     {
       "id": "aa-newcomers-bb-study-3-d4-1730",
       "fellowship": "AA",
-      "name": "Newcomer Hour of Power",
+      "name": "Sunday Daily Reflections",
       "day": 4,
       "time": "17:30",
       "endTime": "18:30",
       "types": [
+        "DR",
         "Discussion",
-        "Literature",
-        "Beginner",
         "Open"
       ],
       "online": false,
@@ -27586,31 +27152,6 @@
       "source": "https://atlantaaa.org/meetings/thursday-womens-545/"
     },
     {
-      "id": "aa-agape-d4-1800",
-      "fellowship": "AA",
-      "name": "Agape",
-      "day": 4,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Big Book",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center, Inc.",
-      "address": "1472 Richard Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.760177,
-      "lng": -84.2453029,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/agape/"
-    },
-    {
       "id": "aa-alpharetta-group-600pm-virtual-thu-pm-d4-1800",
       "fellowship": "AA",
       "name": "Alpharetta Group",
@@ -27688,6 +27229,32 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/clarkston-12th-step-group-11/"
+    },
+    {
+      "id": "aa-dekalb-4-d4-1800",
+      "fellowship": "AA",
+      "name": "Dekalb Group",
+      "day": 4,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open",
+        "Step study",
+        "Tradition study"
+      ],
+      "online": false,
+      "hybrid": true,
+      "conferenceUrl": "https://us02web.zoom.us/j/7691546165?pwd=enVrTjZnbkhqTXRSRGJ4M0NiM3JTQT09",
+      "venue": "St. Timothy Episcopal Church",
+      "address": "2833 Flat Shoals Rd",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.7058084,
+      "lng": -84.2992585,
+      "region": "Decatur",
+      "notes": "Starting August 2 meeting time will change to 6:00pm",
+      "source": "https://atlantaaa.org/meetings/dekalb-4/"
     },
     {
       "id": "aa-easy-1-2-3-9-d4-1800",
@@ -28463,31 +28030,6 @@
       "region": "Johns Creek",
       "notes": "Behind the playground",
       "source": "https://atlantaaa.org/meetings/primary-purpose-johns-creek-5/"
-    },
-    {
-      "id": "aa-prime-time-2-d4-1830",
-      "fellowship": "AA",
-      "name": "Prime Time",
-      "day": 4,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Closed",
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "North Decatur United Methodist Church",
-      "address": "1523 Church St",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7915524,
-      "lng": -84.2849301,
-      "region": "Decatur",
-      "notes": "Upstairs. Follow the signs.",
-      "source": "https://atlantaaa.org/meetings/prime-time-2/"
     },
     {
       "id": "aa-sisters-off-the-sauce-2-d4-1830",
@@ -29932,32 +29474,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "aa-one-breath-thursday-d4-1930",
-      "fellowship": "AA",
-      "name": "One Breath at a Time",
-      "day": 4,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Open",
-        "Step study",
-        "XB"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Shambhala Meditation Center",
-      "address": "1447 Church St",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7897139,
-      "lng": -84.286943,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/one-breath-thursday/"
-    },
-    {
       "id": "aa-one-breath-at-a-time-virtual-d4-1930",
       "fellowship": "AA",
       "name": "One Breath at a Time - Online",
@@ -30297,58 +29813,6 @@
       "region": "Cumming",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/cumming-group-23/"
-    },
-    {
-      "id": "aa-decatur-square-d4-2000",
-      "fellowship": "AA",
-      "name": "Decatur Square",
-      "day": 4,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Decatur Presbyterian Church",
-      "address": "218 Sycamore St",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7747778,
-      "lng": -84.2943518,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/decatur-square/"
-    },
-    {
-      "id": "aa-dekalb-4-d4-2000",
-      "fellowship": "AA",
-      "name": "Dekalb Group",
-      "day": 4,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Open",
-        "Step study",
-        "Tradition study"
-      ],
-      "online": false,
-      "hybrid": true,
-      "conferenceUrl": "https://us02web.zoom.us/j/7691546165?pwd=enVrTjZnbkhqTXRSRGJ4M0NiM3JTQT09",
-      "venue": "St. Timothy Episcopal Church",
-      "address": "2833 Flat Shoals Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7058084,
-      "lng": -84.2992585,
-      "region": "Decatur",
-      "notes": "Starting August 2 meeting time will change to 6:00pm",
-      "source": "https://atlantaaa.org/meetings/dekalb-4/"
     },
     {
       "id": "aa-douglasville-15-d4-2000",
@@ -31820,31 +31284,6 @@
       "region": "Atlanta SE",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/get-up-get-out-get-sober-3/"
-    },
-    {
-      "id": "aa-good-morning-decatur-2-d5-0730",
-      "fellowship": "AA",
-      "name": "Good Morning Decatur",
-      "day": 5,
-      "time": "07:30",
-      "endTime": "08:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church at Decatur Heights",
-      "address": "735 Sycamore Dr",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7827408,
-      "lng": -84.2823986,
-      "region": "Decatur",
-      "notes": "Fellowship Hall",
-      "source": "https://atlantaaa.org/meetings/good-morning-decatur-2/"
     },
     {
       "id": "aa-quarantined-and-sober-1-d5-0730",
@@ -35839,14 +35278,14 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Grit and Grace",
-      "address": "2800 GA HWY 138",
-      "city": "Conyers",
+      "venue": null,
+      "address": "1122 Monticello Street Suite 15",
+      "city": "Covington",
       "state": "GA",
-      "zip": "30094",
-      "lat": 33.6187393,
-      "lng": -84.078759,
-      "region": "Conyers",
+      "zip": "30014",
+      "lat": 33.5962634,
+      "lng": -83.8606802,
+      "region": "Covington",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -36156,32 +35595,6 @@
       "region": "Smyrna",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "aa-belkirk-d5-2000",
-      "fellowship": "AA",
-      "name": "Belkirk",
-      "day": 5,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Beginner",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Sycamore House",
-      "address": "216 Sycamore St",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7745638,
-      "lng": -84.2942543,
-      "region": "Decatur",
-      "notes": "Across Street from Library - Free Parking available behind library",
-      "source": "https://atlantaaa.org/meetings/belkirk/"
     },
     {
       "id": "aa-boyz-ii-men-1-d5-2000",
@@ -36667,32 +36080,6 @@
       "region": "Griffin",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "aa-journey-of-days-3-d5-2000",
-      "fellowship": "AA",
-      "name": "Journey of Days",
-      "day": 5,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "N.Decatur Presbyterian Church",
-      "address": "611 Medlock Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7943907,
-      "lng": -84.2898011,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/journey-of-days-3/"
     },
     {
       "id": "aa-kennesaw-cornerstone-2-d5-2000",
@@ -38087,33 +37474,6 @@
       "source": "https://atlantaaa.org/meetings/get-up-get-out-get-sober-8/"
     },
     {
-      "id": "aa-good-morning-decatur-6-d6-0730",
-      "fellowship": "AA",
-      "name": "Good Morning Decatur",
-      "day": 6,
-      "time": "07:30",
-      "endTime": "08:30",
-      "types": [
-        "Big Book",
-        "DR",
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church at Decatur Heights",
-      "address": "735 Sycamore Dr",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7827408,
-      "lng": -84.2823986,
-      "region": "Decatur",
-      "notes": "Fellowship Hall",
-      "source": "https://atlantaaa.org/meetings/good-morning-decatur-6/"
-    },
-    {
       "id": "aa-quarantined-and-sober-5-d6-0730",
       "fellowship": "AA",
       "name": "Quarantined and Sober",
@@ -39486,31 +38846,6 @@
       "region": "Douglasville",
       "notes": "Meets in basement, in rear of building off Spring St. Next to dumpsters in parking lot.",
       "source": "https://atlantaaa.org/meetings/douglasville-8/"
-    },
-    {
-      "id": "aa-early-saturday-morning-d6-1000",
-      "fellowship": "AA",
-      "name": "Early Saturday Morning",
-      "day": 6,
-      "time": "10:00",
-      "endTime": "11:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center, Inc.",
-      "address": "1472 Richard Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.760177,
-      "lng": -84.2453029,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/early-saturday-morning/"
     },
     {
       "id": "na-first-step-group-170007",
@@ -41497,14 +40832,13 @@
     {
       "id": "aa-newcomers-bb-study-4-d6-1730",
       "fellowship": "AA",
-      "name": "Newcomer Hour of Power",
+      "name": "Sunday Daily Reflections",
       "day": 6,
       "time": "17:30",
       "endTime": "18:30",
       "types": [
+        "DR",
         "Discussion",
-        "Literature",
-        "Beginner",
         "Open"
       ],
       "online": false,
@@ -41722,6 +41056,32 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/clarkston-12th-step-group-14/"
+    },
+    {
+      "id": "aa-dekalb-2-d6-1800",
+      "fellowship": "AA",
+      "name": "Dekalb Group",
+      "day": 6,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open",
+        "Speaker",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Timothy Episcopal Church",
+      "address": "2833 Flat Shoals Rd",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.7058084,
+      "lng": -84.2992585,
+      "region": "Decatur",
+      "notes": "Starting August 2 meeting time will change to 6:00pm",
+      "source": "https://atlantaaa.org/meetings/dekalb-2/"
     },
     {
       "id": "na-hold-on-group-23423",
@@ -42896,32 +42256,6 @@
       "region": "Tucker",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/clarkston-12-step-group-17/"
-    },
-    {
-      "id": "aa-dekalb-2-d6-2000",
-      "fellowship": "AA",
-      "name": "Dekalb Group",
-      "day": 6,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Open",
-        "Speaker",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "St. Timothy Episcopal Church",
-      "address": "2833 Flat Shoals Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.7058084,
-      "lng": -84.2992585,
-      "region": "Decatur",
-      "notes": "Starting August 2 meeting time will change to 6:00pm",
-      "source": "https://atlantaaa.org/meetings/dekalb-2/"
     },
     {
       "id": "aa-douglasville-9-d6-2000",
