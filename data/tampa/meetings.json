@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-09-14T14:18:29.992Z",
+    "generated": "2026-09-15T12:47:27.785Z",
     "seed": false,
     "counts": {
       "NA": 338,
@@ -7113,6 +7113,28 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-f-e-a-r-face-everything-and-recover-159414",
+      "fellowship": "NA",
+      "name": "F.E.A.R.  Face Everything And Recover",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope United Methodist Church",
+      "address": "2200 Little Rd.",
+      "city": "New Port Richey",
+      "state": "FL",
+      "zip": "34655",
+      "lat": 28.19102,
+      "lng": -82.6655595,
+      "region": "New Port Richey",
+      "notes": "Trinity",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-friday-night-clean-85324",
       "fellowship": "NA",
       "name": "Friday Night Clean",
@@ -7355,28 +7377,6 @@
       "lng": -82.4349783,
       "region": "Land O' Lakes",
       "notes": "Speaker Meeting last Friday of the month. Additional 15 minutes.",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-f-e-a-r-face-everything-and-recover-159414",
-      "fellowship": "NA",
-      "name": "F.E.A.R.  Face Everything And Recover",
-      "day": 5,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Hope United Methodist Church",
-      "address": "2200 Little Rd.",
-      "city": "New Port Richey",
-      "state": "FL",
-      "zip": "34655",
-      "lat": 28.19102,
-      "lng": -82.6655595,
-      "region": "New Port Richey",
-      "notes": "Trinity",
       "source": "https://na.org/meetingsearch/"
     },
     {

@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-09-14T14:16:46.542Z",
+    "generated": "2026-09-15T12:45:43.708Z",
     "seed": false,
     "counts": {
       "AA": 1351,
-      "NA": 303,
+      "NA": 299,
       "RD": 6
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 303,
+        "count": 299,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -12519,32 +12519,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-hard-knocks-171559",
-      "fellowship": "NA",
-      "name": "Hard Knocks",
-      "day": 2,
-      "time": "10:00",
-      "endTime": "11:30",
-      "types": [
-        "Open",
-        "Wheelchair accessible",
-        "Pi"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center Inc",
-      "address": "1472 Richard Road",
-      "city": "Decatur",
-      "state": "GA",
-      "zip": "30032",
-      "lat": 33.7601935,
-      "lng": -84.2452548,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-just-4-today-meditation-147330",
       "fellowship": "NA",
       "name": "Just 4 Today Meditation",
@@ -19042,32 +19016,6 @@
       "source": "https://atlantaaa.org/meetings/first-things-first-2/"
     },
     {
-      "id": "na-hard-knocks-171560",
-      "fellowship": "NA",
-      "name": "Hard Knocks",
-      "day": 3,
-      "time": "10:00",
-      "endTime": "11:30",
-      "types": [
-        "Open",
-        "Wheelchair accessible",
-        "Pi"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center Inc",
-      "address": "1472 Richard Road",
-      "city": "Decatur",
-      "state": "GA",
-      "zip": "30032",
-      "lat": 33.7601935,
-      "lng": -84.2452548,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-just-4-today-meditation-96470",
       "fellowship": "NA",
       "name": "Just 4 Today Meditation",
@@ -25231,32 +25179,6 @@
       "lat": 33.7760161,
       "lng": -84.4491684,
       "region": "Atlanta",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-hard-knocks-171561",
-      "fellowship": "NA",
-      "name": "Hard Knocks",
-      "day": 4,
-      "time": "10:00",
-      "endTime": "11:30",
-      "types": [
-        "Open",
-        "QA",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center Inc",
-      "address": "1472 Richard Road",
-      "city": "Decatur",
-      "state": "GA",
-      "zip": "30032",
-      "lat": 33.7601935,
-      "lng": -84.2452548,
-      "region": "Decatur",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -31704,32 +31626,6 @@
       "region": "Buford",
       "notes": "Suite 1-D",
       "source": "https://atlantaaa.org/meetings/first-things-first-4/"
-    },
-    {
-      "id": "na-hard-knocks-171562",
-      "fellowship": "NA",
-      "name": "Hard Knocks",
-      "day": 5,
-      "time": "10:00",
-      "endTime": "11:30",
-      "types": [
-        "IP",
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "365 Center Inc",
-      "address": "1472 Richard Road",
-      "city": "Decatur",
-      "state": "GA",
-      "zip": "30032",
-      "lat": 33.7601935,
-      "lng": -84.2452548,
-      "region": "Decatur",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-just-4-today-meditation-23083",

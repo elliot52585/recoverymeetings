@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-09-14T14:16:32.399Z",
+    "generated": "2026-09-15T12:45:27.887Z",
     "seed": false,
     "counts": {
       "AA": 392,
@@ -955,32 +955,6 @@
       "source": "https://www.memphis-aa.org/meetings/rule-62"
     },
     {
-      "id": "na-clarity-13769",
-      "fellowship": "NA",
-      "name": "Clarity",
-      "day": 0,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "H"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Hope Presbyterian Room",
-      "address": "8500 Walnut Grove",
-      "city": "Cordova",
-      "state": "TN",
-      "zip": "38018",
-      "lat": 35.1305357,
-      "lng": -89.7781772,
-      "region": "Cordova",
-      "notes": "Room 232",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "aa-germantown-happy-group-d0-1900",
       "fellowship": "AA",
       "name": "Germantown Happy Group",
@@ -1265,6 +1239,32 @@
       "region": "Memphis",
       "notes": "Zoom Password: serene\n\nDial-in #1-301-715-8592, ID 844 9853 3175, password: serene (835412)",
       "source": "https://www.memphis-aa.org/meetings/two-doors-down-45"
+    },
+    {
+      "id": "na-clarity-13769",
+      "fellowship": "NA",
+      "name": "Clarity",
+      "day": 0,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "H"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Presbyterian Room",
+      "address": "8500 Walnut Grove",
+      "city": "Cordova",
+      "state": "TN",
+      "zip": "38018",
+      "lat": 35.1305357,
+      "lng": -89.7781772,
+      "region": "Cordova",
+      "notes": "Room 232",
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-great-reality-group-6-d0-2000",

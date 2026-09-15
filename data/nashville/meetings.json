@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-14T14:16:25.959Z",
+    "generated": "2026-09-15T12:45:21.573Z",
     "seed": false,
     "counts": {
-      "AA": 872,
+      "AA": 870,
       "NA": 161,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 873,
+        "count": 871,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -22257,58 +22257,6 @@
       "region": "Nashville",
       "notes": null,
       "source": "https://aanashville.org/meetings/209wes51900/"
-    },
-    {
-      "id": "aa-womens-speaker-meeting-d5-1900",
-      "fellowship": "AA",
-      "name": "Women's Speaker Meeting",
-      "day": 5,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open",
-        "Speaker",
-        "Women"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/89803645154",
-      "venue": null,
-      "address": "Melrose",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1003494,
-      "lng": -86.7718017,
-      "region": "Nashville",
-      "notes": "ID: 898 0364 5154\nPW: 103849",
-      "source": "https://aanashville.org/meetings/womens-speaker-meeting/"
-    },
-    {
-      "id": "aa-womens-speaker-meeting-2-d5-1900",
-      "fellowship": "AA",
-      "name": "Women's Speaker Meeting",
-      "day": 5,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Speaker",
-        "Women"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Glendale United Methodist Church",
-      "address": "900 Glendale Ln",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.0929322,
-      "lng": -86.7878581,
-      "region": "Nashville",
-      "notes": null,
-      "source": "https://aanashville.org/meetings/womens-speaker-meeting-2/"
     },
     {
       "id": "na-drop-it-off-145101",
