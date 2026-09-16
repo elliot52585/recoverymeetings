@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-09-15T12:45:49.779Z",
+    "generated": "2026-09-16T12:40:36.904Z",
     "seed": false,
     "counts": {
       "AA": 536,
@@ -631,7 +631,7 @@
       "lat": 38.2685167,
       "lng": -85.5762801,
       "region": "Louisville",
-      "notes": "Located in Kitchen Area",
+      "notes": "Located in the Large Meeting Room",
       "source": "https://loukyaa.org/meetings/the-earthlings-meeting/"
     },
     {
