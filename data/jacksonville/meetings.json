@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-09-16T12:42:21.992Z",
+    "generated": "2026-09-17T12:41:28.705Z",
     "seed": false,
     "counts": {
-      "AA": 679,
+      "AA": 680,
       "NA": 73,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 690,
+        "count": 691,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -72,8 +72,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/morning-after-group-7/"
@@ -252,31 +252,6 @@
       "source": "https://neflaa.org/meetings/sunrise-serenity/"
     },
     {
-      "id": "aa-morning-after-group-d0-0800",
-      "fellowship": "AA",
-      "name": "Morning After Group",
-      "day": 0,
-      "time": "08:00",
-      "endTime": null,
-      "types": [
-        "Open",
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The Serenity Club",
-      "address": "18 S Dixie Hwy",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
-      "region": "St. Augustine",
-      "notes": null,
-      "source": "https://neflaa.org/meetings/morning-after-group/"
-    },
-    {
       "id": "aa-orange-park-group-zoom-meeting-d0-0800",
       "fellowship": "AA",
       "name": "Orange Park Group",
@@ -325,6 +300,31 @@
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/surfs-up-group/"
+    },
+    {
+      "id": "aa-morning-after-group-d0-0830",
+      "fellowship": "AA",
+      "name": "Morning After Group",
+      "day": 0,
+      "time": "08:30",
+      "endTime": "09:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Serenity Club",
+      "address": "18 S Dixie Hwy",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
+      "region": "St. Augustine",
+      "notes": null,
+      "source": "https://neflaa.org/meetings/morning-after-group/"
     },
     {
       "id": "aa-orange-park-group-1-d0-0830",
@@ -615,8 +615,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Handicap Accessible Facility",
       "source": "https://neflaa.org/meetings/sunday-morning-group/"
@@ -889,8 +889,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/new-life-group/"
@@ -989,8 +989,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/k-i-s-s/"
@@ -1242,8 +1242,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Big Book Study, Handicap Accessible Facility",
       "source": "https://neflaa.org/meetings/happy-hour-beginners-group/"
@@ -2071,8 +2071,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/oyster-creek-group/"
@@ -2525,8 +2525,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Other Literature Study",
       "source": "https://neflaa.org/meetings/winning-game-group/"
@@ -2727,8 +2727,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "O-D",
       "source": "https://neflaa.org/meetings/morning-after-group-1/"
@@ -3223,8 +3223,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/new-life-group-1/"
@@ -3575,8 +3575,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "12&12 Book Study, Handicap Accessible Facility",
       "source": "https://neflaa.org/meetings/happy-hour-group-3/"
@@ -5268,8 +5268,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/oyster-creek-group-1/"
@@ -5620,8 +5620,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Other Literature Study",
       "source": "https://neflaa.org/meetings/winning-game-group-1/"
@@ -5821,8 +5821,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Big Book Study",
       "source": "https://neflaa.org/meetings/morning-after-group-2/"
@@ -5976,6 +5976,30 @@
       "region": "Jacksonville",
       "notes": "Corner of 10th and Silver",
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-happy-hour-group-4-d2-1000",
+      "fellowship": "AA",
+      "name": "Happy Hour Group",
+      "day": 2,
+      "time": "10:00",
+      "endTime": "11:00",
+      "types": [
+        "Step study"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Serenity Club",
+      "address": "18 S Dixie Hwy",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
+      "region": "St. Augustine",
+      "notes": null,
+      "source": "https://neflaa.org/meetings/happy-hour-group-4/"
     },
     {
       "id": "aa-fernandina-beach-group-6-d2-1100",
@@ -6194,8 +6218,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Handicap Accessible Facility",
       "source": "https://neflaa.org/meetings/ladies-unity-group/"
@@ -6617,8 +6641,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/oyster-creek-group-2/"
@@ -8021,8 +8045,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Beginner's Meeting",
       "source": "https://neflaa.org/meetings/oyster-creek-group-3/"
@@ -8371,8 +8395,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Other Literature Study",
       "source": "https://neflaa.org/meetings/winning-game-group-2/"
@@ -8597,8 +8621,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Other Literature Study",
       "source": "https://neflaa.org/meetings/morning-after-group-3/"
@@ -9099,8 +9123,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/new-life-group-2/"
@@ -9296,8 +9320,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/happy-hour-group-6/"
@@ -10867,8 +10891,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/oyster-creek-group-4/"
@@ -11271,8 +11295,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Book Study",
       "source": "https://neflaa.org/meetings/winning-game-group-3/"
@@ -11447,8 +11471,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Other Literature Study",
       "source": "https://neflaa.org/meetings/morning-after-group-4/"
@@ -11870,8 +11894,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/new-life-group-3/"
@@ -12149,8 +12173,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/happy-hour-group-8/"
@@ -13657,8 +13681,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/oyster-creek-group-5/"
@@ -14034,8 +14058,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/winning-game-group-4/"
@@ -14262,8 +14286,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/morning-after-group-5/"
@@ -14781,8 +14805,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/new-life-group-4/"
@@ -15136,8 +15160,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": "Speaker Meeting, Handicap Accessible Facility",
       "source": "https://neflaa.org/meetings/happy-hour-group-5/"
@@ -16307,8 +16331,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/oyster-creek-group-6/"
@@ -16958,8 +16982,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/morning-after-group-6/"
@@ -17873,8 +17897,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/new-life-group-5/"
@@ -18098,8 +18122,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/happy-hour-group-7/"
@@ -18876,8 +18900,8 @@
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8864208,
-      "lng": -81.3278007,
+      "lat": 29.8864252,
+      "lng": -81.3278006,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/oyster-creek-group-7/"

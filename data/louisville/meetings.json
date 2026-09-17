@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-09-16T12:40:36.904Z",
+    "generated": "2026-09-17T12:39:44.604Z",
     "seed": false,
     "counts": {
       "AA": 536,
-      "NA": 84,
+      "NA": 83,
       "RD": 2
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 84,
+        "count": 83,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=38.2527&long_val=-85.7585&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -11011,32 +11011,6 @@
       "region": "Floyd County IN",
       "notes": "In the Carriage House",
       "source": "https://loukyaa.org/meetings/east-end-group-3/"
-    },
-    {
-      "id": "na-hope-for-us-54763",
-      "fellowship": "NA",
-      "name": "Hope For Us",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "LS"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "1st Presbyterian Church",
-      "address": "396 McClain Ave.",
-      "city": "Scottsburg",
-      "state": "IN",
-      "zip": "47170",
-      "lat": 38.6859166,
-      "lng": -85.7743827,
-      "region": "Scottsburg",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-into-action-166533",

@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-16T12:40:44.083Z",
+    "generated": "2026-09-17T12:39:51.667Z",
     "seed": false,
     "counts": {
-      "AA": 1120,
+      "AA": 1119,
       "NA": 153,
       "RD": 13
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1121,
+        "count": 1120,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -7220,30 +7220,6 @@
       "region": "Denver",
       "notes": null,
       "source": "https://daccaa.org/meetings/969-2511/"
-    },
-    {
-      "id": "aa-16-56-d1-1800",
-      "fellowship": "AA",
-      "name": "Zoom to Acceptance",
-      "day": 1,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/955030390?pwd=dFZYL3BCcSsyUnJkcGYyV3RlZlZXZz09",
-      "venue": "Lakewood 80226",
-      "address": "Lakewood",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7047095,
-      "lng": -105.0813734,
-      "region": "Lakewood",
-      "notes": "JOIN VIA ZOOM at 6:00 pm\nMeeting ID: 955 030 390\nPassword: 643472",
-      "source": "https://daccaa.org/meetings/16-56/"
     },
     {
       "id": "aa-189-458-d1-1815",
@@ -22180,7 +22156,7 @@
       "lat": 39.7518032,
       "lng": -105.0189606,
       "region": "Denver",
-      "notes": null,
+      "notes": "Meeting ID 778 948 3840\nPassword: MHSM",
       "source": "https://daccaa.org/meetings/mile-high-speakers/"
     },
     {
