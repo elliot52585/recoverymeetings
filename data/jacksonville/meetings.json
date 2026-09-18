@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-09-17T12:41:28.705Z",
+    "generated": "2026-09-18T12:19:54.334Z",
     "seed": false,
     "counts": {
-      "AA": 680,
+      "AA": 681,
       "NA": 73,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 691,
+        "count": 692,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -3907,6 +3907,32 @@
       "region": "Jacksonville Beach",
       "notes": null,
       "source": "https://neflaa.org/meetings/beaches-unity-group-13/"
+    },
+    {
+      "id": "aa-central-group-mens-meeting-d1-1830",
+      "fellowship": "AA",
+      "name": "Central Group Men's Meeting",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Closed",
+        "Discussion",
+        "Men"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "1423 San Marco Blvd, Jacksonville 32207",
+      "address": "1423 San Marco Blvd",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3115791,
+      "lng": -81.6600911,
+      "region": "Jacksonville",
+      "notes": "The Meeting is held in the upstairs meeting room.",
+      "source": "https://neflaa.org/meetings/central-group-mens-meeting/"
     },
     {
       "id": "aa-fernandina-beach-group-4-d1-1830",

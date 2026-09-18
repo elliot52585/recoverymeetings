@@ -1,18 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-09-17T12:39:44.604Z",
+    "generated": "2026-09-18T12:18:09.994Z",
     "seed": false,
     "counts": {
       "AA": 536,
       "NA": 83,
-      "RD": 2
+      "RD": 3
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 536,
-        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
       },
       "NA": {
         "ok": true,
@@ -21,7 +20,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 2,
+        "count": 3,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -1274,6 +1273,30 @@
       "region": "Henry County",
       "notes": null,
       "source": "https://loukyaa.org/meetings/i-like-big-books-and-i-cannot-lie-womens-meeting/"
+    },
+    {
+      "id": "rd-just-right-sangha-d0-1900",
+      "fellowship": "RD",
+      "name": "Just Right. A Recovery Dharma Sangha",
+      "day": 0,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Women's Healing Place",
+      "address": "1503 S 15th St",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.226587,
+      "lng": -85.7798933,
+      "region": "Kentucky",
+      "notes": "The main entrance is to the side of the building, by the large parking lot.",
+      "source": "https://recoverydharma.org/meetings/just-right-sangha/"
     },
     {
       "id": "aa-life-preserver-online-d0-1900",

@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-09-17T12:39:29.971Z",
+    "generated": "2026-09-18T12:17:41.667Z",
     "seed": false,
     "counts": {
       "AA": 343,
-      "NA": 100,
+      "NA": 96,
       "RD": 5
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 101,
+        "count": 97,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.9606&long_val=-83.9207&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2442,32 +2442,6 @@
       "source": "https://www.etiaa.org/meetings/open-doors/"
     },
     {
-      "id": "na-high-on-life-165512",
-      "fellowship": "NA",
-      "name": "High on Life",
-      "day": 1,
-      "time": "18:45",
-      "endTime": "19:45",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Children welcome"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Washington Pike Church",
-      "address": "1700 Washington Pike",
-      "city": "Knoxville",
-      "state": "TN",
-      "zip": "37917",
-      "lat": 35.9974637,
-      "lng": -83.9184869,
-      "region": "Knoxville",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "aa-4-way-d1-1900",
       "fellowship": "AA",
       "name": "4-Way Group",
@@ -3838,30 +3812,6 @@
       "region": "Cosby",
       "notes": null,
       "source": "https://www.etiaa.org/meetings/our-primary-purpose/"
-    },
-    {
-      "id": "na-reality-is-change-170281",
-      "fellowship": "NA",
-      "name": "Reality Is Change",
-      "day": 2,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The Gateway",
-      "address": "530 W Fifth Ave",
-      "city": "Knoxville",
-      "state": "TN",
-      "zip": "37917",
-      "lat": 35.9721402,
-      "lng": -83.925248,
-      "region": "Knoxville",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-riverside-6-d2-1200",
@@ -5984,31 +5934,6 @@
       "source": "https://www.etiaa.org/meetings/turn-the-page-wednesday/"
     },
     {
-      "id": "na-no-more-excuses-153941",
-      "fellowship": "NA",
-      "name": "No More Excuses",
-      "day": 3,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Washington Pike Church",
-      "address": "1700 Washington Pike",
-      "city": "Knoxville",
-      "state": "TN",
-      "zip": "37917",
-      "lat": 35.9974637,
-      "lng": -83.9184869,
-      "region": "Knoxville",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "aa-riverside-11-d3-1830",
       "fellowship": "AA",
       "name": "Riverside",
@@ -6212,6 +6137,31 @@
       "region": "Rockford",
       "notes": "Upstairs",
       "source": "https://www.etiaa.org/meetings/lenguaje-del-corazon-3/"
+    },
+    {
+      "id": "na-no-more-excuses-153941",
+      "fellowship": "NA",
+      "name": "No More Excuses",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Washington Pike Church",
+      "address": "1700 Washington Pike",
+      "city": "Knoxville",
+      "state": "TN",
+      "zip": "37917",
+      "lat": 35.9974637,
+      "lng": -83.9184869,
+      "region": "Knoxville",
+      "notes": "The meeting start time on the schedule states 6:30pm...however, I discovered that this is misinformation from misinformed people. The meeting starts at 7:00pm and nobody from the group communicated with the area to change it.",
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-roamers-2-d3-1900",
@@ -8872,30 +8822,6 @@
       "source": "https://www.etiaa.org/meetings/morristown-group-11/"
     },
     {
-      "id": "na-reality-is-change-170283",
-      "fellowship": "NA",
-      "name": "Reality Is Change",
-      "day": 5,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The Gateway",
-      "address": "530 W Fifth Ave",
-      "city": "Knoxville",
-      "state": "TN",
-      "zip": "37917",
-      "lat": 35.9721402,
-      "lng": -83.925248,
-      "region": "Knoxville",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "aa-riverside-17-d5-1200",
       "fellowship": "AA",
       "name": "Riverside",
@@ -9286,30 +9212,6 @@
       "region": "Knoxville",
       "notes": "Zoom: 87550655340",
       "source": "https://www.etiaa.org/meetings/turnip-patch/"
-    },
-    {
-      "id": "na-no-more-excuses-226923",
-      "fellowship": "NA",
-      "name": "No More Excuses",
-      "day": 5,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "OE"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Washington Pike Church",
-      "address": "1700 Washington Pike",
-      "city": "Knoxville",
-      "state": "TN",
-      "zip": "37917",
-      "lat": 35.9974637,
-      "lng": -83.9184869,
-      "region": "Knoxville",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-sober-pride-2-d5-1830",
