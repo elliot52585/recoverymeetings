@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-09-18T12:17:41.667Z",
+    "generated": "2026-09-19T11:58:39.873Z",
     "seed": false,
     "counts": {
-      "AA": 343,
+      "AA": 342,
       "NA": 96,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 343,
+        "count": 342,
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -5771,33 +5771,6 @@
       "region": "Knoxville",
       "notes": "This meeting meets in the \"Blue Room\" at Park 40",
       "source": "https://www.etiaa.org/meetings/online-sober-men-in-recovery/"
-    },
-    {
-      "id": "aa-the-lady-birds-d3-1730",
-      "fellowship": "AA",
-      "name": "The Lady Birds",
-      "day": 3,
-      "time": "17:30",
-      "endTime": "18:30",
-      "types": [
-        "Discussion",
-        "LGBTQ",
-        "Open",
-        "Women"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The Gateway",
-      "address": "530 W Fifth Ave",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.9722003,
-      "lng": -83.9250724,
-      "region": "Knoxville",
-      "notes": "Lady Birds is a sister meeting to the Women's Birdhouse meeting.\nMeets in serenity room, parking across street.",
-      "source": "https://www.etiaa.org/meetings/the-lady-birds/"
     },
     {
       "id": "aa-unity-7-d3-1730",
