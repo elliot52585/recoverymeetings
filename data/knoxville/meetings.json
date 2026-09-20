@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-09-19T11:58:39.873Z",
+    "generated": "2026-09-20T12:30:58.077Z",
     "seed": false,
     "counts": {
       "AA": 342,
-      "NA": 96,
+      "NA": 95,
       "RD": 5
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 97,
+        "count": 96,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.9606&long_val=-83.9207&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -3840,27 +3840,32 @@
       "source": "https://www.etiaa.org/meetings/riverside-6/"
     },
     {
-      "id": "na-we-do-recover-230007",
+      "id": "na-we-do-recover-group-na-230179",
       "fellowship": "NA",
-      "name": "We Do Recover",
+      "name": "We Do Recover Group Na",
       "day": 2,
       "time": "12:00",
       "endTime": "13:00",
       "types": [
-        "Discussion"
+        "Basic Text",
+        "Discussion",
+        "It Works study",
+        "Open",
+        "Tradition study",
+        "Just for Today"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "The Gateway",
-      "address": "530 W Fifth Ave",
+      "address": "530 W 5th Avenue Knoxville TN 37917",
       "city": "Knoxville",
       "state": "TN",
       "zip": "37917",
       "lat": 35.9722003,
       "lng": -83.9250724,
       "region": "Knoxville",
-      "notes": null,
+      "notes": "Enter through the coffeeshop",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -6931,30 +6936,6 @@
       "region": "Morristown",
       "notes": "Back side of Smoke Shop",
       "source": "https://www.etiaa.org/meetings/morristown-group-8/"
-    },
-    {
-      "id": "na-reality-is-change-170282",
-      "fellowship": "NA",
-      "name": "Reality Is Change",
-      "day": 4,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The Gateway",
-      "address": "530 W Fifth Ave",
-      "city": "Knoxville",
-      "state": "TN",
-      "zip": "37917",
-      "lat": 35.9721402,
-      "lng": -83.925248,
-      "region": "Knoxville",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-riverside-14-d4-1200",
