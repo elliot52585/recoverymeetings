@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-09-20T12:33:03.856Z",
+    "generated": "2026-09-21T14:24:54.770Z",
     "seed": false,
     "counts": {
       "NA": 338,
@@ -1803,7 +1803,7 @@
       "name": "Lost Dreams Awaken",
       "day": 1,
       "time": "18:30",
-      "endTime": "19:30",
+      "endTime": "20:00",
       "types": [
         "Basic Text",
         "Open",

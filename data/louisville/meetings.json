@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-09-20T12:31:23.494Z",
+    "generated": "2026-09-21T14:23:18.591Z",
     "seed": false,
     "counts": {
       "AA": 536,
-      "NA": 83,
+      "NA": 84,
       "RD": 3
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 83,
+        "count": 84,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=38.2527&long_val=-85.7585&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -5076,6 +5076,31 @@
       "region": "Online",
       "notes": "Zoom ID: 626000773\nNo Password",
       "source": "https://loukyaa.org/meetings/aaforus-tuesday/"
+    },
+    {
+      "id": "na-agape-group-166506",
+      "fellowship": "NA",
+      "name": "Agape Group",
+      "day": 2,
+      "time": "12:00",
+      "endTime": "13:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://us02web.zoom.us/j/9641229608?pwd=T3c4bGR3VUNXWWIxZ0UrRXhxclgzZz09",
+      "venue": null,
+      "address": null,
+      "city": "Louisville",
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2468618,
+      "lng": -85.7663724,
+      "region": "Louisville",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-happy-hour-mens-meeting-2-2-d2-1200",
@@ -15926,9 +15951,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-mens-meeting-177351",
+      "id": "na-men-s-meeting-177351",
       "fellowship": "NA",
-      "name": "Mens Meeting",
+      "name": "Men's Meeting",
       "day": 6,
       "time": "19:00",
       "endTime": "20:00",
