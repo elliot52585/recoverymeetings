@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-09-21T14:22:44.439Z",
+    "generated": "2026-09-22T12:42:17.178Z",
     "seed": false,
     "counts": {
       "AA": 392,
@@ -20,9 +20,8 @@
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.1495&long_val=-90.049&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
-        "ok": true,
-        "count": 2,
-        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: recoverydharma.org/wp-admin/admin-ajax.p — HTTP 403"
       }
     }
   },
@@ -3900,6 +3899,30 @@
       "region": "Bartlett",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/waagl-group-9"
+    },
+    {
+      "id": "aa-armed-with-facts-d2-1800",
+      "fellowship": "AA",
+      "name": "Armed With Facts",
+      "day": 2,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Presbyterian Church",
+      "address": "8500 Walnut Grove Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.130625,
+      "lng": -89.7794625,
+      "region": "Cordova",
+      "notes": "Meets in room 234 upstairs from entrance 1",
+      "source": "https://www.memphis-aa.org/meetings/armed-with-facts"
     },
     {
       "id": "aa-bull-frog-corner-2-d2-1800",
@@ -8503,30 +8526,6 @@
       "region": "Germantown",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/germantown-noon-group-3"
-    },
-    {
-      "id": "aa-hope-armed-with-facts-d5-1200",
-      "fellowship": "AA",
-      "name": "Hope Armed with Facts",
-      "day": 5,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Hope Presbyterian Church",
-      "address": "8500 Walnut Grove Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.130625,
-      "lng": -89.7794625,
-      "region": "Cordova",
-      "notes": "Meets in room 234 upstairs from entrance 1",
-      "source": "https://www.memphis-aa.org/meetings/hope-armed-with-facts"
     },
     {
       "id": "aa-horn-lake-24-d5-1200",

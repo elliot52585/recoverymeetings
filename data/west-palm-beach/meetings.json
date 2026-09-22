@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-09-21T14:25:53.093Z",
+    "generated": "2026-09-22T12:46:22.481Z",
     "seed": false,
     "counts": {
       "AA": 500,
@@ -20,9 +20,8 @@
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=26.7153&long_val=-80.0534&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
-        "ok": true,
-        "count": 5,
-        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: recoverydharma.org/wp-admin/admin-ajax.p — HTTP 403"
       }
     }
   },
