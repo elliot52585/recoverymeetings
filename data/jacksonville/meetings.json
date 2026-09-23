@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-09-22T12:45:25.756Z",
+    "generated": "2026-09-23T12:51:33.151Z",
     "seed": false,
     "counts": {
       "AA": 681,
-      "NA": 73,
+      "NA": 74,
       "RD": 6
     },
     "sources": {
@@ -16,12 +16,13 @@
       },
       "NA": {
         "ok": true,
-        "count": 74,
+        "count": 75,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=30.3322&long_val=-81.6557&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
-        "ok": false,
-        "error": "all TSML feeds failed: recoverydharma.org/wp-admin/admin-ajax.p — HTTP 403"
+        "ok": true,
+        "count": 6,
+        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
   },
@@ -1074,30 +1075,6 @@
       "source": "https://neflaa.org/meetings/village-womens-11th-step-meditation-meeting/"
     },
     {
-      "id": "na-a-vision-of-hope-86283",
-      "fellowship": "NA",
-      "name": "A Vision of Hope",
-      "day": 0,
-      "time": "17:00",
-      "endTime": "18:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "3910 Lewis Speedway",
-      "city": "St Augustine",
-      "state": "FL",
-      "zip": "32084",
-      "lat": 29.9391795,
-      "lng": -81.339759,
-      "region": "St Augustine",
-      "notes": "Suite #1102",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-a-vision-of-hope-147211",
       "fellowship": "NA",
       "name": "A Vision of Hope",
@@ -1121,6 +1098,30 @@
       "lng": -81.3398493,
       "region": "St. Augustine",
       "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-a-vision-of-hope-86283",
+      "fellowship": "NA",
+      "name": "A Vision of Hope",
+      "day": 0,
+      "time": "17:00",
+      "endTime": "18:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "3910 Lewis Speedway",
+      "city": "St Augustine",
+      "state": "FL",
+      "zip": "32084",
+      "lat": 29.9391795,
+      "lng": -81.339759,
+      "region": "St Augustine",
+      "notes": "Suite #1102",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -1547,19 +1548,20 @@
       "source": "https://neflaa.org/meetings/callahan-group/"
     },
     {
-      "id": "na-clean-and-serene-84563",
+      "id": "na-clean-and-serene-226288",
       "fellowship": "NA",
       "name": "Clean and Serene",
       "day": 0,
       "time": "19:00",
       "endTime": "20:00",
       "types": [
+        "Discussion",
         "Open",
-        "JFT"
+        "SPK"
       ],
       "online": true,
       "hybrid": false,
-      "conferenceUrl": null,
+      "conferenceUrl": "https://zoom.us/j/468934945",
       "venue": null,
       "address": null,
       "city": null,
@@ -1568,7 +1570,7 @@
       "lat": 29.9109642,
       "lng": -81.3729372,
       "region": null,
-      "notes": null,
+      "notes": "Zoom Mtg ID: 468-934-945",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -6323,6 +6325,33 @@
       "region": "Orange Park",
       "notes": "O-D\n\nZoom ID: 227 2737 584\nPasscode: OPGAA1835",
       "source": "https://neflaa.org/meetings/orange-park-group-13/"
+    },
+    {
+      "id": "na-the-noon-group-230243",
+      "fellowship": "NA",
+      "name": "The Noon Group",
+      "day": 2,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Open",
+        "STP",
+        "Wheelchair accessible",
+        "SPK"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Faith United Methodist Church",
+      "address": "4000 Spring Park Rd",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32207",
+      "lat": 30.28441,
+      "lng": -81.621259,
+      "region": "Jacksonville",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-more-about-alcoholism-2-d2-1200",

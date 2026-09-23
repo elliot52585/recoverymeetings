@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-22T12:43:21.212Z",
+    "generated": "2026-09-23T12:49:52.051Z",
     "seed": false,
     "counts": {
-      "AA": 1119,
+      "AA": 1120,
       "NA": 155,
       "RD": 13
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1120,
+        "count": 1121,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -20,8 +20,9 @@
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=39.7392&long_val=-104.9903&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
-        "ok": false,
-        "error": "all TSML feeds failed: recoverydharma.org/wp-admin/admin-ajax.p — HTTP 403"
+        "ok": true,
+        "count": 13,
+        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
   },
@@ -5156,7 +5157,7 @@
       "lat": 39.6781694,
       "lng": -104.9707385,
       "region": "Denver",
-      "notes": "Child Friendly",
+      "notes": null,
       "source": "https://daccaa.org/meetings/846-2203/"
     },
     {
@@ -16384,6 +16385,32 @@
       "region": "Superior",
       "notes": null,
       "source": "https://daccaa.org/meetings/burning-desire/"
+    },
+    {
+      "id": "aa-castle-rock-womens-12x12-d3-1800",
+      "fellowship": "AA",
+      "name": "Castle Rock Women's 12x12",
+      "day": 3,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "12x12",
+        "Closed",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Church",
+      "address": "3737 New Hope Way",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.4017522,
+      "lng": -104.8846372,
+      "region": "Castle Rock",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/castle-rock-womens-12x12/"
     },
     {
       "id": "aa-79-225-d3-1800",

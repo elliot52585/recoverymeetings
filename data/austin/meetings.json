@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-09-22T12:43:44.518Z",
+    "generated": "2026-09-23T12:50:09.679Z",
     "seed": false,
     "counts": {
       "NA": 93,
@@ -18,8 +18,9 @@
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=30.2672&long_val=-97.7431&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
-        "ok": false,
-        "error": "all TSML feeds failed: recoverydharma.org/wp-admin/admin-ajax.p — HTTP 403"
+        "ok": true,
+        "count": 4,
+        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
   },
@@ -1182,8 +1183,7 @@
       "endTime": "21:30",
       "types": [
         "FDIS",
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": true,

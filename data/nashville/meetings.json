@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-22T12:42:05.368Z",
+    "generated": "2026-09-23T12:49:06.892Z",
     "seed": false,
     "counts": {
       "AA": 871,
-      "NA": 161,
+      "NA": 160,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -25,7 +25,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 162,
+        "count": 161,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -49,8 +49,9 @@
         "source": "curated"
       },
       "RD": {
-        "ok": false,
-        "error": "all TSML feeds failed: recoverydharma.org/wp-admin/admin-ajax.p — HTTP 403"
+        "ok": true,
+        "count": 4,
+        "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "SLAA": {
         "ok": true,
@@ -6393,31 +6394,6 @@
       "lat": 35.6152465,
       "lng": -87.038279,
       "region": "Columbia",
-      "notes": null,
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "na-ppp-portland-primary-purpose-literature-study-229334",
-      "fellowship": "NA",
-      "name": "PPP: Portland Primary Purpose Literature Study",
-      "day": 1,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open",
-        "LT"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Oasis Seventh Day Adventist",
-      "address": "703 S. Broadway",
-      "city": "Portland",
-      "state": "TN",
-      "zip": "37148",
-      "lat": 36.569318,
-      "lng": -86.5126424,
-      "region": "Portland",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
     },
