@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-09-23T12:50:54.112Z",
+    "generated": "2026-09-24T12:49:00.361Z",
     "seed": false,
     "counts": {
       "NA": 172,
-      "RD": 4
+      "RD": 3
     },
     "sources": {
       "AA": {
@@ -19,7 +19,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 4,
+        "count": 3,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -906,32 +906,6 @@
       "region": "Longwood",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "rd-orlando-sangha-monday-night-inquiry-investigation-circle-joi-d1-1830",
-      "fellowship": "RD",
-      "name": "RD Orlando - On The Wise Path Inquiry & Investigation Circle",
-      "day": 1,
-      "time": "18:30",
-      "endTime": "20:00",
-      "types": [
-        "NL",
-        "Open",
-        "FIS"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "RD Orlando",
-      "address": "7912 Forest City Rd #101",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 28.6287345,
-      "lng": -81.4160385,
-      "region": "Florida",
-      "notes": "Orlando Sangha Monday Night Inquiry & Investigation Circle - Join us for a small group - Meditation, Inquiry Writing, Mentorship, and Open Discussion meeting.",
-      "source": "https://recoverydharma.org/meetings/orlando-sangha-monday-night-inquiry-investigation-circle-join-us-for-a-small-group-meditation-inquiry-writing-mentorship-and-open-discussion/"
     },
     {
       "id": "na-sister-soul-228949",
@@ -2428,7 +2402,6 @@
       "time": "19:00",
       "endTime": "20:00",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -4232,7 +4205,6 @@
       "time": "16:00",
       "endTime": "17:00",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,

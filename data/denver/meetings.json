@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-23T12:49:52.051Z",
+    "generated": "2026-09-24T12:47:51.868Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -2198,8 +2198,7 @@
       "time": "14:00",
       "endTime": "15:00",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -2574,7 +2573,6 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -7078,8 +7076,7 @@
       "endTime": "19:00",
       "types": [
         "FBS",
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -7103,8 +7100,7 @@
       "time": "18:00",
       "endTime": "19:00",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -7454,7 +7450,7 @@
       "time": "18:30",
       "endTime": "19:30",
       "types": [
-        "Closed"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -12005,8 +12001,7 @@
       "time": "18:30",
       "endTime": "19:30",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -12106,7 +12101,6 @@
       "time": "18:45",
       "endTime": "19:45",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -16823,7 +16817,6 @@
       "time": "18:30",
       "endTime": "19:30",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -16849,8 +16842,7 @@
       "endTime": "19:30",
       "types": [
         "FBS",
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -21715,7 +21707,6 @@
       "time": "18:30",
       "endTime": "19:30",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -21740,7 +21731,6 @@
       "time": "18:30",
       "endTime": "19:30",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -22265,7 +22255,6 @@
       "time": "19:00",
       "endTime": "20:00",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -26437,8 +26426,7 @@
       "endTime": "19:30",
       "types": [
         "FBS",
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -31276,8 +31264,7 @@
       "time": "19:00",
       "endTime": "20:00",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,

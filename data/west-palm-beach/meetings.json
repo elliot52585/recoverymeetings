@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-09-23T12:52:14.541Z",
+    "generated": "2026-09-24T12:50:16.599Z",
     "seed": false,
     "counts": {
-      "AA": 500,
+      "AA": 499,
       "NA": 265,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 501,
+        "count": 500,
         "source": "https://aa-palmbeachcounty.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1265,8 +1265,7 @@
       "time": "13:00",
       "endTime": "14:00",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": true,
@@ -8402,7 +8401,6 @@
       "time": "20:30",
       "endTime": "21:30",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -10036,32 +10034,6 @@
       "region": "Wellington",
       "notes": "O, BB",
       "source": "https://aapalmbeachcounty.org/meetings/wellington-happy-hour-3/"
-    },
-    {
-      "id": "aa-all-are-welcome-group-2-d3-1830",
-      "fellowship": "AA",
-      "name": "All are Welcome Group",
-      "day": 3,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "Open",
-        "Speaker"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "First Presbyterian Church",
-      "address": "301 S Olive Ave",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 26.7111443,
-      "lng": -80.0521927,
-      "region": "West Palm Beach",
-      "notes": "O, S, D\nChurch Rectory Hall, next to the parking lot. Use rear entrance.",
-      "source": "https://aapalmbeachcounty.org/meetings/all-are-welcome-group-2/"
     },
     {
       "id": "na-clean-and-crazy-84998",
@@ -13244,8 +13216,7 @@
       "time": "19:00",
       "endTime": "20:30",
       "types": [
-        "FBS",
-        "NL"
+        "FBS"
       ],
       "online": false,
       "hybrid": false,
@@ -18134,7 +18105,6 @@
       "time": "11:30",
       "endTime": "12:30",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -18386,8 +18356,7 @@
       "endTime": "13:45",
       "types": [
         "FIS",
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,

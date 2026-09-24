@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-23T12:49:06.892Z",
+    "generated": "2026-09-24T12:47:15.434Z",
     "seed": false,
     "counts": {
       "AA": 871,
@@ -5776,8 +5776,7 @@
       "time": "18:30",
       "endTime": "19:30",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -6454,7 +6453,6 @@
       "time": "19:00",
       "endTime": "20:00",
       "types": [
-        "NL",
         "Open",
         "FBS"
       ],
@@ -17600,8 +17598,7 @@
       "time": "18:30",
       "endTime": "19:30",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -22116,8 +22113,7 @@
       "time": "19:00",
       "endTime": "20:00",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,

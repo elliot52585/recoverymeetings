@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-09-23T12:51:24.178Z",
+    "generated": "2026-09-24T12:49:28.568Z",
     "seed": false,
     "counts": {
       "NA": 338,
@@ -3060,8 +3060,7 @@
       "endTime": "19:00",
       "types": [
         "FBS",
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -4400,7 +4399,7 @@
       "lat": 27.9925518,
       "lng": -82.4548599,
       "region": "Tampa",
-      "notes": "Closed on 7.22.2026",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -5540,7 +5539,6 @@
       "time": "13:00",
       "endTime": "13:30",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -5565,8 +5563,7 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -5668,8 +5665,7 @@
       "time": "18:00",
       "endTime": "19:00",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -8127,7 +8123,6 @@
       "time": "12:00",
       "endTime": "13:00",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -8626,8 +8621,7 @@
       "endTime": "20:00",
       "types": [
         "FDIS",
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,

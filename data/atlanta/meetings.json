@@ -1,17 +1,18 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-09-23T12:49:38.748Z",
+    "generated": "2026-09-24T12:47:38.020Z",
     "seed": false,
     "counts": {
-      "AA": 1379,
+      "AA": 1377,
       "NA": 299,
       "RD": 6
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "ok": true,
+        "count": 1388,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -2310,7 +2311,6 @@
       "time": "15:00",
       "endTime": "16:00",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -2492,7 +2492,6 @@
       "time": "16:00",
       "endTime": "17:00",
       "types": [
-        "NL",
         "Open"
       ],
       "online": false,
@@ -15999,8 +15998,7 @@
       "endTime": "20:00",
       "types": [
         "FBS",
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -20146,31 +20144,6 @@
       "region": "Lawrenceville",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/lunch-bunch-3/"
-    },
-    {
-      "id": "aa-new-horizons-2-d3-1200",
-      "fellowship": "AA",
-      "name": "New Horizons",
-      "day": 3,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Paula Crane Center",
-      "address": "1792 Mt Zion Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.5702934,
-      "lng": -84.3314555,
-      "region": "Morrow",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/new-horizons-2/"
     },
     {
       "id": "aa-new-start-7-d3-1200",
@@ -29962,8 +29935,7 @@
       "time": "19:30",
       "endTime": "20:30",
       "types": [
-        "Open",
-        "NL"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -35609,32 +35581,6 @@
       "region": "Alpharetta",
       "notes": "Room 212",
       "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "aa-stepping-stones-d5-1900",
-      "fellowship": "AA",
-      "name": "Stepping Stones",
-      "day": 5,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Closed",
-        "Step study",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Cherokee County Fire Station #22",
-      "address": "9550 Bells Ferry Rd",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 34.1831095,
-      "lng": -84.5447836,
-      "region": "Canton",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/stepping-stones/"
     },
     {
       "id": "aa-sunlight-of-the-spirit-d5-1900",
