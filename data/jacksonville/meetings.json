@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-09-24T12:49:35.781Z",
+    "generated": "2026-09-25T12:53:06.681Z",
     "seed": false,
     "counts": {
-      "AA": 681,
+      "AA": 680,
       "NA": 74,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 692,
+        "count": 691,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -5175,31 +5175,6 @@
       "region": "Jacksonville",
       "notes": "O-D-S\n\nZoom ID: 292 953 5132\nPW: 4321",
       "source": "https://neflaa.org/meetings/central-group-9/"
-    },
-    {
-      "id": "aa-downtown-group-2-d1-2000",
-      "fellowship": "AA",
-      "name": "Downtown Group",
-      "day": 1,
-      "time": "20:00",
-      "endTime": null,
-      "types": [
-        "Open",
-        "Discussion"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Alachua Club - Downtown Fernandina Beach",
-      "address": "32 N 3rd St",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.6723634,
-      "lng": -81.462605,
-      "region": "Fernandina Beach",
-      "notes": null,
-      "source": "https://neflaa.org/meetings/downtown-group-2/"
     },
     {
       "id": "aa-esperanza-de-vida-d1-2000",

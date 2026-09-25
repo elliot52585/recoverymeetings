@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-09-24T12:47:22.088Z",
+    "generated": "2026-09-25T12:50:52.274Z",
     "seed": false,
     "counts": {
-      "AA": 392,
+      "AA": 390,
       "NA": 43,
       "RD": 2
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 393,
+        "count": 391,
         "source": "https://www.memphis-aa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -3725,30 +3725,6 @@
       "source": "https://www.memphis-aa.org/meetings/came-to-believe-group-17"
     },
     {
-      "id": "aa-collierville-group-9-d2-1730",
-      "fellowship": "AA",
-      "name": "Collierville Group",
-      "day": 2,
-      "time": "17:30",
-      "endTime": "18:30",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Collierville First Pentacostal Church",
-      "address": "10545 Collierville Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0272013,
-      "lng": -89.7109195,
-      "region": "Collierville",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/collierville-group-9"
-    },
-    {
       "id": "aa-common-solutions-2-d2-1730",
       "fellowship": "AA",
       "name": "Common Solutions",
@@ -6824,32 +6800,6 @@
       "region": "Memphis",
       "notes": "Meet in the Lower Level",
       "source": "https://www.memphis-aa.org/meetings/central-gardens"
-    },
-    {
-      "id": "aa-collierville-group-8-d4-1200",
-      "fellowship": "AA",
-      "name": "Collierville Group",
-      "day": 4,
-      "time": "12:00",
-      "endTime": null,
-      "types": [
-        "Closed",
-        "Discussion",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Collierville First Pentacostal Church",
-      "address": "10545 Collierville Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0272013,
-      "lng": -89.7109195,
-      "region": "Collierville",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/collierville-group-8"
     },
     {
       "id": "aa-covington-group-2-d4-1200",
@@ -10492,8 +10442,8 @@
       "fellowship": "NA",
       "name": "LORE (Legacy of Recovery Everyday)",
       "day": 6,
-      "time": "16:00",
-      "endTime": "17:00",
+      "time": "17:00",
+      "endTime": "18:00",
       "types": [
         "Discussion",
         "Open",

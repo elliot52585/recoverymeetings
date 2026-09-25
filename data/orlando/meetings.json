@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-09-24T12:49:00.361Z",
+    "generated": "2026-09-25T12:52:32.708Z",
     "seed": false,
     "counts": {
-      "NA": 172,
+      "NA": 173,
       "RD": 3
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 172,
+        "count": 173,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=28.5383&long_val=-81.3792&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -1821,6 +1821,30 @@
       "lat": 28.891345,
       "lng": -81.686311,
       "region": "Dona Vista",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-men-in-recovery-230256",
+      "fellowship": "NA",
+      "name": "Men in Recovery",
+      "day": 2,
+      "time": "19:15",
+      "endTime": "20:30",
+      "types": [
+        "Men"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "4971 West Colonial Drive",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32808",
+      "lat": 28.5532726,
+      "lng": -81.4465721,
+      "region": "Orlando",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },

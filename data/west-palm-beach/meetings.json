@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-09-24T12:50:16.599Z",
+    "generated": "2026-09-25T12:54:02.814Z",
     "seed": false,
     "counts": {
-      "AA": 499,
+      "AA": 498,
       "NA": 265,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 500,
+        "count": 499,
         "source": "https://aa-palmbeachcounty.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -13130,31 +13130,6 @@
       "region": "Palm Beach Gardens",
       "notes": "ZOOM MEETING ONLY ON SUNDAY, TUESDAY AND WEDNESDAY\nWednesday is a different Code and Pass Code",
       "source": "https://aapalmbeachcounty.org/meetings/aa-big-book-spiritual-group/"
-    },
-    {
-      "id": "aa-all-are-welcome-group-d4-1900",
-      "fellowship": "AA",
-      "name": "All are Welcome Group",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Lake Worth First Church of the Nazarene",
-      "address": "1401 2nd Ave N",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 26.6174481,
-      "lng": -80.0625227,
-      "region": "Lake Worth",
-      "notes": "O, D\nBreezeway Room 103",
-      "source": "https://aapalmbeachcounty.org/meetings/all-are-welcome-group/"
     },
     {
       "id": "aa-beyond-sobriety-d4-1900",
