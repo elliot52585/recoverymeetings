@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-25T12:50:34.607Z",
+    "generated": "2026-09-26T12:18:13.517Z",
     "seed": false,
     "counts": {
-      "AA": 871,
+      "AA": 872,
       "NA": 160,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 872,
+        "count": 873,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -20971,6 +20971,32 @@
       "region": "Goodlettsville",
       "notes": null,
       "source": "https://aanashville.org/meetings/happy-destiny-2/"
+    },
+    {
+      "id": "aa-lafayette-traditional-aa-group-d5-1800",
+      "fellowship": "AA",
+      "name": "Lafayette Traditional AA Group",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "ABSI",
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Lafayette United Methodist Church",
+      "address": "506 Bratton Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5269553,
+      "lng": -86.0350732,
+      "region": "Lafayette",
+      "notes": "Starts October 2nd",
+      "source": "https://aanashville.org/meetings/lafayette-traditional-aa-group/"
     },
     {
       "id": "aa-music-city-happy-hour-group-2-d5-1800",

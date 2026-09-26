@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-25T12:51:31.511Z",
+    "generated": "2026-09-26T12:18:47.641Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -3471,18 +3471,20 @@
       "endTime": "20:00",
       "types": [
         "LGBTQ",
-        "Open"
+        "Beginner",
+        "Open",
+        "Step study"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Church",
-      "address": "980 N Clarkson St",
+      "address": "1595 N Pearl St",
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7316995,
-      "lng": -104.9773209,
+      "lat": 39.7413709,
+      "lng": -104.9802962,
       "region": "Denver",
       "notes": null,
       "source": "https://daccaa.org/meetings/250-573/"
@@ -7804,18 +7806,20 @@
       "endTime": "20:00",
       "types": [
         "LGBTQ",
-        "Open"
+        "Beginner",
+        "Open",
+        "Step study"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Church",
-      "address": "980 N Clarkson St",
+      "address": "1595 N Pearl St",
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7316995,
-      "lng": -104.9773209,
+      "lat": 39.7413709,
+      "lng": -104.9802962,
       "region": "Denver",
       "notes": null,
       "source": "https://daccaa.org/meetings/250-2549/"

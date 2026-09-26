@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-09-25T12:51:18.741Z",
+    "generated": "2026-09-26T12:18:35.366Z",
     "seed": false,
     "counts": {
       "AA": 1377,
@@ -10,8 +10,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "ok": true,
+        "count": 1388,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -9686,7 +9687,7 @@
       "lat": 33.924183,
       "lng": -84.3707159,
       "region": "Sandy Springs",
-      "notes": "Kent Center",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/mt-vernon/"
     },
     {
@@ -16062,7 +16063,7 @@
       "lat": 33.924183,
       "lng": -84.3707159,
       "region": "Sandy Springs",
-      "notes": "Kent Center",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/sandy-springs-womens-big-book-study/"
     },
     {
@@ -17374,7 +17375,7 @@
       "lat": 33.924183,
       "lng": -84.3707159,
       "region": "Sandy Springs",
-      "notes": "Kent Center",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/finding-the-balance/"
     },
     {
@@ -23975,14 +23976,14 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Our Lady of the Assumption",
-      "address": "1406 Hearst Dr NE",
+      "venue": "Mt. Vernon Presbyterian Church",
+      "address": "471 Mount Vernon Hwy NE",
       "city": null,
       "state": "GA",
       "zip": null,
-      "lat": 33.884861,
-      "lng": -84.3303706,
-      "region": "Atlanta NE",
+      "lat": 33.924183,
+      "lng": -84.3707159,
+      "region": "Sandy Springs",
       "notes": "Last Wed. Os",
       "source": "https://atlantaaa.org/meetings/northside-young-people/"
     },
@@ -24185,7 +24186,7 @@
       "lat": 33.924183,
       "lng": -84.3707159,
       "region": "Sandy Springs",
-      "notes": "Kent Center",
+      "notes": "This is a Big Book study meeting",
       "source": "https://atlantaaa.org/meetings/the-big-book-comes-alive/"
     },
     {
@@ -25922,31 +25923,6 @@
       "region": "Vinings",
       "notes": "Meetings at this location happen on both sides of the church.",
       "source": "https://atlantaaa.org/meetings/vinings-9/"
-    },
-    {
-      "id": "aa-aa-zoom-meeting-d4-1200",
-      "fellowship": "AA",
-      "name": "AA Zoom Meeting",
-      "day": 4,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/J/7509329600",
-      "venue": "Marietta, GA, USA",
-      "address": "Marietta",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.952602,
-      "lng": -84.5499327,
-      "region": "Online",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/aa-zoom-meeting/"
     },
     {
       "id": "aa-abc-5-d4-1200",
@@ -31582,6 +31558,32 @@
       "source": "https://atlantaaa.org/meetings/douglasville-4/"
     },
     {
+      "id": "aa-friday-morning-serenity-d5-0715",
+      "fellowship": "AA",
+      "name": "Friday Morning Serenity",
+      "day": 5,
+      "time": "07:15",
+      "endTime": "08:00",
+      "types": [
+        "Closed",
+        "Discussion",
+        "Men"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cathederal of Christ the King",
+      "address": "2699 Peachtree Rd NE",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.8282028,
+      "lng": -84.3867365,
+      "region": "Atlanta Buckhead",
+      "notes": "Group meets in the Parish Office",
+      "source": "https://atlantaaa.org/meetings/friday-morning-serenity/"
+    },
+    {
       "id": "aa-cumming-group-13-d5-0730",
       "fellowship": "AA",
       "name": "Cumming Group",
@@ -36859,7 +36861,7 @@
       "lat": 33.924183,
       "lng": -84.3707159,
       "region": "Sandy Springs",
-      "notes": "Kent Center",
+      "notes": null,
       "source": "https://atlantaaa.org/meetings/primary-purpose-2/"
     },
     {
