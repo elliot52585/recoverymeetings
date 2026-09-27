@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-26T12:18:13.517Z",
+    "generated": "2026-09-27T13:08:55.025Z",
     "seed": false,
     "counts": {
       "AA": 872,
@@ -20992,10 +20992,10 @@
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 36.5269553,
-      "lng": -86.0350732,
+      "lat": 36.5269854,
+      "lng": -86.0350974,
       "region": "Lafayette",
-      "notes": "Starts October 2nd",
+      "notes": null,
       "source": "https://aanashville.org/meetings/lafayette-traditional-aa-group/"
     },
     {
