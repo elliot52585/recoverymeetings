@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-28T15:40:18.485Z",
+    "generated": "2026-09-29T14:09:58.653Z",
     "seed": false,
     "counts": {
       "AA": 872,
@@ -2431,6 +2431,31 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-peace-in-the-park-d0-1900",
+      "fellowship": "AA",
+      "name": "Berry's Chapel Meeting",
+      "day": 0,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Berry's Chapel Church of Christ",
+      "address": "1777 S Berrys Chapel Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.9787204,
+      "lng": -86.8890605,
+      "region": "Franklin",
+      "notes": "Enter around back and come upstairs",
+      "source": "https://aanashville.org/meetings/peace-in-the-park/"
+    },
+    {
       "id": "aa-401col01900-d0-1900",
       "fellowship": "AA",
       "name": "Columbia Group",
@@ -2627,31 +2652,6 @@
       "region": "Columbia",
       "notes": "Closed meeting 1st Sunday of each month 6pm",
       "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "aa-peace-in-the-park-d0-1900",
-      "fellowship": "AA",
-      "name": "Peace In The Park",
-      "day": 0,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Berry's Chapel Church of Christ",
-      "address": "1777 S Berrys Chapel Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.9787204,
-      "lng": -86.8890605,
-      "region": "Franklin",
-      "notes": "Enter around back",
-      "source": "https://aanashville.org/meetings/peace-in-the-park/"
     },
     {
       "id": "aa-083pue01900-d0-1900",
@@ -4765,7 +4765,7 @@
       "lat": 35.9787204,
       "lng": -86.8890605,
       "region": "Franklin",
-      "notes": "Enter around back",
+      "notes": "Enter around back and come upstairs",
       "source": "https://aanashville.org/meetings/big-book-study-at-pinkerton-park/"
     },
     {
@@ -10005,7 +10005,7 @@
       "lat": 35.9787204,
       "lng": -86.8890605,
       "region": "Franklin",
-      "notes": "Enter around back",
+      "notes": "Enter around back and come upstairs",
       "source": "https://aanashville.org/meetings/franklin-way-of-life/"
     },
     {
@@ -13953,7 +13953,7 @@
       "lat": 35.9787204,
       "lng": -86.8890605,
       "region": "Franklin",
-      "notes": "Enter around back",
+      "notes": "Enter around back and come upstairs",
       "source": "https://aanashville.org/meetings/ppg-franklin/"
     },
     {
@@ -18027,7 +18027,7 @@
       "lat": 35.9787204,
       "lng": -86.8890605,
       "region": "Franklin",
-      "notes": "Enter around back",
+      "notes": "Enter around back and come upstairs",
       "source": "https://aanashville.org/meetings/franklin-way-of-life-3/"
     },
     {
