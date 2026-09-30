@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-09-29T14:12:19.311Z",
+    "generated": "2026-09-30T13:59:44.346Z",
     "seed": false,
     "counts": {
       "NA": 338,
@@ -3818,9 +3818,10 @@
       "time": "20:00",
       "endTime": "21:00",
       "types": [
-        "Discussion",
         "Open",
-        "Wheelchair accessible"
+        "Wheelchair accessible",
+        "LIT",
+        "LC"
       ],
       "online": false,
       "hybrid": false,
@@ -6091,7 +6092,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "First Presbyterian Church - In Basement",
+      "venue": "First Presbyterian Church",
       "address": "455 Scotland Street",
       "city": "Dunedin",
       "state": "FL",

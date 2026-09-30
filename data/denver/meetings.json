@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-09-29T14:10:47.719Z",
+    "generated": "2026-09-30T13:58:13.419Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -7559,14 +7559,14 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Church",
-      "address": "10001 W 58th Ave",
+      "address": "6925 Carr St",
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.8024448,
-      "lng": -105.1102993,
+      "lat": 39.8222233,
+      "lng": -105.0918982,
       "region": "Arvada",
-      "notes": null,
+      "notes": "Parking on West side of Church",
       "source": "https://daccaa.org/meetings/tool-kit-group/"
     },
     {
@@ -21605,6 +21605,30 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-evergreen-thursday-night-d4-1830",
+      "fellowship": "AA",
+      "name": "Evergreen Thursday Night",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": true,
+      "conferenceUrl": "https://zoom.us/j/93624867982",
+      "venue": "Church",
+      "address": "3757 Ponderosa Dr",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.6471832,
+      "lng": -105.3383199,
+      "region": "Evergreen",
+      "notes": "Zoom ID: 936-2486-7982\nPasscode: sober",
+      "source": "https://daccaa.org/meetings/evergreen-thursday-night/"
+    },
+    {
       "id": "aa-gift-of-desperation-8-d4-1830",
       "fellowship": "AA",
       "name": "Gift of Desperation",
@@ -22252,30 +22276,6 @@
       "source": "https://daccaa.org/meetings/mountain-view/"
     },
     {
-      "id": "rd-awakening-at-free-free-spiritual-community-center-2122-s-laf-d4-1900",
-      "fellowship": "RD",
-      "name": "RD Awakening @ FREE Spiritual Community Center",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "FREE Spiritual Community Center",
-      "address": "2122 S Lafayette St",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.6781694,
-      "lng": -104.9707385,
-      "region": "Colorado",
-      "notes": "Awakening At FREE @ FREE Spiritual Community Center 2122 S. Lafayette St. Denver, CO 80210",
-      "source": "https://recoverydharma.org/meetings/awakening-at-free-free-spiritual-community-center-2122-s-lafayette-st-denver-co-80210/"
-    },
-    {
       "id": "na-southern-serenity-19727",
       "fellowship": "NA",
       "name": "Southern Serenity",
@@ -22677,30 +22677,6 @@
       "region": "Broomfield",
       "notes": null,
       "source": "https://daccaa.org/meetings/broomfield-any-lengths/"
-    },
-    {
-      "id": "aa-evergreen-thursday-night-d4-1930",
-      "fellowship": "AA",
-      "name": "Evergreen Thursday Night",
-      "day": 4,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": true,
-      "conferenceUrl": "https://zoom.us/j/93624867982",
-      "venue": "Church",
-      "address": "3757 Ponderosa Dr",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.6471832,
-      "lng": -105.3383199,
-      "region": "Evergreen",
-      "notes": "Zoom ID: 936-2486-7982\nPasscode: sober",
-      "source": "https://daccaa.org/meetings/evergreen-thursday-night/"
     },
     {
       "id": "aa-718-2367-d4-1930",
@@ -23177,6 +23153,30 @@
       "region": "Commerce City",
       "notes": null,
       "source": "https://daccaa.org/meetings/primera-tradicion-4/"
+    },
+    {
+      "id": "rd-awakening-at-free-free-spiritual-community-center-2122-s-laf-d4-1930",
+      "fellowship": "RD",
+      "name": "RD Awakening @ FREE Spiritual Community Center",
+      "day": 4,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "FREE Spiritual Community Center",
+      "address": "2122 S Lafayette St",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.6781694,
+      "lng": -104.9707385,
+      "region": "Colorado",
+      "notes": "Awakening At FREE @ FREE Spiritual Community Center 2122 S. Lafayette St. Denver, CO 80210",
+      "source": "https://recoverydharma.org/meetings/awakening-at-free-free-spiritual-community-center-2122-s-lafayette-st-denver-co-80210/"
     },
     {
       "id": "aa-319-1102-d4-1930",

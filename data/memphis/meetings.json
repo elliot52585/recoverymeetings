@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-09-29T14:10:05.265Z",
+    "generated": "2026-09-30T13:57:46.303Z",
     "seed": false,
     "counts": {
-      "AA": 390,
+      "AA": 388,
       "NA": 43,
       "RD": 2
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 391,
+        "count": 389,
         "source": "https://www.memphis-aa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -5684,30 +5684,6 @@
       "source": "https://www.memphis-aa.org/meetings/bull-frog-corner-3"
     },
     {
-      "id": "aa-wednesday-d3-1800",
-      "fellowship": "AA",
-      "name": "Collierville Squares",
-      "day": 3,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Collierville United Methodist",
-      "address": "104 N Rowlett St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0424026,
-      "lng": -89.6659712,
-      "region": "Collierville",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/wednesday"
-    },
-    {
       "id": "na-daily-reprieve-93124",
       "fellowship": "NA",
       "name": "Daily Reprieve",
@@ -7257,30 +7233,6 @@
       "region": "Horn Lake",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/bull-frog-corner-4"
-    },
-    {
-      "id": "aa-collierville-squares-3-d4-1800",
-      "fellowship": "AA",
-      "name": "Collierville Squares",
-      "day": 4,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Collierville United Methodist",
-      "address": "104 N Rowlett St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0424026,
-      "lng": -89.6659712,
-      "region": "Collierville",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/collierville-squares-3"
     },
     {
       "id": "na-fresh-start-229761",

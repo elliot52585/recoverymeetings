@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-09-29T14:10:35.243Z",
+    "generated": "2026-09-30T13:58:00.746Z",
     "seed": false,
     "counts": {
       "AA": 1376,
@@ -10,8 +10,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "ok": true,
+        "count": 1387,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,

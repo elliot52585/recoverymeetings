@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-09-29T14:10:41.095Z",
+    "generated": "2026-09-30T13:58:07.056Z",
     "seed": false,
     "counts": {
       "AA": 536,
@@ -8132,13 +8132,14 @@
     {
       "id": "aa-we-stopped-in-time-2-d3-1730",
       "fellowship": "AA",
-      "name": "We Stopped In Time 2",
+      "name": "We Stopped In Time 2 Young Peoples Meeting",
       "day": 3,
       "time": "17:30",
       "endTime": "18:30",
       "types": [
         "Discussion",
-        "Open"
+        "Open",
+        "Young people"
       ],
       "online": false,
       "hybrid": true,
