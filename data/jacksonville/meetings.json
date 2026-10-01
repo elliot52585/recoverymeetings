@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-09-30T13:59:51.587Z",
+    "generated": "2026-10-01T14:39:12.160Z",
     "seed": false,
     "counts": {
-      "AA": 681,
+      "AA": 682,
       "NA": 74,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 692,
+        "count": 693,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -15214,6 +15214,30 @@
       "region": "St. Augustine",
       "notes": "Speaker Meeting, Handicap Accessible Facility",
       "source": "https://neflaa.org/meetings/happy-hour-group-5/"
+    },
+    {
+      "id": "aa-new-beginners-12-step-meeting-d5-1730",
+      "fellowship": "AA",
+      "name": "New Beginner's 12 Step Meeting",
+      "day": 5,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "12x12"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Hope Center",
+      "address": "300 E Macclenny Ave",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.2827134,
+      "lng": -82.1185921,
+      "region": "Macclenny",
+      "notes": "Across from the Courthouse",
+      "source": "https://neflaa.org/meetings/new-beginners-12-step-meeting/"
     },
     {
       "id": "aa-orange-park-group-31-d5-1730",

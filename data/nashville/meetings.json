@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-09-30T13:57:37.521Z",
+    "generated": "2026-10-01T14:36:56.799Z",
     "seed": false,
     "counts": {
       "AA": 872,
@@ -13943,8 +13943,8 @@
         "Open"
       ],
       "online": false,
-      "hybrid": true,
-      "conferenceUrl": "https://zoom.us/j/7847462456",
+      "hybrid": false,
+      "conferenceUrl": null,
       "venue": "Berry's Chapel Church of Christ",
       "address": "1777 S Berrys Chapel Rd",
       "city": null,
@@ -17276,6 +17276,31 @@
       "source": "https://aanashville.org/meetings/you-are-not-alone-2/"
     },
     {
+      "id": "aa-three-legacy-group-d4-1830",
+      "fellowship": "AA",
+      "name": "3 Legacies Group",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cumberland Presbyterian Church",
+      "address": "522 Castle Heights Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.199229,
+      "lng": -86.3097438,
+      "region": "Lebanon",
+      "notes": "The 3rd Thursday of each month is a Traditions Meeting",
+      "source": "https://aanashville.org/meetings/three-legacy-group/"
+    },
+    {
       "id": "aa-087any41830-d4-1830",
       "fellowship": "AA",
       "name": "Any Lengths Group",
@@ -18696,31 +18721,6 @@
       "region": "White House",
       "notes": null,
       "source": "https://aanashville.org/meetings/188wha41900/"
-    },
-    {
-      "id": "aa-three-legacy-group-d4-1930",
-      "fellowship": "AA",
-      "name": "3 Legacies Group",
-      "day": 4,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Cumberland Presbyterian Church",
-      "address": "522 Castle Heights Ave",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.199229,
-      "lng": -86.3097438,
-      "region": "Lebanon",
-      "notes": "The 3rd Thursday of each month is a Traditions Meeting",
-      "source": "https://aanashville.org/meetings/three-legacy-group/"
     },
     {
       "id": "na-drop-it-off-93162",

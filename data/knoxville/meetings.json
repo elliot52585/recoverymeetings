@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-09-30T13:57:52.598Z",
+    "generated": "2026-10-01T14:37:10.166Z",
     "seed": false,
     "counts": {
-      "AA": 342,
+      "AA": 341,
       "NA": 93,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 342,
+        "count": 341,
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -4504,13 +4504,13 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "American Legion",
-      "address": "624 Morgan Ave NE",
+      "venue": null,
+      "address": "316 Trenton St",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.9333155,
-      "lng": -84.5516618,
+      "lat": 35.93321,
+      "lng": -84.550941,
       "region": "Harriman",
       "notes": null,
       "source": "https://www.etiaa.org/meetings/roane-county-unity/"
@@ -7766,31 +7766,6 @@
       "region": "Newport",
       "notes": "Zoom: 2434503536, PW: 745511",
       "source": "https://www.etiaa.org/meetings/newport-womens-mtg/"
-    },
-    {
-      "id": "aa-roane-county-union-harriman-d4-1900",
-      "fellowship": "AA",
-      "name": "Roane County Union - Harriman",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "American Legion",
-      "address": "624 Morgan Ave NE",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.9333155,
-      "lng": -84.5516618,
-      "region": "Harriman",
-      "notes": null,
-      "source": "https://www.etiaa.org/meetings/roane-county-union-harriman/"
     },
     {
       "id": "aa-seymour-sharing-3-d4-1900",

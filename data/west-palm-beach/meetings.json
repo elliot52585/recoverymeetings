@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-09-30T14:00:37.256Z",
+    "generated": "2026-10-01T14:39:51.802Z",
     "seed": false,
     "counts": {
       "AA": 498,
@@ -17932,8 +17932,8 @@
         "Speaker"
       ],
       "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
+      "hybrid": true,
+      "conferenceUrl": "https://us04web.zoom.us/j/83291378985",
       "venue": "St. David's In The Pines",
       "address": "465 Forest Hill Blvd",
       "city": null,
@@ -17942,7 +17942,7 @@
       "lat": 26.674098,
       "lng": -80.2487289,
       "region": "Wellington",
-      "notes": "O, S, D",
+      "notes": "O, S, D\nHybrid:\nID: 832 9137 8985\nPasscode: 815424",
       "source": "https://aapalmbeachcounty.org/meetings/if-theres-life-theres-hope/"
     },
     {
