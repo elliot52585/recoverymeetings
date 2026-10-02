@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-10-01T14:37:24.034Z",
+    "generated": "2026-10-02T13:58:45.178Z",
     "seed": false,
     "counts": {
-      "AA": 536,
+      "AA": 535,
       "NA": 84,
       "RD": 3
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 536,
+        "count": 535,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -9490,34 +9490,6 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/wednesday-nite-pigeons-roost/"
-    },
-    {
-      "id": "aa-young-at-heart-d3-2000",
-      "fellowship": "AA",
-      "name": "Young At Heart",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Young people",
-        "Wheelchair accessible",
-        "XB"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Care Center",
-      "address": "3705 Bells Ln",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2224267,
-      "lng": -85.8184369,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/young-at-heart/"
     },
     {
       "id": "aa-louisville-recovery-project-all-about-aa-wednesday-online-d3-2030",

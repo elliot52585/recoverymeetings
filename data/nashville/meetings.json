@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-10-01T14:36:56.799Z",
+    "generated": "2026-10-02T13:58:19.978Z",
     "seed": false,
     "counts": {
       "AA": 872,
@@ -5769,6 +5769,31 @@
       "source": "https://nanashville.org/meetings/"
     },
     {
+      "id": "aa-westhaven-monday-night-happy-hour-d1-1830",
+      "fellowship": "AA",
+      "name": "Westhaven Monday Night Happy Hour",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Westhaven Resident's Club",
+      "address": "400 Cheltenham Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.9252902,
+      "lng": -86.9261319,
+      "region": "Franklin",
+      "notes": "Meets Upstairs",
+      "source": "https://aanashville.org/meetings/westhaven-monday-night-happy-hour/"
+    },
+    {
       "id": "rd-white-lotus-d1-1830",
       "fellowship": "RD",
       "name": "White Lotus",
@@ -10005,7 +10030,7 @@
       "lat": 35.9787204,
       "lng": -86.8890605,
       "region": "Franklin",
-      "notes": "Enter around back and come upstairs",
+      "notes": "Book Study\n\nEnter around back and come upstairs",
       "source": "https://aanashville.org/meetings/franklin-way-of-life/"
     },
     {
@@ -13831,32 +13856,6 @@
       "source": "https://aanashville.org/meetings/064fbb31830/"
     },
     {
-      "id": "aa-206fre31830-d3-1830",
-      "fellowship": "AA",
-      "name": "Free To Be Group",
-      "day": 3,
-      "time": "18:30",
-      "endTime": null,
-      "types": [
-        "Discussion",
-        "LGBTQ",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "St. Ann's Episcopal Church",
-      "address": "419 Woodland St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1720439,
-      "lng": -86.7655635,
-      "region": "Nashville",
-      "notes": null,
-      "source": "https://aanashville.org/meetings/206fre31830/"
-    },
-    {
       "id": "aa-205har31830-d3-1830",
       "fellowship": "AA",
       "name": "Harding Road Group",
@@ -13953,7 +13952,7 @@
       "lat": 35.9787204,
       "lng": -86.8890605,
       "region": "Franklin",
-      "notes": "Enter around back and come upstairs",
+      "notes": "Bring Big Book\n\nMeets in basement",
       "source": "https://aanashville.org/meetings/ppg-franklin/"
     },
     {
@@ -18052,7 +18051,7 @@
       "lat": 35.9787204,
       "lng": -86.8890605,
       "region": "Franklin",
-      "notes": "Enter around back and come upstairs",
+      "notes": "ID: 844 4568 5443\nPW: FOB\n\nEnter around back and come upstairs",
       "source": "https://aanashville.org/meetings/franklin-way-of-life-3/"
     },
     {

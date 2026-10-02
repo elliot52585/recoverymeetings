@@ -1,22 +1,22 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-01T14:37:17.226Z",
+    "generated": "2026-10-02T13:58:39.072Z",
     "seed": false,
     "counts": {
-      "AA": 1376,
-      "NA": 299,
+      "AA": 1377,
+      "NA": 301,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1387,
+        "count": 1388,
         "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 299,
+        "count": 301,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2535,6 +2535,30 @@
       "source": "https://atlantaaa.org/meetings/sunday-meeting/"
     },
     {
+      "id": "na-women-keep-it-real-230352",
+      "fellowship": "NA",
+      "name": "Women Keep It Real",
+      "day": 0,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "RF"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "365 Center, Inc.",
+      "address": "1472 Richard Rd., Ste:2",
+      "city": "Decatur",
+      "state": "GA",
+      "zip": "30032",
+      "lat": 33.7601935,
+      "lng": -84.2452548,
+      "region": "Decatur",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-sunday-415-step-study-d0-1615",
       "fellowship": "AA",
       "name": "Sunday 4:15 Step Study",
@@ -3121,6 +3145,34 @@
       "region": "Newnan",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/el-groupo-serenidad-y-proposito-2/"
+    },
+    {
+      "id": "aa-fireside-d0-1800",
+      "fellowship": "AA",
+      "name": "Fireside",
+      "day": 0,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Beginner",
+        "Open",
+        "XB",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Mountain Park Community Building",
+      "address": "100 Lakeshore Dr",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 34.0828436,
+      "lng": -84.4158078,
+      "region": "Roswell",
+      "notes": null,
+      "source": "https://atlantaaa.org/meetings/fireside/"
     },
     {
       "id": "aa-first-things-first-5-d0-1800",
@@ -30159,8 +30211,8 @@
       "city": null,
       "state": "GA",
       "zip": null,
-      "lat": 34.0828513,
-      "lng": -84.4157904,
+      "lat": 34.0828436,
+      "lng": -84.4158078,
       "region": "Roswell",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/the-campfire-group/"
@@ -37196,6 +37248,31 @@
       "lat": 33.7337387,
       "lng": -84.7189352,
       "region": "Douglasville",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-heat-of-the-night-230353",
+      "fellowship": "NA",
+      "name": "Heat of The Night",
+      "day": 5,
+      "time": "20:30",
+      "endTime": "21:30",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "1472 Richard Rd., Ste:2",
+      "city": "Decatur",
+      "state": "GA",
+      "zip": "30032",
+      "lat": 33.7601935,
+      "lng": -84.2452548,
+      "region": "Decatur",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
