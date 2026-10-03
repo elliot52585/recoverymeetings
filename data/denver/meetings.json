@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-02T13:58:51.175Z",
+    "generated": "2026-10-03T12:39:03.752Z",
     "seed": false,
     "counts": {
-      "AA": 1120,
+      "AA": 1119,
       "NA": 155,
       "RD": 13
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1121,
+        "count": 1120,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -22627,30 +22627,6 @@
       "region": "Littleton",
       "notes": null,
       "source": "https://daccaa.org/meetings/1078-2749/"
-    },
-    {
-      "id": "aa-big-book-breakdown-d4-1930",
-      "fellowship": "AA",
-      "name": "Big Book Breakdown",
-      "day": 4,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Big Book"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church",
-      "address": "1955 E Arizona Ave",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.6950903,
-      "lng": -104.9643491,
-      "region": "Denver",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/big-book-breakdown/"
     },
     {
       "id": "aa-broomfield-any-lengths-d4-1930",

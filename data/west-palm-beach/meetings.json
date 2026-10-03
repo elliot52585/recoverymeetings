@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-10-02T14:01:26.603Z",
+    "generated": "2026-10-03T12:41:29.569Z",
     "seed": false,
     "counts": {
-      "AA": 498,
+      "AA": 504,
       "NA": 265,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 499,
+        "count": 505,
         "source": "https://aa-palmbeachcounty.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -4872,6 +4872,31 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-factor-x-recovery-group-d1-2000",
+      "fellowship": "AA",
+      "name": "Factor X Recovery Group",
+      "day": 1,
+      "time": "20:00",
+      "endTime": "22:00",
+      "types": [
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Warehouse Plaza",
+      "address": "1841 7th Ave N a 5",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6238454,
+      "lng": -80.0705725,
+      "region": "Lake Worth",
+      "notes": "Bi-Lingual",
+      "source": "https://aapalmbeachcounty.org/meetings/factor-x-recovery-group/"
+    },
+    {
       "id": "aa-feliz-y-libre-spanish-2-hours-2-d1-2000",
       "fellowship": "AA",
       "name": "Feliz y Libre (Spanish 2 Hours)",
@@ -7945,6 +7970,31 @@
       "source": "https://aapalmbeachcounty.org/meetings/central-group-2/"
     },
     {
+      "id": "aa-factor-x-recovery-group-2-d2-2000",
+      "fellowship": "AA",
+      "name": "Factor X Recovery Group",
+      "day": 2,
+      "time": "20:00",
+      "endTime": "22:00",
+      "types": [
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Warehouse Plaza",
+      "address": "1841 7th Ave N a 5",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6238454,
+      "lng": -80.0705725,
+      "region": "Lake Worth",
+      "notes": "Bi-Lingual",
+      "source": "https://aapalmbeachcounty.org/meetings/factor-x-recovery-group-2/"
+    },
+    {
       "id": "aa-feliz-y-libre-spanish-2-hours-3-d2-2000",
       "fellowship": "AA",
       "name": "Feliz y Libre (Spanish 2 Hours)",
@@ -10912,6 +10962,31 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-factor-x-recovery-group-3-d3-2000",
+      "fellowship": "AA",
+      "name": "Factor X Recovery Group",
+      "day": 3,
+      "time": "20:00",
+      "endTime": "22:00",
+      "types": [
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Warehouse Plaza",
+      "address": "1841 7th Ave N a 5",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6238454,
+      "lng": -80.0705725,
+      "region": "Lake Worth",
+      "notes": "Bi-Lingual",
+      "source": "https://aapalmbeachcounty.org/meetings/factor-x-recovery-group-3/"
+    },
+    {
       "id": "aa-feliz-y-libre-spanish-2-hours-4-d3-2000",
       "fellowship": "AA",
       "name": "Feliz y Libre (Spanish 2 Hours)",
@@ -13643,6 +13718,31 @@
       "region": "West Palm Beach",
       "notes": "OD",
       "source": "https://aapalmbeachcounty.org/meetings/design-for-living/"
+    },
+    {
+      "id": "aa-factor-x-recovery-group-4-d4-2000",
+      "fellowship": "AA",
+      "name": "Factor X Recovery Group",
+      "day": 4,
+      "time": "20:00",
+      "endTime": "22:00",
+      "types": [
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Warehouse Plaza",
+      "address": "1841 7th Ave N a 5",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6238454,
+      "lng": -80.0705725,
+      "region": "Lake Worth",
+      "notes": "Bi-Lingual",
+      "source": "https://aapalmbeachcounty.org/meetings/factor-x-recovery-group-4/"
     },
     {
       "id": "aa-feliz-y-libre-spanish-2-hours-5-d4-2000",
@@ -16463,6 +16563,31 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-factor-x-recovery-group-5-d5-2000",
+      "fellowship": "AA",
+      "name": "Factor X Recovery Group",
+      "day": 5,
+      "time": "20:00",
+      "endTime": "22:00",
+      "types": [
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Warehouse Plaza",
+      "address": "1841 7th Ave N a 5",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6238454,
+      "lng": -80.0705725,
+      "region": "Lake Worth",
+      "notes": "Bi-Lingual",
+      "source": "https://aapalmbeachcounty.org/meetings/factor-x-recovery-group-5/"
+    },
+    {
       "id": "aa-feliz-y-libre-spanish-2-hours-6-d5-2000",
       "fellowship": "AA",
       "name": "Feliz y Libre (Spanish 2 Hours)",
@@ -18988,6 +19113,31 @@
       "region": "Plantation",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-factor-x-recovery-group-6-d6-2000",
+      "fellowship": "AA",
+      "name": "Factor X Recovery Group",
+      "day": 6,
+      "time": "20:00",
+      "endTime": "22:00",
+      "types": [
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Warehouse Plaza",
+      "address": "1841 7th Ave N a 5",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.6238454,
+      "lng": -80.0705725,
+      "region": "Lake Worth",
+      "notes": "Bi-Lingual",
+      "source": "https://aapalmbeachcounty.org/meetings/factor-x-recovery-group-6/"
     },
     {
       "id": "aa-feliz-y-libre-spanish-2-hours-7-d6-2000",

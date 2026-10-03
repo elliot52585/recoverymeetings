@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-10-02T13:58:32.292Z",
+    "generated": "2026-10-03T12:38:43.238Z",
     "seed": false,
     "counts": {
       "AA": 341,
-      "NA": 93,
+      "NA": 94,
       "RD": 5
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 94,
+        "count": 95,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.9606&long_val=-83.9207&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2849,6 +2849,30 @@
       "region": "Seymour",
       "notes": null,
       "source": "https://www.etiaa.org/meetings/seymour-sharing-2/"
+    },
+    {
+      "id": "na-sunshine-sisters-in-recovery-113720",
+      "fellowship": "NA",
+      "name": "Sunshine Sisters in Recovery",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:30",
+      "types": [
+        "RF"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/87466347477",
+      "venue": null,
+      "address": null,
+      "city": "Virtual",
+      "state": "TN",
+      "zip": "37902",
+      "lat": 35.9641189,
+      "lng": -83.9201656,
+      "region": "Virtual",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-tellico-village-d1-1900",

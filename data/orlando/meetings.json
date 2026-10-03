@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-10-02T13:59:53.458Z",
+    "generated": "2026-10-03T12:40:07.492Z",
     "seed": false,
     "counts": {
       "NA": 173,
-      "RD": 3
+      "RD": 4
     },
     "sources": {
       "AA": {
@@ -19,7 +19,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 3,
+        "count": 4,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -3334,6 +3334,32 @@
       "region": "Rockledge",
       "notes": "IMPORTANT Enter through back door — 2nd week SPK",
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "rd-rd-volusia-d4-2000",
+      "fellowship": "RD",
+      "name": "RD Volusia",
+      "day": 4,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Open",
+        "Beginner",
+        "WA"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "114 W New York Ave",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 29.0279613,
+      "lng": -81.3041523,
+      "region": "New York",
+      "notes": "The building has front and back entrances.\nThe front entrance is wheelchair accessible.",
+      "source": "https://recoverydharma.org/meetings/rd-volusia/"
     },
     {
       "id": "na-funcoast-na-online-meeting-85236",

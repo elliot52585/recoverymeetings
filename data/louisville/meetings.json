@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-10-02T13:58:45.178Z",
+    "generated": "2026-10-03T12:38:56.987Z",
     "seed": false,
     "counts": {
-      "AA": 535,
+      "AA": 536,
       "NA": 84,
       "RD": 3
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 535,
+        "count": 536,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -3285,6 +3285,32 @@
       "source": "https://loukyaa.org/meetings/ladies-nite-out-group/"
     },
     {
+      "id": "aa-lessons-in-trudging-d1-1830",
+      "fellowship": "AA",
+      "name": "Lessons In Trudging",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Paul's Episcopal Church",
+      "address": "1015 E Main St",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2873583,
+      "lng": -85.8120219,
+      "region": "Floyd County IN",
+      "notes": "In the Carriage House",
+      "source": "https://loukyaa.org/meetings/lessons-in-trudging/"
+    },
+    {
       "id": "aa-nitecap-d1-1830",
       "fellowship": "AA",
       "name": "Nitecap",
@@ -4392,6 +4418,33 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/lytle-street-group/"
+    },
+    {
+      "id": "na-men-s-meeting-177351",
+      "fellowship": "NA",
+      "name": "Men's Meeting",
+      "day": 1,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "Men"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "St. Paul Catholic Church",
+      "address": "6901 Dixie Hwy",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40258",
+      "lat": 38.1501097,
+      "lng": -85.8364911,
+      "region": "Louisville",
+      "notes": "Hillary Hall Building - Behind Chapel - Look for sign on door  ***NEW DAY*** — ***NEW DAY***",
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-monday-night-mens-group-d1-2000",
@@ -15919,33 +15972,6 @@
       "lng": -85.3759864,
       "region": "Madison",
       "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-men-s-meeting-177351",
-      "fellowship": "NA",
-      "name": "Men's Meeting",
-      "day": 6,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "Men"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "St. Paul Catholic Church",
-      "address": "6901 Dixie Hwy",
-      "city": "Louisville",
-      "state": "KY",
-      "zip": "40258",
-      "lat": 38.1501097,
-      "lng": -85.8364911,
-      "region": "Louisville",
-      "notes": "Hillary Hall Building - Behind Chapel - Look for sign on door",
       "source": "https://na.org/meetingsearch/"
     },
     {

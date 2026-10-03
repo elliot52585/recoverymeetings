@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-02T13:58:39.072Z",
+    "generated": "2026-10-03T12:38:51.102Z",
     "seed": false,
     "counts": {
       "AA": 1377,
@@ -18857,13 +18857,13 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Newnan City Church",
-      "address": "17 1st Ave",
+      "venue": "Bridging the Gap",
+      "address": "19 1st Ave",
       "city": null,
       "state": "GA",
       "zip": null,
-      "lat": 33.3727859,
-      "lng": -84.8027288,
+      "lat": 33.3725304,
+      "lng": -84.8028919,
       "region": "Newnan",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/early-birds-newnan-3/"

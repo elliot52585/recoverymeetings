@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-10-02T13:58:25.934Z",
+    "generated": "2026-10-03T12:38:36.640Z",
     "seed": false,
     "counts": {
       "AA": 388,
-      "NA": 43,
+      "NA": 42,
       "RD": 2
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 43,
+        "count": 42,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=35.1495&long_val=-90.049&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2712,30 +2712,6 @@
       "region": "Memphis",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/south-memphis-group"
-    },
-    {
-      "id": "na-sunshine-sisters-in-recovery-113720",
-      "fellowship": "NA",
-      "name": "Sunshine Sisters in Recovery",
-      "day": 1,
-      "time": "19:00",
-      "endTime": "20:30",
-      "types": [
-        "RF"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/87466347477",
-      "venue": null,
-      "address": null,
-      "city": "Virtual",
-      "state": "TN",
-      "zip": null,
-      "lat": 35.1531777,
-      "lng": -89.7943918,
-      "region": "Virtual",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-9434-d1-1900",
