@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-03T12:38:51.102Z",
+    "generated": "2026-10-04T13:19:32.932Z",
     "seed": false,
     "counts": {
       "AA": 1377,
-      "NA": 301,
+      "NA": 302,
       "RD": 6
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 301,
+        "count": 302,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -28204,6 +28204,28 @@
       "region": "Alpharetta",
       "notes": "Room C171 (bottom floor), Entrance E (back of church)\nGroup will not meet Thanksgiving Day",
       "source": "https://atlantaaa.org/meetings/johns-creek-group/"
+    },
+    {
+      "id": "na-bridge-to-recovery-230380",
+      "fellowship": "NA",
+      "name": "Bridge to Recovery",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "339 Atlanta Hwy Ste 200",
+      "city": "Winder",
+      "state": "GA",
+      "zip": "30680",
+      "lat": 33.9779239,
+      "lng": -83.7060882,
+      "region": "Winder",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-cumming-group-22-d4-1830",
