@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-04T13:19:44.741Z",
+    "generated": "2026-10-05T16:14:19.571Z",
     "seed": false,
     "counts": {
       "AA": 1119,
@@ -7149,7 +7149,11 @@
       "day": 1,
       "time": "18:00",
       "endTime": "19:00",
-      "types": [],
+      "types": [
+        "Wheelchair accessible",
+        "Open",
+        "Discussion"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -7161,7 +7165,7 @@
       "lat": 39.9791931,
       "lng": -104.7906175,
       "region": "Brighton",
-      "notes": null,
+      "notes": "No smoking allowed on property. Coffee and snacks provided",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -11753,7 +11757,11 @@
       "day": 2,
       "time": "18:00",
       "endTime": "19:00",
-      "types": [],
+      "types": [
+        "Wheelchair accessible",
+        "BK",
+        "Open"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -11765,7 +11773,7 @@
       "lat": 39.5474217,
       "lng": -104.950339,
       "region": "Highlands Ranch",
-      "notes": "Room B214",
+      "notes": "Room B249",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -20635,7 +20643,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Mountain View Flats",
+      "venue": "Mountain View Flats; go down the hill to the lower lot.",
       "address": "14825 W Colfax Ave",
       "city": "Lakewood",
       "state": "CO",
@@ -22515,15 +22523,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "South Entrance, Park off 20th, Enter through double doors.",
-      "address": "2025 Kipling St",
+      "venue": "20th and Simms",
+      "address": "11500 W. 20th Ave.",
       "city": "Lakewood",
       "state": "CO",
-      "zip": "80215",
-      "lat": 39.7478986,
-      "lng": -105.1099529,
+      "zip": null,
+      "lat": 39.747065,
+      "lng": -105.1274455,
       "region": "Lakewood",
-      "notes": "No pets allowed, Vested Service Animals welcome.",
+      "notes": "No pets allowed; vested Service Animals welcome. www.welcomehomena.org",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -26467,8 +26475,8 @@
       "city": "Broomfield",
       "state": "CO",
       "zip": "80020",
-      "lat": 39.9257093,
-      "lng": -105.0703709,
+      "lat": 39.9389199,
+      "lng": -105.0674317,
       "region": "Broomfield",
       "notes": null,
       "source": "https://na.org/meetingsearch/"

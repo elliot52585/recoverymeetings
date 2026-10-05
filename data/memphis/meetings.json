@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-10-04T13:19:17.732Z",
+    "generated": "2026-10-05T16:13:39.814Z",
     "seed": false,
     "counts": {
       "AA": 388,
@@ -5812,7 +5812,7 @@
       "lat": 35.0489844,
       "lng": -89.7041218,
       "region": "Collierville",
-      "notes": "11th Step Meditation Meeting",
+      "notes": null,
       "source": "https://www.memphis-aa.org/meetings/collierville-group-2"
     },
     {

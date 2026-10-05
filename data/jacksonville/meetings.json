@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-10-04T13:21:29.785Z",
+    "generated": "2026-10-05T16:15:53.863Z",
     "seed": false,
     "counts": {
-      "AA": 682,
+      "AA": 683,
       "NA": 74,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 693,
+        "count": 694,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -27,6 +27,31 @@
     }
   },
   "meetings": [
+    {
+      "id": "aa-evening-reflections-d0-0000",
+      "fellowship": "AA",
+      "name": "Evening Reflections",
+      "day": 0,
+      "time": "00:00",
+      "endTime": "01:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/2923398385",
+      "venue": "Jacksonville",
+      "address": "Jacksonville",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3297566,
+      "lng": -81.6591529,
+      "region": "Zoom",
+      "notes": "Meeting ID 292 339 8385\nPassword 192776",
+      "source": "https://neflaa.org/meetings/evening-reflections/"
+    },
     {
       "id": "aa-sunday-sunrise-beach-meeting-d0-0600",
       "fellowship": "AA",

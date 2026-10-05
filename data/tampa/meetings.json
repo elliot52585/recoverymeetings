@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-10-04T13:21:21.816Z",
+    "generated": "2026-10-05T16:15:46.487Z",
     "seed": false,
     "counts": {
-      "NA": 338,
+      "NA": 336,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 346,
+        "count": 344,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2474,31 +2474,6 @@
       "lng": -82.5306527,
       "region": "Sarasota",
       "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-tug-night-watch-228407",
-      "fellowship": "NA",
-      "name": "TUG - Night Watch",
-      "day": 1,
-      "time": "22:00",
-      "endTime": "23:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The New Meeting Place",
-      "address": "11900 N. Nebraska Ave., Ste. 8",
-      "city": "Tampa",
-      "state": "FL",
-      "zip": "33612",
-      "lat": 28.0565568,
-      "lng": -82.4515901,
-      "region": "Tampa",
-      "notes": "Begins 5.11.2026",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -5111,31 +5086,6 @@
       "lng": -82.5306527,
       "region": "Sarasota",
       "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-tug-night-watch-228408",
-      "fellowship": "NA",
-      "name": "TUG - Night Watch",
-      "day": 3,
-      "time": "22:00",
-      "endTime": "23:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "The New Meeting Place",
-      "address": "11900 N. Nebraska Ave., Ste. 8",
-      "city": "Tampa",
-      "state": "FL",
-      "zip": "33612",
-      "lat": 28.0565568,
-      "lng": -82.4515901,
-      "region": "Tampa",
-      "notes": "Begins 5.13.2026",
       "source": "https://na.org/meetingsearch/"
     },
     {

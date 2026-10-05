@@ -1,22 +1,22 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-04T13:19:32.932Z",
+    "generated": "2026-10-05T16:13:53.957Z",
     "seed": false,
     "counts": {
-      "AA": 1377,
-      "NA": 302,
+      "AA": 1378,
+      "NA": 301,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1388,
+        "count": 1389,
         "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 302,
+        "count": 301,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -20198,6 +20198,31 @@
       "source": "https://atlantaaa.org/meetings/lunch-bunch-3/"
     },
     {
+      "id": "aa-midweek-miracles-d3-1200",
+      "fellowship": "AA",
+      "name": "Midweek Miracles",
+      "day": 3,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Red Rock Community Center",
+      "address": "545 Mars Hill Rd",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.968822,
+      "lng": -84.7105547,
+      "region": "Powder Springs",
+      "notes": null,
+      "source": "https://atlantaaa.org/meetings/midweek-miracles/"
+    },
+    {
       "id": "aa-new-start-7-d3-1200",
       "fellowship": "AA",
       "name": "New Start",
@@ -33163,31 +33188,6 @@
       "lng": -84.0420927,
       "region": "Lawrenceville",
       "notes": "Suite 123",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-new-beginnings-noon-228611",
-      "fellowship": "NA",
-      "name": "New Beginnings @ Noon",
-      "day": 5,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Paulding RCO",
-      "address": "276 Main St",
-      "city": "Hiram",
-      "state": "GA",
-      "zip": "30141",
-      "lat": 33.8755597,
-      "lng": -84.7593659,
-      "region": "Hiram",
-      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
