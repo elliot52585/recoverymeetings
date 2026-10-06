@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-10-05T16:15:53.863Z",
+    "generated": "2026-10-06T14:20:06.073Z",
     "seed": false,
     "counts": {
-      "AA": 683,
+      "AA": 687,
       "NA": 74,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 694,
+        "count": 698,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -7383,6 +7383,32 @@
       "source": "https://neflaa.org/meetings/drop-the-rock-hybrid/"
     },
     {
+      "id": "aa-evening-reflections-2-d2-1900",
+      "fellowship": "AA",
+      "name": "Evening Reflections",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Speaker"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/2923398385",
+      "venue": "Jacksonville",
+      "address": "Jacksonville",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3297566,
+      "lng": -81.6591529,
+      "region": "Zoom",
+      "notes": "Meeting ID 292 339 8385\nPassword 192776",
+      "source": "https://neflaa.org/meetings/evening-reflections-2/"
+    },
+    {
       "id": "aa-fiesta-group-12-d2-1900",
       "fellowship": "AA",
       "name": "Fiesta Group",
@@ -10139,6 +10165,31 @@
       "region": "Fernandina Beach",
       "notes": "Women's",
       "source": "https://neflaa.org/meetings/downtown-group-5/"
+    },
+    {
+      "id": "aa-evening-reflections-3-d3-1900",
+      "fellowship": "AA",
+      "name": "Evening Reflections",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/2923398385",
+      "venue": "Jacksonville",
+      "address": "Jacksonville",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3297566,
+      "lng": -81.6591529,
+      "region": "Zoom",
+      "notes": "Meeting ID 292 339 8385\nPassword 192776",
+      "source": "https://neflaa.org/meetings/evening-reflections-3/"
     },
     {
       "id": "aa-fiesta-group-16-d3-1900",
@@ -15889,6 +15940,31 @@
       "source": "https://neflaa.org/meetings/eastside-group/"
     },
     {
+      "id": "aa-evening-reflections-4-d5-1900",
+      "fellowship": "AA",
+      "name": "Evening Reflections",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/2923398385",
+      "venue": "Jacksonville",
+      "address": "Jacksonville",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3297566,
+      "lng": -81.6591529,
+      "region": "Zoom",
+      "notes": "Meeting ID 292 339 8385\nPassword 192776",
+      "source": "https://neflaa.org/meetings/evening-reflections-4/"
+    },
+    {
       "id": "aa-fiesta-group-24-d5-1900",
       "fellowship": "AA",
       "name": "Fiesta Group",
@@ -18602,6 +18678,31 @@
       "region": "Zoom",
       "notes": "O-D\n\nZoom ID: 809 328 9546\nPW: 1234",
       "source": "https://neflaa.org/meetings/district-25-you-are-not-alone-7/"
+    },
+    {
+      "id": "aa-evening-reflections-5-d6-1900",
+      "fellowship": "AA",
+      "name": "Evening Reflections",
+      "day": 6,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/2923398385",
+      "venue": "Jacksonville",
+      "address": "Jacksonville",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3297566,
+      "lng": -81.6591529,
+      "region": "Zoom",
+      "notes": "Meeting ID 292 339 8385\nPassword 192776",
+      "source": "https://neflaa.org/meetings/evening-reflections-5/"
     },
     {
       "id": "aa-fiesta-group-28-d6-1900",
