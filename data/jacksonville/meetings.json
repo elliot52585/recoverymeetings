@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-10-07T14:39:32.573Z",
+    "generated": "2026-10-08T14:45:18.974Z",
     "seed": false,
     "counts": {
       "AA": 687,
-      "NA": 74,
+      "NA": 75,
       "RD": 6
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 75,
+        "count": 77,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=30.3322&long_val=-81.6557&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -12380,30 +12380,6 @@
       "source": "https://neflaa.org/meetings/7-11-meditation-group/"
     },
     {
-      "id": "na-a-vision-of-hope-226257",
-      "fellowship": "NA",
-      "name": "A Vision of Hope",
-      "day": 4,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "3910 Lewis Speedway",
-      "city": "St Augustine",
-      "state": "FL",
-      "zip": "32084",
-      "lat": 29.9391795,
-      "lng": -81.339759,
-      "region": "St Augustine",
-      "notes": "Suite #1102",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-a-vision-of-hope-167732",
       "fellowship": "NA",
       "name": "A Vision of Hope",
@@ -12427,6 +12403,30 @@
       "lng": -81.3398493,
       "region": "St. Augustine",
       "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-a-vision-of-hope-226257",
+      "fellowship": "NA",
+      "name": "A Vision of Hope",
+      "day": 4,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "3910 Lewis Speedway",
+      "city": "St Augustine",
+      "state": "FL",
+      "zip": "32084",
+      "lat": 29.9391795,
+      "lng": -81.339759,
+      "region": "St Augustine",
+      "notes": "Suite #1102",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -12748,6 +12748,30 @@
       "region": "Fernandina Beach",
       "notes": null,
       "source": "https://neflaa.org/meetings/keep-it-simple-4/"
+    },
+    {
+      "id": "na-mission-possible-230457",
+      "fellowship": "NA",
+      "name": "Mission possible",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Basic Text"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "451 S Lee street",
+      "address": "451 South Lee Street",
+      "city": "Kingsland",
+      "state": "GA",
+      "zip": "31548",
+      "lat": 30.7956958,
+      "lng": -81.689102,
+      "region": "Kingsland",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-oak-tree-mens-group-d4-1830",
@@ -18178,6 +18202,30 @@
       "source": "https://neflaa.org/meetings/crossroad-group/"
     },
     {
+      "id": "na-a-vision-of-hope-226259",
+      "fellowship": "NA",
+      "name": "A Vision of Hope",
+      "day": 6,
+      "time": "15:00",
+      "endTime": "16:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "3910 Lewis Speedway",
+      "city": "St Augustine",
+      "state": "FL",
+      "zip": "32084",
+      "lat": 29.9391795,
+      "lng": -81.339759,
+      "region": "St Augustine",
+      "notes": "Suite #1102",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-a-vision-of-hope-153304",
       "fellowship": "NA",
       "name": "A Vision of Hope",
@@ -18201,30 +18249,6 @@
       "lng": -81.3398493,
       "region": "St. Augustine",
       "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-a-vision-of-hope-226259",
-      "fellowship": "NA",
-      "name": "A Vision of Hope",
-      "day": 6,
-      "time": "15:00",
-      "endTime": "16:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "3910 Lewis Speedway",
-      "city": "St Augustine",
-      "state": "FL",
-      "zip": "32084",
-      "lat": 29.9391795,
-      "lng": -81.339759,
-      "region": "St Augustine",
-      "notes": "Suite #1102",
       "source": "https://na.org/meetingsearch/"
     },
     {

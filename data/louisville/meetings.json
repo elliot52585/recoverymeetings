@@ -1,17 +1,18 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-10-07T14:37:46.515Z",
+    "generated": "2026-10-08T14:43:15.308Z",
     "seed": false,
     "counts": {
-      "AA": 536,
+      "AA": 537,
       "NA": 84,
       "RD": 3
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
+        "ok": true,
+        "count": 537,
+        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -8235,6 +8236,36 @@
       "source": "https://loukyaa.org/meetings/brownboro-lost-found/"
     },
     {
+      "id": "aa-1st-things-1st-group-d3-1800",
+      "fellowship": "AA",
+      "name": "First Things First Newcomer Group",
+      "day": 3,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "LGBTQ",
+        "Beginner",
+        "Open",
+        "Wheelchair accessible",
+        "XB",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Bardstown Road Presbyterian Church",
+      "address": "1722 Bardstown Rd",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2292332,
+      "lng": -85.702868,
+      "region": "Louisville",
+      "notes": null,
+      "source": "https://loukyaa.org/meetings/1st-things-1st-group/"
+    },
+    {
       "id": "aa-flip-the-script-newcomers-d3-1800",
       "fellowship": "AA",
       "name": "Flip The Script Newcomers",
@@ -8421,35 +8452,6 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/bardstown-road-group-2/"
-    },
-    {
-      "id": "aa-1st-things-1st-group-d3-1830",
-      "fellowship": "AA",
-      "name": "First Things First Newcomer Group",
-      "day": 3,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "LGBTQ",
-        "Beginner",
-        "Open",
-        "Wheelchair accessible",
-        "XB"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Bardstown Road Presbyterian Church",
-      "address": "1722 Bardstown Rd",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2292332,
-      "lng": -85.702868,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/1st-things-1st-group/"
     },
     {
       "id": "aa-hwy-150-bb-group-d3-1830",
@@ -8987,6 +8989,31 @@
       "region": "Louisville",
       "notes": "Línea de Información: (502) 996-1955",
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-under-the-pines-d3-1900",
+      "fellowship": "AA",
+      "name": "Under The Pines",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": null,
+      "address": "4721 S 1st St",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.1799517,
+      "lng": -85.7628975,
+      "region": "Louisville",
+      "notes": "House On The Corner",
+      "source": "https://loukyaa.org/meetings/under-the-pines/"
     },
     {
       "id": "aa-fish-head-friday-group-d3-1930",

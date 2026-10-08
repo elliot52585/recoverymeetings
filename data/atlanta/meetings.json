@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-07T14:37:24.168Z",
+    "generated": "2026-10-08T14:43:08.865Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -10,8 +10,9 @@
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "ok": true,
+        "count": 1389,
+        "source": "https://atlantaaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -16375,6 +16376,32 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-the-strong-alcoholic-womens-step-study-d2-1900",
+      "fellowship": "AA",
+      "name": "The Strong Alcoholic Women's Step Study",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Closed",
+        "Step study",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": true,
+      "conferenceUrl": "https://us02web.zoom.us/j/82774833909",
+      "venue": "Episcopal Church of the Epiphany",
+      "address": "2089 Ponce De Leon Ave NE",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.770866,
+      "lng": -84.3195123,
+      "region": "Atlanta NE",
+      "notes": "Entry on East Lake Road",
+      "source": "https://atlantaaa.org/meetings/the-strong-alcoholic-womens-step-study/"
+    },
+    {
       "id": "aa-tuesday-night-west-cobb-d2-1900",
       "fellowship": "AA",
       "name": "Tuesday Night West Cobb",
@@ -22351,31 +22378,6 @@
       "source": "https://atlantaaa.org/meetings/gottatalk-2/"
     },
     {
-      "id": "aa-happy-destiny-group-acworth-d3-1900",
-      "fellowship": "AA",
-      "name": "Happy Destiny Group - Acworth",
-      "day": 3,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Camden Point Small Clubhouse",
-      "address": "5100 Camden Lake Pkwy NW",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 34.0079318,
-      "lng": -84.7015084,
-      "region": "Acworth",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/happy-destiny-group-acworth/"
-    },
-    {
       "id": "aa-happy-hour-10-d3-1900",
       "fellowship": "AA",
       "name": "Happy Hour Group - Fayetteville",
@@ -22449,32 +22451,6 @@
       "region": "McDonough",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/henry-county/"
-    },
-    {
-      "id": "aa-hope-at-home-2-d3-1900",
-      "fellowship": "AA",
-      "name": "Hope at Home",
-      "day": 3,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Women"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/88309784779?pwd=aEM3dk9NMGxsbSt0djhMVzQ1eVYrZz09",
-      "venue": "Atlanta, GA, USA",
-      "address": "Atlanta",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.748752,
-      "lng": -84.3876845,
-      "region": "Online",
-      "notes": null,
-      "source": "https://atlantaaa.org/meetings/hope-at-home-2/"
     },
     {
       "id": "aa-keep-it-simple-5-d3-1900",
@@ -38806,6 +38782,32 @@
       "region": "Johns Creek",
       "notes": "Behind the playground",
       "source": "https://atlantaaa.org/meetings/primary-purpose-johns-creek-7/"
+    },
+    {
+      "id": "aa-principles-office-d6-0900",
+      "fellowship": "AA",
+      "name": "Principles Office",
+      "day": 6,
+      "time": "09:00",
+      "endTime": "10:00",
+      "types": [
+        "Discussion",
+        "Meditation",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "80 Newnan Station",
+      "address": "80 Newnan Station Dr A",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 33.3980789,
+      "lng": -84.7360214,
+      "region": "Newnan",
+      "notes": "Principles Office is a once weekly meeting where the chairperson picks a principle of their choice. They introduce the topic it is followed by a 10 minute meditation then the floor is open to all.",
+      "source": "https://atlantaaa.org/meetings/principles-office/"
     },
     {
       "id": "aa-saturday-morning-mens-meeting-newnan-d6-0900",
