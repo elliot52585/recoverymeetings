@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-10-08T14:45:18.974Z",
+    "generated": "2026-10-09T14:29:32.716Z",
     "seed": false,
     "counts": {
       "AA": 687,
@@ -27,31 +27,6 @@
     }
   },
   "meetings": [
-    {
-      "id": "aa-evening-reflections-d0-0000",
-      "fellowship": "AA",
-      "name": "Evening Reflections",
-      "day": 0,
-      "time": "00:00",
-      "endTime": "01:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/2923398385",
-      "venue": "Jacksonville",
-      "address": "Jacksonville",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.3297566,
-      "lng": -81.6591529,
-      "region": "Zoom",
-      "notes": "Meeting ID 292 339 8385\nPassword 192776",
-      "source": "https://neflaa.org/meetings/evening-reflections/"
-    },
     {
       "id": "aa-sunday-sunrise-beach-meeting-d0-0600",
       "fellowship": "AA",
@@ -1597,6 +1572,31 @@
       "region": "Zoom",
       "notes": "O-D\n\nZoom ID: 809 328 9546\nPW: 1234",
       "source": "https://neflaa.org/meetings/district-25-you-are-not-alone-2/"
+    },
+    {
+      "id": "aa-evening-reflections-d0-1900",
+      "fellowship": "AA",
+      "name": "Evening Reflections",
+      "day": 0,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/2923398385",
+      "venue": "Jacksonville",
+      "address": "Jacksonville",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3297566,
+      "lng": -81.6591529,
+      "region": "Zoom",
+      "notes": "Meeting ID 292 339 8385\nPassword 192776",
+      "source": "https://neflaa.org/meetings/evening-reflections/"
     },
     {
       "id": "aa-fiesta-group-3-d0-1900",

@@ -1,17 +1,18 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-08T14:43:38.033Z",
+    "generated": "2026-10-09T14:27:54.169Z",
     "seed": false,
     "counts": {
-      "AA": 1119,
+      "AA": 1121,
       "NA": 155,
       "RD": 13
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: daccaa.org/wp-admin/admin-ajax.php?actio — HTTP 409 | daccaa.org/wp-json/tsml/v1/meetings — HTTP 401"
+        "ok": true,
+        "count": 1122,
+        "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
@@ -22135,6 +22136,31 @@
       "source": "https://daccaa.org/meetings/golden-mens/"
     },
     {
+      "id": "aa-grassroots-seedlings-d4-1900",
+      "fellowship": "AA",
+      "name": "Grassroots Seedlings",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Beginner",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Facility",
+      "address": "8989 Huron St",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.8589785,
+      "lng": -104.9972255,
+      "region": "Thornton",
+      "notes": "enter north side of building",
+      "source": "https://daccaa.org/meetings/grassroots-seedlings/"
+    },
+    {
       "id": "aa-194-471-d4-1900",
       "fellowship": "AA",
       "name": "Happy Way",
@@ -29273,6 +29299,31 @@
       "region": "Englewood",
       "notes": "ZOOM ID# 746 795 0533\nPasscode: 747555",
       "source": "https://daccaa.org/meetings/770-1971/"
+    },
+    {
+      "id": "aa-stream-of-life-d6-0900",
+      "fellowship": "AA",
+      "name": "Stream of Life",
+      "day": 6,
+      "time": "09:00",
+      "endTime": "10:00",
+      "types": [
+        "Meditation",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Church",
+      "address": "19491 E Smoky Hill Rd",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.6158245,
+      "lng": -104.7616071,
+      "region": "Centennial",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/stream-of-life/"
     },
     {
       "id": "na-the-journey-continues-167367",

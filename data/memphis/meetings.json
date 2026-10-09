@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-10-08T14:42:52.305Z",
+    "generated": "2026-10-09T14:27:10.170Z",
     "seed": false,
     "counts": {
       "AA": 388,
@@ -5356,33 +5356,6 @@
       "source": "https://www.memphis-aa.org/meetings/two-doors-down-11"
     },
     {
-      "id": "aa-collierville-group-6-d3-1700",
-      "fellowship": "AA",
-      "name": "Collierville Group/Women's",
-      "day": 3,
-      "time": "17:00",
-      "endTime": "18:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Wheelchair accessible",
-        "Women"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church of the Incarnation",
-      "address": "360 Bray Station Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0489844,
-      "lng": -89.7041218,
-      "region": "Collierville",
-      "notes": "WOMEN ONLY",
-      "source": "https://www.memphis-aa.org/meetings/collierville-group-6"
-    },
-    {
       "id": "aa-10172-d3-1700",
       "fellowship": "AA",
       "name": "Rule 62",
@@ -5455,6 +5428,33 @@
       "region": "Memphis",
       "notes": "Zoom PW: c2b",
       "source": "https://www.memphis-aa.org/meetings/came-to-believe-group-18"
+    },
+    {
+      "id": "aa-collierville-group-6-d3-1730",
+      "fellowship": "AA",
+      "name": "Collierville Group/Women's",
+      "day": 3,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "Closed",
+        "Discussion",
+        "Wheelchair accessible",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Church of the Incarnation",
+      "address": "360 Bray Station Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.0489844,
+      "lng": -89.7041218,
+      "region": "Collierville",
+      "notes": "WOMEN ONLY",
+      "source": "https://www.memphis-aa.org/meetings/collierville-group-6"
     },
     {
       "id": "aa-common-solutions-3-d3-1730",

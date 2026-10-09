@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-10-08T14:45:09.293Z",
+    "generated": "2026-10-09T14:29:24.960Z",
     "seed": false,
     "counts": {
       "NA": 336,
@@ -10,7 +10,7 @@
     "sources": {
       "AA": {
         "ok": false,
-        "error": "all TSML feeds failed: meetings.aatampa-area.org/wp-admin/admin — HTTP 403 | meetings.aatampa-area.org/wp-json/tsml/v — HTTP 403 | aatampa-area.org/wp-admin/admin-ajax.php — HTTP 409"
+        "error": "all TSML feeds failed: meetings.aatampa-area.org/wp-admin/admin — HTTP 403 | meetings.aatampa-area.org/wp-json/tsml/v — HTTP 403 | aatampa-area.org/wp-admin/admin-ajax.php — HTTP 400"
       },
       "NA": {
         "ok": true,
