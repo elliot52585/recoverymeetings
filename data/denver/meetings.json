@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-09T14:27:54.169Z",
+    "generated": "2026-10-10T13:55:15.563Z",
     "seed": false,
     "counts": {
-      "AA": 1121,
+      "AA": 1120,
       "NA": 155,
       "RD": 13
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1122,
+        "count": 1121,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -31025,31 +31025,6 @@
       "region": "Commerce City",
       "notes": null,
       "source": "https://daccaa.org/meetings/232-551/"
-    },
-    {
-      "id": "aa-81-2505-d6-1830",
-      "fellowship": "AA",
-      "name": "Clean and Serene",
-      "day": 6,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club",
-      "address": "12795 US Hwy 285",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.4876588,
-      "lng": -105.3607574,
-      "region": "Conifer",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/81-2505/"
     },
     {
       "id": "aa-mental-health-in-recovery-d6-1830",

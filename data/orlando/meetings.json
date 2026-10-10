@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-10-09T14:28:57.747Z",
+    "generated": "2026-10-10T13:56:36.946Z",
     "seed": false,
     "counts": {
       "NA": 173,
@@ -3350,14 +3350,14 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": null,
+      "venue": "DeLand",
       "address": "114 W New York Ave",
       "city": null,
       "state": "FL",
       "zip": null,
       "lat": 29.0279613,
       "lng": -81.3041523,
-      "region": "New York",
+      "region": "Florida",
       "notes": "The building has front and back entrances.\nThe front entrance is wheelchair accessible.",
       "source": "https://recoverydharma.org/meetings/rd-volusia/"
     },
