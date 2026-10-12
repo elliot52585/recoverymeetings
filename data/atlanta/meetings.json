@@ -1,21 +1,21 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-11T14:14:13.955Z",
+    "generated": "2026-10-12T16:52:01.715Z",
     "seed": false,
     "counts": {
       "AA": 1378,
-      "NA": 301,
+      "NA": 305,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — HTTP 403 | atlantaaa.org/wp-json/tsml/v1/meetings — HTTP 403"
       },
       "NA": {
         "ok": true,
-        "count": 301,
+        "count": 305,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2548,6 +2548,28 @@
       "conferenceUrl": null,
       "venue": "365 Center, Inc.",
       "address": "1472 Richard Rd., Ste:2",
+      "city": "Decatur",
+      "state": "GA",
+      "zip": "30032",
+      "lat": 33.7601935,
+      "lng": -84.2452548,
+      "region": "Decatur",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-women-keep-it-real-230734",
+      "fellowship": "NA",
+      "name": "Women Keep It Real",
+      "day": 0,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "365 Center (Leroy Daniel Center)",
+      "address": "1472 Richard Rd, Decatur, GA 30032",
       "city": "Decatur",
       "state": "GA",
       "zip": "30032",
@@ -29514,6 +29536,30 @@
       "source": "https://atlantaaa.org/meetings/suwanee-how-i-love-ya-online/"
     },
     {
+      "id": "na-the-measure-of-willingness-230727",
+      "fellowship": "NA",
+      "name": "The Measure of Willingness",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Heart of Newton",
+      "address": "1122 Monticello St. Suite 15",
+      "city": "Covington",
+      "state": "GA",
+      "zip": "30014",
+      "lat": 33.5962634,
+      "lng": -83.8606802,
+      "region": "Covington",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-the-winners-circle-4-d4-1900",
       "fellowship": "AA",
       "name": "The Winner's Circle",
@@ -40619,6 +40665,30 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-the-measure-of-willingness-230735",
+      "fellowship": "NA",
+      "name": "The Measure of Willingness",
+      "day": 6,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Heart of Newton",
+      "address": "1122 Monticello St. Suite 15",
+      "city": "Covington",
+      "state": "GA",
+      "zip": "30014",
+      "lat": 33.5962634,
+      "lng": -83.8606802,
+      "region": "Covington",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-tri-noon-d6-1200",
       "fellowship": "AA",
       "name": "Tri Noon",
@@ -41145,6 +41215,30 @@
       "region": "Atlanta NE",
       "notes": "McIver Hall - You cannot enter through the gates off Ponce de Leon.\nThe parking entrance is on St Charles 1/2 block from Highland avenue.\nFrom Ponce, turn left onto Highland then take a left on St Charles.\nOn left side is driveway to Druid Hills Church.\nCome to the glass door, and a member will assist you.",
       "source": "https://atlantaaa.org/meetings/poncey-highland-women/"
+    },
+    {
+      "id": "na-the-measure-of-willingness-230736",
+      "fellowship": "NA",
+      "name": "The Measure of Willingness",
+      "day": 6,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Heart of Newton",
+      "address": "1122 Monticello St. suite 15",
+      "city": "Covington",
+      "state": "GA",
+      "zip": "30014",
+      "lat": 33.5962634,
+      "lng": -83.8606802,
+      "region": "Covington",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-god-154939",

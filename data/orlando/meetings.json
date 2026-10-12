@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-10-11T14:15:36.208Z",
+    "generated": "2026-10-12T16:53:16.783Z",
     "seed": false,
     "counts": {
       "NA": 173,
@@ -156,7 +156,7 @@
       "lat": 28.341721,
       "lng": -80.7264927,
       "region": "Rockledge",
-      "notes": "IMPORTANT Enter through back door",
+      "notes": "IMPORTANT Enter through back door — Five &  Dime. Business meeting is 1:15 PM on the 1st Sunday of each month",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -771,7 +771,7 @@
       "lat": 28.341721,
       "lng": -80.7264927,
       "region": "Rockledge",
-      "notes": "IMPORTANT Enter through back door — Five &  Dime. Business meeting is 6 PM on the Sunday before the ASC",
+      "notes": "IMPORTANT Enter through back door — Five &  Dime. Business meeting is 1:15 PM on the 1st Sunday of each month",
       "source": "https://na.org/meetingsearch/"
     },
     {

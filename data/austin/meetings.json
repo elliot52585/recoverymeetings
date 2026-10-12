@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-10-11T14:14:45.543Z",
+    "generated": "2026-10-12T16:52:34.911Z",
     "seed": false,
     "counts": {
       "NA": 93,
@@ -351,33 +351,6 @@
       "lat": 30.2802947,
       "lng": -97.7182672,
       "region": "Austin",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-recovery-at-work-226396",
-      "fellowship": "NA",
-      "name": "Recovery at Work",
-      "day": 0,
-      "time": "18:30",
-      "endTime": "20:00",
-      "types": [
-        "Open",
-        "Wheelchair accessible",
-        "LT",
-        "Basic Text"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Upstairs",
-      "address": "2629 E Common St",
-      "city": "New Braunfels",
-      "state": "TX",
-      "zip": "78130",
-      "lat": 29.7403229,
-      "lng": -98.095974,
-      "region": "New Braunfels",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -1606,6 +1579,33 @@
       "lng": -97.7430608,
       "region": "Austin",
       "notes": "Zoom: 916 338 0135 Pwd: 12345",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-recovery-at-work-226396",
+      "fellowship": "NA",
+      "name": "Recovery at Work",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "LT",
+        "Basic Text"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Upstairs",
+      "address": "2629 E Common St",
+      "city": "New Braunfels",
+      "state": "TX",
+      "zip": "78130",
+      "lat": 29.7403229,
+      "lng": -98.095974,
+      "region": "New Braunfels",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {

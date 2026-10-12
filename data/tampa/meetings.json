@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-10-11T14:16:02.264Z",
+    "generated": "2026-10-12T16:53:43.647Z",
     "seed": false,
     "counts": {
-      "NA": 336,
+      "NA": 335,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 344,
+        "count": 343,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2240,33 +2240,6 @@
       "lng": -82.7335313,
       "region": "Holiday",
       "notes": "(Stamp)",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-life-s-a-beach-84736",
-      "fellowship": "NA",
-      "name": "Life's A Beach",
-      "day": 1,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "SPK"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/89145167390",
-      "venue": "Gulfport Beach Pavilion",
-      "address": "5730 Shore Blvd S",
-      "city": "Gulfport",
-      "state": "FL",
-      "zip": "33707",
-      "lat": 27.7369372,
-      "lng": -82.7113382,
-      "region": "Gulfport",
-      "notes": "Pavilion 6 — Meeting is outdoors under the pavilion",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -8914,13 +8887,13 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "11711 Seminole Dr.",
-      "city": "New Port Richey",
+      "address": "11840 US-19",
+      "city": "Port Richey",
       "state": "FL",
-      "zip": "34654",
-      "lat": 28.3269939,
-      "lng": -82.6557606,
-      "region": "New Port Richey",
+      "zip": "34668",
+      "lat": 28.3297239,
+      "lng": -82.6981377,
+      "region": "Port Richey",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
