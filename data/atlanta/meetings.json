@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-12T16:52:01.715Z",
+    "generated": "2026-10-13T15:10:22.843Z",
     "seed": false,
     "counts": {
       "AA": 1378,
-      "NA": 305,
+      "NA": 304,
       "RD": 6
     },
     "sources": {
@@ -15,7 +15,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 305,
+        "count": 304,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -35912,34 +35912,6 @@
       "region": "Peachtree City",
       "notes": "Corner Hwy. 54",
       "source": "https://atlantaaa.org/meetings/peachtree-city/"
-    },
-    {
-      "id": "na-road-to-recovery-group-58235",
-      "fellowship": "NA",
-      "name": "Road To Recovery Group",
-      "day": 5,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG",
-        "CAN"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Holy Trinity Catholic Church",
-      "address": "101 Walt Banks Rd.",
-      "city": "Peachtree City",
-      "state": "GA",
-      "zip": "30269",
-      "lat": 33.4180635,
-      "lng": -84.5604694,
-      "region": "Peachtree City",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-stairway-group-83731",
