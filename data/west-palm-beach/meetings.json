@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-10-14T12:59:39.354Z",
+    "generated": "2026-10-15T12:46:49.851Z",
     "seed": false,
     "counts": {
       "AA": 504,
@@ -13157,6 +13157,31 @@
       "source": "https://aapalmbeachcounty.org/meetings/as-its-laid-out/"
     },
     {
+      "id": "aa-beyond-sobriety-d4-1845",
+      "fellowship": "AA",
+      "name": "Beyond Sobriety Beginners Meeting",
+      "day": 4,
+      "time": "18:45",
+      "endTime": "19:45",
+      "types": [
+        "Beginner",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Lakeside Presbyterian Church",
+      "address": "4601 S Flagler Dr",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.671005,
+      "lng": -80.048413,
+      "region": "West Palm Beach",
+      "notes": "B, O",
+      "source": "https://aapalmbeachcounty.org/meetings/beyond-sobriety/"
+    },
+    {
       "id": "aa-12-steps-12-traditions-d4-1900",
       "fellowship": "AA",
       "name": "12 Steps & 12 Traditions",
@@ -13205,31 +13230,6 @@
       "region": "Palm Beach Gardens",
       "notes": "ZOOM MEETING ONLY ON SUNDAY, TUESDAY AND WEDNESDAY\nWednesday is a different Code and Pass Code",
       "source": "https://aapalmbeachcounty.org/meetings/aa-big-book-spiritual-group/"
-    },
-    {
-      "id": "aa-beyond-sobriety-d4-1900",
-      "fellowship": "AA",
-      "name": "Beyond Sobriety Beginners Meeting",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Beginner",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Lakeside Presbyterian Church",
-      "address": "4601 S Flagler Dr",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 26.671005,
-      "lng": -80.048413,
-      "region": "West Palm Beach",
-      "notes": "B, O",
-      "source": "https://aapalmbeachcounty.org/meetings/beyond-sobriety/"
     },
     {
       "id": "na-bringing-back-the-truth-159390",

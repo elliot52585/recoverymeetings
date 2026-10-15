@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-14T12:57:24.366Z",
+    "generated": "2026-10-15T12:44:36.177Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -17048,6 +17048,32 @@
       "source": "https://daccaa.org/meetings/24-1881/"
     },
     {
+      "id": "aa-45-137-d3-1900",
+      "fellowship": "AA",
+      "name": "Big Book Study",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Big Book",
+        "Open",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Club",
+      "address": "90 E Orchard Rd",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.6092249,
+      "lng": -104.9868097,
+      "region": "Centennial",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/45-137/"
+    },
+    {
       "id": "na-clean-for-today-58750",
       "fellowship": "NA",
       "name": "Clean For Today",
@@ -17603,32 +17629,6 @@
       "region": "Lakewood",
       "notes": null,
       "source": "https://daccaa.org/meetings/25-81/"
-    },
-    {
-      "id": "aa-45-137-d3-1930",
-      "fellowship": "AA",
-      "name": "Big Book Study",
-      "day": 3,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Big Book",
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Club",
-      "address": "90 E Orchard Rd",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.6092249,
-      "lng": -104.9868097,
-      "region": "Centennial",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/45-137/"
     },
     {
       "id": "aa-65-186-d3-1930",
