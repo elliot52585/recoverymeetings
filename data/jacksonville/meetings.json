@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-10-15T12:46:13.209Z",
+    "generated": "2026-10-16T12:37:25.293Z",
     "seed": false,
     "counts": {
       "AA": 687,
@@ -17351,15 +17351,15 @@
       "online": false,
       "hybrid": true,
       "conferenceUrl": "https://zoom.us/j/5308639257",
-      "venue": "75 S 12th St, Jacksonville Beach 32250",
-      "address": "75 S 12th St",
+      "venue": "Beaches Baptist Medical Center",
+      "address": "1350 13th Ave S",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 30.2871625,
-      "lng": -81.4009165,
+      "lat": 30.2739881,
+      "lng": -81.3977774,
       "region": "Jacksonville Beach",
-      "notes": "Zoom ID: 530 8639 257\nPasscode: 1234\n\nEntrance off Shelter Ave",
+      "notes": "Zoom ID: 530 8639 257\nPasscode: 1234",
       "source": "https://neflaa.org/meetings/beaches-agnostic-free-thinkers/"
     },
     {
