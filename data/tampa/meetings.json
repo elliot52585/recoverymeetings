@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-10-17T11:43:31.995Z",
+    "generated": "2026-10-18T12:09:28.499Z",
     "seed": false,
     "counts": {
-      "NA": 335,
+      "NA": 333,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 343,
+        "count": 341,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -1212,12 +1212,14 @@
       "time": "20:00",
       "endTime": "21:00",
       "types": [
-        "Children welcome",
         "Discussion",
         "Open",
+        "VAR",
         "Wheelchair accessible",
         "Non-smoking",
-        "SPK"
+        "CS",
+        "HP",
+        "ENG"
       ],
       "online": false,
       "hybrid": true,
@@ -2179,13 +2181,13 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "New Hope Church",
-      "address": "121 N. Knights Ave. Room S3 - S4",
+      "venue": "Building Across from New Hope Church",
+      "address": "120 N. Knights Ave. Room 105",
       "city": "Brandon",
       "state": "FL",
       "zip": "33510",
-      "lat": 27.9398257,
-      "lng": -82.2893472,
+      "lat": 27.9391957,
+      "lng": -82.2903478,
       "region": "Brandon",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -3514,13 +3516,13 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "New Hope Church",
-      "address": "121 N. Knights Ave. Room S3 - S4",
+      "venue": "Building Across from New Hope Church Room 105",
+      "address": "120 N. Knights Ave.",
       "city": "Brandon",
       "state": "FL",
       "zip": "33510",
-      "lat": 27.9398257,
-      "lng": -82.2893472,
+      "lat": 27.9391957,
+      "lng": -82.2903478,
       "region": "Brandon",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -4452,35 +4454,6 @@
       "lng": -82.6879792,
       "region": "Pinellas Park",
       "notes": "1st & 3rd Wed.",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-first-things-first-166797",
-      "fellowship": "NA",
-      "name": "First Things First",
-      "day": 3,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "Closed",
-        "Discussion",
-        "STP",
-        "TRD",
-        "Wheelchair accessible",
-        "Non-smoking"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "WhiteSands Outpatient Facility",
-      "address": "5135 Us Hwy 98 N",
-      "city": "Lakeland",
-      "state": "FL",
-      "zip": "33809",
-      "lat": 28.1092425,
-      "lng": -81.9730413,
-      "region": "Lakeland",
-      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -7458,38 +7431,6 @@
       "lng": -81.9274502,
       "region": "Lakeland",
       "notes": "Classroom Building",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-this-too-shall-pass-167375",
-      "fellowship": "NA",
-      "name": "This Too Shall Pass",
-      "day": 5,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "STP",
-        "TRD",
-        "Wheelchair accessible",
-        "LIT",
-        "Non-smoking",
-        "HP",
-        "BK"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "WhiteSands Outpatient Facility",
-      "address": "5135 US Hwy 98 N",
-      "city": "Lakeland",
-      "state": "FL",
-      "zip": "33809",
-      "lat": 28.1092425,
-      "lng": -81.9730413,
-      "region": "Lakeland",
-      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {

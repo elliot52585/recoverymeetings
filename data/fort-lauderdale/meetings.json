@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "fort-lauderdale",
-    "generated": "2026-10-17T11:44:12.378Z",
+    "generated": "2026-10-18T12:10:12.341Z",
     "seed": false,
     "counts": {
       "NA": 465,
@@ -9959,7 +9959,7 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-plantation-recovery-175031",
+      "id": "na-plantation-recovery-230813",
       "fellowship": "NA",
       "name": "Plantation Recovery",
       "day": 5,
@@ -9974,15 +9974,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Bamford Park",
-      "address": "3801 S. Pine Island Rd.",
+      "venue": "Shenandoah Party Room, Davie Fire Station",
+      "address": "14651 SW 14th St.",
       "city": "Davie",
       "state": "FL",
-      "zip": "33328",
-      "lat": 26.0729948,
-      "lng": -80.2653233,
+      "zip": "33325",
+      "lat": 26.102712,
+      "lng": -80.344519,
       "region": "Davie",
-      "notes": null,
+      "notes": "Temp meeting location for Oct. 23 and Oct. 30 ONLY....",
       "source": "https://na.org/meetingsearch/"
     },
     {
