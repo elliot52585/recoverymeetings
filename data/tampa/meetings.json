@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-10-18T12:09:28.499Z",
+    "generated": "2026-10-19T14:50:15.986Z",
     "seed": false,
     "counts": {
       "NA": 333,
@@ -3517,7 +3517,7 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Building Across from New Hope Church Room 105",
-      "address": "120 N. Knights Ave.",
+      "address": "120 N. Knights Ave. Room 105",
       "city": "Brandon",
       "state": "FL",
       "zip": "33510",

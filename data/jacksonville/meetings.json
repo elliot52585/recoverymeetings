@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-10-18T12:09:35.536Z",
+    "generated": "2026-10-19T14:50:24.089Z",
     "seed": false,
     "counts": {
-      "AA": 687,
+      "AA": 688,
       "NA": 75,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 698,
+        "count": 699,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -5022,6 +5022,36 @@
       "region": "Jacksonville",
       "notes": "Open Speaker",
       "source": "https://neflaa.org/meetings/living-in-the-light-2/"
+    },
+    {
+      "id": "aa-opaypg-d1-1930",
+      "fellowship": "AA",
+      "name": "Opa'~YPG",
+      "day": 1,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Candlelight",
+        "Discussion",
+        "Literature",
+        "Meditation",
+        "Open",
+        "Speaker",
+        "Young people"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "322 Penman Rd, Jacksonville Beach 32250",
+      "address": "322 Penman Rd",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.2905897,
+      "lng": -81.4062654,
+      "region": "Jacksonville Beach",
+      "notes": null,
+      "source": "https://neflaa.org/meetings/opaypg/"
     },
     {
       "id": "aa-riverside-group-d1-1930",

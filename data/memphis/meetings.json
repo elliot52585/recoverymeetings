@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-10-18T12:07:14.073Z",
+    "generated": "2026-10-19T14:48:00.711Z",
     "seed": false,
     "counts": {
       "AA": 388,
@@ -1135,7 +1135,7 @@
       "lat": 35.1331523,
       "lng": -90.0044444,
       "region": "Memphis",
-      "notes": "Enter west side of church, up the ramp, ring doorbell",
+      "notes": "Enter west side of church, up the ramp, & ring doorbell",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -10859,7 +10859,7 @@
       ],
       "online": false,
       "hybrid": true,
-      "conferenceUrl": "https://zoom.us/j/657640780",
+      "conferenceUrl": "https://zoom.us/j83492197228",
       "venue": null,
       "address": "390 S Yates",
       "city": "Memphis",

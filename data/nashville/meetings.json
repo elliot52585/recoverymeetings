@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-10-18T12:07:07.793Z",
+    "generated": "2026-10-19T14:47:54.437Z",
     "seed": false,
     "counts": {
       "AA": 872,
-      "NA": 160,
+      "NA": 159,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -25,7 +25,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 161,
+        "count": 160,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -4249,6 +4249,31 @@
       "region": "Lebanon",
       "notes": "2nd Street Off Square- Handicapped accessible",
       "source": "https://aanashville.org/meetings/sobriety-first-group-2/"
+    },
+    {
+      "id": "na-spiritual-solutions-230843",
+      "fellowship": "NA",
+      "name": "Spiritual Solutions",
+      "day": 1,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "H",
+        "SP"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Cumberland Height IOP Facility",
+      "address": "745 S. Church St. Suite 501",
+      "city": "Murfreesboro",
+      "state": "TN",
+      "zip": "37130",
+      "lat": 35.8384387,
+      "lng": -86.3912391,
+      "region": "Murfreesboro",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "na-sweet-surrender-227531",
@@ -14566,28 +14591,6 @@
       "source": "https://aanashville.org/meetings/youve-been-noticed/"
     },
     {
-      "id": "na-another-choice-13984",
-      "fellowship": "NA",
-      "name": "Another Choice",
-      "day": 3,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/676406555",
-      "venue": "Hermitage United Methodist Church",
-      "address": "205 Belinda Drive",
-      "city": "Hermitage",
-      "state": "TN",
-      "zip": "37076",
-      "lat": 36.2047185,
-      "lng": -86.6123651,
-      "region": "Hermitage",
-      "notes": "Meeting ID: 676 406 555;  Password: Serenity",
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
       "id": "na-easy-does-it-162770",
       "fellowship": "NA",
       "name": "Easy Does It",
@@ -18545,31 +18548,6 @@
       "region": "Nashville",
       "notes": "Park in back and enter through blue double doors. Takes place in basement of the church.",
       "source": "https://aanashville.org/meetings/she-recovers/"
-    },
-    {
-      "id": "na-the-acheivers-of-na-168796",
-      "fellowship": "NA",
-      "name": "The Acheivers Of NA",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "City Hal",
-      "address": "141 Church St.",
-      "city": "Dowelltown",
-      "state": "TN",
-      "zip": "37059",
-      "lat": 36.0137786,
-      "lng": -85.9432932,
-      "region": "Dowelltown",
-      "notes": "Meets the 1st and 3rd Thursday of each month",
-      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "na-the-achievers-of-na-168649",
@@ -25990,7 +25968,7 @@
       "name": "Saturday Sundowners",
       "day": 6,
       "time": "19:00",
-      "endTime": "21:00",
+      "endTime": "20:30",
       "types": [],
       "online": false,
       "hybrid": false,

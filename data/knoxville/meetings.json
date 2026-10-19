@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-10-18T12:07:25.374Z",
+    "generated": "2026-10-19T14:48:11.655Z",
     "seed": false,
     "counts": {
-      "AA": 341,
+      "AA": 342,
       "NA": 94,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 341,
+        "count": 342,
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -5983,6 +5983,31 @@
       "region": "Morristown",
       "notes": "(Use Back Door)",
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-cookie-6-d3-1900",
+      "fellowship": "AA",
+      "name": "Cookie",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Closed",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Powell UMC",
+      "address": "323 W Emory Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.0389775,
+      "lng": -84.0139053,
+      "region": "Knoxville",
+      "notes": "ROOM 208 upstairs",
+      "source": "https://www.etiaa.org/meetings/cookie-6/"
     },
     {
       "id": "na-easy-does-it-167599",

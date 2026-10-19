@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-18T12:07:46.746Z",
+    "generated": "2026-10-19T14:48:31.665Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -22886,7 +22886,7 @@
       "lat": 33.2484974,
       "lng": -84.2701292,
       "region": "Griffin",
-      "notes": null,
+      "notes": "1st Wed of month Newcomer Meeting",
       "source": "https://na.org/meetingsearch/"
     },
     {
