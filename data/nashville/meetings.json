@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-10-19T14:47:54.437Z",
+    "generated": "2026-10-20T12:48:43.786Z",
     "seed": false,
     "counts": {
       "AA": 872,
@@ -5824,7 +5824,7 @@
       "name": "White Lotus",
       "day": 1,
       "time": "18:30",
-      "endTime": "19:30",
+      "endTime": "20:30",
       "types": [
         "Open"
       ],
@@ -5839,7 +5839,7 @@
       "lat": 35.8519219,
       "lng": -86.3927849,
       "region": "Tennessee",
-      "notes": "Parking lot is located directly behind building. After parking, follow sidewalk on side of building to enter through the office’s front door. White Lotus meeting is held in the first room on the left",
+      "notes": "*Please park in parking lot and enter through the back door.",
       "source": "https://recoverydharma.org/meetings/white-lotus/"
     },
     {

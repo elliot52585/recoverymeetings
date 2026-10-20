@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-10-19T14:50:24.089Z",
+    "generated": "2026-10-20T12:51:38.099Z",
     "seed": false,
     "counts": {
       "AA": 688,
@@ -5026,7 +5026,7 @@
     {
       "id": "aa-opaypg-d1-1930",
       "fellowship": "AA",
-      "name": "Opa'~YPG",
+      "name": "Opa!~YPG",
       "day": 1,
       "time": "19:30",
       "endTime": "20:30",
@@ -5050,7 +5050,7 @@
       "lat": 30.2905897,
       "lng": -81.4062654,
       "region": "Jacksonville Beach",
-      "notes": null,
+      "notes": "Meets in the small room",
       "source": "https://neflaa.org/meetings/opaypg/"
     },
     {

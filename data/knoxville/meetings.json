@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-10-19T14:48:11.655Z",
+    "generated": "2026-10-20T12:49:03.066Z",
     "seed": false,
     "counts": {
-      "AA": 342,
+      "AA": 341,
       "NA": 94,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 342,
+        "count": 341,
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -10421,31 +10421,6 @@
       "region": "Maryville",
       "notes": null,
       "source": "https://www.etiaa.org/meetings/blount-county-group-new-freedom/"
-    },
-    {
-      "id": "aa-there-is-hope-d6-1000",
-      "fellowship": "AA",
-      "name": "Lafollette AA",
-      "day": 6,
-      "time": "10:00",
-      "endTime": "11:00",
-      "types": [
-        "Big Book",
-        "Closed"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Old West Lafollette School",
-      "address": "300 W Beech St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.3771229,
-      "lng": -84.1234631,
-      "region": "Lafollette",
-      "notes": null,
-      "source": "https://www.etiaa.org/meetings/there-is-hope/"
     },
     {
       "id": "aa-norris-clinton-saturday-d6-1000",
