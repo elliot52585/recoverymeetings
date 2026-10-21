@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-20T12:49:52.841Z",
+    "generated": "2026-10-21T13:02:38.398Z",
     "seed": false,
     "counts": {
-      "AA": 1120,
+      "AA": 1121,
       "NA": 155,
       "RD": 13
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1121,
+        "count": 1122,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1862,8 +1862,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.6019006,
-      "lng": -104.9582794,
+      "lat": 39.6019079,
+      "lng": -104.9580612,
       "region": "Centennial",
       "notes": null,
       "source": "https://daccaa.org/meetings/384-904/"
@@ -1886,8 +1886,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.6019006,
-      "lng": -104.9582794,
+      "lat": 39.6019079,
+      "lng": -104.9580612,
       "region": "Centennial",
       "notes": null,
       "source": "https://daccaa.org/meetings/191-460/"
@@ -7574,6 +7574,31 @@
       "source": "https://daccaa.org/meetings/tool-kit-group/"
     },
     {
+      "id": "aa-acceptance-too-d1-1900",
+      "fellowship": "AA",
+      "name": "Acceptance Too",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Church",
+      "address": "12755 W Cedar Dr",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.7126641,
+      "lng": -105.141957,
+      "region": "Lakewood",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/acceptance-too/"
+    },
+    {
       "id": "na-beyond-the-stigma-145883",
       "fellowship": "NA",
       "name": "Beyond the Stigma",
@@ -7854,6 +7879,33 @@
       "source": "https://daccaa.org/meetings/1055-2711/"
     },
     {
+      "id": "aa-pied-piper-newcomers-d1-1900",
+      "fellowship": "AA",
+      "name": "Pied Piper Newcomers",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Beginner",
+        "Open",
+        "Speaker",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Church",
+      "address": "6400 S University Blvd",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.6019079,
+      "lng": -104.9580612,
+      "region": "Centennial",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/pied-piper-newcomers/"
+    },
+    {
       "id": "aa-877-2315-d1-1900",
       "fellowship": "AA",
       "name": "Roaming Spirits of Sobriety",
@@ -8077,31 +8129,6 @@
       "region": "Lakewood",
       "notes": null,
       "source": "https://daccaa.org/meetings/881-2668/"
-    },
-    {
-      "id": "aa-acceptance-too-d1-1930",
-      "fellowship": "AA",
-      "name": "Acceptance Too",
-      "day": 1,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church",
-      "address": "12755 W Cedar Dr",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.7126641,
-      "lng": -105.141957,
-      "region": "Lakewood",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/acceptance-too/"
     },
     {
       "id": "aa-65-184-d1-1930",

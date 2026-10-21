@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-10-20T12:50:13.657Z",
+    "generated": "2026-10-21T13:02:56.384Z",
     "seed": false,
     "counts": {
-      "NA": 93,
+      "NA": 94,
       "RD": 4
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 93,
+        "count": 94,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=30.2672&long_val=-97.7431&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2452,6 +2452,33 @@
       "lng": -98.2741904,
       "region": "Marble Falls",
       "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-miracles-happen-230976",
+      "fellowship": "NA",
+      "name": "Miracles Happen",
+      "day": 6,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Wheelchair accessible",
+        "Non-smoking",
+        "LT"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "UCM Wesley Church",
+      "address": "510 N. Guadalupe St",
+      "city": "San Marcos",
+      "state": "TX",
+      "zip": "78666",
+      "lat": 29.8871869,
+      "lng": -97.9413779,
+      "region": "San Marcos",
+      "notes": "Where Guadalupe St. deads ends at Texas State University",
       "source": "https://na.org/meetingsearch/"
     },
     {
