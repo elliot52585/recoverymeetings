@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-21T13:02:38.398Z",
+    "generated": "2026-10-22T13:04:32.388Z",
     "seed": false,
     "counts": {
       "AA": 1121,
@@ -7884,7 +7884,7 @@
       "name": "Pied Piper Newcomers",
       "day": 1,
       "time": "19:00",
-      "endTime": "20:00",
+      "endTime": "20:30",
       "types": [
         "Beginner",
         "Open",
