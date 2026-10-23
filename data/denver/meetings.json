@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-22T13:04:32.388Z",
+    "generated": "2026-10-23T12:43:23.240Z",
     "seed": false,
     "counts": {
-      "AA": 1121,
+      "AA": 1120,
       "NA": 155,
       "RD": 13
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1122,
+        "count": 1121,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -28945,31 +28945,6 @@
       "region": "Evergreen",
       "notes": "JOIN VIA ZOOM:\n\nMeeting ID: 860 8202 4419\n\nPassword: billw",
       "source": "https://daccaa.org/meetings/335-798/"
-    },
-    {
-      "id": "aa-1085-2758-d6-0830",
-      "fellowship": "AA",
-      "name": "Fireside 12x12",
-      "day": 6,
-      "time": "08:30",
-      "endTime": "09:30",
-      "types": [
-        "Open",
-        "Step study"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church",
-      "address": "7137 Parker Hills Ct",
-      "city": null,
-      "state": "CO",
-      "zip": null,
-      "lat": 39.5262737,
-      "lng": -104.7533245,
-      "region": "Parker",
-      "notes": null,
-      "source": "https://daccaa.org/meetings/1085-2758/"
     },
     {
       "id": "aa-838-2174-d6-0830",
