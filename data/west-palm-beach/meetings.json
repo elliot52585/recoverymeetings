@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-10-25T12:42:24.764Z",
+    "generated": "2026-10-27T13:27:19.487Z",
     "seed": false,
     "counts": {
       "AA": 504,
@@ -837,7 +837,7 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-solutions-on-sunday-229120",
+      "id": "na-solutions-on-sunday-231012",
       "fellowship": "NA",
       "name": "Solutions on Sunday",
       "day": 0,
@@ -852,15 +852,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Safety Town",
-      "address": "520 Ramblewood Drive",
+      "venue": null,
+      "address": "2503 Coral Springs Dr",
       "city": "Coral Springs",
       "state": "FL",
-      "zip": "33071",
-      "lat": 26.238134,
-      "lng": -80.2387533,
+      "zip": "33065",
+      "lat": 26.2618112,
+      "lng": -80.2641692,
       "region": "Coral Springs",
-      "notes": null,
+      "notes": "Mullins Park Veterans Hall — This is a Temporary Location. Meeting returns to Safety Town on 11/08/2026",
       "source": "https://na.org/meetingsearch/"
     },
     {

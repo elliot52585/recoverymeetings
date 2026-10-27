@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-10-25T12:41:11.773Z",
+    "generated": "2026-10-27T13:26:08.153Z",
     "seed": false,
     "counts": {
-      "NA": 173,
+      "NA": 172,
       "RD": 4
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 173,
+        "count": 172,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=28.5383&long_val=-81.3792&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -1173,33 +1173,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-grateful-living-22239",
-      "fellowship": "NA",
-      "name": "Grateful Living",
-      "day": 1,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Open",
-        "VAR",
-        "Wheelchair accessible",
-        "LIT"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "United Methodist Church",
-      "address": "396 E University Ave",
-      "city": "Orange City",
-      "state": "FL",
-      "zip": "32763",
-      "lat": 28.9502037,
-      "lng": -81.295452,
-      "region": "Orange City",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-just-for-today-84728",
       "fellowship": "NA",
       "name": "Just For Today",
@@ -1240,15 +1213,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "First Congregational Church",
-      "address": "201 W University Ave",
+      "venue": null,
+      "address": "396 East University Avenue",
       "city": "Orange City",
       "state": "FL",
       "zip": "32763",
-      "lat": 28.9507699,
-      "lng": -81.3000096,
+      "lat": 28.9502856,
+      "lng": -81.2950664,
       "region": "Orange City",
-      "notes": "Fellowship Hall",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2691,15 +2664,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "First Congregational Church",
-      "address": "201 West University Ave",
-      "city": "Orange City",
+      "venue": null,
+      "address": "359 West New York Avenue",
+      "city": "Deland",
       "state": "FL",
-      "zip": "32763",
-      "lat": 28.9507922,
-      "lng": -81.3000139,
-      "region": "Orange City",
-      "notes": null,
+      "zip": "32720",
+      "lat": 29.0288629,
+      "lng": -81.3097554,
+      "region": "Deland",
+      "notes": "Back building",
       "source": "https://na.org/meetingsearch/"
     },
     {

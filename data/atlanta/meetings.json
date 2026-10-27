@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-25T12:39:55.806Z",
+    "generated": "2026-10-27T13:24:49.331Z",
     "seed": false,
     "counts": {
       "AA": 1378,
       "NA": 303,
-      "RD": 6
+      "RD": 7
     },
     "sources": {
       "AA": {
         "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
+        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — HTTP 520 | atlantaaa.org/wp-json/tsml/v1/meetings — HTTP 520"
       },
       "NA": {
         "ok": true,
@@ -20,7 +20,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 6,
+        "count": 7,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -10493,14 +10493,14 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "First Alliance Church",
-      "address": "2512 N Druid Hills Rd NE",
+      "address": "2512 N Druid Hills Rd",
       "city": "Atlanta",
       "state": "GA",
       "zip": "30329",
-      "lat": 33.8258899,
-      "lng": -84.3222789,
+      "lat": 33.8261292,
+      "lng": -84.3222895,
       "region": "Atlanta",
-      "notes": "Park behind church. Enter through double glass doors under porte-cochère.",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -22601,6 +22601,30 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/quarantined-and-sober-10/"
+    },
+    {
+      "id": "rd-rd-milton-ga-d3-1900",
+      "fellowship": "RD",
+      "name": "RD: Milton, GA",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "North Fulton 12655 Birmingham Highway, Suite 302 Milton, GA 30004",
+      "address": "12655 Birmingham Hwy Suite 302",
+      "city": null,
+      "state": "GA",
+      "zip": null,
+      "lat": 34.0920653,
+      "lng": -84.3391069,
+      "region": "Georgia",
+      "notes": "The meeting will be hosted in my professional office space. The building is wheelchair accessible, with a ramp and elevator to the meeting suite.",
+      "source": "https://recoverydharma.org/meetings/rd-milton-ga/"
     },
     {
       "id": "aa-renegades-d3-1900",

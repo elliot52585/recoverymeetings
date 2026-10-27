@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-10-25T12:40:02.549Z",
+    "generated": "2026-10-27T13:24:55.250Z",
     "seed": false,
     "counts": {
-      "AA": 537,
+      "AA": 536,
       "NA": 84,
       "RD": 3
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 537,
+        "count": 536,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -1988,32 +1988,6 @@
       "region": "Online",
       "notes": "ID: 885 6731 2603\nPassword: AA",
       "source": "https://loukyaa.org/meetings/kentucky-night-owls-sunday-online/"
-    },
-    {
-      "id": "aa-early-bird-meditation-meeting-online-d1-0600",
-      "fellowship": "AA",
-      "name": "Early Bird Meditation Meeting Online",
-      "day": 1,
-      "time": "06:00",
-      "endTime": "07:00",
-      "types": [
-        "Discussion",
-        "Meditation",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/603954976",
-      "venue": "Zoom Meeting",
-      "address": "Louisville",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2526647,
-      "lng": -85.7584557,
-      "region": "Online",
-      "notes": "Zoom ID: 603954976\nPassword: 40220\n\nThe meditation starts off with the Prayer of St Francis read 2 times with reverence, then a 20 min silent meditation followed by 15 minutes of discussion.\nThis is a 45 min meeting opening at 6am closing at 645am.",
-      "source": "https://loukyaa.org/meetings/early-bird-meditation-meeting-online/"
     },
     {
       "id": "aa-step-11-meditation-meeting-d1-0700",
