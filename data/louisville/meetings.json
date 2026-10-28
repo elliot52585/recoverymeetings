@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-10-27T13:24:55.250Z",
+    "generated": "2026-10-28T14:11:29.258Z",
     "seed": false,
     "counts": {
       "AA": 536,
@@ -8222,8 +8222,7 @@
         "Beginner",
         "Open",
         "Wheelchair accessible",
-        "XB",
-        "Spanish"
+        "XB"
       ],
       "online": false,
       "hybrid": false,

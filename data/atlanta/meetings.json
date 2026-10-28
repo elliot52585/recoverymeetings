@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-27T13:24:49.331Z",
+    "generated": "2026-10-28T14:11:23.326Z",
     "seed": false,
     "counts": {
       "AA": 1378,
-      "NA": 303,
+      "NA": 300,
       "RD": 7
     },
     "sources": {
@@ -15,7 +15,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 303,
+        "count": 300,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2706,33 +2706,6 @@
       "region": "Powder Springs",
       "notes": "Care and Counseling Center",
       "source": "https://atlantaaa.org/meetings/macland-mens/"
-    },
-    {
-      "id": "na-the-first-step-group-52490",
-      "fellowship": "NA",
-      "name": "The First Step Group",
-      "day": 0,
-      "time": "17:00",
-      "endTime": "18:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Flovilla Community Center, Room A",
-      "address": "308 Heard St",
-      "city": "Flovilla",
-      "state": "GA",
-      "zip": "30216",
-      "lat": 33.2557599,
-      "lng": -83.89488,
-      "region": "Flovilla",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-home-sweet-home-group-21948",
@@ -21335,6 +21308,32 @@
       "source": "https://atlantaaa.org/meetings/sunset-7/"
     },
     {
+      "id": "na-a-new-woman-group-231043",
+      "fellowship": "NA",
+      "name": "A New Woman Group",
+      "day": 3,
+      "time": "18:00",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hearts to Nourish Hope",
+      "address": "640 Highway 138",
+      "city": "Riverdale",
+      "state": "GA",
+      "zip": "30274",
+      "lat": 33.5468505,
+      "lng": -84.4115799,
+      "region": "Riverdale",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-alpharetta-group-600pm-virtual-wed-pm-d3-1800",
       "fellowship": "AA",
       "name": "Alpharetta Group",
@@ -22781,33 +22780,6 @@
       "region": "Atlanta Buckhead",
       "notes": "Meeting held in Lanier House (cottage to the left of church)",
       "source": "https://atlantaaa.org/meetings/sober-is-great/"
-    },
-    {
-      "id": "na-the-first-step-group-43017",
-      "fellowship": "NA",
-      "name": "The First Step Group",
-      "day": 3,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Flovilla Community Center, Room A",
-      "address": "308 Heard St",
-      "city": "Flovilla",
-      "state": "GA",
-      "zip": "30216",
-      "lat": 33.2557599,
-      "lng": -83.89488,
-      "region": "Flovilla",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-the-steps-we-took-d3-1900",
@@ -35076,7 +35048,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "The Bridge Church",
+      "venue": "Pursuit Christian Church",
       "address": "102 Valley Hill RoadStockbridge",
       "city": "Stockbridge",
       "state": "GA",
@@ -35725,33 +35697,6 @@
       "region": "Canton",
       "notes": "Bldg. D-3",
       "source": "https://atlantaaa.org/meetings/sunlight-of-the-spirit/"
-    },
-    {
-      "id": "na-the-first-step-group-40141",
-      "fellowship": "NA",
-      "name": "The First Step Group",
-      "day": 5,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Flovilla Community Center, Room A",
-      "address": "308 Heard St",
-      "city": "Flovilla",
-      "state": "GA",
-      "zip": "30216",
-      "lat": 33.2557599,
-      "lng": -83.89488,
-      "region": "Flovilla",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-turning-point-group-229789",
@@ -41831,32 +41776,6 @@
       "lat": 33.7019874,
       "lng": -84.4718878,
       "region": "Atlanta",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-never-alone-never-again-group-59424",
-      "fellowship": "NA",
-      "name": "Never Alone Never Again Group",
-      "day": 6,
-      "time": "18:00",
-      "endTime": "19:30",
-      "types": [
-        "Discussion",
-        "Open",
-        "SD"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us04web.zoom.us/j/640448504",
-      "venue": null,
-      "address": null,
-      "city": "Riverdale",
-      "state": "GA",
-      "zip": null,
-      "lat": 33.5726113,
-      "lng": -84.4132594,
-      "region": "Riverdale",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
