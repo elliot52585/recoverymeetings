@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-28T14:11:23.326Z",
+    "generated": "2026-10-29T14:31:36.878Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -15444,6 +15444,31 @@
       "source": "https://atlantaaa.org/meetings/al-fresco-2/"
     },
     {
+      "id": "na-another-chance-group-57880",
+      "fellowship": "NA",
+      "name": "Another Chance Group",
+      "day": 2,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "ENG"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Covenant Presbyterian Church",
+      "address": "2881 Canton Rd",
+      "city": "Marietta",
+      "state": "GA",
+      "zip": "30066",
+      "lat": 34.0204907,
+      "lng": -84.5292636,
+      "region": "Marietta",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "aa-blue-chips-15-d2-1900",
       "fellowship": "AA",
       "name": "Blue Chips",
@@ -17010,31 +17035,6 @@
       "region": "Marietta",
       "notes": "Room 113",
       "source": "https://atlantaaa.org/meetings/we-can-change/"
-    },
-    {
-      "id": "na-another-chance-group-57880",
-      "fellowship": "NA",
-      "name": "Another Chance Group",
-      "day": 2,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Open",
-        "ENG"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Covenant Presbyterian Church",
-      "address": "2881 Canton Rd",
-      "city": "Marietta",
-      "state": "GA",
-      "zip": "30066",
-      "lat": 34.0204907,
-      "lng": -84.5292636,
-      "region": "Marietta",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-architects-of-adversity-group-57882",

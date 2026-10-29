@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-10-28T14:11:29.258Z",
+    "generated": "2026-10-29T14:31:42.834Z",
     "seed": false,
     "counts": {
-      "AA": 536,
+      "AA": 537,
       "NA": 84,
       "RD": 3
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 536,
+        "count": 537,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -15257,6 +15257,31 @@
       "region": "Shelbyville",
       "notes": "(enter through Washington St. side door)",
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-every-journey-matters-d6-1200",
+      "fellowship": "AA",
+      "name": "Every Journey Matters",
+      "day": 6,
+      "time": "12:00",
+      "endTime": "13:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Walk It Out Ministries",
+      "address": "119 E Chestnut St",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2104229,
+      "lng": -86.1256597,
+      "region": "Harrison County, IN",
+      "notes": null,
+      "source": "https://loukyaa.org/meetings/every-journey-matters/"
     },
     {
       "id": "aa-happy-hour-mens-meeting-2-d6-1200",
