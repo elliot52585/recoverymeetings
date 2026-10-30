@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-10-29T14:33:27.193Z",
+    "generated": "2026-10-30T14:24:55.250Z",
     "seed": false,
     "counts": {
       "AA": 692,
@@ -6408,31 +6408,6 @@
       "source": "https://neflaa.org/meetings/more-about-alcoholism-2/"
     },
     {
-      "id": "aa-mount-carmel-group-d2-1230",
-      "fellowship": "AA",
-      "name": "Mount Carmel Group",
-      "day": 2,
-      "time": "12:30",
-      "endTime": "13:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Mount Carmel Gardens",
-      "address": "5846 Mt Carmel Terrace",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.274053,
-      "lng": -81.6038166,
-      "region": "Jacksonville",
-      "notes": null,
-      "source": "https://neflaa.org/meetings/mount-carmel-group/"
-    },
-    {
       "id": "aa-jax-west-5-d2-1400",
       "fellowship": "AA",
       "name": "Jax West",
@@ -6505,6 +6480,31 @@
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/island-serenity-st-aug/"
+    },
+    {
+      "id": "aa-mount-carmel-group-d2-1600",
+      "fellowship": "AA",
+      "name": "Mount Carmel Group",
+      "day": 2,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Mount Carmel Gardens",
+      "address": "5846 Mt Carmel Terrace",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.274053,
+      "lng": -81.6038166,
+      "region": "Jacksonville",
+      "notes": null,
+      "source": "https://neflaa.org/meetings/mount-carmel-group/"
     },
     {
       "id": "aa-a-design-for-living-d2-1730",
@@ -12602,7 +12602,7 @@
       "lat": 30.4145261,
       "lng": -81.6935324,
       "region": "Jacksonville",
-      "notes": "Open Discussion",
+      "notes": null,
       "source": "https://neflaa.org/meetings/northside-fellowship-8/"
     },
     {

@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-10-29T14:31:36.878Z",
+    "generated": "2026-10-30T14:22:58.682Z",
     "seed": false,
     "counts": {
       "AA": 1378,
-      "NA": 300,
+      "NA": 299,
       "RD": 7
     },
     "sources": {
@@ -15,7 +15,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 300,
+        "count": 299,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -1158,14 +1158,14 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Atlanta Biscayne Room",
-      "address": "3659 Clairmont Road",
+      "address": "3659 Clairmont Rd",
       "city": "Chamblee",
       "state": "GA",
       "zip": "30341",
-      "lat": 33.8666414,
-      "lng": -84.3083099,
+      "lat": 33.8666712,
+      "lng": -84.3082251,
       "region": "Chamblee",
-      "notes": "Clairmont Road, slightly north of Dresden Drive. MARTA: From Chamblee rail station (Gold line), take Bus 19 to Clairmont Rd@Bragg St. stop (approx. 10 stops).",
+      "notes": "Clairmont Rd, slightly north of Dresden Drive. MARTA: From Chamblee Station (Gold line), Bus 19 to Clairmont Rd@Bragg St, about 10 stops",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2140,12 +2140,12 @@
       "hybrid": true,
       "conferenceUrl": "https://us04web.zoom.us/j/182255711",
       "venue": "Atlanta Recovery Place",
-      "address": "1742 Mount Vernon Road",
+      "address": "1742 Mount Vernon Rd",
       "city": "Dunwoody",
       "state": "GA",
       "zip": "30338",
-      "lat": 33.947526,
-      "lng": -84.3300482,
+      "lat": 33.9475305,
+      "lng": -84.330068,
       "region": "Dunwoody",
       "notes": "September 27, October 25, November 22, December 20,  Area Service Empowerment Workshop: October 4",
       "source": "https://na.org/meetingsearch/"
@@ -3208,12 +3208,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "737 Moon Road",
+      "address": "737 Moon Rd",
       "city": "Lawrenceville",
       "state": "GA",
       "zip": "30046",
-      "lat": 33.9280733,
-      "lng": -83.9925476,
+      "lat": 33.928077,
+      "lng": -83.9925536,
       "region": "Lawrenceville",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -4206,14 +4206,14 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Duluth 1st United Methodist Church",
-      "address": "3208 Duluth Highway 120",
+      "address": "3208 Duluth Hwy 120",
       "city": "Duluth",
       "state": "GA",
       "zip": "30096",
-      "lat": 33.995892,
-      "lng": -84.134545,
+      "lat": 33.995885,
+      "lng": -84.1350352,
       "region": "Duluth",
-      "notes": "Scout hut, back of church.",
+      "notes": "Meeting in scout hut behind the church.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -4477,7 +4477,7 @@
       "lat": 33.7755211,
       "lng": -84.3050144,
       "region": "Decatur",
-      "notes": "Entrance is in the alley behind the church. Walk around the building from the parking lot.",
+      "notes": "Entrance in the alley behind the church; walk around church from the parking lot.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -10465,14 +10465,14 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "First Alliance Church",
-      "address": "2512 N Druid Hills Rd",
-      "city": "Atlanta",
+      "venue": "North Decatur United Methodist Church",
+      "address": "1523 Church St",
+      "city": "Decatur",
       "state": "GA",
-      "zip": "30329",
-      "lat": 33.8261292,
-      "lng": -84.3222895,
-      "region": "Atlanta",
+      "zip": "30030",
+      "lat": 33.7915609,
+      "lng": -84.2849458,
+      "region": "Decatur",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
@@ -15362,7 +15362,7 @@
       "lat": 33.8165507,
       "lng": -84.3653654,
       "region": "Atlanta",
-      "notes": "Downstairs.",
+      "notes": "Meeting held downstairs.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -16024,7 +16024,7 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Mo's Pizza",
-      "address": "3109 Briarcliff Road, NE",
+      "address": "3109 Briarcliff Rd NE",
       "city": "Atlanta",
       "state": "GA",
       "zip": "30329",
@@ -16488,12 +16488,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Atlanta Biscayne Room",
-      "address": "3659 Clairmont Rd.",
+      "address": "3659 Clairmont Rd",
       "city": "Chamblee",
       "state": "GA",
       "zip": "30341",
-      "lat": 33.8666418,
-      "lng": -84.3083099,
+      "lat": 33.8666712,
+      "lng": -84.3082251,
       "region": "Chamblee",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -23506,32 +23506,6 @@
       "source": "https://atlantaaa.org/meetings/clarkston-12-step-group-43/"
     },
     {
-      "id": "na-clean-air-act-group-86686",
-      "fellowship": "NA",
-      "name": "Clean Air Act Group",
-      "day": 3,
-      "time": "20:00",
-      "endTime": "21:15",
-      "types": [
-        "Discussion",
-        "Open",
-        "RF"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://tinyurl.com/y39kxvy8",
-      "venue": null,
-      "address": null,
-      "city": "Atlanta",
-      "state": "GA",
-      "zip": "30306",
-      "lat": 33.7845409,
-      "lng": -84.3489467,
-      "region": "Atlanta",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "aa-common-solution-d3-2000",
       "fellowship": "AA",
       "name": "Common Solution",
@@ -23910,14 +23884,14 @@
       "hybrid": true,
       "conferenceUrl": "https://us04web.zoom.us/j/182255711",
       "venue": null,
-      "address": "1742 Mount Vernon Road",
+      "address": "1742 Mount Vernon Rd",
       "city": "Dunwoody",
       "state": "GA",
       "zip": "30338",
-      "lat": 33.9475473,
-      "lng": -84.3300052,
+      "lat": 33.9475305,
+      "lng": -84.330068,
       "region": "Dunwoody",
-      "notes": "Entrance at rear of the building. Ample parking out front and around right side.",
+      "notes": "Entrance at rear of the building; parking in front & around right side.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -28679,7 +28653,7 @@
       "lat": 33.8165507,
       "lng": -84.3653654,
       "region": "Atlanta",
-      "notes": "Downstairs.",
+      "notes": "Meeting held downstairs.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -29244,7 +29218,7 @@
       "lat": 34.0208203,
       "lng": -84.3639906,
       "region": "Roswell",
-      "notes": "Building C - Counseling Center In Rear of Property",
+      "notes": "Building C, counseling center in rear of property",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -29890,7 +29864,7 @@
       "lat": 33.7943907,
       "lng": -84.2898011,
       "region": "Decatur",
-      "notes": "Meets in the main hall closest to parking lot.",
+      "notes": "Meeting held in the main hall closest to parking lot.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -30067,7 +30041,7 @@
       "lat": 34.0199803,
       "lng": -83.9587568,
       "region": "Lawrenceville",
-      "notes": "Masks Optional — 1st & 3rd: Week Pick a Stick for Date from JFT Med. 2nd & 4th Week: Discussion Topic from Living Clean",
+      "notes": "1st & 3rd: Week Pick a Stick for Date from JFT Med. 2nd & 4th Week: Discussion Topic from Living Clean",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -33182,9 +33156,9 @@
       "source": "https://atlantaaa.org/meetings/lunch-bunch-5/"
     },
     {
-      "id": "na-n-a-means-necessary-168666",
+      "id": "na-na-means-necessary-168666",
       "fellowship": "NA",
-      "name": "N.A. Means Necessary",
+      "name": "NA Means Necessary",
       "day": 5,
       "time": "12:00",
       "endTime": "13:00",
@@ -33196,12 +33170,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1305 Lakes Parkway",
+      "address": "1305 Lakes Pkwy",
       "city": "Lawrenceville",
       "state": "GA",
       "zip": "30043",
-      "lat": 33.9621547,
-      "lng": -84.0420927,
+      "lat": 33.962159,
+      "lng": -84.0424299,
       "region": "Lawrenceville",
       "notes": "Suite 123",
       "source": "https://na.org/meetingsearch/"
@@ -35338,7 +35312,7 @@
       "lat": 33.8217563,
       "lng": -84.3875172,
       "region": "Atlanta",
-      "notes": "Meets in scout hut.",
+      "notes": "Meeting in scout hut behind the church.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -35663,12 +35637,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Parish of Sto. Thomas Aquinas",
-      "address": "535 Rucker Rd.",
+      "address": "535 Rucker Rd",
       "city": "Alpharetta",
       "state": "GA",
       "zip": "30004",
-      "lat": 34.0761502,
-      "lng": -84.3459192,
+      "lat": 34.0762592,
+      "lng": -84.3461789,
       "region": "Alpharetta",
       "notes": "Room 212",
       "source": "https://na.org/meetingsearch/"
@@ -35898,12 +35872,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Hamilton Mill United Methodist Church",
-      "address": "1450 Pine Road",
+      "address": "1450 Pine Rd",
       "city": "Dacula",
       "state": "GA",
       "zip": "30019",
-      "lat": 34.0577429,
-      "lng": -83.8876772,
+      "lat": 34.0567317,
+      "lng": -83.8873875,
       "region": "Dacula",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
@@ -36028,10 +36002,10 @@
       "city": "Decatur",
       "state": "GA",
       "zip": "30030",
-      "lat": 33.7916401,
-      "lng": -84.2848662,
+      "lat": 33.7915609,
+      "lng": -84.2849458,
       "region": "Decatur",
-      "notes": "Masks Optional.  Meets in Fellowship Hall",
+      "notes": "Meeting held in Fellowship Hall.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -41329,12 +41303,12 @@
       "hybrid": true,
       "conferenceUrl": "https://us02web.zoom.us/j/8829361670",
       "venue": "Atlanta Biscayne Room",
-      "address": "3659 Clairmont Road",
+      "address": "3659 Clairmont Rd",
       "city": "Chamblee",
       "state": "GA",
       "zip": "30341",
-      "lat": 33.8666418,
-      "lng": -84.3083099,
+      "lat": 33.8666712,
+      "lng": -84.3082251,
       "region": "Chamblee",
       "notes": "Desde la estación de tren Chamblee (línea dorada) tome el autobús de MARTA # 19 hacia Clairmont Road y la calle Bragg (unas 10 paradas).",
       "source": "https://na.org/meetingsearch/"
@@ -42417,12 +42391,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1742 Mount Vernon Road",
+      "address": "1742 Mount Vernon Rd",
       "city": "Dunwoody",
       "state": "GA",
       "zip": "30338",
-      "lat": 33.9475473,
-      "lng": -84.3300052,
+      "lat": 33.9475305,
+      "lng": -84.330068,
       "region": "Dunwoody",
       "notes": "Enter at the rear entrance of the Dunwoody Commons building.",
       "source": "https://na.org/meetingsearch/"

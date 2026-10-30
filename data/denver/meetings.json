@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-10-29T14:31:49.243Z",
+    "generated": "2026-10-30T14:23:11.568Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -7555,6 +7555,7 @@
       "time": "18:30",
       "endTime": "19:30",
       "types": [
+        "12x12",
         "Big Book",
         "Closed",
         "Wheelchair accessible"
