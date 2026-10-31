@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-10-30T14:23:56.092Z",
+    "generated": "2026-10-31T13:46:28.460Z",
     "seed": false,
     "counts": {
       "NA": 356,
@@ -3801,9 +3801,8 @@
       "time": "19:30",
       "endTime": "20:30",
       "types": [
-        "Discussion",
         "Open",
-        "TOP",
+        "VAR",
         "HP",
         "IL"
       ],
@@ -3818,7 +3817,7 @@
       "lat": 25.7093981,
       "lng": -80.2939533,
       "region": "South Miami",
-      "notes": "Illness/Medication in Recovery",
+      "notes": "small room — Mental Health in Recovery",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -3894,7 +3893,7 @@
       "lat": 25.7094362,
       "lng": -80.2939311,
       "region": "Miami",
-      "notes": null,
+      "notes": "large room",
       "source": "https://na.org/meetingsearch/"
     },
     {

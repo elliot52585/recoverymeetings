@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "fort-lauderdale",
-    "generated": "2026-10-30T14:25:18.204Z",
+    "generated": "2026-10-31T13:47:54.909Z",
     "seed": false,
     "counts": {
       "NA": 465,
@@ -5066,9 +5066,8 @@
       "time": "19:30",
       "endTime": "20:30",
       "types": [
-        "Discussion",
         "Open",
-        "TOP",
+        "VAR",
         "HP",
         "IL"
       ],
@@ -5083,7 +5082,7 @@
       "lat": 25.7093981,
       "lng": -80.2939533,
       "region": "South Miami",
-      "notes": "Illness/Medication in Recovery",
+      "notes": "small room — Mental Health in Recovery",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -5159,7 +5158,7 @@
       "lat": 25.7094362,
       "lng": -80.2939311,
       "region": "Miami",
-      "notes": null,
+      "notes": "large room",
       "source": "https://na.org/meetingsearch/"
     },
     {
