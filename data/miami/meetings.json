@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-11-01T14:24:36.916Z",
+    "generated": "2026-11-02T17:17:23.306Z",
     "seed": false,
     "counts": {
       "NA": 356,
@@ -307,7 +307,7 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-solutions-on-sunday-231012",
+      "id": "na-solutions-on-sunday-231350",
       "fellowship": "NA",
       "name": "Solutions on Sunday",
       "day": 0,
@@ -322,15 +322,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": null,
-      "address": "2503 Coral Springs Dr",
+      "venue": "Safety Town",
+      "address": "520 Ramblewood Drive",
       "city": "Coral Springs",
       "state": "FL",
-      "zip": "33065",
-      "lat": 26.2618112,
-      "lng": -80.2641692,
+      "zip": "33071",
+      "lat": 26.238134,
+      "lng": -80.2387533,
       "region": "Coral Springs",
-      "notes": "Mullins Park Veterans Hall — This is a Temporary Location. Meeting returns to Safety Town on 11/08/2026",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {

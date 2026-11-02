@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-01T14:23:54.476Z",
+    "generated": "2026-11-02T17:16:44.218Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -12552,7 +12552,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": null,
+      "venue": "Building entrances are located on the east & west sides of the building. The meeting is located in the basement, which can be accessed from the elevators or the stairs.",
       "address": "1633 Fillmore St",
       "city": "Denver",
       "state": "CO",
@@ -31791,7 +31791,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": null,
+      "venue": "Use east entrance",
       "address": "3500 S Logan St",
       "city": "Englewood",
       "state": "CO",
@@ -31799,7 +31799,7 @@
       "lat": 39.6528739,
       "lng": -104.9826069,
       "region": "Englewood",
-      "notes": "use side entrance, meeting is in the basement of the church",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {

@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-11-01T14:24:58.593Z",
+    "generated": "2026-11-02T17:17:47.513Z",
     "seed": false,
     "counts": {
-      "NA": 172,
+      "NA": 176,
       "RD": 4
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 172,
+        "count": 176,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=28.5383&long_val=-81.3792&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -905,6 +905,32 @@
       "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-courage-to-change-231362",
+      "fellowship": "NA",
+      "name": "Courage To Change",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "SPAD"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Park in Middle or Back. Do not park in front of businesses.",
+      "address": "1227 Florida Ave. South",
+      "city": "Rockledge",
+      "state": "FL",
+      "zip": "32955",
+      "lat": 28.341721,
+      "lng": -80.7264927,
+      "region": "Rockledge",
+      "notes": "IMPORTANT Enter through back door",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2200,6 +2226,32 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-courage-to-change-231363",
+      "fellowship": "NA",
+      "name": "Courage To Change",
+      "day": 3,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "SPAD"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Park in Middle or Back. Do not park in front of businesses.",
+      "address": "1227 Florida Ave. South",
+      "city": "Rockledge",
+      "state": "FL",
+      "zip": "32955",
+      "lat": 28.341721,
+      "lng": -80.7264927,
+      "region": "Rockledge",
+      "notes": "IMPORTANT Enter through back door",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-rainbow-recovery-148028",
       "fellowship": "NA",
       "name": "Rainbow Recovery",
@@ -2830,6 +2882,32 @@
       "lng": -81.3455608,
       "region": "Longwood",
       "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-courage-to-change-231366",
+      "fellowship": "NA",
+      "name": "Courage To Change",
+      "day": 4,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "SPAD"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Park in Middle or Back. Do not park in front of businesses.",
+      "address": "1227 Florida Ave. South",
+      "city": "Rockledge",
+      "state": "FL",
+      "zip": "32955",
+      "lat": 28.341721,
+      "lng": -80.7264927,
+      "region": "Rockledge",
+      "notes": "IMPORTANT Enter through back door",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -4269,6 +4347,32 @@
       "lng": -81.6356807,
       "region": "Mt Dora",
       "notes": "Bring your own chair",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-courage-to-change-231367",
+      "fellowship": "NA",
+      "name": "Courage To Change",
+      "day": 6,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "SPAD"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Park in Middle or Back. Do not park in front of businesses.",
+      "address": "1227 Florida Ave. South",
+      "city": "Rockledge",
+      "state": "FL",
+      "zip": "32955",
+      "lat": 28.341721,
+      "lng": -80.7264927,
+      "region": "Rockledge",
+      "notes": "IMPORTANT Enter through back door",
       "source": "https://na.org/meetingsearch/"
     },
     {

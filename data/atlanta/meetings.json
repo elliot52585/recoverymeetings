@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-01T14:23:41.774Z",
+    "generated": "2026-11-02T17:16:31.150Z",
     "seed": false,
     "counts": {
       "AA": 1378,
-      "NA": 299,
+      "NA": 300,
       "RD": 7
     },
     "sources": {
@@ -15,7 +15,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 299,
+        "count": 300,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -41878,6 +41878,32 @@
       "region": "Online",
       "notes": null,
       "source": "https://atlantaaa.org/meetings/alpharetta-group-700am-virtual-fri-am/"
+    },
+    {
+      "id": "na-practicing-principles-231356",
+      "fellowship": "NA",
+      "name": "Practicing Principles",
+      "day": 6,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Decatur First United Methodist Church",
+      "address": "300 East Ponce de Leon Ave",
+      "city": "Decatur",
+      "state": "GA",
+      "zip": "30030",
+      "lat": 33.7763271,
+      "lng": -84.2922853,
+      "region": "Decatur",
+      "notes": "Enter through N. Candler St. entrance; parking by entrance, on street, and behind the church.",
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-road-to-freedom-2-d6-1830",

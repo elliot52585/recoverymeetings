@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-11-01T14:25:26.433Z",
+    "generated": "2026-11-02T17:18:17.200Z",
     "seed": false,
     "counts": {
-      "NA": 333,
+      "NA": 334,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 341,
+        "count": 342,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -4457,6 +4457,35 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-first-things-first-231370",
+      "fellowship": "NA",
+      "name": "First Things First",
+      "day": 3,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Closed",
+        "Discussion",
+        "STP",
+        "TRD",
+        "Wheelchair accessible",
+        "Non-smoking"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "WhiteSands Outpatient Facility",
+      "address": "5135 Us Hwy 98 N",
+      "city": "Lakeland",
+      "state": "FL",
+      "zip": "33809",
+      "lat": 28.1092425,
+      "lng": -81.9730413,
+      "region": "Lakeland",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-just-for-today-156135",
       "fellowship": "NA",
       "name": "Just For Today",
@@ -7273,34 +7302,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-friday-night-candlelight-85381",
-      "fellowship": "NA",
-      "name": "Friday Night Candlelight",
-      "day": 5,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "Non-smoking",
-        "CAN"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Beacon Hill Fellowship",
-      "address": "220 W Beacon Rd.",
-      "city": "Lakeland",
-      "state": "FL",
-      "zip": "33803",
-      "lat": 28.0183074,
-      "lng": -81.9590645,
-      "region": "Lakeland",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-h-o-w-group-85363",
       "fellowship": "NA",
       "name": "H.O.W. Group",
@@ -7592,6 +7593,34 @@
       "lat": 27.3364347,
       "lng": -82.5306527,
       "region": "Sarasota",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-friday-night-candlelight-85381",
+      "fellowship": "NA",
+      "name": "Friday Night Candlelight",
+      "day": 5,
+      "time": "21:30",
+      "endTime": "22:30",
+      "types": [
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "Non-smoking",
+        "CAN"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Beacon Hill Fellowship",
+      "address": "220 W Beacon Rd.",
+      "city": "Lakeland",
+      "state": "FL",
+      "zip": "33803",
+      "lat": 28.0183074,
+      "lng": -81.9590645,
+      "region": "Lakeland",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
     },

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-11-01T14:26:05.704Z",
+    "generated": "2026-11-02T17:18:54.064Z",
     "seed": false,
     "counts": {
       "AA": 504,
@@ -837,7 +837,7 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-solutions-on-sunday-231012",
+      "id": "na-solutions-on-sunday-231350",
       "fellowship": "NA",
       "name": "Solutions on Sunday",
       "day": 0,
@@ -852,15 +852,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": null,
-      "address": "2503 Coral Springs Dr",
+      "venue": "Safety Town",
+      "address": "520 Ramblewood Drive",
       "city": "Coral Springs",
       "state": "FL",
-      "zip": "33065",
-      "lat": 26.2618112,
-      "lng": -80.2641692,
+      "zip": "33071",
+      "lat": 26.238134,
+      "lng": -80.2387533,
       "region": "Coral Springs",
-      "notes": "Mullins Park Veterans Hall — This is a Temporary Location. Meeting returns to Safety Town on 11/08/2026",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -3091,12 +3091,12 @@
       "source": "https://aapalmbeachcounty.org/meetings/daily-reprieve/"
     },
     {
-      "id": "aa-good-morning-group-palm-beach-d1-0900",
+      "id": "aa-good-morning-group-palm-beach-d1-0800",
       "fellowship": "AA",
       "name": "Good Morning Group, Palm Beach",
       "day": 1,
-      "time": "09:00",
-      "endTime": "10:00",
+      "time": "08:00",
+      "endTime": "09:00",
       "types": [
         "Discussion",
         "Open"
@@ -9172,12 +9172,12 @@
       "source": "https://aapalmbeachcounty.org/meetings/daily-reprieve-3/"
     },
     {
-      "id": "aa-good-morning-group-palm-beach-2-d3-0900",
+      "id": "aa-good-morning-group-palm-beach-2-d3-0800",
       "fellowship": "AA",
       "name": "Good Morning Group, Palm Beach",
       "day": 3,
-      "time": "09:00",
-      "endTime": "10:00",
+      "time": "08:00",
+      "endTime": "09:00",
       "types": [
         "Discussion",
         "Open"
@@ -9193,7 +9193,7 @@
       "lat": 26.7115471,
       "lng": -80.0366858,
       "region": "Palm Beach",
-      "notes": "This meeting will be closed on Wed, 11/09/22 and reopen the next week .",
+      "notes": null,
       "source": "https://aapalmbeachcounty.org/meetings/good-morning-group-palm-beach-2/"
     },
     {
@@ -14876,15 +14876,14 @@
       "source": "https://aapalmbeachcounty.org/meetings/daily-reprieve-5/"
     },
     {
-      "id": "aa-good-morning-group-palm-beach-3-d5-0900",
+      "id": "aa-good-morning-group-palm-beach-3-d5-0800",
       "fellowship": "AA",
       "name": "Good Morning Group, Palm Beach",
       "day": 5,
-      "time": "09:00",
-      "endTime": "10:00",
+      "time": "08:00",
+      "endTime": "09:00",
       "types": [
-        "Discussion",
-        "Open"
+        "Discussion"
       ],
       "online": false,
       "hybrid": false,
