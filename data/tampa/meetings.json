@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-11-02T17:18:17.200Z",
+    "generated": "2026-11-03T15:24:19.487Z",
     "seed": false,
     "counts": {
-      "NA": 334,
+      "NA": 340,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 342,
+        "count": 348,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -1669,6 +1669,31 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-rockin-recovery-231376",
+      "fellowship": "NA",
+      "name": "Rockin' Recovery",
+      "day": 1,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Gratitude Club",
+      "address": "2856 Ringling Blvd",
+      "city": "Sarasota",
+      "state": "FL",
+      "zip": "34237",
+      "lat": 27.335916,
+      "lng": -82.513395,
+      "region": "Sarasota",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-save-your-ass-102915",
       "fellowship": "NA",
       "name": "Save Your Ass.",
@@ -1718,6 +1743,33 @@
       "lng": -82.4516225,
       "region": "Tampa",
       "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-pms-protecting-my-serenity-231377",
+      "fellowship": "NA",
+      "name": "PMS (Protecting My Serenity)",
+      "day": 1,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Open",
+        "Women",
+        "Wheelchair accessible",
+        "RF"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Under One Roof",
+      "address": "407 57th Ave E",
+      "city": "Bradenton",
+      "state": "FL",
+      "zip": "34203",
+      "lat": 27.4406699,
+      "lng": -82.5600054,
+      "region": "Bradenton",
+      "notes": "Park on the east side of the building",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2897,6 +2949,32 @@
       "lng": -82.542119,
       "region": "Sarasota",
       "notes": "Small building facing Bayfront Dr",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-rockin-recovery-231378",
+      "fellowship": "NA",
+      "name": "Rockin' Recovery",
+      "day": 2,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "Open",
+        "STP",
+        "It Works study"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Gratitude Club",
+      "address": "2856 Ringling Blvd",
+      "city": "Sarasota",
+      "state": "FL",
+      "zip": "34237",
+      "lat": 27.335916,
+      "lng": -82.513395,
+      "region": "Sarasota",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -4301,6 +4379,31 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-rockin-recovery-231379",
+      "fellowship": "NA",
+      "name": "Rockin' Recovery",
+      "day": 3,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Gratitude Club",
+      "address": "2856 Ringling Blvd",
+      "city": "Sarasota",
+      "state": "FL",
+      "zip": "34237",
+      "lat": 27.335916,
+      "lng": -82.513395,
+      "region": "Sarasota",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-save-your-ass-84977",
       "fellowship": "NA",
       "name": "Save Your Ass.",
@@ -5480,6 +5583,31 @@
       "region": "Florida",
       "notes": null,
       "source": "https://recoverydharma.org/meetings/rd-hernado/"
+    },
+    {
+      "id": "na-rockin-recovery-231380",
+      "fellowship": "NA",
+      "name": "Rockin' Recovery",
+      "day": 4,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "Basic Text",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Gratitude Club",
+      "address": "2856 Ringling Blvd",
+      "city": "Sarasota",
+      "state": "FL",
+      "zip": "34237",
+      "lat": 27.335916,
+      "lng": -82.513395,
+      "region": "Sarasota",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "rd-rd-tampa-2-d4-1730",
@@ -6901,6 +7029,31 @@
       "lng": -82.542119,
       "region": "Sarasota",
       "notes": "Small building facing Bayfront Dr",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-rockin-recovery-231381",
+      "fellowship": "NA",
+      "name": "Rockin' Recovery",
+      "day": 5,
+      "time": "16:00",
+      "endTime": "17:00",
+      "types": [
+        "Open",
+        "NEW"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Gratitude Club",
+      "address": "2856 Ringling Blvd",
+      "city": "Sarasota",
+      "state": "FL",
+      "zip": "34237",
+      "lat": 27.335916,
+      "lng": -82.513395,
+      "region": "Sarasota",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-02T17:16:31.150Z",
+    "generated": "2026-11-03T15:22:36.481Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -22604,7 +22604,7 @@
     {
       "id": "rd-rd-milton-ga-d3-1900",
       "fellowship": "RD",
-      "name": "RD: Milton, GA",
+      "name": "RD: North Fulton-Milton, GA",
       "day": 3,
       "time": "19:00",
       "endTime": "20:00",
@@ -22622,7 +22622,7 @@
       "lat": 34.0920653,
       "lng": -84.3391069,
       "region": "Georgia",
-      "notes": "The meeting will be hosted in my professional office space. The building is wheelchair accessible, with a ramp and elevator to the meeting suite.",
+      "notes": "The meeting will be hosted in my professional office space. The building is wheelchair accessible, with a ramp and elevator to the meeting suite.\n\nZoom info:\nMeeting ID: 860 6877 4937\nPasscode: 821000",
       "source": "https://recoverydharma.org/meetings/rd-milton-ga/"
     },
     {
