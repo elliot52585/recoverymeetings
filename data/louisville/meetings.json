@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-03T15:22:42.711Z",
+    "generated": "2026-11-04T15:35:58.985Z",
     "seed": false,
     "counts": {
       "AA": 537,
-      "NA": 84,
+      "NA": 86,
       "RD": 3
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 84,
+        "count": 86,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=38.2527&long_val=-85.7585&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -3389,6 +3389,28 @@
       "lng": -85.7021443,
       "region": "Louisville",
       "notes": "Park in back, red door",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-starting-with-recovery-231419",
+      "fellowship": "NA",
+      "name": "Starting With Recovery",
+      "day": 1,
+      "time": "18:45",
+      "endTime": "20:15",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "House of New Beginnings",
+      "address": "545 Floyd Street",
+      "city": "Corydon",
+      "state": "Indiana",
+      "zip": "47112",
+      "lat": 38.21499,
+      "lng": -86.1160981,
+      "region": "Corydon",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -13458,6 +13480,28 @@
       "region": "Online",
       "notes": "ID: 8424497217\nPW: password",
       "source": "https://loukyaa.org/meetings/token-3-newcomer-friday/"
+    },
+    {
+      "id": "na-starting-with-recovery-231420",
+      "fellowship": "NA",
+      "name": "Starting With Recovery",
+      "day": 5,
+      "time": "18:45",
+      "endTime": "20:15",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "House of New Beginnings",
+      "address": "545 Floyd Street",
+      "city": "Corydon",
+      "state": "Indiana",
+      "zip": "47112",
+      "lat": 38.21499,
+      "lng": -86.1160981,
+      "region": "Corydon",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-friday-night-speakeasy-group-d5-1900",

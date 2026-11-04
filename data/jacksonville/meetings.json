@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-11-03T15:24:26.459Z",
+    "generated": "2026-11-04T15:37:43.202Z",
     "seed": false,
     "counts": {
       "AA": 692,
@@ -12589,6 +12589,7 @@
       "endTime": "19:00",
       "types": [
         "Discussion",
+        "Men",
         "Open"
       ],
       "online": false,
