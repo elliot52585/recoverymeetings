@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-04T15:35:17.881Z",
+    "generated": "2026-11-05T15:38:57.012Z",
     "seed": false,
     "counts": {
-      "AA": 872,
+      "AA": 873,
       "NA": 160,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 873,
+        "count": 874,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -349,15 +349,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Harvey Park",
-      "address": "4001 Miles Johnson Pkwy",
+      "venue": "Southaven at Commonwealth",
+      "address": "100 John Grn Pl",
       "city": null,
       "state": "TN",
       "zip": null,
-      "lat": 35.759708,
-      "lng": -86.923633,
+      "lat": 35.744596,
+      "lng": -86.9064048,
       "region": "Spring Hill",
-      "notes": "Meet at the Main Pavilion",
+      "notes": "Meets at conference room next to kitchen",
       "source": "https://aanashville.org/meetings/attitude-adjustment-meeting/"
     },
     {
@@ -21837,6 +21837,33 @@
       "region": "Mt. Juliet",
       "notes": "Last Friday of month is an open speaker meeting.",
       "source": "https://aanashville.org/meetings/122eas51900/"
+    },
+    {
+      "id": "aa-friday-night-womens-meeting-d5-1900",
+      "fellowship": "AA",
+      "name": "Friday Night Women's Meeting",
+      "day": 5,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Discussion",
+        "Literature",
+        "Open",
+        "Speaker"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Glendale United Methodist Church",
+      "address": "900 Glendale Ln",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.0928096,
+      "lng": -86.7878938,
+      "region": "Nashville",
+      "notes": "Palin Language Discussion Study\nLast Friday of month is Speaker Meeting",
+      "source": "https://aanashville.org/meetings/friday-night-womens-meeting/"
     },
     {
       "id": "aa-174god51900-d5-1900",
