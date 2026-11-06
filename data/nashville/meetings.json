@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-05T15:38:57.012Z",
+    "generated": "2026-11-06T15:13:11.463Z",
     "seed": false,
     "counts": {
       "AA": 873,
@@ -2135,6 +2135,30 @@
       "region": "Franklin",
       "notes": "Parking left side, enter through rear",
       "source": "https://aanashville.org/meetings/franklin-fellowship/"
+    },
+    {
+      "id": "na-keep-coming-back-177367",
+      "fellowship": "NA",
+      "name": "Keep Coming Back",
+      "day": 0,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "LT"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Right Road Ministries",
+      "address": "190 Old Nashville Hwy",
+      "city": "LaVergne",
+      "state": "TN",
+      "zip": "37086",
+      "lat": 36.0189009,
+      "lng": -86.5785501,
+      "region": "LaVergne",
+      "notes": null,
+      "source": "https://nanashville.org/meetings/"
     },
     {
       "id": "aa-043saf01800-d0-1800",
@@ -25411,30 +25435,6 @@
       "lat": 36.3345369,
       "lng": -86.6190121,
       "region": "Hendersonville",
-      "notes": null,
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "na-keep-coming-back-177367",
-      "fellowship": "NA",
-      "name": "Keep Coming Back",
-      "day": 6,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "LT"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Right Road Ministries",
-      "address": "190 Old Nashville Hwy",
-      "city": "LaVergne",
-      "state": "TN",
-      "zip": "37086",
-      "lat": 36.0189009,
-      "lng": -86.5785501,
-      "region": "LaVergne",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
     },

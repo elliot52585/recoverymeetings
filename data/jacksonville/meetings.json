@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-11-05T15:41:29.341Z",
+    "generated": "2026-11-06T15:15:40.088Z",
     "seed": false,
     "counts": {
-      "AA": 692,
+      "AA": 693,
       "NA": 75,
       "RD": 6
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 703,
+        "count": 704,
         "source": "https://neflaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -12555,6 +12555,31 @@
       "region": "Jacksonville",
       "notes": "Mens",
       "source": "https://neflaa.org/meetings/living-in-the-light-8/"
+    },
+    {
+      "id": "aa-mens-accountability-meeting-d4-1800",
+      "fellowship": "AA",
+      "name": "Men's Accountability Meeting",
+      "day": 4,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Men",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Trout River",
+      "address": "9745 Lem Turner Rd",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.4145261,
+      "lng": -81.6935324,
+      "region": "Jacksonville",
+      "notes": "Men's Accountability Meeting",
+      "source": "https://neflaa.org/meetings/mens-accountability-meeting/"
     },
     {
       "id": "na-more-will-be-revealed-131107",
