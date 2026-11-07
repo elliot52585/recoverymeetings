@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-06T15:14:04.623Z",
+    "generated": "2026-11-07T14:14:05.292Z",
     "seed": false,
     "counts": {
       "AA": 1120,
@@ -26548,13 +26548,13 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": "https://us04web.zoom.us/j/365190854",
-      "venue": "Brunner Farmhouse",
-      "address": "R1055898",
+      "venue": "Presbyterian Church of Broomfield",
+      "address": "360 Main St",
       "city": "Broomfield",
       "state": "CO",
       "zip": "80020",
-      "lat": 39.9389199,
-      "lng": -105.0674317,
+      "lat": 39.9232156,
+      "lng": -105.071058,
       "region": "Broomfield",
       "notes": null,
       "source": "https://na.org/meetingsearch/"

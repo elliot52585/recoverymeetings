@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-11-06T15:15:32.665Z",
+    "generated": "2026-11-07T14:15:35.249Z",
     "seed": false,
     "counts": {
       "NA": 340,
@@ -8849,8 +8849,7 @@
       "types": [
         "Discussion",
         "Open",
-        "Wheelchair accessible",
-        "SPK"
+        "Wheelchair accessible"
       ],
       "online": false,
       "hybrid": false,
@@ -8863,7 +8862,7 @@
       "lat": 27.7372558,
       "lng": -82.7108045,
       "region": "Gulfport",
-      "notes": "Pavilion #6 on Gulfport Beach next to Playground — Speaker Lead 2nd Saturday of the month",
+      "notes": "Pavilion #6 on Gulfport Beach next to Playground",
       "source": "https://na.org/meetingsearch/"
     },
     {

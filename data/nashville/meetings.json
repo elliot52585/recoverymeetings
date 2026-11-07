@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-06T15:13:11.463Z",
+    "generated": "2026-11-07T14:13:16.819Z",
     "seed": false,
     "counts": {
-      "AA": 873,
+      "AA": 872,
       "NA": 160,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 874,
+        "count": 873,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -2725,31 +2725,6 @@
       "region": "Pulaski",
       "notes": "ID: 889 131 0346\nPW: 085607",
       "source": "https://aanashville.org/meetings/pulaski-group-7/"
-    },
-    {
-      "id": "aa-roots-in-recovery-4-d0-1900",
-      "fellowship": "AA",
-      "name": "Roots In Recovery",
-      "day": 0,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/6151234615",
-      "venue": null,
-      "address": "Nashville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1626638,
-      "lng": -86.7816016,
-      "region": "Nashville",
-      "notes": "ID: 615 1234 615\nPW: FOB",
-      "source": "https://aanashville.org/meetings/roots-in-recovery-4/"
     },
     {
       "id": "aa-rushh-hour-d0-1900",
