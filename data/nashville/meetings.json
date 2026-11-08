@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-07T14:13:16.819Z",
+    "generated": "2026-11-08T14:23:19.972Z",
     "seed": false,
     "counts": {
       "AA": 872,
@@ -20924,6 +20924,32 @@
       "source": "https://aanashville.org/meetings/015val51730/"
     },
     {
+      "id": "aa-lafayette-traditional-aa-group-d5-1800",
+      "fellowship": "AA",
+      "name": "AA Literature Study Group",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Literature",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Lafayette United Methodist Church",
+      "address": "506 Bratton Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.5269854,
+      "lng": -86.0350974,
+      "region": "Lafayette",
+      "notes": null,
+      "source": "https://aanashville.org/meetings/lafayette-traditional-aa-group/"
+    },
+    {
       "id": "aa-040cla51800-d5-1800",
       "fellowship": "AA",
       "name": "Clark Street Group",
@@ -20972,32 +20998,6 @@
       "region": "Goodlettsville",
       "notes": null,
       "source": "https://aanashville.org/meetings/happy-destiny-2/"
-    },
-    {
-      "id": "aa-lafayette-traditional-aa-group-d5-1800",
-      "fellowship": "AA",
-      "name": "Lafayette Traditional AA Group",
-      "day": 5,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "ABSI",
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Lafayette United Methodist Church",
-      "address": "506 Bratton Ave",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.5269854,
-      "lng": -86.0350974,
-      "region": "Lafayette",
-      "notes": null,
-      "source": "https://aanashville.org/meetings/lafayette-traditional-aa-group/"
     },
     {
       "id": "aa-music-city-happy-hour-group-2-d5-1800",

@@ -1,12 +1,12 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-07T14:14:05.292Z",
+    "generated": "2026-11-08T14:24:23.474Z",
     "seed": false,
     "counts": {
       "AA": 1120,
       "NA": 155,
-      "RD": 14
+      "RD": 15
     },
     "sources": {
       "AA": {
@@ -21,7 +21,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 14,
+        "count": 15,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -27435,6 +27435,31 @@
       "region": "Commerce City",
       "notes": null,
       "source": "https://daccaa.org/meetings/primera-tradicion-5/"
+    },
+    {
+      "id": "rd-rd-phoenix-d5-1930",
+      "fellowship": "RD",
+      "name": "RD Phoenix",
+      "day": 5,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Open",
+        "WA"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Phoenix (Denver)",
+      "address": "2239 Champa St",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.7528455,
+      "lng": -104.9862671,
+      "region": "Colorado",
+      "notes": null,
+      "source": "https://recoverydharma.org/meetings/rd-phoenix/"
     },
     {
       "id": "aa-344-811-d5-1930",
