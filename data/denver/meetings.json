@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-08T14:24:23.474Z",
+    "generated": "2026-11-09T17:42:07.403Z",
     "seed": false,
     "counts": {
       "AA": 1120,
-      "NA": 155,
+      "NA": 156,
       "RD": 15
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 156,
+        "count": 157,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=39.7392&long_val=-104.9903&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -21579,6 +21579,28 @@
       "conferenceUrl": null,
       "venue": null,
       "address": "470 Briggs St",
+      "city": "Erie",
+      "state": "CO",
+      "zip": "80516",
+      "lat": 40.0488457,
+      "lng": -105.0477519,
+      "region": "Erie",
+      "notes": null,
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-the-last-mile-231507",
+      "fellowship": "NA",
+      "name": "The Last Mile",
+      "day": 4,
+      "time": "18:00",
+      "endTime": "19:15",
+      "types": [],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Corner of Briggs and Moffett in downtown Erie",
+      "address": "470 Briggs Street",
       "city": "Erie",
       "state": "CO",
       "zip": "80516",

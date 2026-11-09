@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-11-08T14:26:34.907Z",
+    "generated": "2026-11-09T17:44:18.870Z",
     "seed": false,
     "counts": {
       "AA": 504,
-      "NA": 265,
+      "NA": 266,
       "RD": 5
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 271,
+        "count": 272,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=26.7153&long_val=-80.0534&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -1459,9 +1459,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-war-women-and-recovery-84525",
+      "id": "na-w-a-r-women-and-recovery-84525",
       "fellowship": "NA",
-      "name": "WAR - Women And Recovery",
+      "name": "W.A.R. - Women and Recovery",
       "day": 0,
       "time": "17:00",
       "endTime": "18:00",
@@ -1473,15 +1473,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "New Wave Church of God",
-      "address": "563 W. 2nd Street",
-      "city": "Riviera Beach",
+      "venue": "The Meeting Place Inc.",
+      "address": "1897 Palm Beach Lakes Blvd. Suite 121",
+      "city": "West Palm Beach",
       "state": "FL",
-      "zip": "33404",
-      "lat": 26.7648571,
-      "lng": -80.0616015,
-      "region": "Riviera Beach",
-      "notes": "2ND & 4TH Sunday of Month",
+      "zip": "33409",
+      "lat": 26.7176736,
+      "lng": -80.0908984,
+      "region": "West Palm Beach",
+      "notes": "2ND & 4TH Sunday of the Month",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -10164,6 +10164,34 @@
       "lng": -80.0908984,
       "region": "West Palm Beach",
       "notes": "Wednesday before the 2nd Sunday of every month",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "na-primary-purpose-231508",
+      "fellowship": "NA",
+      "name": "Primary Purpose",
+      "day": 3,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "HP",
+        "CPC",
+        "NC"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Living Room",
+      "address": "2890 N. Andrews Avenue",
+      "city": "Wilton Manors",
+      "state": "FL",
+      "zip": "33311",
+      "lat": 26.1629566,
+      "lng": -80.146184,
+      "region": "Wilton Manors",
+      "notes": "Park at Broward House, 2800 N. Andrews Avenue",
       "source": "https://na.org/meetingsearch/"
     },
     {

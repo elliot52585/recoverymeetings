@@ -1,21 +1,22 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-08T14:24:16.888Z",
+    "generated": "2026-11-09T17:42:00.342Z",
     "seed": false,
     "counts": {
-      "AA": 537,
-      "NA": 86,
+      "AA": 544,
+      "NA": 85,
       "RD": 3
     },
     "sources": {
       "AA": {
-        "ok": false,
-        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
+        "ok": true,
+        "count": 544,
+        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
         "ok": true,
-        "count": 86,
+        "count": 85,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=38.2527&long_val=-85.7585&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -1751,6 +1752,32 @@
       "source": "https://loukyaa.org/meetings/big-book-study-t3-sunday/"
     },
     {
+      "id": "aa-caminando-sobrio-domingo-d0-2000",
+      "fellowship": "AA",
+      "name": "Caminando Sobrio Domingo",
+      "day": 0,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Building / KY Behavioral Health Center",
+      "address": "3050 W Broadway",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2493795,
+      "lng": -85.8034578,
+      "region": "Louisville",
+      "notes": "Located Upstairs",
+      "source": "https://loukyaa.org/meetings/caminando-sobrio-domingo/"
+    },
+    {
       "id": "aa-dont-do-it-alone-group-d0-2000",
       "fellowship": "AA",
       "name": "Don't Do It Alone Group",
@@ -2990,6 +3017,34 @@
       "source": "https://loukyaa.org/meetings/monday-grapevine-no-smoke-grp/"
     },
     {
+      "id": "aa-nitecap-d1-1800",
+      "fellowship": "AA",
+      "name": "Nitecap",
+      "day": 1,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "12x12",
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "XB"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Westend Token Club",
+      "address": "3133 W Broadway",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2501713,
+      "lng": -85.8048253,
+      "region": "Louisville",
+      "notes": null,
+      "source": "https://loukyaa.org/meetings/nitecap/"
+    },
+    {
       "id": "rd-rd-indiana-d1-1800",
       "fellowship": "RD",
       "name": "RD Indiana",
@@ -3282,34 +3337,6 @@
       "region": "Floyd County IN",
       "notes": "In the Carriage House",
       "source": "https://loukyaa.org/meetings/lessons-in-trudging/"
-    },
-    {
-      "id": "aa-nitecap-d1-1830",
-      "fellowship": "AA",
-      "name": "Nitecap",
-      "day": 1,
-      "time": "18:30",
-      "endTime": "19:30",
-      "types": [
-        "12x12",
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "XB"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Westend Token Club",
-      "address": "3133 W Broadway",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2501713,
-      "lng": -85.8048253,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/nitecap/"
     },
     {
       "id": "aa-our-vision-of-hope-d1-1830",
@@ -4151,6 +4178,32 @@
       "source": "https://loukyaa.org/meetings/breckinridge-group/"
     },
     {
+      "id": "aa-caminando-sobrio-lunes-d1-2000",
+      "fellowship": "AA",
+      "name": "Caminando Sobrio Lunes",
+      "day": 1,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Building / KY Behavioral Health Center",
+      "address": "3050 W Broadway",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2493795,
+      "lng": -85.8034578,
+      "region": "Louisville",
+      "notes": "Located Upstairs",
+      "source": "https://loukyaa.org/meetings/caminando-sobrio-lunes/"
+    },
+    {
       "id": "aa-charlestown-group-d1-2000",
       "fellowship": "AA",
       "name": "Charlestown Group",
@@ -4810,6 +4863,32 @@
       "source": "https://loukyaa.org/meetings/kentucky-night-owls-monday-online/"
     },
     {
+      "id": "aa-caminando-sobrio-matres-d2-0000",
+      "fellowship": "AA",
+      "name": "Caminando Sobrio Martes",
+      "day": 2,
+      "time": "00:00",
+      "endTime": "01:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Building / KY Behavioral Health Center",
+      "address": "3050 W Broadway",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2493795,
+      "lng": -85.8034578,
+      "region": "Louisville",
+      "notes": "Located Upstairs",
+      "source": "https://loukyaa.org/meetings/caminando-sobrio-matres/"
+    },
+    {
       "id": "aa-early-worms-group-3-d2-0700",
       "fellowship": "AA",
       "name": "Early Worms Group Tuesday",
@@ -5199,7 +5278,7 @@
       "lat": 38.2493795,
       "lng": -85.8034578,
       "region": "Louisville",
-      "notes": "Around Back, In Basement",
+      "notes": "Located in the Basement. Stairs around back.",
       "source": "https://loukyaa.org/meetings/hope-dealers/"
     },
     {
@@ -6755,33 +6834,6 @@
       "region": "Online",
       "notes": "Phone In Meeting",
       "source": "https://loukyaa.org/meetings/ladies-in-unity/"
-    },
-    {
-      "id": "na-release-the-control-172095",
-      "fellowship": "NA",
-      "name": "Release the Control",
-      "day": 2,
-      "time": "19:30",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open",
-        "Non-smoking",
-        "LS"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Salem Wesleyan Church",
-      "address": "607 N.College Avenue",
-      "city": "Salem",
-      "state": "IN",
-      "zip": "47167",
-      "lat": 38.6114678,
-      "lng": -86.0980158,
-      "region": "Salem",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-release-the-control-new-address-172328",
@@ -9222,6 +9274,32 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/wednesday-nite-young-peoples-gp/"
+    },
+    {
+      "id": "aa-caminando-sobrio-miercoles-d3-2000",
+      "fellowship": "AA",
+      "name": "Caminando Sobrio Miércoles",
+      "day": 3,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Building / KY Behavioral Health Center",
+      "address": "3050 W Broadway",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2493795,
+      "lng": -85.8034578,
+      "region": "Louisville",
+      "notes": "Located Upstairs",
+      "source": "https://loukyaa.org/meetings/caminando-sobrio-miercoles/"
     },
     {
       "id": "aa-charlestown-group-2-d3-2000",
@@ -11768,6 +11846,32 @@
       "source": "https://loukyaa.org/meetings/big-book-study-on-shelby-group/"
     },
     {
+      "id": "aa-caminando-sobrio-jueves-d4-2000",
+      "fellowship": "AA",
+      "name": "Caminando Sobrio Jueves",
+      "day": 4,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Building / KY Behavioral Health Center",
+      "address": "3050 W Broadway",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2493795,
+      "lng": -85.8034578,
+      "region": "Louisville",
+      "notes": "Located Upstairs",
+      "source": "https://loukyaa.org/meetings/caminando-sobrio-jueves/"
+    },
+    {
       "id": "aa-circle-of-hope-group-d4-2000",
       "fellowship": "AA",
       "name": "Circle Of Hope Group",
@@ -13953,6 +14057,32 @@
       "source": "https://loukyaa.org/meetings/36th-street-group/"
     },
     {
+      "id": "aa-caminando-sobrio-viernes-d5-2000",
+      "fellowship": "AA",
+      "name": "Caminando Sobrio Viernes",
+      "day": 5,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Building / KY Behavioral Health Center",
+      "address": "3050 W Broadway",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2493795,
+      "lng": -85.8034578,
+      "region": "Louisville",
+      "notes": "Located Upstairs",
+      "source": "https://loukyaa.org/meetings/caminando-sobrio-viernes/"
+    },
+    {
       "id": "aa-cane-run-road-group-d5-2000",
       "fellowship": "AA",
       "name": "Cane Run Road Group",
@@ -14209,7 +14339,7 @@
       "lat": 38.2493795,
       "lng": -85.8034578,
       "region": "Louisville",
-      "notes": "Around Back, In Basement",
+      "notes": "Located in the Basement. Stairs around back.",
       "source": "https://loukyaa.org/meetings/locker-room-meeting/"
     },
     {
@@ -14690,33 +14820,6 @@
       "source": "https://loukyaa.org/meetings/saturday-morning-meditation-group/"
     },
     {
-      "id": "aa-saturday-morning-traditions-d6-0830",
-      "fellowship": "AA",
-      "name": "Saturday Morning Traditions",
-      "day": 6,
-      "time": "08:30",
-      "endTime": null,
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible",
-        "XB"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Icehouse",
-      "address": "1400 S Shelby St",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2283562,
-      "lng": -85.7422483,
-      "region": "Louisville",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/saturday-morning-traditions/"
-    },
-    {
       "id": "aa-beneath-the-bell-tower-d6-0900",
       "fellowship": "AA",
       "name": "Beneath The Bell Tower",
@@ -14821,6 +14924,33 @@
       "region": "Online",
       "notes": "Meeting ID: 957 5000 8003\nPasscode: 497100",
       "source": "https://loukyaa.org/meetings/morning-newcomers-saturday/"
+    },
+    {
+      "id": "aa-saturday-morning-traditions-d6-0900",
+      "fellowship": "AA",
+      "name": "Saturday Morning Traditions",
+      "day": 6,
+      "time": "09:00",
+      "endTime": "10:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Wheelchair accessible",
+        "XB"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Icehouse",
+      "address": "1400 S Shelby St",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2283562,
+      "lng": -85.7422483,
+      "region": "Louisville",
+      "notes": null,
+      "source": "https://loukyaa.org/meetings/saturday-morning-traditions/"
     },
     {
       "id": "aa-saturday-serenity-womens-online-d6-0900",
@@ -16275,6 +16405,32 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://loukyaa.org/meetings/11th-street-love-group/"
+    },
+    {
+      "id": "aa-caminando-sobrio-sabado-d6-2000",
+      "fellowship": "AA",
+      "name": "Caminando Sobrio Sábado",
+      "day": 6,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Spanish"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Hope Building / KY Behavioral Health Center",
+      "address": "3050 W Broadway",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.2493795,
+      "lng": -85.8034578,
+      "region": "Louisville",
+      "notes": "Located Upstairs",
+      "source": "https://loukyaa.org/meetings/caminando-sobrio-sabado/"
     },
     {
       "id": "aa-3-way-panel-group-d6-2000",

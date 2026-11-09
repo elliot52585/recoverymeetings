@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-11-08T14:25:04.708Z",
+    "generated": "2026-11-09T17:42:46.668Z",
     "seed": false,
     "counts": {
-      "NA": 356,
+      "NA": 357,
       "RD": 3
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 358,
+        "count": 359,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=25.7743&long_val=-80.1937&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -4679,6 +4679,34 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-primary-purpose-231508",
+      "fellowship": "NA",
+      "name": "Primary Purpose",
+      "day": 3,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "Open",
+        "Wheelchair accessible",
+        "HP",
+        "CPC",
+        "NC"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The Living Room",
+      "address": "2890 N. Andrews Avenue",
+      "city": "Wilton Manors",
+      "state": "FL",
+      "zip": "33311",
+      "lat": 26.1629566,
+      "lng": -80.146184,
+      "region": "Wilton Manors",
+      "notes": "Park at Broward House, 2800 N. Andrews Avenue",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-ahora-si-spanish-133806",
       "fellowship": "NA",
       "name": "Ahora Si (Spanish)",
@@ -5023,9 +5051,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-veterans-in-recovery-83483",
+      "id": "na-veterans-of-recovery-83483",
       "fellowship": "NA",
-      "name": "Veterans In Recovery",
+      "name": "Veterans of Recovery",
       "day": 3,
       "time": "19:00",
       "endTime": "20:00",

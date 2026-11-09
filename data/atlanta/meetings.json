@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-08T14:23:54.790Z",
+    "generated": "2026-11-09T17:41:54.182Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -17189,9 +17189,9 @@
       "source": "https://atlantaaa.org/meetings/canton-2/"
     },
     {
-      "id": "na-changing-in-grayson-group-22529",
+      "id": "na-changing-in-gwinnett-group-22529",
       "fellowship": "NA",
-      "name": "Changing In Grayson Group",
+      "name": "Changing In Gwinnett Group",
       "day": 2,
       "time": "20:00",
       "endTime": "21:00",
@@ -17205,15 +17205,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Grayson First Baptist Church",
-      "address": "2142 Loganville Hwy (Hwy 20)",
-      "city": "Grayson",
+      "venue": "Recovery Connection",
+      "address": "1305 Lakes Parkway Suite 123",
+      "city": "Lawrenceville",
       "state": "GA",
-      "zip": "30017",
-      "lat": 33.8938837,
-      "lng": -83.9535686,
-      "region": "Grayson",
-      "notes": "(NON-SMOKING CAMPUS)",
+      "zip": "30043",
+      "lat": 33.962095,
+      "lng": -84.042598,
+      "region": "Lawrenceville",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
