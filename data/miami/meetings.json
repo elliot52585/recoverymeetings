@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-11-09T17:42:46.668Z",
+    "generated": "2026-11-10T15:42:33.703Z",
     "seed": false,
     "counts": {
       "NA": 357,
@@ -1806,7 +1806,7 @@
       "lat": 26.1032674,
       "lng": -80.3312694,
       "region": "Davie",
-      "notes": "Starting April 27",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -2287,7 +2287,7 @@
       "lat": 26.0252259,
       "lng": -80.247635,
       "region": "Pembroke pines",
-      "notes": "June/July 1st/3rd Friday of the month",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {

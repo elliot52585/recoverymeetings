@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-09T17:41:16.241Z",
+    "generated": "2026-11-10T15:40:49.481Z",
     "seed": false,
     "counts": {
       "AA": 872,
-      "NA": 160,
+      "NA": 158,
       "SLAA": 7,
       "GA": 2,
       "HA": 3,
@@ -25,7 +25,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 161,
+        "count": 159,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=36.1627&long_val=-86.7816&geo_width=55&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "CA": {
@@ -13579,33 +13579,6 @@
       "source": "https://aanashville.org/meetings/087sfg31800/"
     },
     {
-      "id": "na-spiritual-solutions-163420",
-      "fellowship": "NA",
-      "name": "Spiritual Solutions",
-      "day": 3,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "H",
-        "SP"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Cumberland Heights IOP Facility",
-      "address": "745 S Church St Suite 505",
-      "city": "Murfreesboro",
-      "state": "TN",
-      "zip": "37130",
-      "lat": 35.8383822,
-      "lng": -86.3911602,
-      "region": "Murfreesboro",
-      "notes": null,
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
       "id": "na-surrender-to-win-166108",
       "fellowship": "NA",
       "name": "Surrender To Win",
@@ -25535,34 +25508,6 @@
       "lat": 36.5660206,
       "lng": -87.3014967,
       "region": "Clarksville",
-      "notes": null,
-      "source": "https://nanashville.org/meetings/"
-    },
-    {
-      "id": "na-spiritual-solutions-90178",
-      "fellowship": "NA",
-      "name": "Spiritual Solutions",
-      "day": 6,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "H",
-        "SP",
-        "SPAD"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Cumberland Heights IOP Facility",
-      "address": "745 S Church St Suite 505",
-      "city": "Murfreesboro",
-      "state": "TN",
-      "zip": "37130",
-      "lat": 35.8383822,
-      "lng": -86.3911602,
-      "region": "Murfreesboro",
       "notes": null,
       "source": "https://nanashville.org/meetings/"
     },

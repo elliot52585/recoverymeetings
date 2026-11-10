@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-09T17:42:00.342Z",
+    "generated": "2026-11-10T15:41:44.694Z",
     "seed": false,
     "counts": {
-      "AA": 544,
+      "AA": 543,
       "NA": 85,
       "RD": 3
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 544,
+        "count": 543,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -3885,31 +3885,6 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "aa-369-meeting-d1-1930",
-      "fellowship": "AA",
-      "name": "369 Meeting",
-      "day": 1,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Brown-Starks Neighborhood Place",
-      "address": "1200 Bono Rd",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.2964354,
-      "lng": -85.8265787,
-      "region": "Floyd County IN",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/369-meeting/"
     },
     {
       "id": "na-against-all-odds-166499",

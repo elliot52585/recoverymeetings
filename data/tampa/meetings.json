@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-11-09T17:43:38.773Z",
+    "generated": "2026-11-10T15:43:26.410Z",
     "seed": false,
     "counts": {
-      "NA": 340,
+      "NA": 339,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 348,
+        "count": 347,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2449,32 +2449,6 @@
       "zip": "33603",
       "lat": 27.9818144,
       "lng": -82.4570587,
-      "region": "Tampa",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-grow-or-go-84763",
-      "fellowship": "NA",
-      "name": "Grow or Go",
-      "day": 1,
-      "time": "20:15",
-      "endTime": "21:15",
-      "types": [
-        "Discussion",
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "St. Paul's Lutheran Church",
-      "address": "5103 N Central Ave.",
-      "city": "Tampa",
-      "state": "FL",
-      "zip": "33603",
-      "lat": 27.9925878,
-      "lng": -82.4548457,
       "region": "Tampa",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
