@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-10T15:41:51.176Z",
+    "generated": "2026-11-11T15:28:57.359Z",
     "seed": false,
     "counts": {
-      "AA": 1120,
+      "AA": 1122,
       "NA": 156,
       "RD": 15
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1121,
+        "count": 1123,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -3593,7 +3593,7 @@
       "name": "Sunday Men's",
       "day": 0,
       "time": "19:00",
-      "endTime": "20:00",
+      "endTime": "20:30",
       "types": [
         "Closed",
         "Men",
@@ -12027,8 +12027,8 @@
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.5262737,
-      "lng": -104.7533245,
+      "lat": 39.5263008,
+      "lng": -104.753381,
       "region": "Parker",
       "notes": null,
       "source": "https://daccaa.org/meetings/865-2486/"
@@ -12148,12 +12148,12 @@
       "hybrid": true,
       "conferenceUrl": "https://zoom.us/j/87355915895",
       "venue": "Club",
-      "address": "5455 W 38th Ave M",
+      "address": "5455 W 38th Ave Unit M",
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7698567,
-      "lng": -105.0559088,
+      "lat": 39.7698371,
+      "lng": -105.0560611,
       "region": "Wheat Ridge",
       "notes": null,
       "source": "https://daccaa.org/meetings/westside-women/"
@@ -23364,6 +23364,32 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-12x12-study-d4-2000",
+      "fellowship": "AA",
+      "name": "12x12 Study",
+      "day": 4,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "12x12",
+        "Big Book",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Club",
+      "address": "5455 W 38th Ave Unit M",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.7698371,
+      "lng": -105.0560611,
+      "region": "Wheat Ridge",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/12x12-study/"
+    },
+    {
       "id": "na-ain-t-dead-yet-in-person-82917",
       "fellowship": "NA",
       "name": "Ain't Dead Yet! - In person",
@@ -29020,6 +29046,32 @@
       "source": "https://daccaa.org/meetings/335-798/"
     },
     {
+      "id": "aa-5-for-sobriety-12x12-d6-0830",
+      "fellowship": "AA",
+      "name": "5 for Sobriety 12x12",
+      "day": 6,
+      "time": "08:30",
+      "endTime": "09:30",
+      "types": [
+        "Open",
+        "Step study",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Church",
+      "address": "7137 Parker Hills Ct",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.5263008,
+      "lng": -104.753381,
+      "region": "Parker",
+      "notes": "Book Study",
+      "source": "https://daccaa.org/meetings/5-for-sobriety-12x12/"
+    },
+    {
       "id": "aa-838-2174-d6-0830",
       "fellowship": "AA",
       "name": "Men's Big Book",
@@ -31166,12 +31218,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Club",
-      "address": "5455 W 38th Ave M",
+      "address": "5455 W 38th Ave Unit M",
       "city": null,
       "state": "CO",
       "zip": null,
-      "lat": 39.7698567,
-      "lng": -105.0559088,
+      "lat": 39.7698371,
+      "lng": -105.0560611,
       "region": "Wheat Ridge",
       "notes": null,
       "source": "https://daccaa.org/meetings/7pm-speaker-meeting/"

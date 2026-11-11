@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-10T15:41:38.425Z",
+    "generated": "2026-11-11T15:28:45.314Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -41902,7 +41902,7 @@
       "lat": 33.7763271,
       "lng": -84.2922853,
       "region": "Decatur",
-      "notes": "Enter through N. Candler St. entrance; parking by entrance, on street, and behind the church.",
+      "notes": "Enter through N. Candler St. entrance; parking by entrance, on street, and behind the church. If door is locked, text number on door sign to be let in.",
       "source": "https://na.org/meetingsearch/"
     },
     {
