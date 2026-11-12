@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-11-11T15:28:15.263Z",
+    "generated": "2026-11-12T16:03:56.511Z",
     "seed": false,
     "counts": {
       "AA": 388,
@@ -2004,6 +2004,30 @@
       "source": "https://www.memphis-aa.org/meetings/came-to-believe-group-16"
     },
     {
+      "id": "aa-collierville-squares-d1-1730",
+      "fellowship": "AA",
+      "name": "Collierville Squares",
+      "day": 1,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "Closed"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Collierville United Methodist",
+      "address": "104 N Rowlett St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.0424026,
+      "lng": -89.6659712,
+      "region": "Collierville",
+      "notes": null,
+      "source": "https://www.memphis-aa.org/meetings/collierville-squares"
+    },
+    {
       "id": "aa-happy-destiny-d1-1730",
       "fellowship": "AA",
       "name": "Happy Destiny",
@@ -2179,30 +2203,6 @@
       "region": "Horn Lake",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/bull-frog-corner"
-    },
-    {
-      "id": "aa-collierville-squares-d1-1800",
-      "fellowship": "AA",
-      "name": "Collierville Squares",
-      "day": 1,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Collierville United Methodist",
-      "address": "104 N Rowlett St",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0424026,
-      "lng": -89.6659712,
-      "region": "Collierville",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/collierville-squares"
     },
     {
       "id": "aa-last-chance-d1-1800",
@@ -2407,6 +2407,33 @@
       "region": "Millington",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/millington-group"
+    },
+    {
+      "id": "aa-collierville-group-d1-1900",
+      "fellowship": "AA",
+      "name": "Collierville Group",
+      "day": 1,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Closed",
+        "Concurrent with Al-Anon",
+        "Discussion",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Church of the Incarnation",
+      "address": "360 Bray Station Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.0489844,
+      "lng": -89.7041218,
+      "region": "Collierville",
+      "notes": null,
+      "source": "https://www.memphis-aa.org/meetings/collierville-group"
     },
     {
       "id": "aa-covington-group-d1-1900",
@@ -2659,7 +2686,7 @@
       "lat": 35.2423486,
       "lng": -89.3490899,
       "region": "Somerville",
-      "notes": "In Davis Hall",
+      "notes": "Entrance next to the nursery",
       "source": "https://www.memphis-aa.org/meetings/somerville-triangle-group"
     },
     {
@@ -2788,33 +2815,6 @@
       "region": "West Memphis",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/west-memphis-group-7"
-    },
-    {
-      "id": "aa-collierville-group-d1-1930",
-      "fellowship": "AA",
-      "name": "Collierville Group",
-      "day": 1,
-      "time": "19:30",
-      "endTime": "20:30",
-      "types": [
-        "Closed",
-        "Concurrent with Al-Anon",
-        "Discussion",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church of the Incarnation",
-      "address": "360 Bray Station Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0489844,
-      "lng": -89.7041218,
-      "region": "Collierville",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/collierville-group"
     },
     {
       "id": "aa-sendero-de-vida-group-d1-1930",

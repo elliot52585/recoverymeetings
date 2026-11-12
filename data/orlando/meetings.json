@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-11-11T15:30:00.208Z",
+    "generated": "2026-11-12T16:05:38.237Z",
     "seed": false,
     "counts": {
       "NA": 176,
@@ -355,12 +355,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Recovery Center",
-      "address": "7912 Forest City Rd",
+      "address": "6859 Edgewater Commerce Parkway",
       "city": "Orlando",
       "state": "FL",
       "zip": "32810",
-      "lat": 28.6286507,
-      "lng": -81.4161366,
+      "lat": 28.6191853,
+      "lng": -81.434092,
       "region": "Orlando",
       "notes": null,
       "source": "https://na.org/meetingsearch/"

@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-11T15:28:57.359Z",
+    "generated": "2026-11-12T16:04:36.872Z",
     "seed": false,
     "counts": {
-      "AA": 1122,
+      "AA": 1123,
       "NA": 156,
       "RD": 15
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 1123,
+        "count": 1124,
         "source": "https://daccaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -2347,12 +2347,13 @@
       "time": "16:00",
       "endTime": "17:00",
       "types": [
+        "12x12",
         "Open",
         "Women"
       ],
       "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
+      "hybrid": true,
+      "conferenceUrl": "https://zoom.us/j/82994693561",
       "venue": "Club",
       "address": "3355 S Wadsworth Blvd H125",
       "city": null,
@@ -17431,6 +17432,30 @@
       "source": "https://daccaa.org/meetings/parker-hall-big-book/"
     },
     {
+      "id": "aa-sisters-of-sobriety-2-d3-1900",
+      "fellowship": "AA",
+      "name": "Sisters of Sobriety",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Women"
+      ],
+      "online": false,
+      "hybrid": true,
+      "conferenceUrl": "https://zoom.us/j/82994693561",
+      "venue": "Club",
+      "address": "3355 S Wadsworth Blvd H127",
+      "city": null,
+      "state": "CO",
+      "zip": null,
+      "lat": 39.654533,
+      "lng": -105.0820914,
+      "region": "Lakewood",
+      "notes": null,
+      "source": "https://daccaa.org/meetings/sisters-of-sobriety-2/"
+    },
+    {
       "id": "aa-sober-moms-d3-1900",
       "fellowship": "AA",
       "name": "Sober Moms",
@@ -29991,8 +30016,8 @@
         "Women"
       ],
       "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
+      "hybrid": true,
+      "conferenceUrl": "https://zoom.us/j/82994693561",
       "venue": "Club",
       "address": "3355 S Wadsworth Blvd H125",
       "city": null,
