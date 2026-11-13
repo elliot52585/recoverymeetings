@@ -1,12 +1,12 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-11-12T16:06:13.739Z",
+    "generated": "2026-11-13T15:34:00.942Z",
     "seed": false,
     "counts": {
       "AA": 698,
       "NA": 75,
-      "RD": 6
+      "RD": 5
     },
     "sources": {
       "AA": {
@@ -21,7 +21,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 6,
+        "count": 5,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -12679,30 +12679,6 @@
       "region": "Jacksonville",
       "notes": "Faith Community Methodist Church",
       "source": "https://neflaa.org/meetings/rr-big-book-study/"
-    },
-    {
-      "id": "rd-beaches-recovery-dharma-2-d4-1800",
-      "fellowship": "RD",
-      "name": "RD Jacksonville Beaches",
-      "day": 4,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Baptist Beaches Hospital – Conference Room ABC",
-      "address": "1350 13th Ave S",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.2739881,
-      "lng": -81.3977774,
-      "region": "Florida",
-      "notes": "Beaches Recovery is at the corner of 12 Street and Shetter Ave (the entrance is on the Shetter Ave side),",
-      "source": "https://recoverydharma.org/meetings/beaches-recovery-dharma-2/"
     },
     {
       "id": "aa-women-speak-d4-1800",
