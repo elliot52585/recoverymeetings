@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-13T15:32:12.943Z",
+    "generated": "2026-11-14T14:21:49.208Z",
     "seed": false,
     "counts": {
       "AA": 543,
@@ -4053,7 +4053,6 @@
       "time": "20:00",
       "endTime": null,
       "types": [
-        "Concurrent with Al-Anon",
         "Open",
         "Speaker",
         "Wheelchair accessible",
@@ -4063,12 +4062,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Southeast Christian Church Southwest Campus",
-      "address": "8307 St Andrews Church Rd",
+      "address": "8301 St Andrews Church Rd",
       "city": null,
       "state": "KY",
       "zip": null,
-      "lat": 38.1411822,
-      "lng": -85.8361069,
+      "lat": 38.1424385,
+      "lng": -85.8355059,
       "region": "Louisville",
       "notes": "Located in the school building",
       "source": "https://loukyaa.org/meetings/31-w-group/"
@@ -13712,7 +13711,7 @@
       "lat": 38.2272106,
       "lng": -85.62301,
       "region": "Louisville",
-      "notes": null,
+      "notes": "**No Meeting on Christmas**",
       "source": "https://na.org/meetingsearch/"
     },
     {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-11-13T15:32:58.103Z",
+    "generated": "2026-11-14T14:22:33.771Z",
     "seed": false,
     "counts": {
       "NA": 357,
@@ -7623,15 +7623,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "First Seminole Baptist Church",
-      "address": "4701 Stirling Road",
+      "venue": null,
+      "address": "200 North 46 Ave",
       "city": "Hollywood",
       "state": "FL",
-      "zip": "33314",
-      "lat": 26.0480181,
-      "lng": -80.2119446,
+      "zip": "33021",
+      "lat": 26.0117813,
+      "lng": -80.1900782,
       "region": "Hollywood",
-      "notes": null,
+      "notes": "temporary meeting location for Nov 13,20",
       "source": "https://na.org/meetingsearch/"
     },
     {

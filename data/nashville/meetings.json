@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-13T15:31:32.138Z",
+    "generated": "2026-11-14T14:21:01.125Z",
     "seed": false,
     "counts": {
       "AA": 872,
@@ -10276,12 +10276,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Westmoreland Church of Christ",
-      "address": "1600 New Hwy. 52",
+      "address": "1600 State Rte 52",
       "city": "Westmoreland",
       "state": "TN",
       "zip": "37186",
-      "lat": 36.5560105,
-      "lng": -86.2466302,
+      "lat": 36.5631503,
+      "lng": -86.269887,
       "region": "Westmoreland",
       "notes": "Speak and Eat Meeting",
       "source": "https://nanashville.org/meetings/"
@@ -18095,12 +18095,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Westmoreland Church of Christ",
-      "address": "1600 New Hwy. 52",
+      "address": "1600 State Rte 52",
       "city": "Westmoreland",
       "state": "TN",
       "zip": "37186",
-      "lat": 36.5560105,
-      "lng": -86.2466302,
+      "lat": 36.5631503,
+      "lng": -86.269887,
       "region": "Westmoreland",
       "notes": "Speak and Eat Meeting",
       "source": "https://nanashville.org/meetings/"
