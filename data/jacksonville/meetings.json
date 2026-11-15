@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-11-14T14:23:29.420Z",
+    "generated": "2026-11-15T14:54:57.130Z",
     "seed": false,
     "counts": {
       "AA": 698,
@@ -10644,12 +10644,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "1924 N Laura St, Jacksonville, FL",
+      "address": "1930 N Laura St, Jacksonville, FL",
       "city": "Jacksonville",
       "state": "FL",
       "zip": "32206",
-      "lat": 30.3479211,
-      "lng": -81.6556054,
+      "lat": 30.3479299,
+      "lng": -81.6555918,
       "region": "Jacksonville",
       "notes": "inside open gate take walkway right to last bldg",
       "source": "https://na.org/meetingsearch/"

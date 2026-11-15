@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-14T14:21:49.208Z",
+    "generated": "2026-11-15T14:53:16.371Z",
     "seed": false,
     "counts": {
       "AA": 543,
@@ -10,9 +10,8 @@
     },
     "sources": {
       "AA": {
-        "ok": true,
-        "count": 543,
-        "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
+        "ok": false,
+        "error": "all TSML feeds failed: loukyaa.org/wp-admin/admin-ajax.php?acti — HTTP 503 | loukyaa.org/wp-json/tsml/v1/meetings — HTTP 503"
       },
       "NA": {
         "ok": true,
