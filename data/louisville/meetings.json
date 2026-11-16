@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-15T14:53:16.371Z",
+    "generated": "2026-11-16T17:12:50.401Z",
     "seed": false,
     "counts": {
       "AA": 543,
@@ -15052,14 +15052,14 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": null,
-      "address": "800 E. Liberty St.",
+      "address": "219 W. Ormsby",
       "city": "Louisville",
       "state": "KY",
       "zip": "40204",
-      "lat": 38.2502303,
-      "lng": -85.7384416,
+      "lat": 38.2328228,
+      "lng": -85.7580246,
       "region": "Louisville",
-      "notes": "Jefferson Street Community Center",
+      "notes": "Arthur Kling Center **Effective 12-5-26",
       "source": "https://na.org/meetingsearch/"
     },
     {
