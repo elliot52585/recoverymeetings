@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-11-16T17:12:11.570Z",
+    "generated": "2026-11-17T16:58:24.467Z",
     "seed": false,
     "counts": {
-      "AA": 341,
+      "AA": 343,
       "NA": 94,
       "RD": 5
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 341,
+        "count": 343,
         "source": "https://www.etiaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -5910,6 +5910,32 @@
       "source": "https://www.etiaa.org/meetings/turn-the-page-wednesday/"
     },
     {
+      "id": "aa-back-to-basics-dandridge-d3-1830",
+      "fellowship": "AA",
+      "name": "Back to Basics Dandridge",
+      "day": 3,
+      "time": "18:30",
+      "endTime": "19:30",
+      "types": [
+        "12x12",
+        "Closed",
+        "Discussion"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Dandridge First United Methodist Church - Basement",
+      "address": "121 E Meeting St",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 36.0166239,
+      "lng": -83.4138713,
+      "region": "Dandridge",
+      "notes": "Park at playground, enter basement from that end",
+      "source": "https://www.etiaa.org/meetings/back-to-basics-dandridge/"
+    },
+    {
       "id": "aa-riverside-11-d3-1830",
       "fellowship": "AA",
       "name": "Riverside",
@@ -9083,6 +9109,31 @@
       "region": "Knoxville",
       "notes": "The meeting entrance is at the side door located on N Gay St. To get in, call the phone number posted on the door",
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-love-at-the-bottom-d5-1800",
+      "fellowship": "AA",
+      "name": "Love at the Bottom",
+      "day": 5,
+      "time": "18:00",
+      "endTime": "19:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Magnolia Avenue UMC",
+      "address": "2700 E Magnolia Ave",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.9882274,
+      "lng": -83.8917002,
+      "region": "Knoxville",
+      "notes": "Enter via the ramp door.",
+      "source": "https://www.etiaa.org/meetings/love-at-the-bottom/"
     },
     {
       "id": "na-serenity-in-sweetwater-160476",

@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "tampa",
-    "generated": "2026-11-16T17:14:26.054Z",
+    "generated": "2026-11-17T17:00:25.451Z",
     "seed": false,
     "counts": {
-      "NA": 339,
+      "NA": 336,
       "RD": 7
     },
     "sources": {
@@ -14,7 +14,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 347,
+        "count": 344,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=27.9506&long_val=-82.4572&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -2741,33 +2741,6 @@
       "lng": -82.4587527,
       "region": "Tampa",
       "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-gettin-better-at-noon-172068",
-      "fellowship": "NA",
-      "name": "Gettin' Better at Noon",
-      "day": 2,
-      "time": "12:00",
-      "endTime": "13:00",
-      "types": [
-        "Open",
-        "Wheelchair accessible",
-        "LIT",
-        "Non-smoking"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "A Club of Hernando County",
-      "address": "18922 Titus Rd",
-      "city": "Hudson",
-      "state": "FL",
-      "zip": "34667",
-      "lat": 28.4327691,
-      "lng": -82.6098412,
-      "region": "Hudson",
-      "notes": "MEETING IS CLOSING EFFECTIVE 9/30/2026",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -6029,31 +6002,6 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-she-recovers-we-recover-226676",
-      "fellowship": "NA",
-      "name": "She Recovers, We Recover",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Discussion",
-        "Women"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "A Club of Hernando County",
-      "address": "18922 Titus Rd",
-      "city": "Hudson",
-      "state": "FL",
-      "zip": "34667",
-      "lat": 28.4327691,
-      "lng": -82.6098412,
-      "region": "Hudson",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
       "id": "na-the-last-chance-group-167801",
       "fellowship": "NA",
       "name": "The Last Chance Group",
@@ -8576,33 +8524,6 @@
       "lng": -82.7335313,
       "region": "Holiday",
       "notes": "Parish Center in back. — (Name/Initial)",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-gettin-better-no-matter-what-84902",
-      "fellowship": "NA",
-      "name": "Gettin' Better No Matter What",
-      "day": 6,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open",
-        "Wheelchair accessible",
-        "LIT",
-        "Non-smoking"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "A Club of Hernando County",
-      "address": "18922 Titus Rd",
-      "city": "Hudson",
-      "state": "FL",
-      "zip": "34667",
-      "lat": 28.4327691,
-      "lng": -82.6098412,
-      "region": "Hudson",
-      "notes": "MEETING IS CLOSING EFFECTIVE 9/30/2026",
       "source": "https://na.org/meetingsearch/"
     },
     {

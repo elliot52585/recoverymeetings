@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-11-16T17:12:03.309Z",
+    "generated": "2026-11-17T16:58:16.008Z",
     "seed": false,
     "counts": {
       "AA": 388,
@@ -2409,33 +2409,6 @@
       "source": "https://www.memphis-aa.org/meetings/millington-group"
     },
     {
-      "id": "aa-collierville-group-d1-1900",
-      "fellowship": "AA",
-      "name": "Collierville Group",
-      "day": 1,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Closed",
-        "Concurrent with Al-Anon",
-        "Discussion",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church of the Incarnation",
-      "address": "360 Bray Station Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0489844,
-      "lng": -89.7041218,
-      "region": "Collierville",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/collierville-group"
-    },
-    {
       "id": "aa-covington-group-d1-1900",
       "fellowship": "AA",
       "name": "Covington Group",
@@ -2815,6 +2788,33 @@
       "region": "West Memphis",
       "notes": null,
       "source": "https://www.memphis-aa.org/meetings/west-memphis-group-7"
+    },
+    {
+      "id": "aa-collierville-group-d1-1930",
+      "fellowship": "AA",
+      "name": "Collierville Group",
+      "day": 1,
+      "time": "19:30",
+      "endTime": "20:30",
+      "types": [
+        "Closed",
+        "Concurrent with Al-Anon",
+        "Discussion",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Church of the Incarnation",
+      "address": "360 Bray Station Rd",
+      "city": null,
+      "state": "TN",
+      "zip": null,
+      "lat": 35.0489844,
+      "lng": -89.7041218,
+      "region": "Collierville",
+      "notes": null,
+      "source": "https://www.memphis-aa.org/meetings/collierville-group"
     },
     {
       "id": "aa-sendero-de-vida-group-d1-1930",
