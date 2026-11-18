@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-11-17T17:00:36.621Z",
+    "generated": "2026-11-18T16:38:19.642Z",
     "seed": false,
     "counts": {
       "AA": 698,
@@ -6464,19 +6464,21 @@
       "time": "16:00",
       "endTime": null,
       "types": [
+        "Big Book",
+        "Discussion",
         "Open",
-        "Discussion"
+        "Wheelchair accessible"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "2487 A1A S., St. Augustine, FL 32080",
-      "address": "2487 A1A S",
+      "venue": "St. Anastasia Catholic Church",
+      "address": "5205 A1A S",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8502367,
-      "lng": -81.2784995,
+      "lat": 29.7982411,
+      "lng": -81.2646278,
       "region": "St. Augustine",
       "notes": null,
       "source": "https://neflaa.org/meetings/island-serenity-st-aug/"
@@ -15150,19 +15152,21 @@
       "time": "12:00",
       "endTime": null,
       "types": [
+        "Discussion",
         "Open",
-        "Discussion"
+        "Step study",
+        "Wheelchair accessible"
       ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "2487 A1A S., St. Augustine, FL 32080",
-      "address": "2487 A1A S",
+      "venue": "St. Anastasia Catholic Church",
+      "address": "5205 A1A S",
       "city": null,
       "state": "FL",
       "zip": null,
-      "lat": 29.8502367,
-      "lng": -81.2784995,
+      "lat": 29.7982411,
+      "lng": -81.2646278,
       "region": "St. Augustine",
       "notes": "Step Discussion Meeting",
       "source": "https://neflaa.org/meetings/seascape-group/"

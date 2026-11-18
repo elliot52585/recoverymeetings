@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-17T16:58:08.757Z",
+    "generated": "2026-11-18T16:35:57.159Z",
     "seed": false,
     "counts": {
       "AA": 873,
@@ -16790,8 +16790,7 @@
       "endTime": "18:30",
       "types": [
         "Discussion",
-        "Open",
-        "Speaker"
+        "Open"
       ],
       "online": false,
       "hybrid": false,
@@ -21821,7 +21820,8 @@
         "Discussion",
         "Literature",
         "Open",
-        "Speaker"
+        "Speaker",
+        "Women"
       ],
       "online": false,
       "hybrid": false,

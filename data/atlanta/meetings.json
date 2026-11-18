@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-17T16:58:43.756Z",
+    "generated": "2026-11-18T16:36:30.671Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -29166,7 +29166,7 @@
       "lat": 34.0207927,
       "lng": -84.3639169,
       "region": "Roswell",
-      "notes": "Counseling Center in rear",
+      "notes": "Upstairs of Counseling Center in rear",
       "source": "https://na.org/meetingsearch/"
     },
     {
