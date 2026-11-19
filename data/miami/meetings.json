@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "miami",
-    "generated": "2026-11-18T16:37:22.194Z",
+    "generated": "2026-11-19T16:41:36.039Z",
     "seed": false,
     "counts": {
       "NA": 357,
@@ -4707,6 +4707,31 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "na-a-burning-desire-22684",
+      "fellowship": "NA",
+      "name": "A Burning Desire",
+      "day": 3,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Open",
+        "Wheelchair accessible"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Holy Sacrament",
+      "address": "2801 North University Drive",
+      "city": "Pembroke Pines",
+      "state": "FL",
+      "zip": "33024",
+      "lat": 26.0332103,
+      "lng": -80.2502125,
+      "region": "Pembroke Pines",
+      "notes": "Canon kenneth MacDonald Building",
+      "source": "https://na.org/meetingsearch/"
+    },
+    {
       "id": "na-ahora-si-spanish-133806",
       "fellowship": "NA",
       "name": "Ahora Si (Spanish)",
@@ -4758,31 +4783,6 @@
       "lng": -80.2382385,
       "region": "Coral Springs",
       "notes": "Behind Middle School, North of Atlantic Boulevard",
-      "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "na-burning-desire-22684",
-      "fellowship": "NA",
-      "name": "Burning Desire",
-      "day": 3,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Holy Sacrament",
-      "address": "2801 North University Drive",
-      "city": "Pembroke Pines",
-      "state": "FL",
-      "zip": "33024",
-      "lat": 26.0332103,
-      "lng": -80.2502125,
-      "region": "Pembroke Pines",
-      "notes": "Canon kenneth MacDonald Building",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -5560,7 +5560,7 @@
       "lat": 26.1033818,
       "lng": -80.1526707,
       "region": "Fort Lauderdale",
-      "notes": null,
+      "notes": "***WILL NOT BE MEETING NOVEMBER 18, 2026, weather emergency***",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -6876,7 +6876,7 @@
       "lat": 26.1033818,
       "lng": -80.1526707,
       "region": "Fort Lauderdale",
-      "notes": null,
+      "notes": "***WILL NOT BE MEETING NOVEMBER 19, 2026, weather emergency***",
       "source": "https://na.org/meetingsearch/"
     },
     {

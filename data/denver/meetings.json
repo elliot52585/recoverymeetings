@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-18T16:36:43.683Z",
+    "generated": "2026-11-19T16:40:57.466Z",
     "seed": false,
     "counts": {
       "AA": 1123,
@@ -6556,7 +6556,7 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "Closed",
+        "Open",
         "Wheelchair accessible"
       ],
       "online": false,
@@ -11237,8 +11237,7 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "Closed",
-        "Step study",
+        "Open",
         "Wheelchair accessible"
       ],
       "online": false,
@@ -16031,7 +16030,6 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "Big Book",
         "Open",
         "Wheelchair accessible"
       ],
@@ -21021,7 +21019,7 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "Closed",
+        "Open",
         "Wheelchair accessible"
       ],
       "online": false,
@@ -25965,7 +25963,7 @@
       "time": "17:30",
       "endTime": "18:30",
       "types": [
-        "Closed",
+        "Open",
         "Wheelchair accessible"
       ],
       "online": false,

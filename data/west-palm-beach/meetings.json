@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-11-18T16:38:51.194Z",
+    "generated": "2026-11-19T16:43:07.161Z",
     "seed": false,
     "counts": {
       "AA": 504,
@@ -11619,7 +11619,7 @@
       "lat": 26.1033818,
       "lng": -80.1526707,
       "region": "Fort Lauderdale",
-      "notes": null,
+      "notes": "***WILL NOT BE MEETING NOVEMBER 18, 2026, weather emergency***",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -14403,7 +14403,7 @@
       "lat": 26.1033818,
       "lng": -80.1526707,
       "region": "Fort Lauderdale",
-      "notes": null,
+      "notes": "***WILL NOT BE MEETING NOVEMBER 19, 2026, weather emergency***",
       "source": "https://na.org/meetingsearch/"
     },
     {
