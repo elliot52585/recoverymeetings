@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-19T16:40:51.449Z",
+    "generated": "2026-11-20T16:16:24.588Z",
     "seed": false,
     "counts": {
       "AA": 543,
@@ -11711,7 +11711,7 @@
       "lat": 38.2234008,
       "lng": -85.7645177,
       "region": "Louisville",
-      "notes": null,
+      "notes": "No Mgt Thanksgiving — No Mgt Thanksgiving",
       "source": "https://na.org/meetingsearch/"
     },
     {

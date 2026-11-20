@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-11-19T16:42:36.749Z",
+    "generated": "2026-11-20T16:18:08.634Z",
     "seed": false,
     "counts": {
       "AA": 698,
@@ -13215,6 +13215,58 @@
       "source": "https://neflaa.org/meetings/halfway-through-group/"
     },
     {
+      "id": "aa-jax-beaches-ypg-2-d4-1900",
+      "fellowship": "AA",
+      "name": "Jax Beaches YPG",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Literature",
+        "Open",
+        "Young people"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "2125 Ocean Front, Neptune Beach 32266",
+      "address": "2125 Ocean Front",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3083106,
+      "lng": -81.3931522,
+      "region": "Neptune Beach",
+      "notes": "O-YP",
+      "source": "https://neflaa.org/meetings/jax-beaches-ypg-2/"
+    },
+    {
+      "id": "aa-jax-beaches-ypg-d4-1900",
+      "fellowship": "AA",
+      "name": "Jax Beaches YPG",
+      "day": 4,
+      "time": "19:00",
+      "endTime": "20:00",
+      "types": [
+        "Closed",
+        "Discussion",
+        "Young people"
+      ],
+      "online": true,
+      "hybrid": false,
+      "conferenceUrl": "https://zoom.us/j/7546513874",
+      "venue": "Jacksonville",
+      "address": "Jacksonville",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 30.3297566,
+      "lng": -81.6591529,
+      "region": "Zoom",
+      "notes": "C-D-YP\n\nZoom ID: 754 651 3874\nPasscode: 2125",
+      "source": "https://neflaa.org/meetings/jax-beaches-ypg/"
+    },
+    {
       "id": "aa-jax-west-9-d4-1900",
       "fellowship": "AA",
       "name": "Jax West",
@@ -13868,58 +13920,6 @@
       "region": "Jacksonville",
       "notes": "Grupo Alcoholicos Anonimos Jacksonville\n*323-630-8684~ Roberto\n912-322-6404~Miguel",
       "source": "https://neflaa.org/meetings/grupo-aa-meeting/"
-    },
-    {
-      "id": "aa-jax-beaches-ypg-2-d4-2000",
-      "fellowship": "AA",
-      "name": "Jax Beaches YPG",
-      "day": 4,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Open",
-        "Young people"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "2125 Ocean Front, Neptune Beach 32266",
-      "address": "2125 Ocean Front",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.3083106,
-      "lng": -81.3931522,
-      "region": "Neptune Beach",
-      "notes": "O-YP",
-      "source": "https://neflaa.org/meetings/jax-beaches-ypg-2/"
-    },
-    {
-      "id": "aa-jax-beaches-ypg-d4-2000",
-      "fellowship": "AA",
-      "name": "Jax Beaches YPG",
-      "day": 4,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Women",
-        "Young people"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://zoom.us/j/7546513874",
-      "venue": "Jacksonville",
-      "address": "Jacksonville",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 30.3297566,
-      "lng": -81.6591529,
-      "region": "Zoom",
-      "notes": "C-D-YP\n\nZoom ID: 754 651 3874\nPasscode: 2125",
-      "source": "https://neflaa.org/meetings/jax-beaches-ypg/"
     },
     {
       "id": "aa-mandarin-group-d4-2000",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-19T16:40:57.466Z",
+    "generated": "2026-11-20T16:16:31.726Z",
     "seed": false,
     "counts": {
       "AA": 1123,
@@ -11869,7 +11869,7 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Center Point/All Purpose Room",
+      "venue": "Center Point/All Purpose Room 2nd floor",
       "address": "597 S Clinton St",
       "city": null,
       "state": "CO",

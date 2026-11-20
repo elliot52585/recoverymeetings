@@ -1,10 +1,10 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-19T16:40:13.362Z",
+    "generated": "2026-11-20T16:15:40.964Z",
     "seed": false,
     "counts": {
-      "AA": 873,
+      "AA": 871,
       "NA": 158,
       "SLAA": 7,
       "GA": 2,
@@ -20,7 +20,7 @@
     "sources": {
       "AA": {
         "ok": true,
-        "count": 874,
+        "count": 872,
         "source": "https://aanashville.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -8066,31 +8066,6 @@
       "source": "https://aanashville.org/meetings/055dic21130/"
     },
     {
-      "id": "aa-downtown-1130-lunch-meeting-d2-1130",
-      "fellowship": "AA",
-      "name": "Downtown Lunch Group",
-      "day": 2,
-      "time": "11:30",
-      "endTime": "12:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/84221024955",
-      "venue": "Nashville, TN 37219, USA",
-      "address": "Nashville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1664702,
-      "lng": -86.7837366,
-      "region": "Nashville",
-      "notes": "ID: 842 2102 4955\nPW: 1234",
-      "source": "https://aanashville.org/meetings/downtown-1130-lunch-meeting/"
-    },
-    {
       "id": "na-midday-miracles-229413",
       "fellowship": "NA",
       "name": "Midday Miracles",
@@ -15912,31 +15887,6 @@
       "region": "Dickson",
       "notes": null,
       "source": "https://aanashville.org/meetings/055dic41130/"
-    },
-    {
-      "id": "aa-downtown-lunch-group-d4-1130",
-      "fellowship": "AA",
-      "name": "Downtown Lunch Group",
-      "day": 4,
-      "time": "11:30",
-      "endTime": "12:30",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": true,
-      "hybrid": false,
-      "conferenceUrl": "https://us02web.zoom.us/j/84221024955",
-      "venue": "Nashville, TN 37219, USA",
-      "address": "Nashville",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 36.1664702,
-      "lng": -86.7837366,
-      "region": "Nashville",
-      "notes": "ID: 842 2102 4955\nPW: 1234",
-      "source": "https://aanashville.org/meetings/downtown-lunch-group/"
     },
     {
       "id": "na-midday-miracles-229438",
