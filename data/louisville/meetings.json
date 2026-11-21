@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-20T16:16:24.588Z",
+    "generated": "2026-11-21T15:29:16.136Z",
     "seed": false,
     "counts": {
       "AA": 543,
@@ -7253,6 +7253,31 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
+      "id": "aa-singleness-of-purpose-d2-2000",
+      "fellowship": "AA",
+      "name": "Singleness Of Purpose",
+      "day": 2,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Outward Bound",
+      "address": "359 Market St",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.4432027,
+      "lng": -85.6627652,
+      "region": "Clark County, IN",
+      "notes": null,
+      "source": "https://loukyaa.org/meetings/singleness-of-purpose/"
+    },
+    {
       "id": "aa-sober-today-group-2-d2-2000",
       "fellowship": "AA",
       "name": "Sober Today Group Pewee Valley",
@@ -12052,31 +12077,6 @@
       "region": "Oldham County, KY",
       "notes": null,
       "source": "https://loukyaa.org/meetings/shiloh-group-2/"
-    },
-    {
-      "id": "aa-singleness-of-purpose-d4-2000",
-      "fellowship": "AA",
-      "name": "Singleness Of Purpose",
-      "day": 4,
-      "time": "20:00",
-      "endTime": "21:00",
-      "types": [
-        "Discussion",
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Outward Bound",
-      "address": "359 Market St",
-      "city": null,
-      "state": "KY",
-      "zip": null,
-      "lat": 38.4432027,
-      "lng": -85.6627652,
-      "region": "Clark County, IN",
-      "notes": null,
-      "source": "https://loukyaa.org/meetings/singleness-of-purpose/"
     },
     {
       "id": "aa-st-denis-group-d4-2000",

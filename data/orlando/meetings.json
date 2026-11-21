@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "orlando",
-    "generated": "2026-11-20T16:17:34.705Z",
+    "generated": "2026-11-21T15:30:31.829Z",
     "seed": false,
     "counts": {
       "NA": 176,
-      "RD": 4
+      "RD": 3
     },
     "sources": {
       "AA": {
@@ -19,7 +19,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 4,
+        "count": 3,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -2442,30 +2442,6 @@
       "region": "Orlando",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
-    },
-    {
-      "id": "rd-rd-orlando-recovery-connections-of-central-florida-d3-1900",
-      "fellowship": "RD",
-      "name": "RD Orlando - Middle Way Sangha",
-      "day": 3,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "RD Orlando",
-      "address": "7912 Forest City Rd",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 28.6286507,
-      "lng": -81.4161366,
-      "region": "Florida",
-      "notes": "RD Orlando - Middle Way Sangha 7912 Forest City Road. Orlando, FL 32810 (Entrance located at back of parking lot/building)",
-      "source": "https://recoverydharma.org/meetings/rd-orlando-recovery-connections-of-central-florida/"
     },
     {
       "id": "na-recovery-on-campus-154747",

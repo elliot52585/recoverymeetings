@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-20T16:16:18.433Z",
+    "generated": "2026-11-21T15:29:09.783Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -11,7 +11,7 @@
     "sources": {
       "AA": {
         "ok": false,
-        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — HTTP 520 | atlantaaa.org/wp-json/tsml/v1/meetings — HTTP 520"
+        "error": "all TSML feeds failed: atlantaaa.org/wp-admin/admin-ajax.php?ac — non-JSON response (likely a challenge page) | atlantaaa.org/wp-json/tsml/v1/meetings — non-JSON response (likely a challenge page)"
       },
       "NA": {
         "ok": true,
@@ -22609,7 +22609,8 @@
       "time": "19:00",
       "endTime": "20:00",
       "types": [
-        "Open"
+        "Open",
+        "Beginner"
       ],
       "online": false,
       "hybrid": false,
@@ -22622,7 +22623,7 @@
       "lat": 34.0920653,
       "lng": -84.3391069,
       "region": "Georgia",
-      "notes": "The meeting will be hosted in my professional office space. The building is wheelchair accessible, with a ramp and elevator to the meeting suite.\n\nZoom info:\nMeeting ID: 860 6877 4937\nPasscode: 821000",
+      "notes": "The meeting will be hosted in my professional office space. The building is wheelchair accessible, with a ramp and elevator to the meeting suite.\n\nZoom info:\nMeeting ID: 860 6877 4937\nPasscode: 821000\nOnline access:\n\nZoom link:\n\nMeeting ID: 860 6877 4937\n\nPasscode: 821000\n\nNote: waiting room is on; the host admits attendees.",
       "source": "https://recoverydharma.org/meetings/rd-milton-ga/"
     },
     {
