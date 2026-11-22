@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "nashville",
-    "generated": "2026-11-21T15:28:36.030Z",
+    "generated": "2026-11-22T15:28:53.051Z",
     "seed": false,
     "counts": {
       "AA": 871,
@@ -10123,14 +10123,14 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Grove Hill Church",
-      "address": "5216 Nashville Hwy",
+      "address": "5439 Nashville Hwy",
       "city": "Chapel Hill",
       "state": "TN",
       "zip": "37034",
-      "lat": 35.6378995,
-      "lng": -86.6907519,
+      "lat": 35.6500678,
+      "lng": -86.6866175,
       "region": "Chapel Hill",
-      "notes": null,
+      "notes": "Enter on right side of building",
       "source": "https://nanashville.org/meetings/"
     },
     {
@@ -20300,7 +20300,7 @@
       "lat": 36.135123,
       "lng": -86.800307,
       "region": "Nashville",
-      "notes": "NOTE: OTLB IS NOW MEETING ONLY ON MON/WED/FRI — Free parking garage available behind Double Dogs restaurant (across 21st Ave)",
+      "notes": "Meeting will be closed 11/27/26, 12/25/26, 1/1/27 — Free parking garage available behind Double Dogs restaurant (across 21st Ave)",
       "source": "https://nanashville.org/meetings/"
     },
     {
@@ -20742,7 +20742,7 @@
       "lat": 36.1353461,
       "lng": -86.80034,
       "region": "Nashville",
-      "notes": "Masks suggested and are provided",
+      "notes": "Masks suggested and are provided — Meeting will be closed 11/27/26, 12/25/26, 1/1/27",
       "source": "https://nanashville.org/meetings/"
     },
     {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "fort-lauderdale",
-    "generated": "2026-11-21T15:31:32.752Z",
+    "generated": "2026-11-22T15:31:46.686Z",
     "seed": false,
     "counts": {
       "NA": 466,
@@ -9958,7 +9958,7 @@
       "lat": 26.0117813,
       "lng": -80.1900782,
       "region": "Hollywood",
-      "notes": "temporary meeting location for Nov 13,20",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -9986,7 +9986,7 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "na-plantation-recovery-231333",
+      "id": "na-plantation-recovery-232942",
       "fellowship": "NA",
       "name": "Plantation Recovery",
       "day": 5,
@@ -10001,15 +10001,15 @@
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
-      "venue": "Bamford Park",
-      "address": "3801 S. Pine Island Rd.",
+      "venue": "Shenandoah Party Room Building",
+      "address": "14601 SW 14th St.",
       "city": "Davie",
       "state": "FL",
-      "zip": "33328",
-      "lat": 26.0729948,
-      "lng": -80.2653233,
+      "zip": "33325",
+      "lat": 26.1031357,
+      "lng": -80.3433585,
       "region": "Davie",
-      "notes": null,
+      "notes": "**Enter from INSIDE THE PARK!!  Follow the road to THE PARTY ROOM, which is last building at the end of the park — **Temp meeting location for Nov. 27th**",
       "source": "https://na.org/meetingsearch/"
     },
     {
