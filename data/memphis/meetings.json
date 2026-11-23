@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "memphis",
-    "generated": "2026-11-22T15:28:59.538Z",
+    "generated": "2026-11-23T19:22:27.608Z",
     "seed": false,
     "counts": {
-      "AA": 388,
+      "AA": 387,
       "NA": 42,
       "RD": 2
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 389,
+        "count": 388,
         "source": "https://www.memphis-aa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -3396,32 +3396,6 @@
       "region": "Memphis",
       "notes": "Zoom PW: c2b",
       "source": "https://www.memphis-aa.org/meetings/came-to-believe-group-10"
-    },
-    {
-      "id": "aa-collierville-group-7-d2-1200",
-      "fellowship": "AA",
-      "name": "Collierville Group",
-      "day": 2,
-      "time": "12:00",
-      "endTime": null,
-      "types": [
-        "Closed",
-        "Discussion",
-        "Wheelchair accessible"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Church of the Incarnation",
-      "address": "360 Bray Station Rd",
-      "city": null,
-      "state": "TN",
-      "zip": null,
-      "lat": 35.0489844,
-      "lng": -89.7041218,
-      "region": "Collierville",
-      "notes": null,
-      "source": "https://www.memphis-aa.org/meetings/collierville-group-7"
     },
     {
       "id": "aa-downtown-nooners-group-2-d2-1200",

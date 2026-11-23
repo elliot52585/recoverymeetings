@@ -1,17 +1,17 @@
 {
   "meta": {
     "city": "louisville",
-    "generated": "2026-11-22T15:29:37.361Z",
+    "generated": "2026-11-23T19:23:06.514Z",
     "seed": false,
     "counts": {
-      "AA": 543,
+      "AA": 544,
       "NA": 85,
       "RD": 3
     },
     "sources": {
       "AA": {
         "ok": true,
-        "count": 543,
+        "count": 544,
         "source": "https://loukyaa.org/wp-admin/admin-ajax.php?action=meetings"
       },
       "NA": {
@@ -14290,6 +14290,32 @@
       "region": "Louisville",
       "notes": null,
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "aa-ladies-night-out-womens-meeting-d5-2000",
+      "fellowship": "AA",
+      "name": "Ladies Night Out Womens Meeting",
+      "day": 5,
+      "time": "20:00",
+      "endTime": "21:00",
+      "types": [
+        "Discussion",
+        "Open",
+        "Women"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "E-Z Duz It Center",
+      "address": "6605 Lower Hunters Trace",
+      "city": null,
+      "state": "KY",
+      "zip": null,
+      "lat": 38.1698328,
+      "lng": -85.8746292,
+      "region": "Louisville",
+      "notes": null,
+      "source": "https://loukyaa.org/meetings/ladies-night-out-womens-meeting/"
     },
     {
       "id": "aa-locker-room-meeting-d5-2000",

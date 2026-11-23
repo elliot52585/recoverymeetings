@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-22T15:29:31.329Z",
+    "generated": "2026-11-23T19:22:59.127Z",
     "seed": false,
     "counts": {
       "AA": 1378,
@@ -10473,7 +10473,7 @@
       "lat": 33.7915609,
       "lng": -84.2849458,
       "region": "Decatur",
-      "notes": null,
+      "notes": "Room to the left of the double doors/Welcome Center.",
       "source": "https://na.org/meetingsearch/"
     },
     {
