@@ -1,12 +1,12 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-23T19:22:59.127Z",
+    "generated": "2026-11-24T18:59:16.499Z",
     "seed": false,
     "counts": {
       "AA": 1378,
       "NA": 299,
-      "RD": 7
+      "RD": 6
     },
     "sources": {
       "AA": {
@@ -20,7 +20,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 7,
+        "count": 6,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -2301,30 +2301,6 @@
       "region": "Johns Creek",
       "notes": "Behind the playground",
       "source": "https://atlantaaa.org/meetings/primary-purpose-johns-creek/"
-    },
-    {
-      "id": "rd-rd-high-focus-high-focus-center-d0-1500",
-      "fellowship": "RD",
-      "name": "RD High Focus @ High Focus Center",
-      "day": 0,
-      "time": "15:00",
-      "endTime": "16:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "High Focus Center",
-      "address": "1642 Powers Ferry Rd # 200",
-      "city": null,
-      "state": "GA",
-      "zip": null,
-      "lat": 33.9124829,
-      "lng": -84.4659375,
-      "region": "Georgia",
-      "notes": "RD High Focus @ High Focus Center 1642 Powers Ferry Rd., Suite 200, Marietta, GA 30067",
-      "source": "https://recoverydharma.org/meetings/rd-high-focus-high-focus-center/"
     },
     {
       "id": "aa-rebos-forward-d0-1500",

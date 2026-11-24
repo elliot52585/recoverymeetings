@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-11-23T19:23:32.728Z",
+    "generated": "2026-11-24T18:59:46.877Z",
     "seed": false,
     "counts": {
       "NA": 94,
-      "RD": 4
+      "RD": 5
     },
     "sources": {
       "AA": {
@@ -19,7 +19,7 @@
       },
       "RD": {
         "ok": true,
-        "count": 4,
+        "count": 5,
         "source": "https://recoverydharma.org/wp-admin/admin-ajax.php?action=meetings"
       }
     }
@@ -561,6 +561,31 @@
       "region": "Austin",
       "notes": "Behind Half Price Books",
       "source": "https://na.org/meetingsearch/"
+    },
+    {
+      "id": "rd-rd-the-1006-building-d1-1830",
+      "fellowship": "RD",
+      "name": "RD @ The 1006 Building",
+      "day": 1,
+      "time": "18:30",
+      "endTime": "19:45",
+      "types": [
+        "FBS",
+        "Open"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "The 1006 Building",
+      "address": "1006 Alley A St",
+      "city": null,
+      "state": "TX",
+      "zip": null,
+      "lat": 30.1108123,
+      "lng": -97.3208283,
+      "region": "Texas",
+      "notes": "Parking Information: Very limited parking is available directly in front of the building. Additional parking is available along Spring St. and in the Bastrop Public Library parking lot at Spring St and Church St.",
+      "source": "https://recoverydharma.org/meetings/rd-the-1006-building/"
     },
     {
       "id": "na-south-austin-recovery-159399",
