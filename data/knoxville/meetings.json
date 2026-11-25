@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "knoxville",
-    "generated": "2026-11-24T18:58:54.904Z",
+    "generated": "2026-11-25T18:03:28.445Z",
     "seed": false,
     "counts": {
       "AA": 343,
@@ -4104,7 +4104,7 @@
       "name": "VOL Group",
       "day": 2,
       "time": "17:30",
-      "endTime": "18:30",
+      "endTime": "19:00",
       "types": [
         "Discussion",
         "Open",
@@ -4121,7 +4121,7 @@
       "lat": 35.9737464,
       "lng": -83.9233925,
       "region": "Knoxville",
-      "notes": "The meeting entrance is at the side door located on N Gay St.  To get in, call the phone number posted on the door",
+      "notes": "The meeting entrance is at the side door located on N Gay St. To get in, call the phone number posted on the door",
       "source": "https://na.org/meetingsearch/"
     },
     {

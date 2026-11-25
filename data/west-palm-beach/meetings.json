@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "west-palm-beach",
-    "generated": "2026-11-24T19:01:37.582Z",
+    "generated": "2026-11-25T18:06:14.645Z",
     "seed": false,
     "counts": {
       "AA": 504,
@@ -3749,6 +3749,33 @@
       "source": "https://aapalmbeachcounty.org/meetings/longest-day-of-the-year-group/"
     },
     {
+      "id": "aa-ocean-cay-park-mens-meeting-d1-1730",
+      "fellowship": "AA",
+      "name": "Ocean Cay Park Men's Meeting",
+      "day": 1,
+      "time": "17:30",
+      "endTime": "18:30",
+      "types": [
+        "Closed",
+        "Discussion",
+        "Men",
+        "Outdoor"
+      ],
+      "online": false,
+      "hybrid": false,
+      "conferenceUrl": null,
+      "venue": "Ocean Cay Park",
+      "address": "2188 Marcinski Rd",
+      "city": null,
+      "state": "FL",
+      "zip": null,
+      "lat": 26.8953166,
+      "lng": -80.0583601,
+      "region": "Jupiter",
+      "notes": "SW Corner of Marcinski &amp; Ocean Rd.",
+      "source": "https://aapalmbeachcounty.org/meetings/ocean-cay-park-mens-meeting/"
+    },
+    {
       "id": "aa-slice-of-humble-pie-d1-1730",
       "fellowship": "AA",
       "name": "Slice of Humble Pie",
@@ -3895,33 +3922,6 @@
       "region": "West Palm Beach",
       "notes": "OD, B\nIn the Small Room",
       "source": "https://aapalmbeachcounty.org/meetings/just-for-today/"
-    },
-    {
-      "id": "aa-ocean-cay-park-mens-meeting-d1-1800",
-      "fellowship": "AA",
-      "name": "Ocean Cay Park Men's Meeting",
-      "day": 1,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed",
-        "Discussion",
-        "Men",
-        "Outdoor"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Ocean Cay Park",
-      "address": "2188 Marcinski Rd",
-      "city": null,
-      "state": "FL",
-      "zip": null,
-      "lat": 26.8953166,
-      "lng": -80.0583601,
-      "region": "Jupiter",
-      "notes": "SW Corner of Marcinski &amp; Ocean Rd.",
-      "source": "https://aapalmbeachcounty.org/meetings/ocean-cay-park-mens-meeting/"
     },
     {
       "id": "na-six-o-clock-solutions-22142",

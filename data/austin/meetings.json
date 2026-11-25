@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "austin",
-    "generated": "2026-11-24T18:59:46.877Z",
+    "generated": "2026-11-25T18:04:18.910Z",
     "seed": false,
     "counts": {
       "NA": 94,
@@ -563,9 +563,9 @@
       "source": "https://na.org/meetingsearch/"
     },
     {
-      "id": "rd-rd-the-1006-building-d1-1830",
+      "id": "rd-recovery-dharma-bastrop-d1-1830",
       "fellowship": "RD",
-      "name": "RD @ The 1006 Building",
+      "name": "Recovery Dharma Bastrop",
       "day": 1,
       "time": "18:30",
       "endTime": "19:45",
@@ -585,7 +585,7 @@
       "lng": -97.3208283,
       "region": "Texas",
       "notes": "Parking Information: Very limited parking is available directly in front of the building. Additional parking is available along Spring St. and in the Bastrop Public Library parking lot at Spring St and Church St.",
-      "source": "https://recoverydharma.org/meetings/rd-the-1006-building/"
+      "source": "https://recoverydharma.org/meetings/recovery-dharma-bastrop/"
     },
     {
       "id": "na-south-austin-recovery-159399",

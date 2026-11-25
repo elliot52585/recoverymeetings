@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-24T18:59:29.054Z",
+    "generated": "2026-11-25T18:04:00.428Z",
     "seed": false,
     "counts": {
       "AA": 1123,
@@ -2372,7 +2372,9 @@
       "day": 0,
       "time": "16:30",
       "endTime": "17:30",
-      "types": [],
+      "types": [
+        "Open"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -3119,7 +3121,9 @@
       "day": 0,
       "time": "18:00",
       "endTime": "19:00",
-      "types": [],
+      "types": [
+        "Open"
+      ],
       "online": false,
       "hybrid": true,
       "conferenceUrl": "https://us02web.zoom.us/j/88370710297?pwd=rcKv9jnDTe1tTHJmZ3YLMBLRPuLYpf.1",
@@ -3127,7 +3131,7 @@
       "address": "210 N Jefferson St",
       "city": "Nederland",
       "state": "Colorado",
-      "zip": null,
+      "zip": "80466",
       "lat": 39.9627252,
       "lng": -105.5115597,
       "region": "Nederland",
@@ -3698,7 +3702,9 @@
       "day": 0,
       "time": "19:00",
       "endTime": "20:00",
-      "types": [],
+      "types": [
+        "Open"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -3706,7 +3712,7 @@
       "address": "1241 Kimbark Street",
       "city": "Longmont",
       "state": "CO",
-      "zip": null,
+      "zip": "80501",
       "lat": 40.18077,
       "lng": -105.1012528,
       "region": "Longmont",
@@ -5936,7 +5942,7 @@
       "lat": 39.9991887,
       "lng": -105.2466937,
       "region": "Boulder",
-      "notes": "Meets M-F inside or on South lawn. Enter through South door only. Masks optional.",
+      "notes": "Meets M-F inside or on South lawn. Enter through South door only.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -8017,7 +8023,9 @@
       "day": 1,
       "time": "19:00",
       "endTime": "20:00",
-      "types": [],
+      "types": [
+        "Open"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -8025,7 +8033,7 @@
       "address": "1241 Kimbark Street",
       "city": "Longmont",
       "state": "CO",
-      "zip": null,
+      "zip": "80501",
       "lat": 40.18077,
       "lng": -105.1012528,
       "region": "Longmont",
@@ -10726,7 +10734,7 @@
       "lat": 39.9991887,
       "lng": -105.2466937,
       "region": "Boulder",
-      "notes": "Meets M-F inside or on South lawn. Enter through South door only. Masks optional.",
+      "notes": "Meets M-F inside or on South lawn. Enter through South door only.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -12670,7 +12678,9 @@
       "day": 2,
       "time": "19:00",
       "endTime": "20:00",
-      "types": [],
+      "types": [
+        "Open"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -12678,7 +12688,7 @@
       "address": "1241 Kimbark Street",
       "city": "Longmont",
       "state": "CO",
-      "zip": null,
+      "zip": "80501",
       "lat": 40.18077,
       "lng": -105.1012528,
       "region": "Longmont",
@@ -12721,7 +12731,7 @@
         "Wheelchair accessible",
         "Open"
       ],
-      "online": true,
+      "online": false,
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "First Congregational Church",
@@ -12732,7 +12742,7 @@
       "lat": 40.0196206,
       "lng": -105.2810161,
       "region": "Boulder",
-      "notes": "Enter through west side door (where parking lot is). — Masks optional.",
+      "notes": "Enter through west side door (where parking lot is).",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -15541,7 +15551,7 @@
       "lat": 39.9991887,
       "lng": -105.2466937,
       "region": "Boulder",
-      "notes": "Meets M-F inside or on South lawn. Enter through South door only. Masks optional.",
+      "notes": "Meets M-F inside or on South lawn. Enter through South door only.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -17621,12 +17631,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Mountain View United Methodist",
-      "address": "355 Ponca Pl - Enter on south side on Sioux Drive. Exact coordinates: 39.993149, -105.235476",
+      "address": "355 Ponca Pl",
       "city": "Boulder",
       "state": "CO",
       "zip": "80303",
-      "lat": 39.993811,
-      "lng": -105.2354282,
+      "lat": 39.9937864,
+      "lng": -105.2355057,
       "region": "Boulder",
       "notes": "Enter on south side on Sioux Drive. Exact coordinates: 39.993149, -105.235476",
       "source": "https://na.org/meetingsearch/"
@@ -20448,7 +20458,7 @@
       "lat": 39.9991887,
       "lng": -105.2466937,
       "region": "Boulder",
-      "notes": "Meets M-F inside or on South lawn. Enter through South door only. Masks optional.",
+      "notes": "Meets M-F inside or on South lawn. Enter through South door only.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -21794,7 +21804,7 @@
         "Open",
         "Discussion"
       ],
-      "online": true,
+      "online": false,
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Rocky Mountain Presbyterian Church",
@@ -22540,7 +22550,9 @@
       "day": 4,
       "time": "19:00",
       "endTime": "20:00",
-      "types": [],
+      "types": [
+        "Open"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -22548,7 +22560,7 @@
       "address": "1241 Kimbark Street",
       "city": "Longmont",
       "state": "CO",
-      "zip": null,
+      "zip": "80501",
       "lat": 40.18077,
       "lng": -105.1012528,
       "region": "Longmont",
@@ -25422,7 +25434,7 @@
       "lat": 39.9991887,
       "lng": -105.2466937,
       "region": "Boulder",
-      "notes": "Meets M-F inside or on South lawn. Enter through South door only. Masks optional.",
+      "notes": "Meets M-F inside or on South lawn. Enter through South door only.",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -26889,7 +26901,9 @@
       "day": 5,
       "time": "19:00",
       "endTime": "20:00",
-      "types": [],
+      "types": [
+        "Open"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -27934,7 +27948,7 @@
       "lat": 40.1788826,
       "lng": -105.1012648,
       "region": "Longmont",
-      "notes": "Currently a fire put meeting (weather permitting).",
+      "notes": "Currently a fire pit meeting (weather permitting).",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -29742,14 +29756,14 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "St. Andrew's Church",
-      "address": "3700 Baseline Rd. Room 113",
+      "address": "3700 Baseline Rd.",
       "city": "Boulder",
       "state": "CO",
       "zip": "80303",
-      "lat": 39.9991876,
-      "lng": -105.2465932,
+      "lat": 39.9991802,
+      "lng": -105.2465908,
       "region": "Boulder",
-      "notes": null,
+      "notes": "Room 113",
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -31404,7 +31418,9 @@
       "day": 6,
       "time": "19:00",
       "endTime": "20:00",
-      "types": [],
+      "types": [
+        "Open"
+      ],
       "online": false,
       "hybrid": false,
       "conferenceUrl": null,
@@ -31416,7 +31432,7 @@
       "lat": 40.1554598,
       "lng": -105.1038233,
       "region": "Longmont",
-      "notes": "Masks optional.",
+      "notes": null,
       "source": "https://na.org/meetingsearch/"
     },
     {
@@ -32240,12 +32256,12 @@
       "hybrid": false,
       "conferenceUrl": null,
       "venue": "Mountain View United Methodist",
-      "address": "355 Ponca Pl. - Enter on south side on Sioux Drive. Exact coordinates: 39.993149, -105.235476",
+      "address": "355 Ponca Pl",
       "city": "Boulder",
       "state": "CO",
       "zip": "80303",
-      "lat": 39.993811,
-      "lng": -105.2354282,
+      "lat": 39.9937864,
+      "lng": -105.2355057,
       "region": "Boulder",
       "notes": "Enter on south side on Sioux Drive. Exact coordinates: 39.993149, -105.235476",
       "source": "https://na.org/meetingsearch/"

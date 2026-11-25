@@ -1,7 +1,7 @@
 {
   "meta": {
     "city": "jacksonville",
-    "generated": "2026-11-24T19:01:07.209Z",
+    "generated": "2026-11-25T18:05:42.201Z",
     "seed": false,
     "counts": {
       "AA": 698,
@@ -12263,7 +12263,7 @@
     {
       "id": "rd-recovery-dharma-at-discover-and-recover-d4-1700",
       "fellowship": "RD",
-      "name": "Recovery Dharma at Discover and Recover",
+      "name": "Recovery Dharma at Discover and Recover  **Not meeting this Thursday, 11/26/26 (Thanksgiving)**",
       "day": 4,
       "time": "17:00",
       "endTime": "18:00",
@@ -12282,7 +12282,7 @@
       "lat": 29.924608,
       "lng": -81.326775,
       "region": "Florida",
-      "notes": "Beginners Meeting, Meditation, Open Discussion",
+      "notes": "Beginners Meeting, Meditation, Open Discussion\n\n**We are not meeting in-person or virtually this Thursday, 11/26/26 (Thanksgiving).\nWe will resume on 12/03/26. Thank you for your understanding!**",
       "source": "https://recoverydharma.org/meetings/recovery-dharma-at-discover-and-recover/"
     },
     {
