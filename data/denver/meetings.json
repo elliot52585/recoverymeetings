@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "denver",
-    "generated": "2026-11-25T18:04:00.428Z",
+    "generated": "2026-11-26T17:49:31.019Z",
     "seed": false,
     "counts": {
       "AA": 1123,
-      "NA": 156,
+      "NA": 155,
       "RD": 15
     },
     "sources": {
@@ -16,7 +16,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 157,
+        "count": 156,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=39.7392&long_val=-104.9903&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -22315,30 +22315,6 @@
       "region": "Arvada",
       "notes": null,
       "source": "https://daccaa.org/meetings/into-the-triad-4/"
-    },
-    {
-      "id": "na-it-works-56712",
-      "fellowship": "NA",
-      "name": "It Works",
-      "day": 4,
-      "time": "19:00",
-      "endTime": "20:00",
-      "types": [
-        "Open"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": "Pine Street Church",
-      "address": "1237 Pine St",
-      "city": "Boulder",
-      "state": "CO",
-      "zip": "80302",
-      "lat": 40.0204374,
-      "lng": -105.2798682,
-      "region": "Boulder",
-      "notes": "Meets in the basement.",
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "na-keep-it-simple-165762",
