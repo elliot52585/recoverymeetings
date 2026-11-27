@@ -1,11 +1,11 @@
 {
   "meta": {
     "city": "atlanta",
-    "generated": "2026-11-26T17:49:16.098Z",
+    "generated": "2026-11-27T17:33:40.762Z",
     "seed": false,
     "counts": {
       "AA": 1378,
-      "NA": 299,
+      "NA": 298,
       "RD": 6
     },
     "sources": {
@@ -15,7 +15,7 @@
       },
       "NA": {
         "ok": true,
-        "count": 299,
+        "count": 298,
         "source": "https://aggregator.bmltenabled.org/main_server/client_interface/json/?switcher=GetSearchResults&lat_val=33.749&long_val=-84.388&geo_width=45&data_field_key=id_bigint,meeting_name,weekday_tinyint,start_time,duration_time,location_text,location_street,location_municipality,location_province,location_postal_code_1,location_info,latitude,longitude,formats,comments,virtual_meeting_link,venue_type"
       },
       "RD": {
@@ -28011,31 +28011,6 @@
       "region": "Alpharetta",
       "notes": "Suite 114 (last door on the right)",
       "source": "https://atlantaaa.org/meetings/the-alpharetta-group-23/"
-    },
-    {
-      "id": "na-the-ties-that-bind-group-228151",
-      "fellowship": "NA",
-      "name": "The Ties That Bind Group",
-      "day": 4,
-      "time": "18:00",
-      "endTime": "19:00",
-      "types": [
-        "Closed",
-        "RF"
-      ],
-      "online": false,
-      "hybrid": false,
-      "conferenceUrl": null,
-      "venue": null,
-      "address": "114 City Hall Avenue",
-      "city": "Carrollton",
-      "state": "GA",
-      "zip": "30117",
-      "lat": 33.5811871,
-      "lng": -85.073938,
-      "region": "Carrollton",
-      "notes": null,
-      "source": "https://na.org/meetingsearch/"
     },
     {
       "id": "aa-walking-sober-d4-1800",
